@@ -47,3 +47,10 @@ To add a new language:
  * Copy "readme_lang.txt" to "lang.txt"
  * Copy these three files to this repository
  * Open a pull request to help improve this package! Thank you.
+
+## Docs
+
+Sublime Text uses Hunspell for its spell checking support.
+
+http://www.sublimetext.com/docs/2/spell_checking.html
+
