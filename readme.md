@@ -13,6 +13,9 @@ Each language was downloaded from the Open Office list. Credits to the people wo
  * Ελληνικά
  * Español
  * Français
+ * German (de-DE)
+ * German (de-AT)
+ * German (de-CH)
  * Italiano
  * Nederlands
  * Română
