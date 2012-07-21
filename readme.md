@@ -11,8 +11,12 @@ Each language was downloaded from the Open Office list. Credits to the people wo
  * Català
  * Dansk
  * Deutsch
+ * Deutsch (AT)
+ * Deutsch (CH)
+ * Deutsch (DE)
  * Czech
  * Ελληνικά
+ * English (Canadian)
  * Español
  * Français
  * Italiano
