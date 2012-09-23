@@ -26,7 +26,7 @@ Each language was downloaded from the Open Office list. Credits to the people wo
  * Polski
  * Português (do Brasil)
  * Português (Europeu)
- * Russian
+ * Русский
  * Svenska
 
 ## Idea
