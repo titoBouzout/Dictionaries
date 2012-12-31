@@ -1,3 +1,15 @@
+Tiếng Việt
+==========
+
+Bộ từ điển Tiếng Việt cho Sublime Text 2.
+
+Nguồn: Dự án hunspell-spellcheck-vi
+       http://code.google.com/p/hunspell-spellcheck-vi
+
+
+English
+=======
+
 The vi_VN.aff rules were improved by Ivan Garcia - capiscuas@gmail.com (Sept 2007)
 More Info about how to install the package in Openoffice and Firefox here: 
 http://code.google.com/p/hunspell-spellcheck-vi/
