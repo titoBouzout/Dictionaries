@@ -22,6 +22,8 @@ Each language was downloaded from the Open Office list. Credits to the people wo
  * Italiano
  * Magyar
  * Nederlands
+ * Norwegian (Bokmål)
+ * Norwegian (Nynorsk)
  * Română
  * Polski
  * Português (do Brasil)
