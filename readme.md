@@ -29,7 +29,7 @@ Each language was downloaded from the Open Office list. Credits to the people wo
  * Русский
  * Slovensky
  * Svenska
- * Vietnamese
+ * Tiếng Việt
 
 ## Idea
 
