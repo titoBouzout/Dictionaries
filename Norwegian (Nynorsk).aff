@@ -1,6 +1,6 @@
-SET ISO8859-1
+SET UTF-8
 
-# This is generated from 
+# This is generated from
 # make words.nn; perl -ne 'print join "\n", split //' words.nn | \
 # sort | uniq -c | sort -rn | awk '{print $2}' | tr -d "\n";echo
 TRY earnstilkogdmupvfbjøyhåæcSzBéwêHATMKFGLNREVxôODòPèCJIUWqØÅóYQçZüäXÄþë
