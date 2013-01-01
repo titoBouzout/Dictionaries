@@ -81,10 +81,10 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 
 	* Adam St. John
 	* Andrej Kvasnica
-	* Joans Follesø
+	* Jonas Follesø
 	* Kalman Kemenczy
 	* MrTux
-	* Petr Dvořák
+	* Petr Dvořák
 	* Roland Richter
 	* Thomas Feldmann
 	* Valery Kocubinsky
