@@ -77,6 +77,18 @@ Example output:
 Note that `us-ascii` might be reported if there are no unicode (utf-8) characters present in the file.
 
 
+## Contributors
+
+	* Adam St. John
+	* Andrej Kvasnica
+	* Joans Follesø
+	* Kalman Kemenczy
+	* MrTux
+	* Petr Dvořák
+	* Roland Richter
+	* Thomas Feldmann
+	* Valery Kocubinsky
+
 ## Docs
 
 Sublime Text uses Hunspell for its spell checking support.
