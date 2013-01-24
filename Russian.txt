@@ -1,0 +1,4 @@
+This Russian dictionary is  packaged in .oxt and converted
+to Hunspell format by Yakov in 2010,2011 from
+http://www.aot.ru  (http://sourceforge.net/projects/seman/)
+License: LGPL.
