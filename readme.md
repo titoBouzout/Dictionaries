@@ -20,6 +20,7 @@ Each language was downloaded from the Open Office list. Credits to the people wo
  * Español
  * Français
  * Italiano
+ * Lietuvių
  * Magyar
  * Nederlands
  * Norwegian (Bokmål)
@@ -88,6 +89,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 	* Roland Richter
 	* Thomas Feldmann
 	* Valery Kocubinsky
+	* Maksim Norkin
 
 ## Docs
 
