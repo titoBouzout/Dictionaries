@@ -300,10 +300,14 @@ SFX s   ês              esíssimas       ês              +GR=sup,G=f,N=p
 SFX s   z               císsimas        z               +GR=sup,G=f,N=p
 SFX s   ável            abilíssimas     ável            +GR=sup,G=f,N=p
 
-SFX d Y 22
-SFX d   o               idade           [^çg]o          +CAT=nc,G=f,FSEM=dd
+SFX d Y 30
+SFX d   o               idade           [^çgi]o         +CAT=nc,G=f,FSEM=dd
 SFX d   ço              cidade          ço              +CAT=nc,G=f,FSEM=dd
 SFX d   go              guidade         go              +CAT=nc,G=f,FSEM=dd
+SFX d   o               edade           [^r]io          +CAT=nc,G=f,FSEM=dd
+SFX d   o               edade           [^áó]rio        +CAT=nc,G=f,FSEM=dd
+SFX d   ário            ariedade        ário            +CAT=nc,G=f,FSEM=dd
+SFX d   ório            oriedade        ório            +CAT=nc,G=f,FSEM=dd
 SFX d   e               idade           e               +CAT=nc,G=f,FSEM=dd
 SFX d   0               idade           r               +CAT=nc,G=f,FSEM=dd
 SFX d   0               idade           [^v][^q]l       +CAT=nc,G=f,FSEM=dd
@@ -312,9 +316,13 @@ SFX d   ável            abilidade       ável            +CAT=nc,G=f,FSEM=dd
 SFX d   ível            ibilidade       ível            +CAT=nc,G=f,FSEM=dd
 SFX d   úvel            ubilidade       úvel            +CAT=nc,G=f,FSEM=dd
 SFX d   z               cidade          z               +CAT=nc,G=f,FSEM=dd
-SFX d   o               idades          [^çg]o          +CAT=nc,G=f,N=p,FSEM=dd
+SFX d   o               idades          [^çgi]o         +CAT=nc,G=f,N=p,FSEM=dd
 SFX d   ço              cidades         ço              +CAT=nc,G=f,N=p,FSEM=dd
 SFX d   go              guidades        go              +CAT=nc,G=f,N=p,FSEM=dd
+SFX d   o               edades          [^r]io          +CAT=nc,G=f,N=p,FSEM=dd
+SFX d   o               edades          [^áó]rio        +CAT=nc,G=f,N=p,FSEM=dd
+SFX d   ário            ariedades       ário            +CAT=nc,G=f,N=p,FSEM=dd
+SFX d   ório            oriedades       ório            +CAT=nc,G=f,N=p,FSEM=dd
 SFX d   e               idades          e               +CAT=nc,G=f,N=p,FSEM=dd
 SFX d   0               idades          r               +CAT=nc,G=f,N=p,FSEM=dd
 SFX d   0               idades          [^v][^q]l       +CAT=nc,G=f,N=p,FSEM=dd
