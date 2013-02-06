@@ -93,6 +93,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 	* Maksim Norkin
 	* Alexandr Zhevedenko
 	* Marcos Chavarría Teijeiro
+	* Pedro Chambino
 
 ## Docs
 
