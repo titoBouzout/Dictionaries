@@ -1,18 +1,14 @@
 _______________________________________________________________________________
 
-   DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS «MODERNE»
-   version 4.5
+   DICTIONNAIRES ORTHOGRAPHIQUES FRANÇAIS
+   version 4.11
 
    Olivier R. - dicollecte<at>free<dot>fr
    Dicollecte : http://www.dicollecte.org/
 
-   Licences :
-   * MPL : Mozilla Public License
-     version 1.1 ou supérieure  --  http://www.mozilla.org/MPL/MPL-1.1.html
-   * GPL : GNU General Public License
-     version 2.0 ou supérieure  --  http://www.gnu.org/licenses/gpl-2.0.html
-   * LGPL : GNU Lesser General Public License
-     version 2.1 ou supérieure  --  http://www.gnu.org/licenses/lgpl-2.1.html
+   Licence :
+     MPL : Mozilla Public License
+     version 2.0  --  http://www.mozilla.org/MPL/2.0/
 
    Ce dictionnaire ne peut fonctionner qu’avec un logiciel utilisant le
    correcteur Hunspell : OpenOffice.org 3.2+, Firefox 4+, Thunderbird 5+
@@ -57,12 +53,12 @@ _______________________________________________________________________________
    de chacun, quatre dictionnaires existent, respectant différemment cette
    réforme.
 
-    Dictionnaire «Moderne»  [recommandé]
+    Dictionnaire «Moderne»
         Ce dictionnaire propose une sélection des graphies classiques et
         réformées, suivant la lente évolution de l’orthographe actuelle. Ce
         dictionnaire contient les graphies les moins polémiques de la réforme.
 
-    Dictionnaire «Classique»
+    Dictionnaire «Classique»  [recommandé]
         Ce dictionnaire est une extension du dictionnaire «Moderne» et propose
         en sus des graphies alternatives, parfois encore très usitées, parfois
         tombées en désuétude.
@@ -71,6 +67,6 @@ _______________________________________________________________________________
         Ce dictionnaire ne connaît que les graphies nouvelles des mots concernés
         par la réforme de 1990.
 
-    Dictionnaire «Classique & Réforme 1990»
+    Dictionnaire «Toutes variantes»
         Ce dictionnaire contient les nouvelles et les anciennes graphies des
         mots concernés par la réforme de 1990.
