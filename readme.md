@@ -92,6 +92,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 	* Alexandr Zhevedenko
 	* Marcos Chavarría Teijeiro
 	* Pedro Chambino
+	* Florian Morgan
 
 ## Docs
 
