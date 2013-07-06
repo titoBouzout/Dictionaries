@@ -16,7 +16,7 @@ Most of them were downloaded from the Open Office list. Credits to the people wo
  * Ελληνικά
  * English (Canadian)
  * Español
- * Français
+ * Français ( There is an special package for this language you may want to check https://github.com/superbob/SublimeTextLanguageFrench )
  * Galego
  * Italiano
  * Lietuvių
