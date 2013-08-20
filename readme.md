@@ -7,6 +7,7 @@ Most of them were downloaded from the Open Office list. Credits to the people wo
 ## Language List
 
  * Català
+ * Croatian
  * Dansk
  * Deutsch
  * Deutsch (AT)
@@ -93,6 +94,8 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 	* Marcos Chavarría Teijeiro
 	* Pedro Chambino
 	* Florian Morgan
+	* Zeljko Babic
+	* Chris---
 
 ## Docs
 
