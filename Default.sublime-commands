@@ -1,0 +1,10 @@
+[
+	{ 
+		"caption": "Dictionaries: Set Language", 
+		"command": "dic_set_language"
+	},
+	{ 
+		"caption": "Dictionaries: Set Language (Current View)", 
+		"command": "dic_set_view_language"
+	}
+]
