@@ -1,0 +1,9 @@
+COMMENT OF THE EXTENSION OWNER
+
+This extension will add spellchecking dictionaries and hyphenation for Croatian (locales: hr-HR).
+The extension is build from other ressources, means I do only "publish" existing dictionaries but not maintain them.
+These are the "official" sources for the dicitionaires that have been shipped with OOo 2.x. - See more at: http://extensions.services.openoffice.org/en/project/croatian-dictionary-and-hyphenation-patterns#sthash.Vos7GOrM.dpuf
+
+------------------------------------
+
+This product is made available subject to the terms of GNU Lesser General Public License Version 3. A copy of the LGPL license can be found at http://www.openoffice.org/license.html
