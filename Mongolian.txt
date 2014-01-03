@@ -1,0 +1,16 @@
+Hunspell Mongolian (Монгол) Spelling Dictionary Package
+-------------------------------------------------------
+Version 0.06-5
+2009-04-24
+Maintained By:
+  Sanlig Badral (Санлигийн Бадрал) <Badral at openmn org>
+  Dorjgotov Batmunkh (Доржготовын Батмөнх) <batmunkh at num edu mn>
+Copyright Terms: GPLv2 (see the file Copyright for the exact terms)
+Wordlist URL: http://mnspell.openmn.org
+This word list is considered both complete and accurate.
+
+This is the Mongolian dictionary for Hunspell. This dictionary is 
+based on aspell dictionary package. This word list contains 2,17 
+million words of the Mongolian language.
+
+Suggestions, wishes to authors they mentioned above.
