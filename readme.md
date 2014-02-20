@@ -1,6 +1,6 @@
-# Dictionaries for Sublime Text 2
+# Dictionaries for Sublime Text
 
-The following repository contains some dictionaries for the spell checker feature of Sublime Text.
+The following repository contains some UTF8-ready dictionaries for the spell checker feature of Sublime Text.
 
 Most of them were downloaded from the [Open Office list](http://extensions.services.openoffice.org/en/dictionaries). Credits to the people working on these! Read every LANG.txt for details.
 
@@ -16,6 +16,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Czech
  * Ελληνικά
  * English (Canadian)
+ * English (British)
  * Español
  * Français ( There is an special package for this language you may want to check https://github.com/superbob/SublimeTextLanguageFrench )
  * Galego
@@ -98,9 +99,10 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Zeljko Babic
  * Chris---
  * gw0
+ * Adam Retter
 
 ## Docs
 
 Sublime Text uses Hunspell for its spell checking support.
 
-http://www.sublimetext.com/docs/2/spell_checking.html
+http://www.sublimetext.com/docs/3/spell_checking.html
