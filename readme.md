@@ -62,6 +62,9 @@ To add a new language:
  * Change "SET ISO-8859-1" to "SET UTF-8"
  * Copy "readme_lang.txt" to "lang.txt"
  * Copy these three files to this repository
+ * Update the [language list](#language-list) above in this file,
+   add yourself to the [credits](#contributors) section (keep alphabetical
+   order!)
  * Open a pull request to help improve this package! Thank you.
 
 ## Iconv and Encodings
