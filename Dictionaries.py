@@ -18,10 +18,10 @@ def find_resources(pattern):
 
 
 class DicSetViewLanguageCommand(sublime_plugin.TextCommand):
-	
+
 	def run(self, edit):
 		items = find_resources("*.dic")
-		
+
 		def on_done(i):
 			if i >= 0:
 				settings = self.view.settings()
@@ -31,10 +31,10 @@ class DicSetViewLanguageCommand(sublime_plugin.TextCommand):
 
 
 class DicSetLanguageCommand(sublime_plugin.WindowCommand):
-	
+
 	def run(self):
 		items = find_resources("*.dic")
-		
+
 		def on_done(i):
 			if i >= 0:
 				settings = sublime.load_settings("Preferences.sublime-settings")
@@ -42,3 +42,18 @@ class DicSetLanguageCommand(sublime_plugin.WindowCommand):
 				sublime.save_settings("Preferences.sublime-settings")
 
 		self.window.show_quick_panel(items, on_done)
+
+class FixBug268And295Command(sublime_plugin.EventListener):
+
+	def on_post_text_command(self, view, command_name, args):
+		if command_name == "ignore_word" and not 'ignore' in args:
+			if args['word'] == '':
+				view = sublime.active_window().active_view()
+				args['word'] = view.substr(view.word(view.sel()[0].a))
+				view.run_command("ignore_word", {"word": args['word'], 'ignore':True})
+			s = sublime.load_settings("Preferences.sublime-settings")
+			ignored_words = s.get("ignored_words", [])
+			ignored_words.append(args['word'])
+			s.set("ignored_words", list(set(ignored_words)))
+			view.settings().set("ignored_words", list(set(ignored_words)))
+			sublime.save_settings("Preferences.sublime-settings")
