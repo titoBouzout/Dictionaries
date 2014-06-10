@@ -4368,6 +4368,7 @@ bisyllabic
 bit's
 bit/CS
 bitblt/S
+bitbucket
 bitch/GZDSz2M
 bitchiness/S
 bitchy/TP
@@ -11592,10 +11593,11 @@ diatribe/MS
 dibble/MGDS
 Dibley
 dibs
-dice/DnSGN
+dic/S
+dice/DnSGNT
 dicer/M
 dices/I
-dicey
+dicey/T
 dichloride/M
 dichotomous/Y
 dichotomousness
@@ -17624,7 +17626,7 @@ girth/GDSM
 Girton/M
 gist/M
 git/M
-GitHub
+github
 Giuseppe/M
 Giusto
 give-away/MS
@@ -19650,7 +19652,7 @@ Heywood
 Hezbollah
 Hezekiah
 HF
-Hg
+hg
 hgt
 HGV
 hgwy
@@ -22774,6 +22776,7 @@ joyride/RGMS
 joyrode
 joystick/S
 JPEG
+json
 ju-ju/M
 ju/y
 Juan
@@ -44792,7 +44795,7 @@ urinary
 urinate/DSG
 urination/M
 urine/nMNS
-URL/S
+url/S
 urn/SM
 Urochordata
 urologist/S
@@ -45212,7 +45215,7 @@ versed/U
 verses/4I
 versification/M
 versify/GNRSnD
-version/MIFAS
+version/MIFASG
 verso/MS
 versus
 vertebra/M
