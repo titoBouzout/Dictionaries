@@ -15,6 +15,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Deutsch (DE)
  * Czech
  * Ελληνικά
+ * English (Australian)
  * English (Canadian)
  * English (British)
  * Español
@@ -106,6 +107,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Chris---
  * gw0
  * Adam Retter
+ * Jack Cuthbert
 
 ## Docs
 
