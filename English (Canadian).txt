@@ -1,23 +1,83 @@
-The dictionary file was created using the "final" English and Canadian SCOWL 
-(Spell Checker Oriented Word Lists) wordlists available at Kevin's Word Lists 
-Page (http://wordlist.sourceforge.net). Lists with the suffixes 10, 20, 35, 
-50, 65 and 65 were used. Lists with the suffixes 70, 80 and 95 were excluded. 
-Copyright information for SCOWL and the wordlists used in creating it is 
-reproduced below.
+﻿en_CA Hunspell Dictionary
+Version 2014.11.17
+Mon Nov 17 00:27:46 2014 -0500 [225e51c]
+http://wordlist.sourceforge.net
 
-The affix file is identical to the MySpell English (United States) affix file. 
-It is a heavily modified version of the original english.aff file which was 
-released as part of Geoff Kuenning's Ispell and as such is covered by his BSD 
-license.
+README file for English Hunspell dictionaries derived from SCOWL.
 
----
+These dictionaries are created using the speller/make-hunspell-dict
+script in SCOWL.
 
-COPYRIGHT, SOURCES, and CREDITS from SCOWL readme file:
+The following dictionaries are available:
 
-The collective work is Copyright 2000 by Kevin Atkinson as well as any
-of the copyrights mentioned below:
+  en_US (American)
+  en_CA (Canadian)
+  en_GB-ise (British with "ise" spelling)
+  en_GB-ize (British with "ize" spelling)
 
-  Copyright 2000 by Kevin Atkinson
+  en_US-large
+  en_CA-large
+  en_GB-large (with both "ise" and "ize" spelling)
+
+The normal (non-large) dictionaries correspond to SCOWL size 60 and,
+to encourage consistent spelling, generally only include one spelling
+variant for a word.  The large dictionaries correspond to SCOWL size
+70 and may include multiple spelling for a word when both variants are
+considered almost equal.  Also, the general quality of the larger
+dictionaries may also be less as they are not as carefully checked for
+errors as the normal dictionaries.
+
+To get an idea of the difference in size, here are 25 random words
+only found in the large dictionary for American English:
+
+  Bermejo Freyr's Guenevere Hatshepsut Nottinghamshire arrestment
+  crassitudes crural dogwatches errorless fetial flaxseeds godroon
+  incretion jalapeño's kelpie kishkes neuroglias pietisms pullulation
+  stemwinder stenoses syce thalassic zees
+
+The en_US and en_CA are the official dictionaries for Hunspell.  The
+en_GB and large dictionaries are made available on an experimental
+basis.  If you find them useful please send me a quick email at
+kevina@gnu.org.
+
+If none of these dictionaries suite you (for example, maybe you want
+the larger dictionary but only use spelling of a word) additional
+dictionaries can be generated at http://app.aspell.net/create or by
+modifying speller/make-hunspell-dict in SCOWL.  Please do let me know
+if you end up publishing a customized dictionary.
+
+If a word is not found in the dictionary or a word is there you think
+shouldn't be, you can lookup the word up at http://app.aspell.net/lookup
+to help determine why that is.
+
+General comments on these list can be sent directly to me at
+kevina@gnu.org or to the wordlist-devel mailing lists
+(https://lists.sourceforge.net/lists/listinfo/wordlist-devel).  If you
+have specific issues with any of these dictionaries please file a bug
+report at https://github.com/kevina/wordlist/issues.
+
+ADDITIONAL NOTES:
+
+The NOSUGGEST flag was added to certain taboo words.  While I made an
+honest attempt to flag the strongest taboo words with the NOSUGGEST
+flag, I MAKE NO GUARANTEE THAT I FLAGGED EVERY POSSIBLE TABOO WORD.
+The list was originally derived from Németh László, however I removed
+some words which, while being considered taboo by some dictionaries,
+are not really considered swear words in today's society.
+
+COPYRIGHT, SOURCES, and CREDITS:
+
+The English dictionaries come directly from SCOWL 
+and is thus under the same copyright of SCOWL.  The affix file is
+a heavily modified version of the original english.aff file which was
+released as part of Geoff Kuenning's Ispell and as such is covered by
+his BSD license.  Part of SCOWL is also based on Ispell thus the
+Ispell copyright is included with the SCOWL copyright.
+
+The collective work is Copyright 2000-2014 by Kevin Atkinson as well
+as any of the copyrights mentioned below:
+
+  Copyright 2000-2014 by Kevin Atkinson
 
   Permission to use, copy, modify, distribute and sell these word
   lists, the associated scripts, the output created from the scripts,
@@ -65,7 +125,7 @@ Public Domain:
   Date: Sat, 08 Jul 2000 20:27:21 +0100
   From: Brian Kelk <Brian.Kelk@cl.cam.ac.uk>
 
-> I was wondering what the copyright status of your "UK English
+  > I was wondering what the copyright status of your "UK English
   > Wordlist With Frequency Classification" word list as it seems to
   > be lacking any copyright notice.
 
@@ -124,7 +184,11 @@ Inflections database, is under the following copyright:
   any associated documentation shall at all times remain with
   Princeton University and LICENSEE agrees to preserve same.
 
-The 50 level includes Brian's frequency class 1, words words appearing
+The 40 level includes words from Alan's 3esl list found in version 4.0
+of his 12dicts package.  Like his other stuff the 3esl list is also in the
+public domain.
+
+The 50 level includes Brian's frequency class 1, words appearing
 in at least 5 of 12 of the dictionaries as indicated in the 12Dicts
 package, and uppercase words in at least 4 of the previous 12
 dictionaries.  A decent number of proper names is also included: The
@@ -136,111 +200,28 @@ other word lists is included.
 The name files form the Census report is a government document which I
 don't think can be copyrighted.
 
-The name list from Alan Beale is also derived from the linux words
-list, which is derived from the DEC list.  He also added a bunch of
-miscellaneous names to the list, which he released to the Public Domain.
-
-The DEC Word list doesn't have a formal name.  It is labeled as "FILE:
-english.words; VERSION: DEC-SRC-92-04-05" and was put together by Jorge
-Stolfi <stolfi@src.dec.com> DEC Systems Research Center.  The DEC Word
-list has the following copyright statement:
-
-  (NON-)COPYRIGHT STATUS
-
-  To the best of my knowledge, all the files I used to build these
-  wordlists were available for public distribution and use, at least
-  for non-commercial purposes.  I have confirmed this assumption with
-  the authors of the lists, whenever they were known.
-
-  Therefore, it is safe to assume that the wordlists in this package
-  can also be freely copied, distributed, modified, and used for
-  personal, educational, and research purposes.  (Use of these files in
-  commercial products may require written permission from DEC and/or
-  the authors of the original lists.)
-
-  Whenever you distribute any of these wordlists, please distribute
-  also the accompanying README file.  If you distribute a modified
-  copy of one of these wordlists, please include the original README
-  file with a note explaining your modifications.  Your users will
-  surely appreciate that.
-
-  (NO-)WARRANTY DISCLAIMER
-
-  These files, like the original wordlists on which they are based,
-  are still very incomplete, uneven, and inconsitent, and probably
-  contain many errors.  They are offered "as is" without any warranty
-  of correctness or fitness for any particular purpose.  Neither I nor
-  my employer can be held responsible for any losses or damages that
-  may result from their use.
-
-However since this Word List is used in the linux.words package which
-the author claims is free of any copyright I assume it is OK to use
-for most purposes.  If you want to use this in a commercial project
-and this concerns you the information from the DEC word list can
-easily be removed without much sacrifice in quality as only the name
-lists were used.
-
 The file special-jargon.50 uses common.lst and word.lst from the
 "Unofficial Jargon File Word Lists" which is derived from "The Jargon
 File".  All of which is in the Public Domain.  This file also contain
 a few extra UNIX terms which are found in the file "unix-terms" in the
 special/ directory.
 
-The 60 level includes Brian's frequency class 0 and all words
-appearing in at least 2 of the 12 dictionaries as indicated by the
-12Dicts package.  A large number of names are also included: The 4,946
-female names and 3,897 male names from the MWords package and the
-files "computer.names", "misc.names", and "org.names" from the DEC
-package.
+The 55 level includes words from Alan's 2of4brif list found in version
+4.0 of his 12dicts package.  Like his other stuff the 2of4brif is also
+in the public domain.
 
-The 65 level includes words found in the Ispell "medium" word list.
-The Ispell word lists are under the same copyright of Ispell itself
-which is:
+The 60 level includes all words appearing in at least 2 of the 12
+dictionaries as indicated by the 12Dicts package.
 
-  Copyright 1993, Geoff Kuenning, Granada Hills, CA
-  All rights reserved.
-
-  Redistribution and use in source and binary forms, with or without
-  modification, are permitted provided that the following conditions
-  are met:
-
-  1. Redistributions of source code must retain the above copyright
-     notice, this list of conditions and the following disclaimer.
-  2. Redistributions in binary form must reproduce the above copyright
-     notice, this list of conditions and the following disclaimer in the
-     documentation and/or other materials provided with the distribution.
-  3. All modifications to the source code must be clearly marked as
-     such.  Binary redistributions based on modified source code
-     must be clearly marked as modified versions in the documentation
-     and/or other materials provided with the distribution.
-  4. All advertising materials mentioning features or use of this software
-     must display the following acknowledgment:
-     This product includes software developed by Geoff Kuenning and
-     other unpaid contributors.
-  5. The name of Geoff Kuenning may not be used to endorse or promote
-     products derived from this software without specific prior
-     written permission.
-
-  THIS SOFTWARE IS PROVIDED BY GEOFF KUENNING AND CONTRIBUTORS ``AS
-  IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
-  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
-  FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL GEOFF
-  KUENNING OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
-  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
-  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
-  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
-  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
-  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
-  ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-  POSSIBILITY OF SUCH DAMAGE.
-
-The 70 level includes the 74,550 common dictionary words and the 21,986 names
-list from the MWords package.  The common dictionary words, like those
-from the 12Dicts package, have had all likely inflections added.
+The 70 level includes Brian's frequency class 0 and the 74,550 common
+dictionary words from the MWords package.  The common dictionary words,
+like those from the 12Dicts package, have had all likely inflections
+added.  The 70 level also included the 5desk list from version 4.0 of
+the 12Dics package which is in the public domain.
 
 The 80 level includes the ENABLE word list, all the lists in the
 ENABLE supplement package (except for ABLE), the "UK Advanced Cryptics
-Dictionary" (UKACD), the list of signature words in from YAWL package,
+Dictionary" (UKACD), the list of signature words from the YAWL package,
 and the 10,196 places list from the MWords package.
 
 The ENABLE package, mainted by M\Cooper <thegrendel@theriver.com>,
@@ -276,24 +257,53 @@ following copyright:
   There are no other restrictions: I would like to see the list
   distributed as widely as possible.
 
-The 95 level includes the 354,984 single words and 256,772 compound
-words from the MWords package, ABLE.LST from the ENABLE Supplement,
-and some additional words found in my part-of-speech database that
-were not found anywhere else.
+The 95 level includes the 354,984 single words, 256,772 compound
+words, 4,946 female names and the 3,897 male names, and 21,986 names
+from the MWords package, ABLE.LST from the ENABLE Supplement, and some
+additional words found in my part-of-speech database that were not
+found anywhere else.
 
 Accent information was taken from UKACD.
 
 My VARCON package was used to create the American, British, and
 Canadian word list. 
 
-Since the original word lists used used in the
-VARCON package came from the Ispell distribution they are under the
-Ispell copyright.
+Since the original word lists used in the VARCON package came
+from the Ispell distribution they are under the Ispell copyright:
 
-The variant word lists were created from a list of variants found in
-the 12dicts supplement package as well as a list of variants I created
-myself.
+  Copyright 1993, Geoff Kuenning, Granada Hills, CA
+  All rights reserved.
 
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
 
+  1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+  3. All modifications to the source code must be clearly marked as
+     such.  Binary redistributions based on modified source code
+     must be clearly marked as modified versions in the documentation
+     and/or other materials provided with the distribution.
+  (clause 4 removed with permission from Geoff Kuenning)
+  5. The name of Geoff Kuenning may not be used to endorse or promote
+     products derived from this software without specific prior
+     written permission.
 
+  THIS SOFTWARE IS PROVIDED BY GEOFF KUENNING AND CONTRIBUTORS ``AS
+  IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+  LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+  FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL GEOFF
+  KUENNING OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,
+  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+  LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+  CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+  LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN
+  ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+  POSSIBILITY OF SUCH DAMAGE.
 
+Build Date: Mon Nov 17 00:57:43 EST 2014
+Wordlist Command: mk-list en_CA 60 | deaccent
