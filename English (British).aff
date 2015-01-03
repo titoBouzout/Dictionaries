@@ -2,8 +2,9 @@
 # Also suitable as basis for Commonwealth and European English.
 # Built from scratch for MySpell. Released under LGPL.
 #
-# David Bartlett, Andrew Brown, Marco A.G.Pinto.
-# R 2.09, 2014-02-01
+# David Bartlett, Andrew Brown,
+# Kevin Atkinson, Marco A.G.Pinto.
+# R 2.20, 2015-01-01
 SET UTF-8
 TRY esiaénrtolcdugmfphbyvkw-'.zqjxSNRTLCGDMFPHBEAUYOIVKWóöâôZQJXÅçèîêàïüäñ
 REP 27

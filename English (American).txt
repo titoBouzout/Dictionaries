@@ -1,4 +1,4 @@
-en_CA Hunspell Dictionary
+en_US Hunspell Dictionary
 Version 2014.11.17
 Mon Nov 17 00:27:46 2014 -0500 [225e51c]
 http://wordlist.sourceforge.net
@@ -305,5 +305,5 @@ from the Ispell distribution they are under the Ispell copyright:
   ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
   POSSIBILITY OF SUCH DAMAGE.
 
-Build Date: Mon Nov 17 00:57:43 EST 2014
-Wordlist Command: mk-list en_CA 60 | deaccent
+Build Date: Mon Nov 17 00:57:42 EST 2014
+Wordlist Command: mk-list en_US 60 | deaccent
