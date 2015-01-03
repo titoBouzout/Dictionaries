@@ -16,8 +16,10 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Czech
  * Ελληνικά
  * English (Australian)
- * English (Canadian)
+ * English (Amerircan)
  * English (British)
+ * English (Canadian)
+ * English (South African)
  * Español
  * Français ( There is an special package for this language you may want to check https://github.com/superbob/SublimeTextLanguageFrench )
  * Galego
@@ -90,6 +92,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 
  * Adam St. John
  * Andrej Kvasnica
+ * Haoliang Yu
  * Jonas Follesø
  * Kalman Kemenczy
  * MrTux
