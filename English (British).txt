@@ -1,4 +1,4 @@
-﻿This dictionary was initially based on a subset of the 
+This dictionary was initially based on a subset of the 
 original English wordlist created by Kevin Atkinson for 
 Pspell and  Aspell and thus is covered by his original 
 LGPL licence. 

@@ -1,4 +1,4 @@
-﻿MySpell English (South African) Spellchecker
+MySpell English (South African) Spellchecker
 --------------------------------------------
 
 1. Welcome
