@@ -15,7 +15,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Deutsch (DE)
  * Czech
  * Ελληνικά
- * English (Amerircan)
+ * English (American)
  * English (Australian)
  * English (British)
  * English (Canadian)
