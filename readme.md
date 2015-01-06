@@ -33,6 +33,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Polski
  * Português (do Brasil)
  * Português (Europeu)
+ * Português (Europeu - Before Orthographic Agreement of 1990))
  * Русский
  * Slovenian
  * Slovensky
