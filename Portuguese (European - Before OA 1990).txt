@@ -1,8 +1,8 @@
 This is a Portuguese (Portugal) dictionary for Hunspell:
 
 Copyright (C) 2006-2009  José João de Almeida <jj@di.uminho.pt> , 
-	Rui Vilela <ruivilela@di.uminho.pt> ,
-	Alberto Simões <ambs@di.uminho.pt>
+    Rui Vilela <ruivilela@di.uminho.pt> ,
+    Alberto Simões <ambs@di.uminho.pt>
 
 Dep. Informática, Universidade do Minho
 Portugal
@@ -29,4 +29,4 @@ our site for details.
 Latest versions, suggestions, automatic install, informations at
        http://natura.di.uminho.pt/
 
-#This readme will change on next release
+

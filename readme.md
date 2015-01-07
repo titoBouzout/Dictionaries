@@ -114,6 +114,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Adam Retter
  * Jack Cuthbert
  * Lyubomir Vezev
+ * Domingues
 
 ## Docs
 
