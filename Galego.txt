@@ -11,8 +11,8 @@ Liberado faixo os termos da licenza GNU GPL (version 2).
 
 2. Contido
 
-O paquete contén o seguinte:
+O paquete contÃ©n o seguinte:
 
-	gl_ES.dic,  diccionario galego.
-	gl_ES.aff,  regras para derivar palabras do diccionario galego.
-	README-gl-ES.txt, este ficheiro.
+    gl_ES.dic,  diccionario galego.
+    gl_ES.aff,  regras para derivar palabras do diccionario galego.
+    README-gl-ES.txt, este ficheiro.
