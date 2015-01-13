@@ -1,0 +1,5 @@
+Xuxen is a Basque spell checking dictionary which includes around 85.000 entries. It is a HunSpell dictionary and is licensed under the GNU General Public License v2.
+
+License:
+Eleka Ingeniaritza Linguistikoa S.L. // www.eleka.net
+2008/10/29
