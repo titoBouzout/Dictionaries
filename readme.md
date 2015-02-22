@@ -57,7 +57,7 @@ Please if you found a better dictionary or something to improve, your change wil
 
 To add a new language:
 
- * Download the language file from link above.
+ * Download the language file from [here](http://extensions.services.openoffice.org/en/dictionaries).
  * Rename the "some.oxt" file to "some.zip"
  * Unzip the file
  * Look for three files: "lang.aff", "lang.dic" and "readme_lang.txt"(or something similar)
