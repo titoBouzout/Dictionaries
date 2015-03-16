@@ -1,0 +1,333 @@
+SET UTF-8
+TRY eësianrtolcdugmphbyfvkwzESIANRTOLCDUGMPHBYFVKWZéèäüûÄ
+
+KEY qwertzuiop|asdfghjkl|yxcvbnm
+
+REP 62
+REP wéieng wéi_eng
+REP biswell bis_ewell
+REP allzelaang allze_laang
+REP nëtzlos onnëtz
+REP annuecht an_Uecht
+REP ansech u_sech
+REP wanns wann_s
+REP zevill ze_vill
+REP wéivill wéi_vill
+REP soulues esou_lues
+REP engkéier eng_Kéier
+REP Virunallem Virun_allem
+REP virunallem virun_allem
+REP allkéiers all_Kéiers
+REP bisewell bis_ewell
+REP allkéiers all_Kéiers
+REP Tankstell Bensinsstatioun
+REP säitdeem zënterhier
+REP säitdeem zënter_datt
+REP amt büro
+REP get gëtt
+REP stotteren tuddelen
+REP mëss méchs
+REP oft dacks
+REP man maachen
+REP s ss
+REP ss s
+REP n nn
+REP mee mä
+REP aa a
+REP f ph
+REP ph f
+REP g ch
+REP ch g
+REP a er
+REP ai äi
+REP ai ä
+REP eh ee
+REP j ch
+REP j che
+REP ä ee
+REP dd tt
+REP s sch
+REP ex ächs
+REP nie ni
+REP e éi
+REP ée eeë
+REP ch sch
+REP sch ch
+REP ech ësch
+REP ae ä
+REP l ll
+REP l hl
+REP ei äi
+REP ch sch
+REP é ee
+REP z ds
+REP a ar
+REP ch j
+REP e ee
+REP ie éi
+REP io jo
+
+MAP 18
+MAP äaeÄAE
+MAP bB
+MAP ckCK
+MAP dtDT
+MAP eëêéèEËÊÉÈ
+MAP fvwFVW
+MAP gG
+MAP hH
+MAP iI
+MAP jJ
+MAP lL
+MAP mnMN
+MAP oöôOÖÔ
+MAP pP
+MAP qQ
+MAP rR
+MAP sS
+MAP uüûUÜÛ
+
+BREAK 2
+BREAK -
+BREAK '
+
+NOSPLITSUGS
+
+NOSUGGEST !
+
+SFX n Y 3
+SFX n 0 en  .
+SFX n 0 e   [^é]
+SFX n 0 ë   [é]
+
+SFX i Y 2
+SFX i 0 nen in
+SFX i 0 ne  in
+
+SFX N Y 8
+SFX N 0 n  [^i]te
+SFX N e ë  [^i]te
+SFX N 0 n  [^i][^t]e
+SFX N e ë  [^i][^t]e
+SFX N 0 n  i[^t]e
+SFX N e ë  i[^t]e
+SFX N ite itten ite
+SFX N ite itte  ite
+
+SFX u Y 2
+SFX u us iser us
+SFX u as ieser as
+SFX F N 3
+SFX F er esch   .
+SFX F er eschen .
+SFX F er esche  .
+
+SFX I N 3
+SFX I 0 in    .
+SFX I 0 innen .
+SFX I 0 inne  .
+
+SFX R N 9
+SFX R 0 er  i[^s]
+SFX R 0 er  e[^s]
+SFX R 0 er  [^ie]s
+SFX R 0 er  [^ie][^s]
+SFX R 0 er  [^r][éäe]is
+SFX R 0 ser r[éäe]is
+SFX R 0 ser [^éäe]is
+SFX R 0 ser es
+SFX R 0 ser es
+
+SFX r N 2
+SFX r en er .
+SFX r en e  .
+
+SFX E N 2
+SFX E 0 ën .
+SFX E 0 ë  .
+
+SFX Q N 1
+SFX Q 0 ër .
+
+SFX e N 5
+SFX e um  ümer  um
+SFX e ag  éi    ag
+SFX e uff iff   uff
+SFX e all äll   all
+SFX e och éch   och
+SFX A Y  74
+SFX A n  0       n
+SFX A d  t       d
+SFX A 0  t       [^ia][^td]
+SFX A 0  t       bar
+SFX A 0  em      .
+SFX A 0  en      .
+SFX A 0  e       .
+SFX A 0  er      .
+SFX A 0  es      .
+SFX A 0  stem    [^iao][^st]
+SFX A 0  sten    [^iao][^st]
+SFX A 0  ste     [^iao][^st]
+SFX A 0  ster    [^iao][^st]
+SFX A 0  stes    [^iao][^st]
+SFX A 0  st      [^iao][^st]
+SFX A 0  stem    bar
+SFX A 0  sten    bar
+SFX A 0  ste     bar
+SFX A 0  ster    bar
+SFX A 0  stes    bar
+SFX A 0  st      bar
+SFX A of ooft    of
+SFX A al aalt    al
+SFX A ar aart    [^b]ar
+SFX A id iidt    id
+SFX A in iint    [^é]in
+SFX A iv iivt    iv
+SFX A of oofstem of
+SFX A al aalstem al
+SFX A ar aarstem [^b]ar
+SFX A id iidstem id
+SFX A in iinstem [^é]in
+SFX A iv iivstem iv
+SFX A of oofsten of
+SFX A al aalsten al
+SFX A ar aarsten [^b]ar
+SFX A id iidsten id
+SFX A in iinsten [^é]in
+SFX A iv iivsten iv
+SFX A of oofste  of
+SFX A al aalste  al
+SFX A ar aarste  [^b]ar
+SFX A id iidste  id
+SFX A in iinste  [^é]in
+SFX A iv iivste  iv
+SFX A of oofster of
+SFX A al aalster al
+SFX A ar aarster [^b]ar
+SFX A id iidster id
+SFX A in iinster [^é]in
+SFX A iv iivster iv
+SFX A of oofstes of
+SFX A al aalstes al
+SFX A ar aarstes [^b]ar
+SFX A id iidstes id
+SFX A in iinstes [^é]in
+SFX A iv iivstes iv
+SFX A of oofst   of
+SFX A al aalst   al
+SFX A ar aarst   [^b]ar
+SFX A id iidst   id
+SFX A in iinst   [^é]in
+SFX A iv iivst   iv
+SFX A 0  estem   t
+SFX A 0  esten   t
+SFX A 0  este    t
+SFX A 0  ester   t
+SFX A 0  estes   t
+SFX A 0  est     t
+SFX A 0  tem    is
+SFX A 0  ten    is
+SFX A 0  te     is
+SFX A 0  ter    is
+SFX A 0  tes    is
+
+SFX a Y  6
+SFX a n  0       n
+SFX a 0  em      .
+SFX a 0  en      .
+SFX a 0  e       .
+SFX a 0  er      .
+SFX a 0  es      .
+
+SFX V Y 17
+SFX V en 0  [^w]en
+SFX V en e  en
+SFX V en t  [^tfldw]en
+SFX V en s  [^zsfldw]en
+SFX V en t  [^ao][fl]en
+SFX V en s  [^ao][fl]en
+SFX V fen aft afen
+SFX V fen afs afen
+SFX V fen oft ofen
+SFX V fen ofs ofen
+SFX V len ols olen
+SFX V len olt olen
+SFX V den t   den
+SFX V den ts  den
+SFX V wen f wen
+SFX V wen ft wen
+SFX V wen fs wen
+
+PFX g Y 1
+PFX g 0 ge .
+
+SFX G Y 5
+SFX G en t/g  [^tf]en
+SFX G en t/g  [^ao]fen
+SFX G fen aft/g afen
+SFX G fen oft/g ofen
+SFX G en 0/g ten
+
+SFX v Y 12
+SFX v tmen tem tmen
+SFX v tmen tems tmen
+SFX v tmen temt tmen
+SFX v nen en nen
+SFX v nen ent nen
+SFX v nen ens nen
+SFX v Ã«n 0 Ã«n
+SFX v Ã«n t Ã«n
+SFX v Ã«n s Ã«n
+SFX v jen ch jen
+SFX v jen chs jen
+SFX v jen cht jen
+
+SFX U N 4
+SFX U 0 er      .
+SFX U 0 erin    .
+SFX U 0 erinnen .
+SFX U 0 erinne  .
+
+SFX z Y 25
+SFX z   0     fach           .
+SFX z   0     t              .
+SFX z   0     ten            .
+SFX z   0     tens           .
+SFX z   0     te             .
+SFX z   0     anzwanzeg      .
+SFX z   0     andrësseg      .
+SFX z   0     avéierzeg      .
+SFX z   0     afofzeg        .
+SFX z   0     asiechzeg      .
+SFX z   0     asiwwenzeg     .
+SFX z   0     anuechtzeg     .
+SFX z   0     annonzeg       .
+SFX z   0     anzwanzeg      .
+SFX z   0     mol            [^n]
+SFX z   n     mol            n
+SFX z   0     anzwanzegmol   .
+SFX z   0     andrëssegmol   .
+SFX z   0     avéierzegmol   .
+SFX z   0     afofzegmol     .
+SFX z   0     asiechzegmol   .
+SFX z   0     asiwwenzegmol  .
+SFX z   0     anuechtzegmol  .
+SFX z   0     anonzegmol     .
+SFX z   0     anzwanzegmol   .
+
+PFX Z Y 9
+PFX Z   0     honnert        .
+PFX Z   0     zweehonnert    .
+PFX Z   0     dräihonnert    .
+PFX Z   0     véierhonnert   .
+PFX Z   0     fënnefhonnert  .
+PFX Z   0     sechshonnert   .
+PFX Z   0     siwenhonnert   .
+PFX Z   0     aachthonnert   .
+PFX Z   0     nénghonnert    .
+
+SFX h N 4
+SFX h   0     honnert        .
+SFX h   0     eckeg          .
+SFX h   0     honnertmol     .
+SFX h   0     honnertfach    .
