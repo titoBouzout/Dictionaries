@@ -26,6 +26,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Galego
  * Italiano
  * Lietuvių
+ * Luxembourgish
  * Magyar
  * Nederlands
  * Norwegian (Bokmål)
@@ -117,6 +118,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Jack Cuthbert
  * Lyubomir Vezev
  * Domingues
+ * @SteveClement
 
 ## Docs
 
