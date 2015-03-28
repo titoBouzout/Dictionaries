@@ -6,43 +6,44 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
 
 ## Language List
 
- * Basque
- * Català
- * Croatian
- * Dansk
- * Deutsch
- * Deutsch (AT)
- * Deutsch (CH)
- * Deutsch (DE)
- * Czech
- * Ελληνικά
+ * Català *[Catalan]*
+ * Čeština *[Czech]*
+ * Dansk *[Danish]*
+ * Deutsch *[German]*
+ * Deutsch (AT) *[German]*
+ * Deutsch (CH) *[German]*
+ * Deutsch (DE) *[German]*
  * English (American)
  * English (Australian)
  * English (British)
  * English (Canadian)
  * English (South African)
- * Español
- * Français ( There is an special package for this language you may want to check https://github.com/superbob/SublimeTextLanguageFrench )
- * Galego
- * Italiano
+ * Español *[Spanish]*
+ * Euskara *[Basque]*
+ * Français *[French]* (There is a special package for this language you may want to check https://github.com/superbob/SublimeTextLanguageFrench)
+ * Galego *[Galician]*
+ * Hrvatski *[Croatian]*
+ * Italiano *[Italian]*
+ * Lëtzebuergesch
  * Lietuvių
- * Luxembourgish
  * Magyar
  * Nederlands
- * Norwegian (Bokmål)
- * Norwegian (Nynorsk)
- * Română
+ * Norsk (Bokmål)
+ * Norsk (Nynorsk)
  * Polski
- * Português (do Brasil)
+ * Português (Brasileiro)
  * Português (Europeu)
- * Português (Europeu - Before Orthographic Agreement of 1990))
- * Русский
- * Slovenian
- * Slovensky
+ * Português (Europeu - Antes do Acordo Ortográfico de 1990)
+ * Română
+ * Slovaščina
+ * Slovenščina
  * Svenska
  * Tiếng Việt
+ * Ελληνικά
+ * български
+ * Монгол
+ * Русский
  * Українська
- * Български
 
 ## Idea
 
