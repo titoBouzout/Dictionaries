@@ -20,7 +20,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * English (South African)
  * Español -- Spanish
  * Euskara -- Basque
- * Français -- French (There is a special package for this language you may want to check https://github.com/superbob/SublimeTextLanguageFrench)
+ * Français -- French (There is a special package for this language you may want to check [here](https://github.com/superbob/SublimeTextLanguageFrench))
  * Galego -- Galician
  * Hrvatski -- Croatian
  * Italiano -- Italian
