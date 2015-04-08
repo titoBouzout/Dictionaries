@@ -35,6 +35,8 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Português (Europeu) -- Portuguese (European)
  * Português (Europeu - Antes do Acordo Ortográfico de 1990) -- Portuguese (European - Before the Ortographic Agreement of 1990)
  * Română -- Romanian
+ * Srpski (Latinica) -- Serbian (Latin)
+ * Srpski (Ćirilica) -- Serbian (Cyrillic)
  * Slovenčina -- Slovak
  * Slovensky -- Slovenian
  * Svenska -- Swedish
@@ -120,6 +122,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Lyubomir Vezev
  * Domingues
  * @SteveClement
+ * Mladen Mihajlović @mika76
 
 ## Docs
 
