@@ -7,12 +7,11 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
 ## Language List
 
  * Català -- Catalan
- * Čeština -- Czech
  * Dansk -- Danish
- * Deutsch -- German
  * Deutsch (AT) -- German
  * Deutsch (CH) -- German
  * Deutsch (DE) -- German
+ * Deutsch -- German
  * English (American)
  * English (Australian)
  * English (British)
@@ -24,23 +23,25 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Galego -- Galician
  * Hrvatski -- Croatian
  * Italiano -- Italian
- * Lëtzebuergesch -- Luxembourgish
  * Lietuvių -- Lithuanian
+ * Lëtzebuergesch -- Luxembourgish
  * Magyar -- Hungarian
  * Nederlands -- Dutch
  * Norsk (Bokmål) -- Norwegian
  * Norsk (Nynorsk) -- Norwegian
  * Polski -- Polish
  * Português (Brasileiro) -- Portuguese (Brazilian)
- * Português (Europeu) -- Portuguese (European)
  * Português (Europeu - Antes do Acordo Ortográfico de 1990) -- Portuguese (European - Before the Ortographic Agreement of 1990)
+ * Português (Europeu) -- Portuguese (European)
  * Română -- Romanian
+ * Slovensky -- Slovenian
+ * Slovenčina -- Slovak
  * Srpski (Latinica) -- Serbian (Latin)
  * Srpski (Ćirilica) -- Serbian (Cyrillic)
- * Slovenčina -- Slovak
- * Slovensky -- Slovenian
  * Svenska -- Swedish
  * Tiếng Việt -- Vietnamese
+ * Türkçe -- Turkish
+ * Čeština -- Czech
  * Ελληνικά -- Greek
  * български -- Bulgarian
  * Монгол -- Mongolian
@@ -96,33 +97,34 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 
 ## Contributors
 
+ * @SteveClement
+ * Adam Retter
  * Adam St. John
  * Aitor Carlos Urrutia Aranburu
+ * Alexandr Zhevedenko
  * Andrej Kvasnica
+ * Chris---
+ * Domingues
+ * Florian Morgan
+ * gw0
  * Haoliang Yu
+ * Jack Cuthbert
  * Jonas Follesø
  * Kalman Kemenczy
- * MrTux
+ * Lyubomir Vezev
+ * Maksim Norkin
+ * Marcos Chavarría Teijeiro
  * Max @ulidtko
+ * Mehmet Ali Gozaydin @kubudik
+ * Mladen Mihajlović @mika76
+ * MrTux
  * Nick Wilde
+ * Pedro Chambino
  * Petr Dvořák
  * Roland Richter
  * Thomas Feldmann
  * Valery Kocubinsky
- * Maksim Norkin
- * Alexandr Zhevedenko
- * Marcos Chavarría Teijeiro
- * Pedro Chambino
- * Florian Morgan
  * Zeljko Babic
- * Chris---
- * gw0
- * Adam Retter
- * Jack Cuthbert
- * Lyubomir Vezev
- * Domingues
- * @SteveClement
- * Mladen Mihajlović @mika76
 
 ## Docs
 
