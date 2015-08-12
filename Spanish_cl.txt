@@ -1,0 +1,190 @@
+  ****************************************************************************
+  **                                                                        **
+  **  Diccionario para correcciÃ³n ortogrÃ¡fica en espaÃ±ol de OpenOffice.org  **
+  **                                                                        **
+  ****************************************************************************
+  **  VERSIÃN LOCALIZADA PARA CHILE                                         **
+  ****************************************************************************
+
+                                   VersiÃ³n 0.8
+
+SUMARIO
+
+1. AUTOR
+2. LICENCIA
+3. INSTALACIÃN
+4. COLABORACIÃN
+5. AGRADECIMIENTOS
+
+
+1. AUTOR
+
+   Este diccionario ha sido desarrollado inicialmente por Santiago Bosio;
+quien actualmente coordina el desarrollo de todos los diccionarios localizados.
+
+   Si desea contactar al autor, por favor envÃ­e sus mensajes mediante correo
+electrÃ³nico a:
+
+	santiago.bosio <en> gmail <punto> com
+        (reemplace <en> por @ y <punto> por . al enviar su mensaje)
+
+   El diccionario es un desarrollo completamente nuevo, y NO ESTÃ BASADO en el
+trabajo de JesÃºs Carretero y Santiago RodrÃ­guez, ni en la versiÃ³n adaptada al
+formato de MySpell por Richard Holt.
+
+
+2. LICENCIA
+
+   Este diccionario para correcciÃ³n ortogrÃ¡fica, integrado por el fichero
+de afijos y la lista de palabras (es_CL[.aff|.dic]) se distribuye
+bajo un triple esquema de licencias disjuntas: GNU GPL versiÃ³n 3 o posterior,
+GNU LGPL versiÃ³n 3 o posterior, Ã³ MPL versiÃ³n 1.1 o posterior. Puede
+seleccionar libremente bajo cuÃ¡l de estas licencias utilizarÃ¡ este diccionario.
+EncontrarÃ¡ copias de las licencias adjuntas en este mismo paquete.
+
+3. INSTALACIÃN
+
+   NOTA: en el resto del documento, cada apariciÃ³n de OpenOffice.org puede
+entenderse referida tambiÃ©n a LibreOffice. No obstante, tenga en cuenta que
+la primera versiÃ³n de LibreOffice es compatible con OpenOffice.org 3.x, por
+lo que las menciones a OpenOffice.org 1.x y 2.x no son aplicables a LibreOffice.
+
+   En OpenOffice.org versiÃ³n 3.x y superior, utilice el administrador de
+extensiones, seleccionando para instalar directamente el fichero con
+extensiÃ³n ".oxt".
+
+   Para instalar en OpenOffice.org versiÃ³n 1.x Ã³ 2.x, deberÃ¡ realizar una
+instalaciÃ³n manual siguiendo estas instrucciones:
+
+a) Copie el fichero de afijos y la lista de palabras en la carpeta de
+   instalaciÃ³n de diccionarios.
+
+   Si tiene permisos de administrador, puede instalar el diccionario de
+manera que estÃ© disponible para todos los usuarios, copiando los ficheros al
+directorio de diccionarios de la suite. Este directorio depende de la
+plataforma de instalaciÃ³n. PodrÃ¡ ubicarlo si ingresa en el Ã­tem Opciones
+del menÃº Herramientas. Despliegue la primera lista, etiquetada "OpenOffice.org"
+y seleccione el Ã­tem Rutas. La carpeta donde debe copiar los ficheros se
+denomina "ooo", y la encontrarÃ¡ bajo el directorio que figura en la lista de
+rutas con el tipo "LingÃ¼Ã­stica".
+
+   En caso de no contar con permisos de administrador, igualmente puede
+realizar una instalaciÃ³n para su usuario particular, copiando los ficheros al
+directorio que figura en la lista de rutas con el tipo "Diccionarios definidos
+por el usuario".
+
+   Estos directorios de configuraciÃ³n usualmente estÃ¡n ocultos. DeberÃ¡ ajustar
+las opciones del administrador de ficheros que utiliza para que se muestren
+este tipo de ficheros o directorios. Consulte la ayuda para su plataforma en
+caso que no sepa cÃ³mo hacerlo.
+
+b) Edite la lista de diccionarios disponibles para aÃ±adir el nuevo diccionario.
+
+   En el directorio donde copiÃ³ los diccionarios encontrarÃ¡ un fichero de
+texto denominado "dictionary.lst". ModifÃ­quelo como se indica a continuaciÃ³n,
+utilizando el editor de textos de su preferencia.
+
+   El formato de la lista permite definir tres tipos de diccionarios
+diferentes: de correcciÃ³n ortogrÃ¡fica (DICT), de sinÃ³nimos (THES) o de
+separaciÃ³n silÃ¡bica (HYPH).
+
+   En este caso crearÃ¡ un nuevo Ã­tem de tipo DICT. Para cada entrada de este
+tipo, debe definir el lenguaje y la regiÃ³n (utilizando cÃ³digos ISO estÃ¡ndares),
+y especificar el nombre base de los ficheros que definen el diccionario. Para
+el espaÃ±ol, el cÃ³digo ISO de lenguaje se escribe "es" (en minÃºsculas, sin las
+comillas). El cÃ³digo de regiÃ³n depende de cÃ³mo tenga configurado su sistema
+(por lo general serÃ¡ el del paÃ­s donde reside), elegible entre uno de los
+siguientes:
+
+   Argentina:		"AR"		Honduras:		"HN"
+   Bolivia:		"BO"		MÃ©xico:			"MX"
+   Chile:		"CL"		Nicaragua:		"NI"
+   Colombia:		"CO"		PanamÃ¡:			"PA"
+   Costa Rica:		"CR"		PerÃº:			"PE"
+   Cuba:		"CU"		Puerto Rico:		"PR"
+   Rep. Dominicana:	"DO"		Paraguay:		"PY"
+   Ecuador:		"EC"		El Salvador:		"SV"
+   EspaÃ±a:		"ES"		Uruguay:		"UY"
+   Guatemala:		"GT"		Venezuela:		"VE"
+
+   (El cÃ³digo de regiÃ³n se escribe en mayÃºsculas sin las comillas).
+
+   El nombre base del fichero es igual al del fichero de diccionario o al de
+afijos, sin la extensiÃ³n (.dic o .aff).
+
+   Por ejemplo, si ha descargado el paquete localizado para Argentina
+(es_AR.zip), al descomprimirlo obtendrÃ¡ los ficheros 'es_AR.dic' y
+'es_AR.aff'. DespuÃ©s de copiarlos en el directorio correspondiente, la nueva
+lÃ­nea que deberÃ¡ crear en el fichero 'dictionary.lst' es:
+
+   DICT es AR es_AR
+
+c) Reinicie OpenOffice.org.
+
+   Guarde y cierre todos los documentos que tenga abiertos. Si utiliza la
+plataforma de Microsoft Windows y tiene el inicio rÃ¡pido de OpenOffice.org
+activado, ciÃ©rrelo tambiÃ©n.
+
+   Inicie nuevamente alguna de las aplicaciones de OpenOffice.org (cualquiera
+de ellas servirÃ¡).
+
+d) Configure las opciones de lingÃ¼Ã­stica del programa.
+
+   Ingrese nuevamente al Ã­tem Opciones del menÃº Herramientas y despliegue el
+Ã¡rbol "ConfiguraciÃ³n de idioma".
+
+   Entre las opciones del Ã­tem "Idiomas" hay una lista donde se configura el
+idioma occidental utilizado como idioma predeterminado para los documentos
+nuevos.
+
+   Elija de esa lista el idioma y regiÃ³n que configurÃ³ en el fichero
+'dictionary.lst'. Para el ejemplo utilizado serÃ­a "EspaÃ±ol (Argentina)".
+
+   Verifique que esta entrada de la lista aparezca con un pequeÃ±o tilde azul
+y las letras ABC a su izquierda; esto indica que existe un diccionario de
+correcciÃ³n ortogrÃ¡fica instalado para esa localizaciÃ³n. Si la marca no
+aparece, debe haber cometido algÃºn error en los pasos previos (el mÃ¡s comÃºn es
+que haya dejado alguna ventana o el inicio rÃ¡pido de OpenOffice.org
+abiertos).
+
+   Si necesitara ayuda para realizar cualquiera de estos pasos, envÃ­e un
+mensaje al encargado de mantenimiento del diccionario, o a las listas de
+correo del proyecto OpenOffice.org en espaÃ±ol (http://es.openoffice.org/).
+
+
+4. COLABORACIÃN
+
+   Este diccionario es resultado del trabajo colaborativo de muchas personas.
+La buena noticia es que Â¡usted tambiÃ©n puede participar!
+
+   Â¿Tiene dudas o sugerencias? Â¿DesearÃ­a ver palabras agregadas, o que se
+realizaran correcciones? SÃ³lo debe contactar al encargado de mantenimiento de
+este diccionario, a travÃ©s de su correo electrÃ³nico, quien se encargarÃ¡ de
+evacuar sus dudas, o de realizar las modificaciones necesarias para la prÃ³xima
+versiÃ³n del diccionario.
+
+
+5. AGRADECIMIENTOS
+
+   Hay varias personas que han colaborado con aportes o sugerencias a la
+creaciÃ³n de este diccionario. Se agradece especialmente a:
+
+   - Richard Holt.
+   - Marcelo Garrone.
+   - Kevin Hendricks.
+   - Juan Rey Saura.
+   - Carlos DÃ¡vila.
+   - RomÃ¡n Gelbort.
+   - J. Eduardo Moreno.
+   - Gonzalo Higuera DÃ­az.
+   - Ricardo Palomares MartÃ­nez.
+   - Sergio Medina.
+   - Ismael Olea.
+   - Alejandro Moreno.
+   - Alexandro Colorado.
+   - AndrÃ©s SÃ¡nchez.
+   - Juan Rafael FernÃ¡ndez GarcÃ­a.
+   - KNTRO
+   - Ricardo Berlasso.
+   - y a todos los integrantes de la comunidad en espaÃ±ol que proponen mejoras
+     a este diccionario.
