@@ -111,6 +111,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * gw0
  * Haoliang Yu
  * Jack Cuthbert
+ * Jacob Bundgaard
  * Jonas Follesø
  * Kalman Kemenczy
  * Lyubomir Vezev
