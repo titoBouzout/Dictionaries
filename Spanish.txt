@@ -3,10 +3,10 @@
   **  Diccionario para corrección ortográfica en español de OpenOffice.org  **
   **                                                                        **
   ****************************************************************************
-  **  VERSIÓN LOCALIZADA PARA ESPAÑA                                        **
+  **  VERSIÓN GENÉRICA PARA TODAS LAS LOCALIZACIONES                        **
   ****************************************************************************
 
-                                   Versión 0.3
+                                   Versión 2.0
 
 SUMARIO
 
@@ -25,7 +25,7 @@ quien actualmente coordina el desarrollo de todos los diccionarios localizados.
    Si desea contactar al autor, por favor envíe sus mensajes mediante correo
 electrónico a:
 
-	sbosio <en> openoffice <punto> org
+	santiago.bosio <en> gmail <punto> com
         (reemplace <en> por @ y <punto> por . al enviar su mensaje)
 
    El diccionario es un desarrollo completamente nuevo, y NO ESTÁ BASADO en el
@@ -36,13 +36,18 @@ formato de MySpell por Richard Holt.
 2. LICENCIA
 
    Este diccionario para corrección ortográfica, integrado por el fichero
-de afijos y la lista de palabras (es_ES[.aff|.dic]) se distribuye
+de afijos y la lista de palabras (es_ANY[.aff|.dic]) se distribuye
 bajo un triple esquema de licencias disjuntas: GNU GPL versión 3 o posterior,
 GNU LGPL versión 3 o posterior, ó MPL versión 1.1 o posterior. Puede
 seleccionar libremente bajo cuál de estas licencias utilizará este diccionario.
 Encontrará copias de las licencias adjuntas en este mismo paquete.
 
 3. INSTALACIÓN
+
+   NOTA: en el resto del documento, cada aparición de OpenOffice.org puede
+entenderse referida también a LibreOffice. No obstante, tenga en cuenta que
+la primera versión de LibreOffice es compatible con OpenOffice.org 3.x, por
+lo que las menciones a OpenOffice.org 1.x y 2.x no son aplicables a LibreOffice.
 
    En OpenOffice.org versión 3.x y superior, utilice el administrador de
 extensiones, seleccionando para instalar directamente el fichero con
@@ -58,7 +63,7 @@ a) Copie el fichero de afijos y la lista de palabras en la carpeta de
 manera que esté disponible para todos los usuarios, copiando los ficheros al
 directorio de diccionarios de la suite. Este directorio depende de la
 plataforma de instalación. Podrá ubicarlo si ingresa en el ítem Opciones
-del menú Herramientas. Despliegue la primer lista, etiquetada "OpenOffice.org"
+del menú Herramientas. Despliegue la primera lista, etiquetada "OpenOffice.org"
 y seleccione el ítem Rutas. La carpeta donde debe copiar los ficheros se
 denomina "ooo", y la encontrará bajo el directorio que figura en la lista de
 rutas con el tipo "Lingüística".
@@ -172,5 +177,15 @@ creación de este diccionario. Se agradece especialmente a:
    - Román Gelbort.
    - J. Eduardo Moreno.
    - Gonzalo Higuera Díaz.
+   - Ricardo Palomares Martínez.
+   - Sergio Medina.
+   - Ismael Olea.
+   - Alejandro Moreno.
+   - Alexandro Colorado.
+   - Andrés Sánchez.
+   - Juan Rafael Fernández García.
+   - eksperimental.
+   - KNTRO.
+   - Ricardo Berlasso.
    - y a todos los integrantes de la comunidad en español que proponen mejoras
      a este diccionario.
