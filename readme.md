@@ -6,6 +6,8 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
 
 ## Language List
 
+ * Armenian (Eastern)
+ * Armenian (Western)
  * Català -- Catalan
  * Dansk -- Danish
  * Deutsch (AT) -- German
@@ -110,6 +112,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Florian Morgan
  * gw0
  * Haoliang Yu
+ * Hayk Karapetyan
  * Jack Cuthbert
  * Jacob Bundgaard
  * Jonas Follesø
