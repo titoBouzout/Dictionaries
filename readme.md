@@ -85,15 +85,15 @@ To add a new language:
 
 [Iconv](http://en.wikipedia.org/wiki/Iconv) may be used to convert a file to UTF-8 from another encoding. For example:
 
-    iconv -f iso-8859-1 -t utf-8 en_CA.aff > en_CA_utf8.aff
+	iconv -f iso-8859-1 -t utf-8 en_CA.aff > en_CA_utf8.aff
 
 You can use the file command to check an encoding:
 
-    file -bi en_CA_utf8.aff
+	file -bi en_CA_utf8.aff
 
 Example output:
 
-    text/plain; charset=utf-8
+	text/plain; charset=utf-8
 
 Note that `us-ascii` might be reported if there are no unicode (utf-8) characters present in the file.
 
@@ -131,6 +131,12 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Thomas Feldmann
  * Valery Kocubinsky
  * Zeljko Babic
+
+
+## Installation
+
+Download or clone the contents of this repository to a folder named exactly as the package name into the Packages/ folder of ST.
+
 
 ## Docs
 
