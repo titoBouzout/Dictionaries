@@ -29,6 +29,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Lietuvių -- Lithuanian
  * Lëtzebuergesch -- Luxembourgish
  * Magyar -- Hungarian
+ * Malays -- Malaysia
  * Nederlands -- Dutch
  * Norsk (Bokmål) -- Norwegian
  * Norsk (Nynorsk) -- Norwegian
@@ -109,6 +110,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Andrej Kvasnica
  * Chris---
  * Domingues
+ * Fakhrullah Padzil
  * Florian Morgan
  * gw0
  * Haoliang Yu
