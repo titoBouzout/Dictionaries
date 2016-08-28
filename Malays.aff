@@ -1,0 +1,161 @@
+# Affix file for BM dictionary
+# Built from scratch for MySpell. Released under GPL 
+# See text of license at: http://www.gnu.org/copyleft/gpl.html.
+#
+# Open Source R&D - Localization  E-mail: osslocalize@mimos.my
+# 13 August 2004
+# Uppercase letters are used for prefixes, 
+# Lowercase for suffixes.
+#
+# Fail affik untuk kamus BM "MySpell"
+# Fail affik ini dilesenkan di bawah GPL.
+# Awalan diwakili oleh huruf besar, 
+# Akhiran diwakili oleh huruf kecil.
+#
+# Kerjasama antara pihak MIMOS (Open Source Group) dengan
+# 1) Profesor Abdullah - Universiti Perguruan Sultan Idris (UPSI)
+# 2) Puan Ainon - PTS Publications Sdn Bhd.
+#
+# http:opensource.mimos.my
+# E-mel: osslocalize@mimos.my
+#
+
+SET UTF-8
+TRY aeiuonrtldspjgkmhbcyfvwzqxSNRTLCGDMPHBEAUYOFIVKWZQJX 
+
+PFX B Y 2 
+PFX B 0 ber [^r]
+PFX B 0 be r
+PFX C Y 2
+PFX C 0 seper [^r]
+PFX C 0 sepe r
+PFX D Y 1
+PFX D 0 di .
+PFX E Y 2
+PFX E 0 diper [^r]
+PFX E 0 dipe r
+PFX F Y 1
+PFX F 0 menge .
+PFX G Y 1
+PFX G 0 anti .
+PFX H Y 1
+PFX H 0 penge .
+PFX K Y 1 
+PFX K 0 ke . 
+PFX L Y 1
+PFX L 0 meng k
+PFX A Y 1
+PFX A 0 mem p
+PFX I Y 1
+PFX I 0 pem p
+PFX J Y 1
+PFX J 0 mem f
+PFX M Y 11
+PFX M 0 me [lmnryw]
+PFX M 0 mem [b]
+PFX M f mem [f]
+PFX M p mem [p]
+PFX M 0 mem [v]
+PFX M 0 men [cdjz]
+PFX M t men [t]
+PFX M 0 meng [aeghiuoq]
+PFX M k meng [k]
+PFX M 0 meng [x]
+PFX M s meny [s]
+PFX N Y 1
+PFX N 0 men [t]
+PFX O Y 1
+PFX O 0 pen [t]
+PFX V Y 1
+PFX V 0 men [s]
+PFX Z Y 1
+PFX Z 0 pen [s]
+PFX P Y 9
+PFX P 0 pe [lmnryw]
+PFX P 0 pem [b]
+PFX P f pem [f]
+PFX P p pem [p]
+PFX P 0 pen [cdjz]
+PFX P t pen [t]
+PFX P 0 peng [aeghiuoq]
+PFX P k peng k
+PFX P s peny [s]
+PFX U Y 1
+PFX U 0 peng k
+PFX Q Y 2
+PFX Q 0 memper [^r]
+PFX Q 0 mempe r
+PFX R Y 2
+PFX R 0 per [^r]
+PFX R 0 pe r
+PFX S Y 1
+PFX S 0 se . 
+PFX T Y 2
+PFX T 0 ter [^r]
+PFX T 0 te r
+PFX W Y 1
+PFX W 0 pe [pjstdk]
+PFX X Y 1 
+PFX X 0 pra . 
+
+
+SFX a Y 1
+SFX a 0 annya .
+SFX b Y 1
+SFX b 0 nya .
+SFX d Y 1
+SFX d 0 anlah .
+SFX e Y 1
+SFX e 0 kanlah .
+SFX f Y 1
+SFX f 0 iku .
+SFX g Y 1
+SFX g 0 nyalah . 
+SFX h Y 1
+SFX h 0 an . 
+SFX i Y 1
+SFX i 0 mulah . 
+SFX j Y 1
+SFX j 0 ilah . 
+SFX k Y 1
+SFX k 0 kah . 
+SFX l Y 1
+SFX l 0 i .
+SFX m Y 1
+SFX m 0 inya .
+SFX n Y 3
+SFX n 0 kan [^k] 
+SFX n k kan k 
+SFX n an kan an 
+SFX z Y 1
+SFX z 0 kan k
+SFX o Y 1
+SFX o 0 imu .
+SFX p Y 1
+SFX p 0 lah . 
+SFX q Y 1
+SFX q 0 ku . 
+SFX r Y 1
+SFX r 0 mu . 
+SFX s Y 1
+SFX s 0 pun . 
+SFX t Y 1
+SFX t 0 ankah .
+SFX u Y 1
+SFX u 0 anku .
+SFX v Y 1
+SFX v 0 anmu .
+SFX w Y 1
+SFX w 0 kukah .
+SFX x Y 1
+SFX x 0 kulah .
+SFX y Y 1
+SFX y 0 kannya .
+SFX c Y 1
+SFX c 0 isme .
+
+REP 3 
+REP ua  au
+REP kna kan
+REP dna dan
+
