@@ -27,6 +27,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Hrvatski -- Croatian
  * Italiano -- Italian
  * Lietuvių -- Lithuanian
+ * Latin
  * Lëtzebuergesch -- Luxembourgish
  * Magyar -- Hungarian
  * Nederlands -- Dutch
@@ -125,6 +126,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Mladen Mihajlović @mika76
  * MrTux
  * Nick Wilde
+ * Nicolás Vaughan
  * Pedro Chambino
  * Petr Dvořák
  * Roland Richter
