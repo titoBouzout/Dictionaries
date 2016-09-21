@@ -26,6 +26,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Galego -- Galician
  * Hrvatski -- Croatian
  * Italiano -- Italian
+ * Latvijas -- Latvian
  * Lietuvių -- Lithuanian
  * Latin
  * Lëtzebuergesch -- Luxembourgish
