@@ -6,13 +6,15 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
 
 ## Language List
 
+ * Armenian (Eastern)
+ * Armenian (Western)
  * Català -- Catalan
- * Čeština -- Czech
  * Dansk -- Danish
- * Deutsch -- German
  * Deutsch (AT) -- German
  * Deutsch (CH) -- German
  * Deutsch (DE) -- German
+ * Deutsch -- German
+ * Eesti -- Estonian
  * English (American)
  * English (Australian)
  * English (British)
@@ -24,21 +26,28 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Galego -- Galician
  * Hrvatski -- Croatian
  * Italiano -- Italian
- * Lëtzebuergesch -- Luxembourgish
+ * Latvijas -- Latvian
  * Lietuvių -- Lithuanian
+ * Latin
+ * Lëtzebuergesch -- Luxembourgish
  * Magyar -- Hungarian
+ * Malays -- Malaysia
  * Nederlands -- Dutch
  * Norsk (Bokmål) -- Norwegian
  * Norsk (Nynorsk) -- Norwegian
  * Polski -- Polish
  * Português (Brasileiro) -- Portuguese (Brazilian)
- * Português (Europeu) -- Portuguese (European)
  * Português (Europeu - Antes do Acordo Ortográfico de 1990) -- Portuguese (European - Before the Ortographic Agreement of 1990)
+ * Português (Europeu) -- Portuguese (European)
  * Română -- Romanian
- * Slovenčina -- Slovak
  * Slovensky -- Slovenian
+ * Slovenčina -- Slovak
+ * Srpski (Latinica) -- Serbian (Latin)
+ * Srpski (Ćirilica) -- Serbian (Cyrillic)
  * Svenska -- Swedish
  * Tiếng Việt -- Vietnamese
+ * Türkçe -- Turkish
+ * Čeština -- Czech
  * Ελληνικά -- Greek
  * български -- Bulgarian
  * Монгол -- Mongolian
@@ -79,47 +88,60 @@ To add a new language:
 
 [Iconv](http://en.wikipedia.org/wiki/Iconv) may be used to convert a file to UTF-8 from another encoding. For example:
 
-    iconv -f iso-8859-1 -t utf-8 en_CA.aff > en_CA_utf8.aff
+	iconv -f iso-8859-1 -t utf-8 en_CA.aff > en_CA_utf8.aff
 
 You can use the file command to check an encoding:
 
-    file -bi en_CA_utf8.aff
+	file -bi en_CA_utf8.aff
 
 Example output:
 
-    text/plain; charset=utf-8
+	text/plain; charset=utf-8
 
 Note that `us-ascii` might be reported if there are no unicode (utf-8) characters present in the file.
 
 
 ## Contributors
 
+ * @SteveClement
+ * Adam Retter
  * Adam St. John
  * Aitor Carlos Urrutia Aranburu
+ * Aksel Meola
+ * Alexandr Zhevedenko
  * Andrej Kvasnica
+ * Chris---
+ * Domingues
+ * Fakhrullah Padzil
+ * Florian Morgan
+ * gw0
  * Haoliang Yu
+ * Hayk Karapetyan
+ * Jack Cuthbert
+ * Jacob Bundgaard
  * Jonas Follesø
  * Kalman Kemenczy
- * MrTux
+ * Lyubomir Vezev
+ * Maksim Norkin
+ * Marcos Chavarría Teijeiro
  * Max @ulidtko
+ * Mehmet Ali Gozaydin @kubudik
+ * Mladen Mihajlović @mika76
+ * MrTux
  * Nick Wilde
+ * Nicolás Vaughan
+ * Pedro Chambino
  * Petr Dvořák
  * Roland Richter
  * Thomas Feldmann
  * Valery Kocubinsky
- * Maksim Norkin
- * Alexandr Zhevedenko
- * Marcos Chavarría Teijeiro
- * Pedro Chambino
- * Florian Morgan
  * Zeljko Babic
- * Chris---
- * gw0
- * Adam Retter
- * Jack Cuthbert
- * Lyubomir Vezev
- * Domingues
- * @SteveClement
+
+
+## Installation
+
+Download or clone the contents of this repository to a folder named exactly as the package name into the Packages/ folder of ST.
+
 
 ## Docs
 

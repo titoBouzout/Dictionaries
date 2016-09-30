@@ -1,0 +1,4007 @@
+# LatvieÅ¡u valodas affix fails lietoÅ¡anai ar OpenOffice v.v. 2.4.1 un 3.x.x,
+# LibreOffice u.c. aplikÄcijÄm, kas pareizrakstÄ«bas pÄrbaudei izmanto HunSpell
+# Latvian affix table for OpenOffice v.v. 2.4.1 and 3.x.x, LibreOffice
+# and other applications using HunSpell as the backend
+#
+# Copyright (C) 2002-2016 Janis Eisaks, jancs@dv.lv
+#
+# Versija//Version: 1.2.0
+#
+# This library is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This library is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this library; if not, write to the Free Software
+# Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+#
+# IzmantotÄ literatÅ«ra
+#  1. B.CeplÄ«te, L.CeplÄ«tis
+#     LatvieÅ¡u valodas praktiskÄ gramatika, ISBN 9984 04 641-9
+#  2.D.GuÄ¼evska, A.MiÄ·elsone, T.PorÄ«te
+#     PareizrakstÄ«bas un pareizrunas rokasgrÄmata, Avots, 2002, ISBN 9984-700-64-X
+#
+# Pateicos Dr. Andrejam Spektoram un LU MÄkslÄ«gÄ Intelekta laboratorijai
+# par iespÄju izmantot apkopoto vÄrdu krÄjumu; EdvÄ«nam MalnaÄam,
+# Egonam SpalÄnam, ValdemÄram Rozenbergam, Reinim AdoviÄam, kÄ arÄ« citiem
+#  brÄ«vprÄtÄ«gajiem par nesavtÄ«gu atbalstu projekta realizÄcijÄ
+#
+# ÄªpaÅ¡a pateicÄ«ba Valsts sociÄlÄs apdroÅ¡inÄÅ¡anas aÄ£entÅ«rai (http://www.vsaa.gov.lv)
+# par savulaik rasto vÄlÄÅ¡anos un varÄÅ¡anu materiÄli atbalstÄ«t darbu pie vÄrdnÄ«cas
+# pilnveidoÅ¡anas.
+#
+# Faila formÄts: Hunspell
+
+SET UTF-8
+TRY ianseÄtumpojÅ¡rkdÄ«zlÄvbgcÄ·Å«ÅÄ¼ÄÅ¾fÄ£hASMVLDIKERBGJZTNPHUOFCÄÄ¶Å½ÄÄ¢Å ÄªÅªÄÅÄ»
+KEY qwertyuiop|asdfghjkl|zxcvbnm|kÄ·|nÅ|cÄ
+FULLSTRIP
+
+#karogs vÄrdiem, kurus nav jÄsaka priekÅ¡Ä
+NOSUGGEST }
+NEEDAFFIX {
+CIRCUMFIX |
+
+MAXNGRAMSUGS 6
+NOSPLITSUGS
+
+REP 93
+REP ike iek
+REP via vai
+REP lig lÄ«g
+REP Ä¼i lÄ«
+REP memi miem
+REP neisk nieks
+REP kal kla
+REP Ä·Ä¼u kÄ¼Å«
+REP ska sak
+REP Å¡an san
+REP Å¡ÄÅ¡an sÄÅ¡an
+REP klap kalp
+REP musm mums
+REP mato manto
+REP stirpi stipri
+REP visamz vismaz
+REP ziÅ izÅ
+REP ija Ä«jÄ
+REP eja ÄjÄ
+REP i Ä«
+REP e Ä
+REP a Ä
+REP u Å«
+REP Å« u
+REP s Å¡
+REP betarÄ« bet_arÄ«
+REP bettomÄr bet_tomÄr
+REP ciknecik cik_necik
+REP cikvien cik_vien
+REP diezinka diezin_ka
+REP diezinkÄ diezin_kÄ
+REP diezinkam diezin_kam
+REP diezinko diezin_ko
+REP diezinkur diezin_kur
+REP diezkas diez_kas
+REP diezkam diez_kam
+REP diezkÄ diez_kÄ
+REP diezko diez_ko
+REP diezkur diez_kur
+REP ganjau gan_jau
+REP ganjaunu gan_jau_nu
+REP gribotnegribot gribot_negribot
+REP itÄ«paÅ¡i it_Ä«paÅ¡i
+REP itkÄ it_kÄ
+REP itseviÅ¡Ä·i it_seviÅ¡Ä·i
+REP jaarÄ« ja_arÄ«
+REP jaunugan jau_nu_gan
+REP jebvai jeb_vai
+REP kautarÄ« kaut_arÄ«
+REP kautgan kaut_gan
+REP kautkam kaut_kam
+REP kautkas kaut_kas
+REP kautkÄ kaut_kÄ
+REP kautko kaut_ko
+REP kautkur kaut_kur
+REP kÄarÄ« kÄ_arÄ«
+REP kÄkad kÄ_kad
+REP kÄrezultÄtÄ kÄ_rezultÄtÄ
+REP laiarÄ« lai_arÄ«
+REP laigan lai_gan
+REP lÄ«dzarto lÄ«dz_ar_to
+REP nenokÄ ne_no_kÄ
+REP nereizivien ne_reizi_vien
+REP netikai ne_tikai
+REP netikvien ne_tikvien
+REP nevien ne_vien
+REP nezinkas nezin_kas
+REP nezinkam nezin_kam
+REP nezinkÄ nezin_kÄ
+REP nezinko nezin_ko
+REP nezinkur nezin_kur
+REP nezkas nez_kas
+REP nezkam nez_kam
+REP nezkÄ nez_kÄ
+REP nezko nez_ko
+REP nezkur nez_kur
+REP pÄctamkad pÄc_tam_kad
+REP pirmÄmkÄrtÄm pirmÄm_kÄrtÄm
+REP sazinkas sazin_kas
+REP sazinkam sazin_kam
+REP sazinkÄ sazin_kÄ
+REP sazinko sazin_ko
+REP sazinkur sazin_kur
+REP tÄka tÄ_ka
+REP tÄkÄ tÄ_kÄ
+REP tÄlabka tÄlab_ka
+REP tamdÄÄ¼ka tamdÄÄ¼_ka
+REP tÄpatkÄ tÄpat_kÄ
+REP tÄpÄcka tÄpÄc_ka
+REP tiklÄ«dzkÄ tiklÄ«dz_kÄ
+REP tiktikko tik_tikko
+REP vaiarÄ« vai_arÄ«
+REP vainu vai_nu
+
+
+SFX = Y 1
+SFX = 0 . .
+
+PFX - Y 1
+PFX -  0  ne .
+
+PFX ] Y 1
+PFX ]  0  jÄ/| .
+
+PFX [ Y 1
+PFX [ 0 vis/| .
+
+SFX D Y 15
+SFX D t  u    [^ÄÄÄ«oeÅ«]t  is:1vpt0
+SFX D t  i    [^ÄÄÄ«oeÅ«]t  is:2vpt0
+SFX D t  a    [^ÄÄÄ«oeÅ«]t  is:3xpt0
+SFX D t  Äm   [^ÄÄÄ«oeÅ«]t  is:1dpt0
+SFX D t  Ät   [^ÄÄÄ«oeÅ«]t  is:2dpt0
+SFX D t  ju    [ÄÄÄ«oÅ«]t  is:1vpt0
+SFX D t  ji    [ÄÄÄ«oÅ«]t  is:2vpt0
+SFX D t  ja    [ÄÄÄ«oÅ«]t  is:3xpt0
+SFX D t  jÄm   [ÄÄÄ«oÅ«]t  is:1dpt0
+SFX D t  jÄt   [ÄÄÄ«oÅ«]t  is:2dpt0
+SFX D iet  gÄju    iet  is:1vpt0
+SFX D iet  gÄji    iet  is:2vpt0
+SFX D iet  gÄja    iet  is:3xpt0
+SFX D iet  gÄjÄm   iet  is:1dpt0
+SFX D iet  gÄjÄt   iet  is:2dpt0
+
+SFX I Y 20
+SFX I Ä«t iju  Ä«t  is:1vpt0
+SFX I Ä«t iji  Ä«t  is:2vpt0
+SFX I Ä«t ija  Ä«t  is:3xpt0
+SFX I Ä«t ijÄm Ä«t  is:1dpt0
+SFX I Ä«t ijÄt Ä«t  is:2dpt0
+SFX I irt Ä«ru  irt is:1vpt0
+SFX I irt Ä«ri  irt is:2vpt0
+SFX I irt Ä«ra  irt is:3xpt0
+SFX I irt Ä«rÄm irt is:1dpt0
+SFX I irt Ä«rÄt irt is:2dpt0
+SFX I st du  st is:1vpt0
+SFX I st di  st is:2vpt0
+SFX I st da  st is:3xpt0
+SFX I st dÄm st is:1dpt0
+SFX I st dÄt st is:2dpt0
+SFX I iet eju  iet is:1vpt0
+SFX I iet eji  iet is:2vpt0
+SFX I iet eja  iet is:3xpt0
+SFX I iet ejÄm iet is:1dpt0
+SFX I iet ejÄt iet is:2dpt0
+
+SFX E Y 225
+SFX E kt  cu    kt   is:1vpt0
+SFX E kt  ci    kt   is:2vpt0
+SFX E kt  ca    kt   is:3xpt0
+SFX E kt  cÄm   kt   is:1dpt0
+SFX E kt  cÄt   kt   is:2dpt0
+SFX E gt  dzu    gt  is:1vpt0
+SFX E gt  dzi    gt  is:2vpt0
+SFX E gt  dza    gt  is:3xpt0
+SFX E gt  dzÄm   gt  is:1dpt0
+SFX E gt  dzÄt   gt  is:2dpt0
+SFX E elt Älu    elt is:1vpt0
+SFX E elt Äli    elt is:2vpt0
+SFX E elt Äla    elt is:3xpt0
+SFX E elt ÄlÄm   elt is:1dpt0
+SFX E elt ÄlÄt   elt is:2dpt0
+SFX E emt Ämu    emt is:1vpt0
+SFX E emt Ämi    emt is:2vpt0
+SFX E emt Äma    emt is:3xpt0
+SFX E emt ÄmÄm   emt is:1dpt0
+SFX E emt ÄmÄt   emt is:2dpt0
+SFX E ilt Ä«lu    ilt is:1vpt0
+SFX E ilt Ä«li    ilt is:2vpt0
+SFX E ilt Ä«la    ilt is:3xpt0
+SFX E ilt Ä«lÄm   ilt is:1dpt0
+SFX E ilt Ä«lÄt   ilt is:2dpt0
+SFX E ult Å«lu    ult is:1vpt0
+SFX E ult Å«li    ult is:2vpt0
+SFX E ult Å«la    ult is:3xpt0
+SFX E ult Å«lÄm   ult is:1dpt0
+SFX E ult Å«lÄt   ult is:2dpt0
+SFX E umt Å«mu    umt is:1vpt0
+SFX E umt Å«mi    umt is:2vpt0
+SFX E umt Å«ma    umt is:3xpt0
+SFX E umt Å«mÄm   umt is:1dpt0
+SFX E umt Å«mÄt   umt is:2dpt0
+SFX E Å«t uvu   [^b]Å«t is:1vpt0
+SFX E Å«t uvi   [^b]Å«t is:2vpt0
+SFX E Å«t uva   [^b]Å«t is:3xpt0
+SFX E Å«t uvÄm  [^b]Å«t is:1dpt0
+SFX E Å«t uvÄt  [^b]Å«t is:2dpt0
+SFX E Å«t iju    [b]Å«t is:1vpt0
+SFX E Å«t iji    [b]Å«t is:2vpt0
+SFX E Å«t ija    [b]Å«t is:3xpt0
+SFX E Å«t ijÄm   [b]Å«t is:1dpt0
+SFX E Å«t ijÄt   [b]Å«t is:2dpt0
+SFX E art Äru    art is:1vpt0
+SFX E art Äri    art is:2vpt0
+SFX E art Ära    art is:3xpt0
+SFX E art ÄrÄm   art is:1dpt0
+SFX E art ÄrÄt   art is:2dpt0
+SFX E urt Å«ru    urt is:1vpt0
+SFX E urt Å«ri    urt is:2vpt0
+SFX E urt Å«ra    urt is:3xpt0
+SFX E urt Å«rÄm   urt is:1dpt0
+SFX E urt Å«rÄt   urt is:2dpt0
+SFX E irt iru    irt is:1vpt0
+SFX E irt iri    irt is:2vpt0
+SFX E irt ira    irt is:3xpt0
+SFX E irt irÄm   irt is:1dpt0
+SFX E irt irÄt   irt is:2dpt0
+SFX E ert Äru    ert is:1vpt0
+SFX E ert Äri    ert is:2vpt0
+SFX E ert Ära    ert is:3xpt0
+SFX E ert ÄrÄm   ert is:1dpt0
+SFX E ert ÄrÄt   ert is:2dpt0
+SFX E ot evu    ot is:1vpt0
+SFX E ot evi    ot is:2vpt0
+SFX E ot eva    ot is:3xpt0
+SFX E ot evÄm   ot is:1dpt0
+SFX E ot evÄt   ot is:2dpt0
+SFX E aut Ävu    aut is:1vpt0
+SFX E aut Ävi    aut is:2vpt0
+SFX E aut Äva    aut is:3xpt0
+SFX E aut ÄvÄm   aut is:1dpt0
+SFX E aut ÄvÄt   aut is:2dpt0
+SFX E iet Äju   iet is:1vpt0
+SFX E iet Äji   iet is:2vpt0
+SFX E iet Äja   iet is:3xpt0
+SFX E iet ÄjÄm  iet is:1dpt0
+SFX E iet ÄjÄt  iet is:2dpt0
+SFX E Ä«t inu   Ä«t is:1vpt0
+SFX E Ä«t ini   Ä«t is:2vpt0
+SFX E Ä«t ina   Ä«t is:3xpt0
+SFX E Ä«t inÄm  Ä«t is:1dpt0
+SFX E Ä«t inÄt  Ä«t is:2dpt0
+SFX E  st  du  [^aeiÄ«uÅ«lrm]st is:1vpt0
+SFX E  st  di  [^aeiÄ«uÅ«lrm]st is:2vpt0
+SFX E  st  da  [^aeiÄ«uÅ«lrm]st is:3xpt0
+SFX E  st  dÄm [^aeiÄ«uÅ«lrm]st is:1dpt0
+SFX E  st  dÄt [^aeiÄ«uÅ«lrm]st is:2dpt0
+SFX E  st  du   [^p][r]ast is:1vpt0
+SFX E  st  di   [^p][r]ast is:2vpt0
+SFX E  st  da   [^p][r]ast is:3xpt0
+SFX E  st  dÄm  [^p][r]ast is:1dpt0
+SFX E  st  dÄt  [^p][r]ast is:2dpt0
+SFX E  st  tu    [p]rast is:1vpt0
+SFX E  st  ti    [p]rast is:2vpt0
+SFX E  st  ta    [p]rast is:3xpt0
+SFX E  st  tÄm   [p]rast is:1dpt0
+SFX E  st  tÄt   [p]rast is:2dpt0
+SFX E  st  tu   [c]iest is:1vpt0
+SFX E  st  ti   [c]iest is:2vpt0
+SFX E  st  ta   [c]iest is:3xpt0
+SFX E  st  tÄm  [c]iest is:1dpt0
+SFX E  st  tÄt  [c]iest is:2dpt0
+SFX E  st  du    [^a]lst is:1vpt0
+SFX E  st  di    [^a]lst is:2vpt0
+SFX E  st  da    [^a]lst is:3xpt0
+SFX E  st  dÄm   [^a]lst is:1dpt0
+SFX E  st  dÄt   [^a]lst is:2dpt0
+SFX E  st  tu    [a]lst is:1vpt0
+SFX E  st  ti    [a]lst is:2vpt0
+SFX E  st  ta    [a]lst is:3xpt0
+SFX E  st  tÄm   [a]lst is:1dpt0
+SFX E  st  tÄt   [a]lst is:2dpt0
+SFX E  st  tu    [lm]est is:1vpt0
+SFX E  st  ti    [lm]est is:2vpt0
+SFX E  st  ta    [lm]est is:3xpt0
+SFX E  st  tÄm   [lm]est is:1dpt0
+SFX E  st  tÄt   [lm]est is:2dpt0
+SFX E  st  du   [^c][^lm]est is:1vpt0
+SFX E  st  di   [^c][^lm]est is:2vpt0
+SFX E  st  da   [^c][^lm]est is:3xpt0
+SFX E  st  dÄm  [^c][^lm]est is:1dpt0
+SFX E  st  dÄt  [^c][^lm]est is:2dpt0
+SFX E  st  tu    [^aÄ£r]ist is:1vpt0
+SFX E  st  ti    [^aÄ£r]ist is:2vpt0
+SFX E  st  ta    [^aÄ£r]ist is:3xpt0
+SFX E  st  tÄm   [^aÄ£r]ist is:1dpt0
+SFX E  st  tÄt   [^aÄ£r]ist is:2dpt0
+SFX E  st  du   [Ä£]ist is:1vpt0
+SFX E  st  di   [Ä£]ist is:2vpt0
+SFX E  st  da   [Ä£]ist is:3xpt0
+SFX E  st  dÄm  [Ä£]ist is:1dpt0
+SFX E  st  dÄt  [Ä£]ist is:2dpt0
+SFX E  st  du    [^k]rist is:1vpt0
+SFX E  st  di    [^k]rist is:2vpt0
+SFX E  st  da    [^k]rist is:3xpt0
+SFX E  st  dÄm   [^k]rist is:1dpt0
+SFX E  st  dÄt   [^k]rist is:2dpt0
+SFX E  st  tu   [k]rist is:1vpt0
+SFX E  st  ti   [k]rist is:2vpt0
+SFX E  st  ta   [k]rist is:3xpt0
+SFX E  st  tÄm  [k]rist is:1dpt0
+SFX E  st  tÄt  [k]rist is:2dpt0
+SFX E  st  tu    [^l]aist is:1vpt0
+SFX E  st  ti    [^l]aist is:2vpt0
+SFX E  st  ta    [^l]aist is:3xpt0
+SFX E  st  tÄm   [^l]aist is:1dpt0
+SFX E  st  tÄt   [^l]aist is:2dpt0
+SFX E  st  du   [l]aist is:1vpt0
+SFX E  st  di   [l]aist is:2vpt0
+SFX E  st  da   [l]aist is:3xpt0
+SFX E  st  dÄm  [l]aist is:1dpt0
+SFX E  st  dÄt  [l]aist is:2dpt0
+SFX E  st  du  [^v]Ä«st is:1vpt0
+SFX E  st  di  [^v]Ä«st is:2vpt0
+SFX E  st  da  [^v]Ä«st is:3xpt0
+SFX E  st  dÄm [^v]Ä«st is:1dpt0
+SFX E  st  dÄt [^v]Ä«st is:2dpt0
+SFX E  st  tu  [^s]vÄ«st is:1vpt0
+SFX E  st  ti  [^s]vÄ«st is:2vpt0
+SFX E  st  ta  [^s]vÄ«st is:3xpt0
+SFX E  st  tÄm [^s]vÄ«st is:1dpt0
+SFX E  st  tÄt [^s]vÄ«st is:2dpt0
+SFX E  st  du  [s]vÄ«st is:1vpt0
+SFX E  st  di  [s]vÄ«st is:2vpt0
+SFX E  st  da  [s]vÄ«st is:3xpt0
+SFX E  st  dÄm [s]vÄ«st is:1dpt0
+SFX E  st  dÄt [s]vÄ«st is:2dpt0
+SFX E  st  du  [^ajsÅ¡]ust is:1vpt0
+SFX E  st  di  [^ajsÅ¡]ust is:2vpt0
+SFX E  st  da  [^ajsÅ¡]ust is:3xpt0
+SFX E  st  dÄm [^ajsÅ¡]ust is:1dpt0
+SFX E  st  dÄt [^ajsÅ¡]ust is:2dpt0
+SFX E  st  tu  [jsÅ¡]ust is:1vpt0
+SFX E  st  ti  [jsÅ¡]ust is:2vpt0
+SFX E  st  ta  [jsÅ¡]ust is:3xpt0
+SFX E  st  tÄm [jsÅ¡]ust is:1dpt0
+SFX E  st  tÄt [jsÅ¡]ust is:2dpt0
+SFX E  st  du  [^j]aust is:1vpt0
+SFX E  st  di  [^j]aust is:2vpt0
+SFX E  st  da  [^j]aust is:3xpt0
+SFX E  st  dÄm [^j]aust is:1dpt0
+SFX E  st  dÄt [^j]aust is:2dpt0
+SFX E  st  tu  [j]aust is:1vpt0
+SFX E  st  ti  [j]aust is:2vpt0
+SFX E  st  ta  [j]aust is:3xpt0
+SFX E  st  tÄm [j]aust is:1dpt0
+SFX E  st  tÄt [j]aust is:2dpt0
+SFX E  st  du  [^p]Å«st is:1vpt0
+SFX E  st  di  [^p]Å«st is:2vpt0
+SFX E  st  da  [^p]Å«st is:3xpt0
+SFX E  st  dÄm [^p]Å«st is:1dpt0
+SFX E  st  dÄt [^p]Å«st is:2dpt0
+SFX E  st  tu   [p]Å«st is:1vpt0
+SFX E  st  ti   [p]Å«st is:2vpt0
+SFX E  st  ta   [p]Å«st is:3xpt0
+SFX E  st  tÄm  [p]Å«st is:1dpt0
+SFX E  st  tÄt  [p]Å«st is:2dpt0
+SFX E  t  u  [^iÄÄ]rst is:1vpt0
+SFX E  t  i  [^iÄÄ]rst is:2vpt0
+SFX E  t  a  [^iÄÄ]rst is:3xpt0
+SFX E  t  Äm [^iÄÄ]rst is:1dpt0
+SFX E  t  Ät [^iÄÄ]rst is:2dpt0
+SFX E  st  tu  [ÄÄ]rst is:1vpt0
+SFX E  st  ti  [ÄÄ]rst is:2vpt0
+SFX E  st  ta  [ÄÄ]rst is:3xpt0
+SFX E  st  tÄm [ÄÄ]rst is:1dpt0
+SFX E  st  tÄt [ÄÄ]rst is:2dpt0
+SFX E  st  tu  [cv]irst is:1vpt0
+SFX E  st  ti  [cv]irst is:2vpt0
+SFX E  st  ta  [cv]irst is:3xpt0
+SFX E  st  tÄm [cv]irst is:1dpt0
+SFX E  st  tÄt [cv]irst is:2dpt0
+SFX E  st  du  [^ie]mst is:1vpt0
+SFX E  st  di  [^ie]mst is:2vpt0
+SFX E  st  da  [^ie]mst is:3xpt0
+SFX E  st  dÄm [^ie]mst is:1dpt0
+SFX E  st  dÄt [^ie]mst is:2dpt0
+SFX E  st  tu  [ei]mst is:1vpt0
+SFX E  st  ti  [ei]mst is:2vpt0
+SFX E  st  ta  [ei]mst is:3xpt0
+SFX E  st  tÄm [ei]mst is:1dpt0
+SFX E  st  tÄt [ei]mst is:2dpt0
+
+SFX d Y 15
+SFX d t os    [^ÄÄÄ«oe]t  is:1vpa0
+SFX d t ies   [^ÄÄÄ«oe]t  is:2vpa0
+SFX d t Äs    [^ÄÄÄ«oe]t  is:3xpa0
+SFX d t Ämies [^ÄÄÄ«oe]t  is:1dpa0
+SFX d t Äties [^ÄÄÄ«oe]t  is:2dpa0
+SFX d t jos    [ÄÄÄ«o]t  is:1vpa0
+SFX d t jies   [ÄÄÄ«o]t  is:2vpa0
+SFX d t jÄs    [ÄÄÄ«o]t  is:3xpa0
+SFX d t jÄmies [ÄÄÄ«o]t  is:1dpa0
+SFX d t jÄties [ÄÄÄ«o]t  is:2dpa0
+SFX d iet  gÄjos    iet  is:1vpa0
+SFX d iet  gÄjies   iet  is:2vpa0
+SFX d iet  gÄjÄs    iet  is:3xpa0
+SFX d iet  gÄjÄmies iet  is:1dpa0
+SFX d iet  gÄjÄties iet  is:2dpa0
+
+SFX i Y 20
+SFX i Ä«t ijos    Ä«t  is:1vpa0
+SFX i Ä«t ijies   Ä«t  is:2vpa0
+SFX i Ä«t ijÄs    Ä«t  is:3xpa0
+SFX i Ä«t ijÄmies Ä«t  is:1dpa0
+SFX i Ä«t ijÄties Ä«t  is:2dpa0
+SFX i irt Ä«ros    irt is:1vpa0
+SFX i irt Ä«ries   irt is:2vpa0
+SFX i irt Ä«rÄs    irt is:3xpa0
+SFX i irt Ä«rÄmies irt is:1dpa0
+SFX i irt Ä«rÄties irt is:2dpa0
+SFX i st dos    st is:1vpa0
+SFX i st dies   st is:2vpa0
+SFX i st dÄs    st is:3xpa0
+SFX i st dÄmies st is:1dpa0
+SFX i st dÄties st is:2dpa0
+SFX i iet ejos    iet is:1vpa0
+SFX i iet ejies   iet is:2vpa0
+SFX i iet ejÄs    iet is:3xpa0
+SFX i iet ejÄmies iet is:1dpa0
+SFX i iet ejÄties iet is:2dpa0
+
+
+SFX e Y 225
+SFX e kt  cos    kt   is:1vpa0
+SFX e kt  cies   kt   is:2vpa0
+SFX e kt  cÄs    kt   is:3xpa0
+SFX e kt  cÄmies kt   is:1dpa0
+SFX e kt  cÄties kt   is:2dpa0
+SFX e gt  dzos    gt  is:1vpa0
+SFX e gt  dzies   gt  is:2vpa0
+SFX e gt  dzÄs    gt  is:3xpa0
+SFX e gt  dzÄmies gt  is:1dpa0
+SFX e gt  dzÄties gt  is:2dpa0
+SFX e elt Älos    elt is:1vpa0
+SFX e elt Älies   elt is:2vpa0
+SFX e elt ÄlÄs    elt is:3xpa0
+SFX e elt ÄlÄmies elt is:1dpa0
+SFX e elt ÄlÄties elt is:2dpa0
+SFX e emt Ämos     emt is:1vpa0
+SFX e emt Ämies    emt is:2vpa0
+SFX e emt ÄmÄs     emt is:3xpa0
+SFX e emt ÄmÄmies  emt is:1dpa0
+SFX e emt ÄmÄties  emt is:2dpa0
+SFX e ilt Ä«los    ilt is:1vpa0
+SFX e ilt Ä«lies   ilt is:2vpa0
+SFX e ilt Ä«lÄs    ilt is:3xpa0
+SFX e ilt Ä«lÄmies ilt is:1dpa0
+SFX e ilt Ä«lÄties ilt is:2dpa0
+SFX e ult Å«los    ult is:1vpa0
+SFX e ult Å«lies   ult is:2vpa0
+SFX e ult Å«lÄs    ult is:3xpa0
+SFX e ult Å«lÄmies ult is:1dpa0
+SFX e ult Å«lÄties ult is:2dpa0
+SFX e umt Å«mos     umt is:1vpa0
+SFX e umt Å«mies    umt is:2vpa0
+SFX e umt Å«mÄs    umt is:3xpa0
+SFX e umt Å«mÄmies  umt is:1dpa0
+SFX e umt Å«mÄties   umt is:2dpa0
+SFX e Å«t uvos    [^b]Å«t is:1vpa0
+SFX e Å«t uvies   [^b]Å«t is:2vpa0
+SFX e Å«t uvÄs   [^b]Å«t is:3xpa0
+SFX e Å«t uvÄmies [^b]Å«t is:1dpa0
+SFX e Å«t uvÄties  [^b]Å«t is:2dpa0
+SFX e art Äros    art is:1vpa0
+SFX e art Äries   art is:2vpa0
+SFX e art ÄrÄs    art is:3xpa0
+SFX e art ÄrÄmies art is:1dpa0
+SFX e art ÄrÄties art is:2dpa0
+SFX e urt Å«ros    urt is:1vpa0
+SFX e urt Å«ries   urt is:2vpa0
+SFX e urt Å«rÄs    urt is:3xpa0
+SFX e urt Å«rÄmies urt is:1dpa0
+SFX e urt Å«rÄties urt is:2dpa0
+SFX e irt iros    irt is:1vpa0
+SFX e irt iries   irt is:2vpa0
+SFX e irt irÄs    irt is:3xpa0
+SFX e irt irÄmies irt is:1dpa0
+SFX e irt irÄties irt is:2dpa0
+SFX e ert Äros    ert is:1vpa0
+SFX e ert Äries   ert is:2vpa0
+SFX e ert ÄrÄs    ert is:3xpa0
+SFX e ert ÄrÄmies ert is:1dpa0
+SFX e ert ÄrÄties ert is:2dpa0
+SFX e ot evos    ot is:1vpa0
+SFX e ot evies   ot is:2vpa0
+SFX e ot evÄs    ot is:3xpa0
+SFX e ot evÄmies ot is:1dpa0
+SFX e ot evÄties ot is:2dpa0
+SFX e aut Ävos    aut is:1vpa0
+SFX e aut Ävies   aut is:2vpa0
+SFX e aut ÄvÄs    aut is:3xpa0
+SFX e aut ÄvÄmies aut is:1dpa0
+SFX e aut ÄvÄties aut is:2dpa0
+SFX e iet Äjos    iet is:1vpa0
+SFX e iet Äjies   iet is:2vpa0
+SFX e iet ÄjÄs    iet is:3xpa0
+SFX e iet ÄjÄmies iet is:1dpa0
+SFX e iet ÄjÄties iet is:2dpa0
+SFX e Ä«t inos    Ä«t is:1vpa0
+SFX e Ä«t inies   Ä«t is:2vpa0
+SFX e Ä«t inÄs    Ä«t is:3xpa0
+SFX e Ä«t inÄmies Ä«t is:1dpa0
+SFX e Ä«t inÄties Ä«t is:2dpa0
+SFX e st dos    [^aeiÄ«uÅ«lrmn]st is:1vpa0
+SFX e st dies   [^aeiÄ«uÅ«lrmn]st is:2vpa0
+SFX e st dÄs    [^aeiÄ«uÅ«lrmn]st is:3xpa0
+SFX e st dÄmies [^aeiÄ«uÅ«lrmn]st is:1dpa0
+SFX e st dÄties [^aeiÄ«uÅ«lrmn]st is:2dpa0
+SFX e st dos    [^p][r]ast is:1vpa0
+SFX e st dies   [^p][r]ast is:2vpa0
+SFX e st dÄs    [^p][r]ast is:3xpa0
+SFX e st dÄmies [^p][r]ast is:1dpa0
+SFX e st dÄties [^p][r]ast is:2dpa0
+SFX e st tos    [p]rast is:1vpa0
+SFX e st ties   [p]rast is:2vpa0
+SFX e st tÄs    [p]rast is:3xpa0
+SFX e st tÄmies [p]rast is:1dpa0
+SFX e st tÄties [p]rast is:2dpa0
+SFX e st tos    [c]iest is:1vpa0
+SFX e st ties   [c]iest is:2vpa0
+SFX e st tÄs    [c]iest is:3xpa0
+SFX e st tÄmies [c]iest is:1dpa0
+SFX e st tÄties [c]iest is:2dpa0
+SFX e st dos    [^a]lst is:1vpa0
+SFX e st dies   [^a]lst is:2vpa0
+SFX e st dÄs    [^a]lst is:3xpa0
+SFX e st dÄmies [^a]lst is:1dpa0
+SFX e st dÄties [^a]lst is:2dpa0
+SFX e st tos    [a]lst is:1vpa0
+SFX e st ties   [a]lst is:2vpa0
+SFX e st tÄs    [a]lst is:3xpa0
+SFX e st tÄmies [a]lst is:1dpa0
+SFX e st tÄties [a]lst is:2dpa0
+SFX e st tos    [lm]est is:1vpa0
+SFX e st ties   [lm]est is:2vpa0
+SFX e st tÄs    [lm]est is:3xpa0
+SFX e st tÄmies [lm]est is:1dpa0
+SFX e st tÄties [lm]est is:2dpa0
+SFX e st dos    [^c][^lm]est is:1vpa0
+SFX e st dies   [^c][^lm]est is:2vpa0
+SFX e st dÄs    [^c][^lm]est is:3xpa0
+SFX e st dÄmies [^c][^lm]est is:1dpa0
+SFX e st dÄties [^c][^lm]est is:2dpa0
+SFX e st tos    [^aÄ£r]ist is:1vpa0
+SFX e st ties   [^aÄ£r]ist is:2vpa0
+SFX e st tÄs    [^aÄ£r]ist is:3xpa0
+SFX e st tÄmies [^aÄ£r]ist is:1dpa0
+SFX e st tÄties [^aÄ£r]ist is:2dpa0
+SFX e st dos    [Ä£]ist is:1vpa0
+SFX e st dies   [Ä£]ist is:2vpa0
+SFX e st dÄs    [Ä£]ist is:3xpa0
+SFX e st dÄmies [Ä£]ist is:1dpa0
+SFX e st dÄties [Ä£]ist is:2dpa0
+SFX e st dos    [^k]rist is:1vpa0
+SFX e st dies   [^k]rist is:2vpa0
+SFX e st dÄs    [^k]rist is:3xpa0
+SFX e st dÄmies [^k]rist is:1dpa0
+SFX e st dÄties [^k]rist is:2dpa0
+SFX e st tos    [k]rist is:1vpa0
+SFX e st ties   [k]rist is:2vpa0
+SFX e st tÄs    [k]rist is:3xpa0
+SFX e st tÄmies [k]rist is:1dpa0
+SFX e st tÄties [k]rist is:2dpa0
+SFX e st tos    [^l]aist is:1vpa0
+SFX e st ties   [^l]aist is:2vpa0
+SFX e st tÄs    [^l]aist is:3xpa0
+SFX e st tÄmies [^l]aist is:1dpa0
+SFX e st tÄties [^l]aist is:2dpa0
+SFX e st dos    [l]aist is:1vpa0
+SFX e st dies   [l]aist is:2vpa0
+SFX e st dÄs    [l]aist is:3xpa0
+SFX e st dÄmies [l]aist is:1dpa0
+SFX e st dÄties [l]aist is:2dpa0
+SFX e st dos    [^v]Ä«st is:1vpa0
+SFX e st dies   [^v]Ä«st is:2vpa0
+SFX e st dÄs    [^v]Ä«st is:3xpa0
+SFX e st dÄmies [^v]Ä«st is:1dpa0
+SFX e st dÄties [^v]Ä«st is:2dpa0
+SFX e st tos    [^s]vÄ«st is:1vpa0
+SFX e st ties   [^s]vÄ«st is:2vpa0
+SFX e st tÄs    [^s]vÄ«st is:3xpa0
+SFX e st tÄmies [^s]vÄ«st is:1dpa0
+SFX e st tÄties [^s]vÄ«st is:2dpa0
+SFX e st dos    [s]vÄ«st is:1vpa0
+SFX e st dies   [s]vÄ«st is:2vpa0
+SFX e st dÄs    [s]vÄ«st is:3xpa0
+SFX e st dÄmies [s]vÄ«st is:1dpa0
+SFX e st dÄties [s]vÄ«st is:2dpa0
+SFX e st dos    [^ajsÅ¡]ust is:1vpa0
+SFX e st dies   [^ajsÅ¡]ust is:2vpa0
+SFX e st dÄs    [^ajsÅ¡]ust is:3xpa0
+SFX e st dÄmies [^ajsÅ¡]ust is:1dpa0
+SFX e st dÄties [^ajsÅ¡]ust is:2dpa0
+SFX e st tos    [jsÅ¡]ust is:1vpa0
+SFX e st ties   [jsÅ¡]ust is:2vpa0
+SFX e st tÄs    [jsÅ¡]ust is:3xpa0
+SFX e st tÄmies [jsÅ¡]ust is:1dpa0
+SFX e st tÄties [jsÅ¡]ust is:2dpa0
+SFX e st dos    [^j]aust is:1vpa0
+SFX e st dies   [^j]aust is:2vpa0
+SFX e st dÄs    [^j]aust is:3xpa0
+SFX e st dÄmies [^j]aust is:1dpa0
+SFX e st dÄties [^j]aust is:2dpa0
+SFX e st tos    [j]aust is:1vpa0
+SFX e st ties   [j]aust is:2vpa0
+SFX e st tÄs    [j]aust is:3xpa0
+SFX e st tÄmies [j]aust is:1dpa0
+SFX e st tÄties [j]aust is:2dpa0
+SFX e st dos    [^p]Å«st is:1vpa0
+SFX e st dies   [^p]Å«st is:2vpa0
+SFX e st dÄs    [^p]Å«st is:3xpa0
+SFX e st dÄmies [^p]Å«st is:1dpa0
+SFX e st dÄties [^p]Å«st is:2dpa0
+SFX e st tos    [p]Å«st is:1vpa0
+SFX e st ties   [p]Å«st is:2vpa0
+SFX e st tÄs    [p]Å«st is:3xpa0
+SFX e st tÄmies [p]Å«st is:1dpa0
+SFX e st tÄties [p]Å«st is:2dpa0
+SFX e st tos    nst is:1vpa0
+SFX e st ties   nst is:2vpa0
+SFX e st tÄs    nst is:3xpa0
+SFX e st tÄmies nst is:1dpa0
+SFX e st tÄties nst is:2dpa0
+SFX e t  os    [^iÄÄ]rst is:1vpa0
+SFX e t  ies   [^iÄÄ]rst is:2vpa0
+SFX e t  Äs    [^iÄÄ]rst is:3xpa0
+SFX e t  Ämies [^iÄÄ]rst is:1dpa0
+SFX e t  Äties [^iÄÄ]rst is:2dpa0
+SFX e st tos    [ÄÄ]rst is:1vpa0
+SFX e st ties   [ÄÄ]rst is:2vpa0
+SFX e st tÄs    [ÄÄ]rst is:3xpa0
+SFX e st tÄmies [ÄÄ]rst is:1dpa0
+SFX e st tÄties [ÄÄ]rst is:2dpa0
+SFX e st tos    [cv]irst is:1vpa0
+SFX e st ties   [cv]irst is:2vpa0
+SFX e st tÄs    [cv]irst is:3xpa0
+SFX e st tÄmies [cv]irst is:1dpa0
+SFX e st tÄties [cv]irst is:2dpa0
+SFX e st dos    [^i]mst is:1vpa0
+SFX e st dies   [^i]mst is:2vpa0
+SFX e st dÄs    [^i]mst is:3xpa0
+SFX e st dÄmies [^i]mst is:1dpa0
+SFX e st dÄties [^i]mst is:2dpa0
+SFX e st tos    [i]mst is:1vpa0
+SFX e st ties   [i]mst is:2vpa0
+SFX e st tÄs    [i]mst is:3xpa0
+SFX e st tÄmies [i]mst is:1dpa0
+SFX e st tÄties [i]mst is:2dpa0
+
+SFX 5 Y 1
+SFX 5 t  ts/WYX   t
+
+SFX 6 Y 96
+SFX 6 is uÅ¡a     [^cz]is
+SFX 6 is uÅ¡am    [^cz]is
+SFX 6 is uÅ¡u     [^cz]is
+SFX 6 is uÅ¡Ä     [^cz]is
+SFX 6 is usi     [^cz]is
+SFX 6 is uÅ¡as    [^cz]is
+SFX 6 is uÅ¡ai    [^cz]is
+SFX 6 is uÅ¡i     [^cz]is
+SFX 6 is uÅ¡iem   [^cz]is
+SFX 6 is uÅ¡us    [^cz]is
+SFX 6 is uÅ¡os    [^cz]is
+SFX 6 is uÅ¡Äm    [^cz]is
+SFX 6 is uÅ¡Äs    [^cz]is
+SFX 6 is uÅ¡ais   [^cz]is
+SFX 6 is uÅ¡ajam  [^cz]is
+SFX 6 is uÅ¡o     [^cz]is
+SFX 6 is uÅ¡ajÄ   [^cz]is
+SFX 6 is usÄ«     [^cz]is
+SFX 6 is uÅ¡ajai  [^cz]is
+SFX 6 is uÅ¡ie    [^cz]is
+SFX 6 is uÅ¡ajiem [^cz]is
+SFX 6 is uÅ¡ajos  [^cz]is
+SFX 6 is uÅ¡ajÄm  [^cz]is
+SFX 6 is uÅ¡ajÄs  [^cz]is
+SFX 6 cis kuÅ¡a     [c]is
+SFX 6 cis kuÅ¡am    [c]is
+SFX 6 cis kuÅ¡u     [c]is
+SFX 6 cis kuÅ¡Ä     [c]is
+SFX 6 cis kusi     [c]is
+SFX 6 cis kuÅ¡as    [c]is
+SFX 6 cis kuÅ¡ai    [c]is
+SFX 6 cis kuÅ¡i     [c]is
+SFX 6 cis kuÅ¡iem   [c]is
+SFX 6 cis kuÅ¡us    [c]is
+SFX 6 cis kuÅ¡os    [c]is
+SFX 6 cis kuÅ¡Äm    [c]is
+SFX 6 cis kuÅ¡Äs    [c]is
+SFX 6 cis kuÅ¡ais   [c]is
+SFX 6 cis kuÅ¡ajam  [c]is
+SFX 6 cis kuÅ¡o     [c]is
+SFX 6 cis kuÅ¡ajÄ   [c]is
+SFX 6 cis kusÄ«     [c]is
+SFX 6 cis kuÅ¡ajai  [c]is
+SFX 6 cis kuÅ¡ie    [c]is
+SFX 6 cis kuÅ¡ajiem [c]is
+SFX 6 cis kuÅ¡ajos  [c]is
+SFX 6 cis kuÅ¡ajÄm  [c]is
+SFX 6 cis kuÅ¡ajÄs  [c]is
+SFX 6 dzis guÅ¡a     [d]zis
+SFX 6 dzis guÅ¡am    [d]zis
+SFX 6 dzis guÅ¡u     [d]zis
+SFX 6 dzis guÅ¡Ä     [d]zis
+SFX 6 dzis gusi     [d]zis
+SFX 6 dzis guÅ¡as    [d]zis
+SFX 6 dzis guÅ¡ai    [d]zis
+SFX 6 dzis guÅ¡i     [d]zis
+SFX 6 dzis guÅ¡iem   [d]zis
+SFX 6 dzis guÅ¡us    [d]zis
+SFX 6 dzis guÅ¡os    [d]zis
+SFX 6 dzis guÅ¡Äm    [d]zis
+SFX 6 dzis guÅ¡Äs    [d]zis
+SFX 6 dzis guÅ¡ais   [d]zis
+SFX 6 dzis guÅ¡ajam  [d]zis
+SFX 6 dzis guÅ¡o     [d]zis
+SFX 6 dzis guÅ¡ajÄ   [d]zis
+SFX 6 dzis gusÄ«     [d]zis
+SFX 6 dzis guÅ¡ajai  [d]zis
+SFX 6 dzis guÅ¡ie    [d]zis
+SFX 6 dzis guÅ¡ajiem [d]zis
+SFX 6 dzis guÅ¡ajos  [d]zis
+SFX 6 dzis guÅ¡ajÄm  [d]zis
+SFX 6 dzis guÅ¡ajÄs  [d]zis
+SFX 6 is uÅ¡a     [^d]zis
+SFX 6 is uÅ¡am    [^d]zis
+SFX 6 is uÅ¡u     [^d]zis
+SFX 6 is uÅ¡Ä     [^d]zis
+SFX 6 is usi     [^d]zis
+SFX 6 is uÅ¡as    [^d]zis
+SFX 6 is uÅ¡ai    [^d]zis
+SFX 6 is uÅ¡i     [^d]zis
+SFX 6 is uÅ¡iem   [^d]zis
+SFX 6 is uÅ¡us    [^d]zis
+SFX 6 is uÅ¡os    [^d]zis
+SFX 6 is uÅ¡Äm    [^d]zis
+SFX 6 is uÅ¡Äs    [^d]zis
+SFX 6 is uÅ¡ais   [^d]zis
+SFX 6 is uÅ¡ajam  [^d]zis
+SFX 6 is uÅ¡o     [^d]zis
+SFX 6 is uÅ¡ajÄ   [^d]zis
+SFX 6 is usÄ«     [^d]zis
+SFX 6 is uÅ¡ajai  [^d]zis
+SFX 6 is uÅ¡ie    [^d]zis
+SFX 6 is uÅ¡ajiem [^d]zis
+SFX 6 is uÅ¡ajos  [^d]zis
+SFX 6 is uÅ¡ajÄm  [^d]zis
+SFX 6 is uÅ¡ajÄs  [^d]zis
+
+SFX 7 Y 6
+SFX 7 t  is/6   [^ÄeÄÄ«Å«kos]t
+SFX 7 t  is/6   [^a]st
+SFX 7 kt cis/6   [k]t
+SFX 7 st dis/6   [a]st
+SFX 7 t  jis/6   [ÄÄÄ«oÅ«]t
+SFX 7 iet  gÄjis/6   iet
+
+
+SFX 8 Y 48
+SFX 8 aut Ävis/6  aut
+SFX 8 kt  cis/6   kt
+SFX 8 gt  dzis/6  gt
+SFX 8 emt Ämis/6  emt
+SFX 8 umt Å«mis/6  umt
+SFX 8 elt Älis/6  elt
+SFX 8 ilt Ä«lis/6  ilt
+SFX 8 ult Å«lis/6  ult
+SFX 8 Å«t  uvis/6  [^b]Å«t
+SFX 8 Å«t  ijis/6   [b]Å«t
+SFX 8 art Äris/6  art
+SFX 8 urt Å«ris/6  urt
+SFX 8 irt iris/6  irt
+SFX 8 ert Äris/6  ert
+SFX 8 ot  evis/6  ot
+SFX 8 iet Äjis/6  iet
+SFX 8 Ä«t  inis/6  [^rvlÄ·ptm]Ä«t
+SFX 8 Ä«t  ijis/6   [vlrm]Ä«t
+SFX 8 st  dis/6  [^aeiÄ«uÅ«lrm]st
+SFX 8 st  dis/6  [^p][r]ast
+SFX 8 st  tis/6   [p]rast
+SFX 8 st  tis/6   [c]iest
+SFX 8 st  dis/6   [^a]lst
+SFX 8 st  tis/6    [a]lst
+SFX 8 st  tis/6   [lm]est
+SFX 8 st  dis/6  [^c][^lm]est
+SFX 8 st  dis/6    [v]est
+SFX 8 st  tis/6  [^aÄ£r]ist
+SFX 8 st  dis/6     [Ä£]ist
+SFX 8 st  dis/6   [^k]rist
+SFX 8 st  tis/6    [k]rist
+SFX 8 st  tis/6   [^l]aist
+SFX 8 st  dis/6    [l]aist
+SFX 8 st  dis/6    [^v]Ä«st
+SFX 8 st  tis/6   [^s]vÄ«st
+SFX 8 st  dis/6    [s]vÄ«st
+SFX 8 st  dis/6 [^ajsÅ¡]ust
+SFX 8 st  tis/6   [jsÅ¡]ust
+SFX 8 st  dis/6   [^j]aust
+SFX 8 st  tis/6    [j]aust
+SFX 8 st  dis/6    [^p]Å«st
+SFX 8 st  tis/6     [p]Å«st
+SFX 8 st  dis/6  [^ÄÄi]rst
+SFX 8 st  tis/6   [Äi]rst
+SFX 8 st  dis/6  [^v]Ärst
+SFX 8 st  tis/6   [v]Ärst
+SFX 8 st  dis/6  [^i]mst
+SFX 8 st  tis/6   [i]mst
+
+SFX ^ Y 6
+SFX ^ Ä«t  inis/6  [^z]Ä«t
+SFX ^ Ä«t  ijis/6  [z]Ä«t
+SFX ^ Ä«t  ijis/6  [m]Ä«t
+SFX ^ irt Ä«ris/6  irt
+SFX ^ iet ejis/6  iet
+SFX ^ st  tis/6   est
+
+SFX & Y 20
+SFX & t ies  [^ÄÄÄ«or]t  is:vvna
+SFX & t uÅ¡Äs   [^ÄÄÄ«oÅ«r]t  is:vvga
+SFX & t uÅ¡os   [^ÄÄÄ«oÅ«r]t  is:vvaa
+SFX & t uÅ¡ies  [^ÄÄÄ«oÅ«r]t  is:dvna
+SFX & t usies  [^ÄÄÄ«oÅ«r]t  is:vsna
+SFX & t jies    [ÄÄÄ«oÅ«]t  is:vvna
+SFX & t juÅ¡Äs   [ÄÄÄ«oÅ«]t  is:vvga
+SFX & t juÅ¡os   [ÄÄÄ«oÅ«]t  is:vvaa
+SFX & t juÅ¡ies  [ÄÄÄ«oÅ«]t  is:dvna
+SFX & t jusies  [ÄÄÄ«oÅ«]t  is:vsna
+SFX & t ies    [^i]rt  is:vvna
+SFX & t uÅ¡Äs   [^i]rt  is:vvga
+SFX & t uÅ¡os   [^i]rt  is:vvaa
+SFX & t uÅ¡ies  [^i]rt  is:dvna
+SFX & t usies  [^i]rt  is:vsna
+SFX & irt Ä«ries    [i]rt  is:vvna
+SFX & irt Ä«ruÅ¡Äs   [i]rt  is:vvga
+SFX & irt Ä«ruÅ¡os   [i]rt  is:vvaa
+SFX & irt Ä«ruÅ¡ies  [i]rt  is:dvna
+SFX & irt Ä«rusies  [i]rt  is:vsna
+
+
+SFX * Y 215
+SFX * aut Ävies   aut  is:vvna
+SFX * aut ÄvuÅ¡Äs  aut  is:vvga
+SFX * aut ÄvuÅ¡os  aut  is:vvaa
+SFX * aut ÄvuÅ¡ies aut  is:dvna
+SFX * aut Ävusies aut  is:vsna
+SFX * kt  cies    kt  is:vvna
+SFX * kt  kuÅ¡Äs   kt  is:vvga
+SFX * kt  kuÅ¡os   kt  is:vvaa
+SFX * kt  kuÅ¡ies  kt  is:dvna
+SFX * kt  kusies  kt  is:vsna
+SFX * gt  dzies   gt  is:vvna
+SFX * gt  guÅ¡Äs   gt  is:vvga
+SFX * gt  guÅ¡os   gt  is:vvaa
+SFX * gt  guÅ¡ies  gt  is:dvna
+SFX * gt  gusies  gt  is:vsna
+SFX * emt Ämies    emt  is:vvna
+SFX * emt ÄmuÅ¡Äs   emt  is:vvga
+SFX * emt ÄmuÅ¡os   emt  is:vvaa
+SFX * emt ÄmuÅ¡ies  emt  is:dvna
+SFX * emt Ämusies  emt  is:vsna
+SFX * elt Älies    elt  is:vvna
+SFX * elt ÄluÅ¡Äs   elt  is:vvga
+SFX * elt ÄluÅ¡os   elt  is:vvaa
+SFX * elt ÄluÅ¡ies  elt  is:dvna
+SFX * elt Älusies  elt  is:vsna
+SFX * ilt Ä«lies    ilt  is:vvna
+SFX * ilt Ä«luÅ¡Äs   ilt  is:vvga
+SFX * ilt Ä«luÅ¡os   ilt  is:vvaa
+SFX * ilt Ä«luÅ¡ies  ilt  is:dvna
+SFX * ilt Ä«lusies  ilt  is:vsna
+SFX * ult Å«lies    ult  is:vvna
+SFX * ult Å«luÅ¡Äs   ult  is:vvga
+SFX * ult Å«luÅ¡os   ult  is:vvaa
+SFX * ult Å«luÅ¡ies  ult  is:dvna
+SFX * ult Å«lusies  ult  is:vsna
+SFX * Å«t  uvies    [^b]Å«t  is:vvna
+SFX * Å«t  uvuÅ¡Äs   [^b]Å«t  is:vvga
+SFX * Å«t  uvuÅ¡os   [^b]Å«t  is:vvaa
+SFX * Å«t  uvuÅ¡ies  [^b]Å«t  is:dvna
+SFX * Å«t  uvusies  [^b]Å«t  is:vsna
+SFX * urt Å«ries    urt  is:vvna
+SFX * urt Å«ruÅ¡Äs   urt  is:vvga
+SFX * urt Å«ruÅ¡os   urt  is:vvaa
+SFX * urt Å«ruÅ¡ies  urt  is:dvna
+SFX * urt Å«rusies  urt  is:vsna
+SFX * irt iries    irt  is:vvna
+SFX * irt iruÅ¡Äs   irt  is:vvga
+SFX * irt iruÅ¡os   irt  is:vvaa
+SFX * irt iruÅ¡ies  irt  is:dvna
+SFX * irt irusies  irt  is:vsna
+SFX * art Äries    art  is:vvna
+SFX * art ÄruÅ¡Äs   art  is:vvga
+SFX * art ÄruÅ¡os   art  is:vvaa
+SFX * art ÄruÅ¡ies  art  is:dvna
+SFX * art Ärusies  art  is:vsna
+SFX * ert Äries    ert  is:vvna
+SFX * ert ÄruÅ¡Äs   ert  is:vvga
+SFX * ert ÄruÅ¡os   ert  is:vvaa
+SFX * ert ÄruÅ¡ies  ert  is:dvna
+SFX * ert Ärusies  ert  is:vsna
+SFX * ot  evies    ot  is:vvna
+SFX * ot  evuÅ¡Äs   ot  is:vvga
+SFX * ot  evuÅ¡os   ot  is:vvaa
+SFX * ot  evuÅ¡ies  ot  is:dvna
+SFX * ot  evusies  ot  is:vsna
+SFX * iet Äjies    iet  is:vvna
+SFX * iet ÄjuÅ¡Äs   iet  is:vvga
+SFX * iet ÄjuÅ¡os   iet  is:vvaa
+SFX * iet ÄjuÅ¡ies  iet  is:dvna
+SFX * iet Äjusies  iet  is:vsna
+SFX * Ä«t  inies    [^brv]Ä«t  is:vvna
+SFX * Ä«t  inuÅ¡Äs   [^brv]Ä«t  is:vvga
+SFX * Ä«t  inuÅ¡os   [^brv]Ä«t  is:vvaa
+SFX * Ä«t  inuÅ¡ies  [^brv]Ä«t  is:dvna
+SFX * Ä«t  inusies  [^brv]Ä«t  is:vsna
+SFX * Ä«t  ijies     [brv]Ä«t  is:vvna
+SFX * Ä«t  ijuÅ¡Äs    [brv]Ä«t  is:vvga
+SFX * Ä«t  ijuÅ¡os    [brv]Ä«t  is:vvaa
+SFX * Ä«t  ijuÅ¡ies   [brv]Ä«t  is:dvna
+SFX * Ä«t  ijusies   [brv]Ä«t  is:vsna
+SFX * st  dies    [^aeiÄ«nuÅ«lr]st  is:vvna
+SFX * st  duÅ¡Äs   [^aeiÄ«nuÅ«lr]st  is:vvga
+SFX * st  duÅ¡os   [^aeiÄ«nuÅ«lr]st  is:vvaa
+SFX * st  duÅ¡ies  [^aeiÄ«nuÅ«lr]st  is:dvna
+SFX * st  dusies  [^aeiÄ«nuÅ«lr]st  is:vsna
+SFX * st  dies    [^p][r]ast  is:vvna
+SFX * st  duÅ¡Äs   [^p][r]ast  is:vvga
+SFX * st  duÅ¡os   [^p][r]ast  is:vvaa
+SFX * st  duÅ¡ies  [^p][r]ast  is:dvna
+SFX * st  dusies  [^p][r]ast  is:vsna
+SFX * st  ties      [p]rast  is:vvna
+SFX * st  tuÅ¡Äs     [p]rast  is:vvga
+SFX * st  tuÅ¡os     [p]rast  is:vvaa
+SFX * st  tuÅ¡ies    [p]rast  is:dvna
+SFX * st  tusies    [p]rast  is:vsna
+SFX * st  ties     [c]iest  is:vvna
+SFX * st  tuÅ¡Äs    [c]iest  is:vvda
+SFX * st  tuÅ¡os    [c]iest  is:vvaa
+SFX * st  tuÅ¡ies   [c]iest  is:dvna
+SFX * st  tusies   [c]iest  is:vsna
+SFX * st  dies     [^a]lst  is:vvna
+SFX * st  duÅ¡Äs    [^a]lst  is:vvga
+SFX * st  duÅ¡os    [^a]lst  is:vvaa
+SFX * st  duÅ¡ies   [^a]lst  is:dvna
+SFX * st  dusies   [^a]lst  is:vsna
+SFX * st  ties      [a]lst  is:vvna
+SFX * st  tuÅ¡Äs     [a]lst  is:vvga
+SFX * st  tuÅ¡os     [a]lst  is:vvaa
+SFX * st  tuÅ¡ies    [a]lst  is:dvna
+SFX * st  tusies    [a]lst  is:vsna
+SFX * st  ties     [lm]est  is:vvna
+SFX * st  tuÅ¡Äs    [lm]est  is:vvga
+SFX * st  tuÅ¡os    [lm]est  is:vvaa
+SFX * st  tuÅ¡ies   [lm]est  is:dvna
+SFX * st  tusies   [lm]est  is:vsna
+SFX * st  dies    [^c][^lm]est  is:vvna
+SFX * st  duÅ¡Äs   [^c][^lm]est  is:vvga
+SFX * st  duÅ¡os   [^c][^lm]est  is:vvaa
+SFX * st  duÅ¡ies  [^c][^lm]est  is:dvna
+SFX * st  dusies  [^c][^lm]est  is:vsna
+SFX * st  dies    [v]est  is:vvna
+SFX * st  duÅ¡Äs   [v]est  is:vvga
+SFX * st  duÅ¡os   [v]est  is:vvaa
+SFX * st  duÅ¡ies  [v]est  is:dvna
+SFX * st  dusies  [v]est  is:vsna
+SFX * st  ties    [^aÄ£r]ist  is:vvna
+SFX * st  tuÅ¡Äs   [^aÄ£r]ist  is:vvga
+SFX * st  tuÅ¡os   [^aÄ£r]ist  is:vvaa
+SFX * st  tuÅ¡ies  [^aÄ£r]ist  is:dvna
+SFX * st  tusies  [^aÄ£r]ist  is:vsna
+SFX * st  dies       [Ä£]ist  is:vvna
+SFX * st  duÅ¡Äs      [Ä£]ist  is:vvga
+SFX * st  duÅ¡os      [Ä£]ist  is:vvaa
+SFX * st  duÅ¡ies     [Ä£]ist  is:dvna
+SFX * st  dusies     [Ä£]ist  is:vsna
+SFX * st  dies     [^k]rist  is:vvna
+SFX * st  duÅ¡Äs    [^k]rist  is:vvga
+SFX * st  duÅ¡os    [^k]rist  is:vvaa
+SFX * st  duÅ¡ies   [^k]rist  is:dvna
+SFX * st  dusies   [^k]rist  is:vsna
+SFX * st  ties      [k]rist  is:vvna
+SFX * st  tuÅ¡Äs     [k]rist  is:vvga
+SFX * st  tuÅ¡os     [k]rist  is:vvaa
+SFX * st  tuÅ¡ies    [k]rist  is:dvna
+SFX * st  tusies    [k]rist  is:vsna
+SFX * st  ties     [^l]aist  is:vvna
+SFX * st  tuÅ¡Äs    [^l]aist  is:vvga
+SFX * st  tuÅ¡os    [^l]aist  is:vvaa
+SFX * st  tuÅ¡ies   [^l]aist  is:dvna
+SFX * st  tusies   [^l]aist  is:vsna
+SFX * st  dies      [l]aist  is:vvna
+SFX * st  duÅ¡Äs     [l]aist  is:vvga
+SFX * st  duÅ¡os     [l]aist  is:vvaa
+SFX * st  duÅ¡ies    [l]aist  is:dvna
+SFX * st  dusies    [l]aist  is:vsna
+SFX * st  dies      [^v]Ä«st  is:vvna
+SFX * st  duÅ¡Äs     [^v]Ä«st  is:vvga
+SFX * st  duÅ¡os     [^v]Ä«st  is:vvaa
+SFX * st  duÅ¡ies    [^v]Ä«st  is:dvna
+SFX * st  dusies    [^v]Ä«st  is:vsna
+SFX * st  ties     [^s]vÄ«st  is:vvna
+SFX * st  tuÅ¡Äs    [^s]vÄ«st  is:vvga
+SFX * st  tuÅ¡os    [^s]vÄ«st  is:vvaa
+SFX * st  tuÅ¡ies   [^s]vÄ«st  is:dvna
+SFX * st  tusies   [^s]vÄ«st  is:vsna
+SFX * st  dies      [s]vÄ«st  is:vvna
+SFX * st  duÅ¡Äs     [s]vÄ«st  is:vvga
+SFX * st  duÅ¡os     [s]vÄ«st  is:vvaa
+SFX * st  duÅ¡ies    [s]vÄ«st  is:dvna
+SFX * st  dusies    [s]vÄ«st  is:vsna
+SFX * st  dies      [^v]Ärst  is:vvna
+SFX * st  duÅ¡Äs     [^v]Ärst  is:vvga
+SFX * st  duÅ¡os     [^v]Ärst  is:vvaa
+SFX * st  duÅ¡ies    [^v]Ärst  is:dvna
+SFX * st  dusies    [^v]Ärst  is:vsna
+SFX * st  ties     [v]Ärst  is:vvna
+SFX * st  tuÅ¡Äs    [v]Ärst  is:vvga
+SFX * st  tuÅ¡os    [v]Ärst  is:vvaa
+SFX * st  tuÅ¡ies   [v]Ärst  is:dvna
+SFX * st  tusies   [v]Ärst  is:vsna
+SFX * st  dies   [^ajsÅ¡]ust  is:vvna
+SFX * st  duÅ¡Äs  [^ajsÅ¡]ust  is:vvga
+SFX * st  duÅ¡os  [^ajsÅ¡]ust  is:vvaa
+SFX * st  duÅ¡ies [^ajsÅ¡]ust  is:dvna
+SFX * st  dusies [^ajsÅ¡]ust  is:vsna
+SFX * st  ties     [jsÅ¡]ust  is:vvna
+SFX * st  tuÅ¡Äs    [jsÅ¡]ust  is:vvga
+SFX * st  tuÅ¡os    [jsÅ¡]ust  is:vvaa
+SFX * st  tuÅ¡ies   [jsÅ¡]ust  is:dvna
+SFX * st  tusies   [jsÅ¡]ust  is:vsna
+SFX * st  dies     [^j]aust  is:vvna
+SFX * st  duÅ¡Äs    [^j]aust  is:vvga
+SFX * st  duÅ¡os    [^j]aust  is:vvaa
+SFX * st  duÅ¡ies   [^j]aust  is:dvna
+SFX * st  dusies   [^j]aust  is:vsna
+SFX * st  ties      [j]aust  is:vvna
+SFX * st  tuÅ¡Äs     [j]aust  is:vvga
+SFX * st  tuÅ¡os     [j]aust  is:vvaa
+SFX * st  tuÅ¡ies    [j]aust  is:dvna
+SFX * st  tusies    [j]aust  is:vsna
+SFX * st  dies      [^p]Å«st  is:vvna
+SFX * st  duÅ¡Äs     [^p]Å«st  is:vvga
+SFX * st  duÅ¡os     [^p]Å«st  is:vvaa
+SFX * st  duÅ¡ies    [^p]Å«st  is:dvna
+SFX * st  dusies    [^p]Å«st  is:vsna
+SFX * st  ties       [p]Å«st  is:vvna
+SFX * st  tuÅ¡Äs      [p]Å«st  is:vvga
+SFX * st  tuÅ¡os      [p]Å«st  is:vvaa
+SFX * st  tuÅ¡ies     [p]Å«st  is:dvna
+SFX * st  tusies     [p]Å«st  is:vsna
+SFX * st  ties       nst  is:vvna
+SFX * st  tuÅ¡Äs      nst  is:vvga
+SFX * st  tuÅ¡os      nst  is:vvaa
+SFX * st  tuÅ¡ies     nst  is:dvna
+SFX * st  tusies     nst  is:vsna
+
+SFX 0 Y 104
+SFX 0  t     oÅ¡s/W   [^begÄ«klmprsÅ«o]t
+SFX 0  Äbt   ebjoÅ¡s/W  [Ä]bt
+SFX 0  iet   ejoÅ¡s/WYX  [^s]iet
+SFX 0  t     noÅ¡s/W    [s]iet
+SFX 0  gt    dzoÅ¡s/W  [^ai]gt
+SFX 0  agt   ogoÅ¡s/W    [a]gt
+SFX 0  gt    egoÅ¡s/W   [mnrt]igt
+SFX 0  gt    dzoÅ¡s/W  [^mnrt]igt
+SFX 0  Ä«t    enoÅ¡s/W  [^rvm]Ä«t
+SFX 0  Ä«t    ijoÅ¡s/W    [rvm]Ä«t
+SFX 0  kt    coÅ¡s/WYX [^ailru]kt
+SFX 0  akt   okoÅ¡s/W       akt
+SFX 0  ukt   Å«koÅ¡s/W   [^a]ukt
+SFX 0  kt    coÅ¡s/W     [a]ukt
+SFX 0  ilkt  elkoÅ¡s/W   [i]lkt
+SFX 0  kt    coÅ¡s/W    [^i]lkt
+SFX 0  irkt  ÄrkoÅ¡s/W   [i]rkt
+SFX 0  kt    coÅ¡s/W    [^i]rkt
+SFX 0  kt    coÅ¡s/W   [^lnt]ikt
+SFX 0  kt    ekoÅ¡s/WYX    [l]ikt
+SFX 0  ikt   Ä«koÅ¡s/WYX    [nt]ikt
+SFX 0  lt    Ä¼oÅ¡s/W     lt
+SFX 0  t     joÅ¡s/W     mt
+SFX 0  pt    oÅ¡s/W  [^aiur]pt
+SFX 0  apt   opoÅ¡s/W    [a]pt
+SFX 0  ipt   Ä«poÅ¡s/W    [i]pt
+SFX 0  upt   Å«poÅ¡s/W    [u]pt
+SFX 0  irpt  ÄrpoÅ¡s/W  [i]rpt
+SFX 0  Ärt   aroÅ¡s/W   [Ä]rt
+SFX 0  Ärt   eroÅ¡s/W   [Ä]rt
+SFX 0  irt   erdoÅ¡s/W   [i]rt
+SFX 0  ast   otoÅ¡s/WYX    [a]st
+SFX 0  st    doÅ¡s/W  [^mi]est
+SFX 0  st    Å¾oÅ¡s/W    [i]est
+SFX 0  st    toÅ¡s/W    [m]est
+SFX 0  st    doÅ¡s/W     [Ä]st
+SFX 0  st    Å¾oÅ¡s/W   [Ä«oÅ«]st
+SFX 0  ist   Ä«toÅ¡s/W [^aÄ£Ä·sr]ist
+SFX 0  st    Å¾oÅ¡s/W      [a]ist
+SFX 0  st    edoÅ¡s/WYX     [Ä£]ist
+SFX 0  st    etoÅ¡s/W     [Ä·]ist
+SFX 0  st    toÅ¡s/W      [s]ist
+SFX 0  ist   Ä«toÅ¡s/WYX    [k]rist
+SFX 0  st    enoÅ¡s/W    [b]rist
+SFX 0  irst  ÄrtoÅ¡s/W  [i]rst
+SFX 0  st    Å¾oÅ¡s/W    [Ä]rst
+SFX 0  st    Å¾oÅ¡s/W  [^jkzsÅ¡]ust
+SFX 0  ust   Å«toÅ¡s/WYX     [jsÅ¡]ust
+SFX 0  ust   Å«stoÅ¡s/W    [k]ust
+SFX 0  ust   Å«doÅ¡s/W     [z]ust
+SFX 0  Å«t    ujoÅ¡s/W     Å«t
+SFX 0  ot    odoÅ¡s/W     ot
+SFX 0  t     ams/W   [^begÄ«klmprsÅ«o]t
+SFX 0  Äbt   ebjams/W  [Ä]bt
+SFX 0  iet   ejams/WYX   [^s]iet
+SFX 0  t     nams/W    [s]iet
+SFX 0  gt    dzams/W  [^ai]gt
+SFX 0  agt   ogams/W  [a]gt
+SFX 0  gt    egams/W  [mnrt]igt
+SFX 0  gt    dzams/W  [^mnrt]igt
+SFX 0  Ä«t    enams/WYX   [^rvm]Ä«t
+SFX 0  Ä«t    ijams/W   [rvm]Ä«t
+SFX 0  kt    cams/W   [^ailru]kt
+SFX 0  akt   okams/W    akt
+SFX 0  ukt   Å«kams/W  [^a]ukt
+SFX 0  kt    cams/W    [a]ukt
+SFX 0  ilkt  elkams/WYX  [i]lkt
+SFX 0  kt    cams/W   [^i]lkt
+SFX 0  irkt  Ärkams/WYX   [i]rkt
+SFX 0  kt    cams/W    [^i]rkt
+SFX 0  kt    cams/W  [^lnt]ikt
+SFX 0  kt    ekams/W   [l]ikt
+SFX 0  ikt   Ä«kams/WYX   [nt]ikt
+SFX 0  lt    Ä¼ams/W     lt
+SFX 0  t     jams/W     mt
+SFX 0  pt    ams/W    [^aiur]pt
+SFX 0  apt   opams/W   [a]pt
+SFX 0  ipt   Ä«pams/W   [i]pt
+SFX 0  upt   Å«pams/W   [u]pt
+SFX 0  irpt  Ärpams/WYX [i]rpt
+SFX 0  Ärt   arams/W   [Ä]rt
+SFX 0  Ärt   erams/W   [Ä]rt
+SFX 0  irt   erdams/W  [i]rt
+SFX 0  ast   otams/WYX   [a]st
+SFX 0  st    dams/W   [^mi]est
+SFX 0  st    Å¾ams/W    [i]est
+SFX 0  st    tams/W    [m]est
+SFX 0  st    dams/W    [Ä]st
+SFX 0  st    Å¾ams/W    [Ä«oÅ«]st
+SFX 0  ist   Ä«tams/W   [^aÄ£Ä·sr]ist
+SFX 0  st    Å¾ams/W    [a]ist
+SFX 0  st    edams/WYX   [Ä£]ist
+SFX 0  st    etams/W   [Ä·]ist
+SFX 0  ist   Ä«tams/WYX   [k]rist
+SFX 0  st    enams/W   [b]rist
+SFX 0  st    tams/W    [s]ist
+SFX 0  irst  Ärtams/WYX  [i]rst
+SFX 0  st    Å¾ams/W    [Ä]rst
+SFX 0  st    Å¾ams/W    [^jzksÅ¡]ust
+SFX 0  ust   Å«stams/W  [k]ust
+SFX 0  ust   Å«dams/W   [z]ust
+SFX 0  ust   Å«tams/WYX   [jsÅ¡]ust
+SFX 0  Å«t    ujams/W     Å«t
+SFX 0  ot    odams/WYX   ot
+
+
+
+SFX 1 Y 36
+SFX 1  t   oÅ¡s/W   [^ÄÄÄ«eouÅ«bkmpsz]t
+SFX 1  t   joÅ¡s/WYX  [ÄÄÄ«ouÅ«]t
+SFX 1  t   noÅ¡s/W  [i]et
+SFX 1  t   oÅ¡s/W   [^Äi]kt
+SFX 1  Äkt ecoÅ¡s/W  [Ä]kt
+SFX 1  kt  ekoÅ¡s/WYX  [i]kt
+SFX 1  zt  Å¾oÅ¡s/W    zt
+SFX 1  t   oÅ¡s/W   [^Äeor]bt
+SFX 1  t   joÅ¡s/W   [Äeor]bt
+SFX 1  t   oÅ¡s/WYX    [Å]emt
+SFX 1  t   joÅ¡s/W   [^e]pt
+SFX 1  t   joÅ¡s/W  [^c]ept
+SFX 1  t   oÅ¡s/W    [c]ept
+SFX 1  st  Å¡oÅ¡s/W [^eiÄ«]st
+SFX 1  st  Å¡oÅ¡s/W  [^n]est
+SFX 1  t   oÅ¡s/W    [n]est
+SFX 1  st  estoÅ¡s/W  [i]st
+SFX 1  Ä«st ienoÅ¡s/W  [Ä«]st
+SFX 1  t   ams/W   [^ÄÄÄ«eouÅ«bkmpsz]t
+SFX 1  t   jams/WYX  [ÄÄÄ«ouÅ«]t
+SFX 1  t   nams/W    [i]et
+SFX 1  t   ams/W   [^Äi]kt
+SFX 1  Äkt ecams/W   [Ä]kt
+SFX 1  kt  ekams/WYX [i]kt
+SFX 1  zt  Å¾ams/W     zt
+SFX 1  t   ams/W  [^Äeor]bt
+SFX 1  t   jams/W  [Äeor]bt
+SFX 1  t   ams/WYX  [Å]emt
+SFX 1  t   jams/W   [^e]pt
+SFX 1  t   jams/W  [^c]ept
+SFX 1  t   ams/W    [c]ept
+SFX 1  st  Å¡ams/W [^eiÄ«]st
+SFX 1  st  Å¡ams/WYX  [^n]est
+SFX 1  t   ams/WYX    [n]est
+SFX 1  st  estams/W  [i]st
+SFX 1  Ä«st ienams/W  [Ä«]st
+
+
+
+SFX 2 Y 30
+SFX 2  t    stoÅ¡s/W [^ÄÄÄ«sz]t
+SFX 2  Ät   oÅ¡s/WYX   Ät
+SFX 2  Ät   oÅ¡s/WYX     [^c]Ät
+SFX 2  Ät   oÅ¡s/WYX   [^Äe]cÄt
+SFX 2  cÄt  koÅ¡s/WYX    [Ä]cÄt
+SFX 2  Ät   oÅ¡s/WYX   [^t]ecÄt
+SFX 2  cÄt  koÅ¡s/WYX   [t]ecÄt
+SFX 2  Ä«t   oÅ¡s/WYX     [^cz]Ä«t
+SFX 2  cÄ«t  koÅ¡s/WYX  [^ÄÄ«r]cÄ«t
+SFX 2  Ä«t   oÅ¡s/WYX    [ÄÄ«r]cÄ«t
+SFX 2  Ä«t   oÅ¡s/WYX   [^atd]zÄ«t
+SFX 2  dzÄ«t goÅ¡s/WYX     [d]zÄ«t
+SFX 2  t    stoÅ¡s/W   [at]zÄ«t
+SFX 2  0    oÅ¡s/W   [sz]t
+SFX 2  t    stams/W [^ÄÄÄ«sz]t
+SFX 2  t    ms/WYX    [^d]Ät
+SFX 2  Ät   ams/WYX    [d]Ät
+SFX 2  Ät   ams/WYX     [^c]Ät
+SFX 2  Ät   ams/WYX   [^Äe]cÄt
+SFX 2  cÄt  kams/WYX    [Ä]cÄt
+SFX 2  Ät   ams/WYX   [^t]ecÄt
+SFX 2  cÄt  kams/WYX   [t]ecÄt
+SFX 2  Ä«t   Äms/WYX    [^zc]Ä«t
+SFX 2  cÄ«t  kÄms/WYX [^ÄÄ«r]cÄ«t
+SFX 2  Ä«t   Äms/WYX   [ÄÄ«r]cÄ«t
+SFX 2  Ä«t   Äms/WYX  [^atd]zÄ«t
+SFX 2  Ä«t   Äms/WYX    [^d]zÄ«t
+SFX 2  dzÄ«t gÄms/WYX    [d]zÄ«t
+SFX 2  t    stams/W  [at]zÄ«t
+SFX 2  0    ams/W   [sz]t
+
+SFX % Y 11
+SFX %  t  stoÅ¡s/W   [lz]Ä«t
+SFX %  t  stams/WXY [lz]Ä«t
+SFX %  t  stoÅ¡ies   [lz]Ä«t
+SFX %  ast odoÅ¡s/WXY ast
+SFX %  ast odams/WXY ast
+SFX %  ast odoÅ¡ies    ast
+SFX %  Ä«t inoÅ¡s/W   [mÄ·prt]Ä«t
+SFX %  Ä«t inams/WXY [mÄ·prt]Ä«t
+SFX %  Ä«t inoÅ¡ies    [mÄ·prt]Ä«t
+SFX %  iet ejoÅ¡s/WXY iet
+SFX %  iet ejams/WXY iet
+
+SFX 3 Y 4
+SFX 3   t    dams    t
+SFX 3   t    dama    t
+SFX 3   t    dami    t
+SFX 3   t    damas   t
+
+SFX 4 Y 4
+SFX 4   st   zdams   [s]t
+SFX 4   st   zdama   [s]t
+SFX 4   st   zdami   [s]t
+SFX 4   st   zdamas  [s]t
+
+
+SFX 9 Y 88
+SFX 9 t   ju   [ÄÄubmp]t  is:1vtt0
+SFX 9 t   0    [bmp]t     is:2vtt0
+SFX 9 t   j    [ÄÄubmp]t  is:3xtt0
+SFX 9 t   jam  [ÄÄubmp]t  is:1dtt0
+SFX 9 t   jat  [ÄÄubmp]t  is:2dtt0
+SFX 9 t   jot  [ÄÄubmp]t  is:0xtta
+SFX 9 t   j/]| [ÄÄubmp]t  is:0xttv
+SFX 9 t   jiet [ÄÄu]t  is:2dttp
+SFX 9 t   iet  [bmp]t  is:2dttp
+SFX 9 gt  dzu   [g]t  is:1vtt0
+SFX 9 gt  dz    [g]t  is:3xtt0
+SFX 9 gt  dzam  [g]t  is:1dtt0
+SFX 9 gt  dzat  [g]t  is:2dtt0
+SFX 9 gt  dzot  [g]t  is:0xtta
+SFX 9 gt  dziet [g]t  is:2dttp
+SFX 9 gt  dz/]| [g]t  is:0xttv
+SFX 9 kt  cu     [k]t  is:1vtt0
+SFX 9 kt  c      [k]t  is:2vtt0
+SFX 9 kt  cam    [k]t  is:1dtt0
+SFX 9 kt  cat    [k]t  is:2dtt0
+SFX 9 kt  cot    [k]t  is:0xtta
+SFX 9 kt  ciet   [k]t  is:2dttp
+SFX 9 kt  c/]|   [k]t  is:0xttv
+SFX 9 Ä«t  inu   [Ä«]t  is:1vtt0
+SFX 9 Ä«t  in    [Ä«]t  is:0vtt0
+SFX 9 Ä«t  inam  [Ä«]t  is:1dtt0
+SFX 9 Ä«t  inat  [Ä«]t  is:2dtt0
+SFX 9 Ä«t  iniet [Ä«]t  is:2dttp
+SFX 9 Ä«t  inot  [Ä«]t  is:0xtta
+SFX 9 Ä«t  in/]| [Ä«]t  is:0xttv
+SFX 9 Å«t  uju    [Å«]t  is:1vtt0
+SFX 9 Å«t  uj     [Å«]t  is:2vtt0
+SFX 9 Å«t  ujam   [Å«]t  is:1dtt0
+SFX 9 Å«t  ujat   [Å«]t  is:2dtt0
+SFX 9 Å«t  ujot   [Å«]t  is:0xtta
+SFX 9 Å«t  ujiet  [Å«]t  is:2dttp
+SFX 9 Å«t  uj/]|  [Å«]t  is:0xttv
+SFX 9 zt  Å¾u    [z]t  is:1vtt0
+SFX 9 t   0     [z]t  is:2vtt0
+SFX 9 zt  Å¾     [z]t  is:3dtt0
+SFX 9 zt  Å¾am   [z]t  is:1dtt0
+SFX 9 zt  Å¾at   [z]t  is:2dtt0
+SFX 9 zt  Å¾ot   [z]t  is:0xtta
+SFX 9 zt  Å¾/]|  [z]t  is:0xttv
+SFX 9 st  Å¾u     [s]t  is:1vtt0
+SFX 9 st  d      [s]t  is:2vtt0
+SFX 9 st  Å¾      [s]t  is:3xtt0
+SFX 9 st  Å¾am    [s]t  is:1dtt0
+SFX 9 st  Å¾at    [s]t  is:2dtt0
+SFX 9 st  Å¾ot    [s]t  is:0xtta
+SFX 9 st  diet   [s]t  is:2dttp
+SFX 9 st  Å¾/]|   [s]t  is:0xttv
+SFX 9 t   iet   [lz]t  is:2dttp
+SFX 9 lt  Ä¼u    [l]t  is:1vtt0
+SFX 9 t   0     [l]t  is:2vtt0
+SFX 9 lt  Ä¼     [l]t  is:3xtt0
+SFX 9 lt  Ä¼am   [l]t  is:1dtt0
+SFX 9 lt  Ä¼at   [l]t  is:2dtt0
+SFX 9 lt  Ä¼ot   [l]t  is:0xtta
+SFX 9 lt  Ä¼/]|  [l]t  is:0xttv
+SFX 9 t   u    [^ÄÄi][r]t  is:1vtt0
+SFX 9 t   0    [^ÄÄi][r]t  is:2vtt0
+SFX 9 t   am   [^ÄÄi][r]t  is:1dtt0
+SFX 9 t   at   [^ÄÄi][r]t  is:2dtt0
+SFX 9 t   iet  [^ÄÄi][r]t  is:2dttp
+SFX 9 t   ot   [^ÄÄi][r]t  is:0xtta
+SFX 9 t   0/]| [^ÄÄi][r]t  is:0xttv
+SFX 9 Ärt  aru    [Ä]rt  is:1vtt0
+SFX 9 Ärt  ar     [Ä]rt  is:2vtt0
+SFX 9 Ärt  aram   [Ä]rt  is:1dtt0
+SFX 9 Ärt  arat   [Ä]rt  is:2dtt0
+SFX 9 Ärt  arot   [Ä]rt  is:0xtta
+SFX 9 Ärt  ariet  [Ä]rt  is:2dttp
+SFX 9 Ärt  ar/]|  [Ä]rt  is:0xttv
+SFX 9 Ärt  eru   [Ä]rt  is:1vtt0
+SFX 9 Ärt  er    [Ä]rt  is:2vtt0
+SFX 9 Ärt  eram  [Ä]rt  is:1dtt0
+SFX 9 Ärt  erat  [Ä]rt  is:2dtt0
+SFX 9 Ärt  erot  [Ä]rt  is:0xtta
+SFX 9 Ärt  eriet [Ä]rt  is:2dttp
+SFX 9 Ärt  er/]| [Ä]rt  is:0xttv
+SFX 9 irt  erdu   [i]rt  is:1vtt0
+SFX 9 irt  erd    [i]rt  is:2vtt0
+SFX 9 irt  erdam  [i]rt  is:1dtt0
+SFX 9 irt  erdat  [i]rt  is:2dtt0
+SFX 9 irt  erdot  [i]rt  is:0xtta
+SFX 9 irt  erdiet [i]rt  is:2dttp
+SFX 9 irt  erd/]| [i]rt  is:0xttv
+
+
+SFX A Y 131
+SFX A t  u    [^beÄ«kps]t   is:1vtt0
+SFX A t  i    [^beÄ«gkps]t  is:2vtt0
+SFX A t  0    [^beÄ«kps]t   is:3xtt0
+SFX A t  am   [^beÄ«kps]t   is:1dtt0
+SFX A t  at   [^beÄ«kps]t   is:2dtt0
+SFX A t  iet  [^beÄ«gkps]t  is:2dttp
+SFX A t  ot   [^beÄ«kps]t   is:0xtta
+SFX A t  0/]| [^beÄ«kps]t   is:0xttv
+SFX A gt  dz     [g]t    is:2vtt0
+SFX A gt  dziet  [g]t    is:2dttp
+SFX A t  u     [^Ä]kt   is:1vtt0
+SFX A t  0     [^Ä]kt   is:3xtt0
+SFX A t  am    [^Ä]kt   is:1dtt0
+SFX A t  at    [^Ä]kt   is:2dtt0
+SFX A t  ot    [^Ä]kt   is:0xtta
+SFX A kt  c    [^Ä]kt   is:2vtt0
+SFX A kt  ciet [^Ä]kt   is:2dttp
+SFX A t  0/]|  [^Ä]kt   is:0xttv
+SFX A Äkt ecu   [Ä]kt   is:1vtt0
+SFX A Äkt ec    [Ä]kt   is:3xtt0
+SFX A Äkt ecam  [Ä]kt   is:1dtt0
+SFX A Äkt ecat  [Ä]kt   is:2dtt0
+SFX A Äkt ecot  [Ä]kt   is:0xtta
+SFX A Äkt eciet [Ä]kt   is:2dttp
+SFX A Äkt ec/]| [Ä]kt   is:0xttv
+SFX A Äbt  ebju  [Ä]bt   is:1vtt0
+SFX A Äbt  eb    [Ä]bt   is:2vtt0
+SFX A Äbt  ebj   [Ä]bt   is:3xtt0
+SFX A Äbt  ebjam [Ä]bt   is:1dtt0
+SFX A Äbt  ebjat [Ä]bt   is:2dtt0
+SFX A Äbt  ebiet [Ä]bt   is:2dttp
+SFX A Äbt  ebjot [Ä]bt   is:0xtta
+SFX A Äbt  ebj/]| [Ä]bt  is:0xttv
+SFX A t    u    [e]pt   is:1vtt0
+SFX A t    i    [e]pt   is:2vtt0
+SFX A t    0    [e]pt   is:3xtt0
+SFX A t    am   [e]pt   is:1dtt0
+SFX A t    at   [e]pt   is:2dtt0
+SFX A t    iet  [e]pt   is:2dttp
+SFX A t    ot   [e]pt   is:0xtta
+SFX A t    0/]| [e]pt   is:0xttv
+SFX A upt  Å«pu   [u]pt   is:1vtt0
+SFX A upt  Å«pi   [u]pt   is:2vtt0
+SFX A upt  Å«p    [u]pt   is:3xtt0
+SFX A upt  Å«pam  [u]pt   is:1dtt0
+SFX A upt  Å«pat  [u]pt   is:2dtt0
+SFX A upt  Å«piet [u]pt   is:2dttp
+SFX A upt  Å«pot  [u]pt   is:0xtta
+SFX A upt  Å«p/]| [u]pt   is:0xttv
+SFX A t  u    [^aÄiÄ«ur]st  is:1vtt0
+SFX A t  0    [^aÄiÄ«ur]st  is:0vtt0
+SFX A t  am   [^aÄiÄ«ur]st  is:1dtt0
+SFX A t  at   [^aÄiÄ«ur]st  is:2dtt0
+SFX A t  iet  [^aÄiÄ«ur]st  is:2dttp
+SFX A t  ot   [^aÄiÄ«ur]st  is:0xtta
+SFX A t  0/]| [^aÄiÄ«ur]st  is:0xttv
+SFX A st  Å¡u    [r]st    is:1vtt0
+SFX A st  t     [r]st    is:2vtt0
+SFX A st  Å¡     [r]st    is:3xtt0
+SFX A st  Å¡am   [r]st    is:1dtt0
+SFX A st  Å¡at   [r]st    is:2dtt0
+SFX A st  tiet  [r]st    is:2dttp
+SFX A st  Å¡ot   [r]st    is:0xtta
+SFX A st  Å¡/]|  [r]st    is:0xttv
+SFX A ast  otu    [a]st   is:1vtt0
+SFX A ast  oti    [a]st   is:2vtt0
+SFX A ast  ot     [a]st   is:3xtt0
+SFX A ast  otam   [a]st   is:1dtt0
+SFX A ast  otat   [a]st   is:2dtt0
+SFX A ast  otiet  [a]st   is:2dttp
+SFX A ast  otot   [a]st   is:0xtta
+SFX A ast  ot/]|  [a]st   is:0xttv
+SFX A Ä«st  ienu   [Ä«]st   is:1vtt0
+SFX A Ä«st  ien    [Ä«]st   is:0vtt0
+SFX A Ä«st  ienam  [Ä«]st   is:1dtt0
+SFX A Ä«st  ienat  [Ä«]st   is:2dtt0
+SFX A Ä«st  ieniet [Ä«]st   is:2dttp
+SFX A Ä«st  ienot  [Ä«]st   is:0xtta
+SFX A Ä«st  ien/]| [Ä«]st   is:0xttv
+SFX A st  edu    [Ä£]ist  is:1vtt0
+SFX A st  edi    [Ä£]ist  is:2vtt0
+SFX A st  ed     [Ä£]ist  is:3xtt0
+SFX A st  edam   [Ä£]ist  is:1dtt0
+SFX A st  edat   [Ä£]ist  is:2dtt0
+SFX A st  ediet  [Ä£]ist  is:2dttp
+SFX A st  edot   [Ä£]ist  is:0xtta
+SFX A st  ed/]|  [Ä£]ist  is:0xttv
+SFX A st  etu    [Ä·]ist   is:1vtt0
+SFX A st  eti    [Ä·]ist   is:2vtt0
+SFX A st  et     [Ä·]ist   is:3xtt0
+SFX A st  etam   [Ä·]ist   is:1dtt0
+SFX A st  etat   [Ä·]ist   is:2dtt0
+SFX A st  etiet  [Ä·]ist   is:2dttp
+SFX A st  etot   [Ä·]ist   is:0xtta
+SFX A st  et/]|  [Ä·]ist   is:0xttv
+SFX A st  enu    [r]ist  is:1vtt0
+SFX A st  en     [r]ist  is:0vtt0
+SFX A st  enam   [r]ist  is:1dtt0
+SFX A st  enat   [r]ist  is:2dtt0
+SFX A st  eniet  [r]ist  is:2dttp
+SFX A st  enot   [r]ist  is:0xtta
+SFX A st  en/]|  [r]ist  is:0xttv
+SFX A iet eju    [i]et  is:1vtt0
+SFX A iet ej     [i]et  is:0vtt0
+SFX A iet ejam   [i]et  is:1dtt0
+SFX A iet ejat   [i]et  is:2dtt0
+SFX A iet ejiet  [i]et  is:2dttp
+SFX A iet ejot   [i]et  is:0xtta
+SFX A iet ej/]|  [i]et  is:0xttv
+SFX A Ä«t iju    [mrv]Ä«t   is:1vtt0
+SFX A Ä«t ij     [mrv]Ä«t   is:0vtt0
+SFX A Ä«t ijam   [mrv]Ä«t   is:1dtt0
+SFX A Ä«t ijat   [mrv]Ä«t   is:2dtt0
+SFX A Ä«t ijiet  [mrv]Ä«t   is:2dttp
+SFX A Ä«t ijot   [mrv]Ä«t   is:0xtta
+SFX A Ä«t ij/]|  [mrv]Ä«t   is:0xttv
+SFX A Ä«t enu    [d]zÄ«t   is:1vtt0
+SFX A Ä«t en     [d]zÄ«t   is:0vtt0
+SFX A Ä«t enam   [d]zÄ«t   is:1dtt0
+SFX A Ä«t enat   [d]zÄ«t   is:2dtt0
+SFX A Ä«t eniet  [d]zÄ«t   is:2dttp
+SFX A Ä«t enot   [d]zÄ«t   is:0xtta
+SFX A Ä«t en/]|  [d]zÄ«t   is:0xttv
+SFX A bÅ«t esmu   bÅ«t   is:1vtt0
+SFX A bÅ«t esi    bÅ«t   is:0vtt0
+SFX A bÅ«t ir     bÅ«t   is:0vtt0
+SFX A bÅ«t esam   bÅ«t   is:1dtt0
+SFX A bÅ«t esat   bÅ«t   is:2dtt0
+SFX A bÅ«t esiet  bÅ«t   is:2dttp
+SFX A bÅ«t esot   bÅ«t   is:0xtta
+SFX A bÅ«t ir/]|  bÅ«t   is:0xttv
+
+
+SFX F Y 296
+SFX F  Ät  u    [^j]Ät   is:1vtt0
+SFX F  Ät  i    [^j]Ät   is:2vtt0
+SFX F  Ät  a    [^jd]Ät   is:3xtt0
+SFX F  Ät  Äm   [^jd]Ät   is:1dtt0
+SFX F  Ät  ot   [^j]Ät   is:0xtta
+SFX F  Ät  iet  [^j]Ät   is:2dttp
+SFX F  Ät  a/]| [^jd]Ät   is:0xttv
+SFX F  Ät  0    [eu]dÄt   is:3xtt0
+SFX F  Ät  am   [eu]dÄt   is:1dtt0
+SFX F  Ät  at   [eu]dÄt   is:2dtt0
+SFX F  Ät  0/]| [eu]dÄt   is:0xttv
+SFX F  Ät  u     [^cl]Ät   is:1vtt0
+SFX F  Ät  i     [^cl]Ät   is:2vtt0
+SFX F  Ät  0     [^cl]Ät   is:3xtt0
+SFX F  Ät  am    [^cl]Ät   is:1dtt0
+SFX F  Ät  at    [^cl]Ät   is:2dtt0
+SFX F  Ät  iet   [^cl]Ät   is:2dttp
+SFX F  Ät  ot    [^cl]Ät   is:0xtta
+SFX F  Ät  0/]|  [^cl]Ät   is:0xttv
+SFX F  lÄt  Ä¼u   [u]lÄt   is:1vtt0
+SFX F  lÄt  li   [u]lÄt   is:2vtt0
+SFX F  lÄt  Ä¼    [u]lÄt   is:3xtt0
+SFX F  lÄt  Ä¼am  [u]lÄt   is:1dtt0
+SFX F  lÄt  Ä¼at  [u]lÄt   is:2dtt0
+SFX F  lÄt  liet [u]lÄt   is:2dttp
+SFX F  lÄt  Ä¼ot  [u]lÄt   is:0xtta
+SFX F  lÄt  Ä¼/]| [u]lÄt   is:0xttv
+SFX F  Ät  u     [^u]lÄt   is:1vtt0
+SFX F  Ät  i     [^u]lÄt   is:2vtt0
+SFX F  Ät  0     [^u]lÄt   is:3xtt0
+SFX F  Ät  am    [^u]lÄt   is:1dtt0
+SFX F  Ät  at    [^u]lÄt   is:2dtt0
+SFX F  Ät  iet   [^u]lÄt   is:2dttp
+SFX F  Ät  ot    [^u]lÄt   is:0xtta
+SFX F  Ät  0/]|  [^u]lÄt   is:0xttv
+SFX F  Ät  u     [^Äe]cÄt   is:1vtt0
+SFX F  Ät  i     [^Äe]cÄt   is:2vtt0
+SFX F  Ät  0     [^Äe]cÄt   is:3xtt0
+SFX F  Ät  am    [^Äe]cÄt   is:1dtt0
+SFX F  Ät  at    [^Äe]cÄt   is:2dtt0
+SFX F  Ät  iet   [^Äe]cÄt   is:2dttp
+SFX F  Ät  ot    [^Äe]cÄt   is:0xtta
+SFX F  Ät  0/]|  [^Äe]cÄt   is:0xttv
+SFX F  cÄt ku     [Ä]cÄt   is:1vtt0
+SFX F  cÄt ki     [Ä]cÄt   is:2vtt0
+SFX F  cÄt k      [Ä]cÄt   is:3xtt0
+SFX F  cÄt kam    [Ä]cÄt   is:1dtt0
+SFX F  cÄt kat    [Ä]cÄt   is:2dtt0
+SFX F  cÄt kiet   [Ä]cÄt   is:2dttp
+SFX F  cÄt kot    [Ä]cÄt   is:0xtta
+SFX F  cÄt k/]|   [Ä]cÄt   is:0xttv
+SFX F  Ät  u     [^t]ecÄt   is:1vtt0
+SFX F  Ät  i     [^t]ecÄt   is:2vtt0
+SFX F  Ät  0     [^t]ecÄt   is:3xtt0
+SFX F  Ät  am    [^t]ecÄt   is:1dtt0
+SFX F  Ät  at    [^t]ecÄt   is:2dtt0
+SFX F  Ät  iet   [^t]ecÄt   is:2dttp
+SFX F  Ät  ot    [^t]ecÄt   is:0xtta
+SFX F  Ät  0/]|  [^t]ecÄt   is:0xttv
+SFX F  cÄt ku     [t]ecÄt   is:1vtt0
+SFX F  Ät  i      [t]ecÄt   is:2vtt0
+SFX F  cÄt k      [t]ecÄt   is:3xtt0
+SFX F  cÄt kam    [t]ecÄt   is:1dtt0
+SFX F  cÄt kat    [t]ecÄt   is:2dtt0
+SFX F  cÄt kiet   [t]ecÄt   is:2dttp
+SFX F  cÄt kot    [t]ecÄt   is:0xtta
+SFX F  cÄt k/]|   [t]ecÄt   is:0xttv
+SFX F  Ä«t  u   [^cz]Ä«t   is:1vtt0
+SFX F  Ä«t  i   [^cz]Ä«t   is:2vtt0
+SFX F  Ä«t  a   [^cz]Ä«t   is:3xtt0
+SFX F  Ä«t  Äm  [^cz]Ä«t   is:1dtt0
+SFX F  Ä«t  Ät  [^cz]Ä«t   is:2dtt0
+SFX F  Ä«t  iet [^cz]Ä«t   is:2dttp
+SFX F  Ä«t  ot  [^cz]Ä«t   is:0xtta
+SFX F  Ä«t  a/]| |^cz]Ä«t   is:0xttv
+SFX F  cÄ«t ku    [^ÄÄ«r]cÄ«t   is:1vtt0
+SFX F  cÄ«t ki    [^ÄÄ«r]cÄ«t   is:2vtt0
+SFX F  cÄ«t ka    [^ÄÄ«r]cÄ«t   is:3xtt0
+SFX F  cÄ«t kÄm   [^ÄÄ«r]cÄ«t   is:1dtt0
+SFX F  cÄ«t kÄt   [^ÄÄ«r]cÄ«t   is:2dtt0
+SFX F  cÄ«t kiet  [^ÄÄ«r]cÄ«t   is:2dttp
+SFX F  cÄ«t kot   [^ÄÄ«r]cÄ«t   is:0xtta
+SFX F  cÄ«t ka/]| [^ÄÄ«r]cÄ«t   is:0xttv
+SFX F  Ä«t  u    [ÄÄ«r]cÄ«t   is:1vtt0
+SFX F  Ä«t  i    [ÄÄ«r]cÄ«t   is:2vtt0
+SFX F  Ä«t  a    [ÄÄ«r]cÄ«t   is:3xtt0
+SFX F  Ä«t  Äm   [ÄÄ«r]cÄ«t   is:1dtt0
+SFX F  Ä«t  Ät   [ÄÄ«r]cÄ«t   is:2dtt0
+SFX F  Ä«t  iet  [ÄÄ«r]cÄ«t   is:2dttp
+SFX F  Ä«t  ot   [ÄÄ«r]cÄ«t   is:0xtta
+SFX F  Ä«t  a/]| [ÄÄ«r]cÄ«t   is:0xttv
+SFX F  Ä«t  u    [^d]zÄ«t   is:1vtt0
+SFX F  Ä«t  i    [^d]zÄ«t   is:2vtt0
+SFX F  Ä«t  a    [^d]zÄ«t   is:3xtt0
+SFX F  Ä«t  Äm   [^d]zÄ«t   is:1dtt0
+SFX F  Ä«t  Ät   [^d]zÄ«t   is:2dtt0
+SFX F  Ä«t  iet  [^d]zÄ«t   is:2dttp
+SFX F  Ä«t  ot   [^d]zÄ«t   is:0xtta
+SFX F  Ä«t  a/]| [^d]zÄ«t   is:0xttv
+SFX F  dzÄ«t gu   [d]zÄ«t   is:1vtt0
+SFX F  dzÄ«t gi   [d]zÄ«t   is:2vtt0
+SFX F  dzÄ«t ga   [d]zÄ«t   is:3xtt0
+SFX F  dzÄ«t gÄm  [d]zÄ«t   is:1dtt0
+SFX F  dzÄ«t gÄt  [d]zÄ«t   is:2dtt0
+SFX F  dzÄ«t giet [d]zÄ«t   is:2dttp
+SFX F  dzÄ«t got  [d]zÄ«t   is:0xtta
+SFX F  dzÄ«t ga/]| [d]zÄ«t  is:0xttv
+SFX F  t   stu   [^szgkpeÄÄÄ«o]t   is:1vtt0
+SFX F  t   sti   [^szgkpeÄÄÄ«o]t   is:2vtt0
+SFX F  t   st    [^szgkpeÄÄÄ«o]t   is:3xtt0
+SFX F  t   stam  [^szgkpeÄÄÄ«o]t   is:1dtt0
+SFX F  t   stat  [^szgkpeÄÄÄ«o]t   is:2dtt0
+SFX F  t   stot  [^szgkpeÄÄÄ«o]t   is:0xtta
+SFX F  t   stiet [^szgkpeÄÄÄ«o]t   is:2dttp
+SFX F  t   st/]| [^szgkpeÄÄÄ«o]t   is:0xttv
+SFX F  0   u    [z]t   is:1vtt0
+SFX F  0   i    [z]t   is:2vtt0
+SFX F  0   am   [z]t   is:1dtt0
+SFX F  0   at   [z]t   is:2dtt0
+SFX F  0   ot   [z]t   is:0xtta
+SFX F  0   iet  [z]t   is:2dttp
+SFX F  0   0/]| [z]t   is:0xttv
+SFX F  0   u    [^i]rst   is:1vtt0
+SFX F  0   i    [^i]rst   is:2vtt0
+SFX F  0   am   [^i]rst   is:1dtt0
+SFX F  0   at   [^i]rst   is:2dtt0
+SFX F  0   ot   [^i]rst   is:0xtta
+SFX F  0   iet  [^i]rst   is:2dttp
+SFX F  0   0/]| [^i]rst   is:0xttv
+SFX F  st  du    [eÄ]st   is:1vtt0
+SFX F  st  d     [eÄ]st   is:0vtt0
+SFX F  st  dam   [eÄ]st   is:1dtt0
+SFX F  st  dat   [eÄ]st   is:2dtt0
+SFX F  st  dot   [eÄ]st   is:0xtta
+SFX F  st  diet  [eÄ]st   is:2dttp
+SFX F  st  d/]|  [eÄ]st   is:0xttv
+SFX F  0   u    ust   is:1vtt0
+SFX F  0   i    ust   is:2vtt0
+SFX F  0   am   ust   is:1dtt0
+SFX F  0   at   ust   is:2dtt0
+SFX F  0   ot   ust   is:0xtta
+SFX F  0   iet  ust   is:2dttp
+SFX F  0   0/]| ust   is:0xttv
+SFX F  0   u    [Ä«lm]st   is:1vtt0
+SFX F  0   i    [Ä«lm]st   is:2vtt0
+SFX F  0   am   [Ä«lm]st   is:1dtt0
+SFX F  0   at   [Ä«lm]st   is:2dtt0
+SFX F  0   ot   [Ä«lm]st   is:0xtta
+SFX F  0   iet  [Ä«lm]st   is:2dttp
+SFX F  0   0/]| [Ä«lm]st   is:0xttv
+SFX F  irst Ärtu   [c]irst   is:1vtt0
+SFX F  irst Ärt    [c]irst   is:2vtt0
+SFX F  irst Ärtam  [c]irst   is:1dtt0
+SFX F  irst Ärtat  [c]irst   is:2dtt0
+SFX F  irst Ärtot  [c]irst   is:0xtta
+SFX F  irst Ärtiet [c]irst   is:2dttp
+SFX F  irst Ärt/]| [c]irst   is:0xttv
+SFX F  0   u     [mv]irst   is:1vtt0
+SFX F  0   i     [mv]irst   is:2vtt0
+SFX F  0   am    [mv]irst   is:1dtt0
+SFX F  0   at    [mv]irst   is:2dtt0
+SFX F  0   ot    [mv]irst   is:0xtta
+SFX F  0   iet   [mv]irst   is:2dttp
+SFX F  0   0/]|  [mv]irst   is:0xttv
+SFX F  0   u    [^z]ist   is:1vtt0
+SFX F  0   i    [^z]ist   is:2vtt0
+SFX F  0   am   [^z]ist   is:1dtt0
+SFX F  0   at   [^z]ist   is:2dtt0
+SFX F  0   ot   [^z]ist   is:0xtta
+SFX F  0   iet  [^z]ist   is:2dttp
+SFX F  0   0/]| [^z]ist   is:0xttv
+SFX F  st  estu    [z]ist   is:1vtt0
+SFX F  st  esti    [z]ist   is:2vtt0
+SFX F  st  est     [z]ist   is:3xtt0
+SFX F  st  estam   [z]ist   is:1dtt0
+SFX F  st  estat   [z]ist   is:2dtt0
+SFX F  st  estot   [z]ist   is:0xtta
+SFX F  st  estiet  [z]ist   is:2dttp
+SFX F  st  est/]|  [z]ist   is:0xttv
+SFX F  gt  egu    igt   is:1vtt0
+SFX F  gt  edz    igt   is:2vtt0
+SFX F  gt  eg     igt   is:3xtt0
+SFX F  gt  egam   igt   is:1dtt0
+SFX F  gt  egat   igt   is:2dtt0
+SFX F  gt  edziet igt   is:2dttp
+SFX F  gt  egot   igt   is:0xtta
+SFX F  gt  eg/]|  igt   is:0xttv
+SFX F  agt ogu     agt   is:1vtt0
+SFX F  agt odz     agt   is:2vtt0
+SFX F  agt og      agt   is:3xtt0
+SFX F  agt ogam    agt   is:1dtt0
+SFX F  agt ogat    agt   is:2dtt0
+SFX F  agt odziet  agt   is:2dttp
+SFX F  agt ogot    agt   is:0xtta
+SFX F  agt og/]|   agt   is:0xttv
+SFX F  t   stu   [^aiulr]kt   is:1vtt0
+SFX F  t   sti   [^aiulr]kt   is:2vtt0
+SFX F  t   st    [^aiulr]kt   is:3xtt0
+SFX F  t   stam  [^aiulr]kt   is:1dtt0
+SFX F  t   stat  [^aiulr]kt   is:2dtt0
+SFX F  t   stot  [^aiulr]kt   is:0xtta
+SFX F  t   stiet [^aiulr]kt   is:2dttp
+SFX F  t   st/]| [^aiulr]kt   is:0xttv
+SFX F  akt  oku   akt   is:1vtt0
+SFX F  akt  oc    akt   is:2vtt0
+SFX F  akt  ok    akt   is:3xtt0
+SFX F  akt  okam  akt   is:1dtt0
+SFX F  akt  okat  akt   is:2dtt0
+SFX F  akt  ociet akt   is:2dttp
+SFX F  akt  okot  akt   is:0xtta
+SFX F  akt  ok/]| akt   is:0xttv
+SFX F  kt  eku     ikt   is:1vtt0
+SFX F  kt  ec      ikt   is:2vtt0
+SFX F  kt  ek      ikt   is:3xtt0
+SFX F  kt  ekam    ikt   is:1dtt0
+SFX F  kt  ekat    ikt   is:2dtt0
+SFX F  kt  eciet   ikt   is:2dttp
+SFX F  kt  ekot    ikt   is:0xtta
+SFX F  kt  ek/]|   ikt   is:0xttv
+SFX F  ukt  Å«ku    ukt   is:1vtt0
+SFX F  ukt  Å«c     ukt   is:2vtt0
+SFX F  ukt  Å«k     ukt   is:3xtt0
+SFX F  ukt  Å«kam   ukt   is:1dtt0
+SFX F  ukt  Å«kat   ukt   is:2dtt0
+SFX F  ukt  Å«ciet  ukt   is:2dttp
+SFX F  ukt  Å«kot   ukt   is:0xtta
+SFX F  ukt  Å«k/]|  ukt   is:3xtt0
+SFX F  ilkt  elku   [i]lkt   is:1vtt0
+SFX F  ilkt  elc    [i]lkt   is:2vtt0
+SFX F  ilkt  elk    [i]lkt   is:3xtt0
+SFX F  ilkt  elkam  [i]lkt   is:1dtt0
+SFX F  ilkt  elkat  [i]lkt   is:2dtt0
+SFX F  ilkt  elciet [i]lkt   is:2dttp
+SFX F  ilkt  elkot  [i]lkt   is:0xtta
+SFX F  ilkt  elk/]| [i]lkt   is:0xttv
+SFX F  t   stu     [a]lkt   is:1vtt0
+SFX F  t   sti     [a]lkt   is:2vtt0
+SFX F  t   st      [a]lkt   is:3xtt0
+SFX F  t   stam    [a]lkt   is:1dtt0
+SFX F  t   stat    [a]lkt   is:2dtt0
+SFX F  t   stot    [a]lkt   is:0xtta
+SFX F  t   stiet   [a]lkt   is:2dttp
+SFX F  t   st/]|   [a]lkt   is:0xttv
+SFX F  irkt  Ärku    irkt   is:1vtt0
+SFX F  irkt  Ärc     irkt   is:2vtt0
+SFX F  irkt  Ärk     irkt   is:3xtt0
+SFX F  irkt  Ärkam   irkt   is:1dtt0
+SFX F  irkt  Ärkat   irkt   is:2dtt0
+SFX F  irkt  Ärciet  irkt   is:2dttp
+SFX F  irkt  Ärkot   irkt   is:0xtta
+SFX F  irkt  Ärk/]|  irkt   is:0xttv
+SFX F  t   stu   [^air]pt   is:1vtt0
+SFX F  t   sti   [^air]pt   is:2vtt0
+SFX F  t   st    [^air]pt   is:3xtt0
+SFX F  t   stam  [^air]pt   is:1dtt0
+SFX F  t   stat  [^air]pt   is:2dtt0
+SFX F  t   stot  [^air]pt   is:0xtta
+SFX F  t   stiet [^air]pt   is:2dttp
+SFX F  t   st/]| [^air]pt   is:0xttv
+SFX F  ipt  Ä«pu    ipt   is:1vtt0
+SFX F  ipt  Ä«pi    ipt   is:2vtt0
+SFX F  ipt  Ä«p     ipt   is:3xtt0
+SFX F  ipt  Ä«pam   ipt   is:1dtt0
+SFX F  ipt  Ä«pat   ipt   is:2dtt0
+SFX F  ipt  Ä«piet  ipt   is:2dttp
+SFX F  ipt  Ä«pot   ipt   is:0xtta
+SFX F  ipt  Ä«p/]|  ipt   is:0xttv
+SFX F  apt  opu    apt   is:1vtt0
+SFX F  apt  opi    apt   is:2vtt0
+SFX F  apt  op     apt   is:3xtt0
+SFX F  apt  opam   apt   is:1dtt0
+SFX F  apt  opat   apt   is:2dtt0
+SFX F  apt  opiet  apt   is:2dttp
+SFX F  apt  opot   apt   is:0xtta
+SFX F  apt  op/]|  apt   is:0xttv
+SFX F  irpt  Ärpu   irpt   is:1vtt0
+SFX F  irpt  Ärp    irpt   is:2vtt0
+SFX F  irpt  Ärpam  irpt   is:1dtt0
+SFX F  irpt  Ärpat  irpt   is:2dtt0
+SFX F  irpt  Ärpiet irpt   is:2dttp
+SFX F  irpt  Ärpot  irpt   is:0xtta
+SFX F  irpt  Ärp/]| irpt   is:0xttv
+SFX F  t  nu   et   is:1vtt0
+SFX F  t  n    et   is:2vtt0
+SFX F  t  nam  et   is:1dtt0
+SFX F  t  nat  et   is:2dtt0
+SFX F  t  niet et   is:2dttp
+SFX F  t  not  et   is:0xtta
+SFX F  t  n/]| et   is:0xttv
+SFX F  t  du   ot   is:1vtt0
+SFX F  t  d    ot   is:2vtt0
+SFX F  t  dam  ot   is:1dtt0
+SFX F  t  dat  ot   is:2dtt0
+SFX F  t  diet ot   is:2dttp
+SFX F  t  dot  ot   is:0xtta
+SFX F  t  d/]| ot   is:0xttv
+
+SFX G Y 30
+SFX G  t  stu   Ä«t  is:1vtt0
+SFX G  t  sti   Ä«t  is:2vtt0
+SFX G  t  st    Ä«t  is:3vtt0
+SFX G  t  stam  Ä«t  is:1dtt0
+SFX G  t  stat  Ä«t  is:2dtt0
+SFX G  t  stiet Ä«t  is:2dttp
+SFX G  t  stot  Ä«t  is:0xtta
+SFX G  t  st/]| Ä«t  is:0xttv
+SFX G  t  0    st  is:0vtt0
+SFX G  t  am   st  is:1dtt0
+SFX G  t  at   st  is:2dtt0
+SFX G  t  iet  st  is:2dttp
+SFX G  t  ot   st  is:0xtta
+SFX G  t  0/]| st  is:0xttv
+SFX G  dÄt Å¾u   dÄt is:1vtt0
+SFX G  dÄt di   dÄt is:2xtt0
+SFX G  dÄt Å¾    dÄt is:3xtt0
+SFX G  dÄt Å¾am  dÄt is:1dtt0
+SFX G  dÄt Å¾at  dÄt is:2dtt0
+SFX G  dÄt Å¾iet dÄt is:2dttp
+SFX G  dÄt Å¾ot  dÄt is:0xtta
+SFX G  dÄt Å¾/]| dÄt is:0xttv
+SFX G  tÄt Å¡u   tÄt is:1vtt0
+SFX G  tÄt ti   tÄt is:2xtt0
+SFX G  tÄt Å¡    tÄt is:3xtt0
+SFX G  tÄt Å¡am  tÄt is:1dtt0
+SFX G  tÄt Å¡at  tÄt is:2dtt0
+SFX G  tÄt tiet tÄt is:2dttp
+SFX G  tÄt Å¡ot  tÄt is:0xtta
+SFX G  tÄt Å¡/]| tÄt is:0xttv
+
+
+SFX H Y 118
+SFX H   t   0     [ÄÄÄ«oÅ«]t   is:2vtt0
+SFX H   t   jam   [ÄÄÄ«oÅ«]t   is:1dtt0
+SFX H   t   jat   [ÄÄÄ«oÅ«]t   is:2dtt0
+SFX H   t   jiet  [ÄÄÄ«oÅ«]t   is:2dttp
+SFX H   t   jot   [ÄÄÄ«oÅ«]t   is:0xtta
+SFX H   t   0/]|  [ÄÄÄ«oÅ«]t   is:0xttv
+SFX H   st   Å¡u    [^aieu]st   is:1vtt0
+SFX H   t    0     [^aieuÅ«]st  is:2vtt0
+SFX H   st   t     [Å«]st      is:2vtt0
+SFX H   st   Å¡     [^aieu]st   is:3xtt0
+SFX H   st   Å¡am   [^aieu]st   is:1dtt0
+SFX H   st   Å¡at   [^aieu]st   is:2dtt0
+SFX H   st   Å¡ot   [^aieu]st   is:0xtta
+SFX H   t    iet   [^aieuÅ«]st  is:2dttp
+SFX H   st   tiet  [Å«]st       is:2dttp
+SFX H   st   Å¡/]|  [^aieu]st   is:0xttv
+SFX H   ast  odu    ast      is:1vtt0
+SFX H   ast  odi    ast      is:2vtt0
+SFX H   ast  od     ast      is:3vtt0
+SFX H   ast  odam   ast      is:1dtt0
+SFX H   ast  odat   ast      is:2dtt0
+SFX H   ast  odot   ast      is:0xtta
+SFX H   ast  odiet  ast      is:2dttp
+SFX H   ast  od/]|  ast      is:0xttv
+SFX H   st   Å¡u    [^m]est   is:1vtt0
+SFX H   st   t     [^m]est   is:2vtt0
+SFX H   st   Å¡     [^m]est   is:3xtt0
+SFX H   st   Å¡am   [^m]est   is:1dtt0
+SFX H   st   Å¡at   [^m]est   is:2dtt0
+SFX H   st   Å¡ot   [^m]est   is:0xtta
+SFX H   t    iet   [^m]est   is:2dttp
+SFX H   st   Å¡/]|  [^m]est   is:0xttv
+SFX H   st   tu    [m]est   is:1vtt0
+SFX H   st   t     [m]est   is:2vtt0
+SFX H   st   tam   [m]est   is:1dtt0
+SFX H   st   tat   [m]est   is:2dtt0
+SFX H   st   tot   [m]est   is:0xtta
+SFX H   st   tiet  [m]est   is:2dttp
+SFX H   st   t/]|  [m]est   is:0xttv
+SFX H   st   tu   [^mnr]ist   is:1vtt0
+SFX H   st   t    [^mnr]ist   is:3xtt0
+SFX H   st   tam  [^mnr]ist   is:1dtt0
+SFX H   st   tat  [^mnr]ist   is:2dtt0
+SFX H   st   tot  [^mnr]ist   is:0xtta
+SFX H   st   tiet [^mnr]ist   is:2dttp
+SFX H   st   t/]| [^mnr]ist   is:0xttv
+SFX H  ist   Ä«tu   [mnr]ist    is:1vtt0
+SFX H  ist   Ä«ti   [mnr]ist    is:2vtt0
+SFX H  ist   Ä«t    [mnr]ist    is:3xtt0
+SFX H  ist   Ä«tam  [mnr]ist    is:1dtt0
+SFX H  ist   Ä«tat  [mnr]ist    is:2dtt0
+SFX H  ist   Ä«tiet [mnr]ist    is:2dttp
+SFX H  ist   Ä«tot  [mnr]ist    is:0xtta
+SFX H  ist   Ä«t/]| [mnr]ist    is:0xttv
+SFX H  ikt   Ä«ku    [i]kt   is:1vtt0
+SFX H  ikt   Ä«c     [i]kt   is:2vtt0
+SFX H  ikt   Ä«k     [i]kt   is:3xtt0
+SFX H  ikt   Ä«kam   [i]kt   is:1dtt0
+SFX H  ikt   Ä«kat   [i]kt   is:2dtt0
+SFX H  ikt   Ä«kot   [i]kt   is:0xtta
+SFX H  ikt   Ä«ciet  [i]kt   is:2dttp
+SFX H  ikt   Ä«k/]|  [i]kt   is:0xttv
+SFX H  t  stu   [ru]kt   is:1vtt0
+SFX H  t  sti   [ru]kt   is:2vtt0
+SFX H  t  st    [ru]kt   is:3xtt0
+SFX H  t  stam  [ru]kt   is:1dtt0
+SFX H  t  stat  [ru]kt   is:2dtt0
+SFX H  t  stot  [ru]kt   is:0xtta
+SFX H  t  stiet [ru]kt   is:2dttp
+SFX H  t  st/]| [ru]kt   is:0xttv
+SFX H  t  stu   gt   is:1vtt0
+SFX H  t  sti   gt   is:2vtt0
+SFX H  t  st    gt   is:3xtt0
+SFX H  t  stam  gt   is:1dtt0
+SFX H  t  stat  gt   is:2dtt0
+SFX H  t  stot  gt   is:0xtta
+SFX H  t  stiet gt   is:2dttp
+SFX H  t  st/]| gt   is:0xttv
+SFX H ust Å«tu    [jsÅ¡]ust  is:1vtt0
+SFX H ust Å«ti    [jsÅ¡]ust  is:2vtt0
+SFX H ust Å«t     [jsÅ¡]ust  is:3xtt0
+SFX H ust Å«tam   [jsÅ¡]ust  is:1dtt0
+SFX H ust Å«tat   [jsÅ¡]ust  is:2dtt0
+SFX H ust Å«tiet  [jsÅ¡]ust  is:2dttp
+SFX H ust Å«tot   [jsÅ¡]ust  is:0xtta
+SFX H ust Å«t/]|  [jsÅ¡]ust  is:0xttv
+SFX H ust Å«du    [z]ust  is:1vtt0
+SFX H ust Å«di    [z]ust  is:2vtt0
+SFX H ust Å«d     [z]ust  is:3xtt0
+SFX H ust Å«dam   [z]ust  is:1dtt0
+SFX H ust Å«dat   [z]ust  is:2dtt0
+SFX H ust Å«diet  [z]ust  is:2dttp
+SFX H ust Å«dot   [z]ust  is:0xtta
+SFX H ust Å«d/]|  [z]ust  is:0xttv
+SFX H ust Å«stu   [k]ust   is:1vtt0
+SFX H ust Å«sti   [k]ust   is:2vtt0
+SFX H ust Å«st    [k]ust   is:3xtt0
+SFX H ust Å«stam  [k]ust   is:1dtt0
+SFX H ust Å«stat  [k]ust   is:2dtt0
+SFX H ust Å«stiet [k]ust   is:2dttp
+SFX H ust Å«stot  [k]ust   is:0xtta
+SFX H ust Å«st/]| [k]ust   is:0xttv
+SFX H st Å¡u   [a]ust    is:1vtt0
+SFX H t  0    [a]ust    is:2vtt0
+SFX H st Å¡    [a]ust    is:3xtt0
+SFX H st Å¡am  [a]ust    is:1dtt0
+SFX H st Å¡at  [a]ust    is:2dtt0
+SFX H st iet  [a]ust    is:2dttp
+SFX H st Å¡ot  [a]ust    is:0xtta
+SFX H st Å¡/]| [a]ust    is:0xttv
+SFX H t  stu     [r]pt   is:1vtt0
+SFX H t  sti     [r]pt   is:2vtt0
+SFX H t  st      [r]pt   is:3xtt0
+SFX H t  stam    [r]pt   is:1dtt0
+SFX H t  stat    [r]pt   is:2dtt0
+SFX H t  stiet   [r]pt   is:2dttp
+SFX H t  stot    [r]pt   is:0xtta
+SFX H t  st/]|   [r]pt   is:0xttv
+
+
+SFX ( Y 110
+SFX ( 0  os     t          is:0xtal
+SFX ( 0  ies    [ÄÄubmp]t  is:0xta0
+SFX ( t  ies      [bmp]t   is:2vta0
+SFX ( t  jos    [ÄÄubmp]t  is:1vta0
+SFX ( t  jies   [ÄÄu]t  is:2vta0
+SFX ( t  jas    [ÄÄubmp]t  is:3xta0
+SFX ( t  jamies [ÄÄubmp]t  is:1dta0
+SFX ( t  jaties [ÄÄubmp]t  is:2dta0
+SFX ( t  joties [ÄÄubmp]t  is:0xtaa
+SFX ( t  jas/]| [ÄÄubmp]t  is:0xtav
+SFX ( t  jieties [ÄÄu]t  is:2dtap
+SFX ( t  ieties  [bmp]t  is:2dtap
+SFX ( 0  ies      [g]t  is:0xta0
+SFX ( gt dzos     [g]t  is:1vta0
+SFX ( gt dzies    [g]t  is:2vta0
+SFX ( gt dzas     [g]t  is:3xta0
+SFX ( gt dzamies  [g]t  is:1dta0
+SFX ( gt dzaties  [g]t  is:2dta0
+SFX ( gt dzoties  [g]t  is:0xtaa
+SFX ( gt dzieties [g]t  is:2dtap
+SFX ( gt dzas/]|  [g]t  is:0xtav
+SFX ( 0  ies     [k]t  is:0xta0
+SFX ( kt cos     [k]t  is:1vta0
+SFX ( kt cies    [k]t  is:2vta0
+SFX ( kt cas     [k]t  is:3xta0
+SFX ( kt camies  [k]t  is:1dta0
+SFX ( kt caties  [k]t  is:2dta0
+SFX ( kt coties  [k]t  is:0xtaa
+SFX ( kt cieties [k]t  is:2dtap
+SFX ( kt cas/]|  [k]t  is:0xtav
+SFX ( 0  ies      [Ä«]t  is:0xta0
+SFX ( Ä«t inos     [Ä«]t  is:1vta0
+SFX ( Ä«t inies    [Ä«]t  is:2vta0
+SFX ( Ä«t inas     [Ä«]t  is:3xta0
+SFX ( Ä«t inamies  [Ä«]t  is:1dta0
+SFX ( Ä«t inaties  [Ä«]t  is:2dta0
+SFX ( Ä«t inieties [Ä«]t  is:2dtap
+SFX ( Ä«t inoties  [Ä«]t  is:0xtaa
+SFX ( Ä«t inas/]|  [Ä«]t  is:0xtav
+SFX ( 0  ies      [Å«]t   is:0xta0
+SFX ( Å«t ujos     [Å«]t   is:1vta0
+SFX ( Å«t ujies    [Å«]t   is:2vta0
+SFX ( Å«t ujas     [Å«]t   is:3xta0
+SFX ( Å«t ujamies  [Å«]t   is:1dta0
+SFX ( Å«t ujaties  [Å«]t   is:2dta0
+SFX ( Å«t ujoties  [Å«]t   is:0xtaa
+SFX ( Å«t ujieties [Å«]t   is:2dtap
+SFX ( Å«t ujas/]|  [Å«]t   is:0xtav
+SFX ( 0  ies    [z]t  is:0xta0
+SFX ( zt Å¾os    [z]t  is:1vta0
+SFX ( t  ies    [z]t  is:2vta0
+SFX ( zt Å¾as    [z]t  is:3dta0
+SFX ( zt Å¾amies [z]t  is:1dta0
+SFX ( zt Å¾aties [z]t  is:2dta0
+SFX ( zt Å¾oties [z]t  is:0xtaa
+SFX ( zt Å¾as/]| [z]t  is:0xtav
+SFX ( 0  ies     [s]t  is:0xta0
+SFX ( st Å¾os     [s]t  is:1vta0
+SFX ( st dies    [s]t  is:2vta0
+SFX ( st Å¾as     [s]t  is:3xta0
+SFX ( st Å¾amies  [s]t  is:1dta0
+SFX ( st Å¾aties  [s]t  is:2dta0
+SFX ( st Å¾oties  [s]t  is:0xtaa
+SFX ( st dieties [s]t  is:2dtap
+SFX ( st Å¾as/]|  [s]t  is:0xtav
+SFX ( t  ieties    [lz]t  is:2dtap
+SFX ( 0  ies    [l]t  is:0xta0
+SFX ( lt Ä¼os    [l]t  is:1vta0
+SFX ( t  ies    [l]t  is:2vta0
+SFX ( lt Ä¼as    [l]t  is:3xta0
+SFX ( lt Ä¼amies [l]t  is:1dta0
+SFX ( lt Ä¼aties [l]t  is:2dta0
+SFX ( lt Ä¼oties [l]t  is:0xtaa
+SFX ( lt Ä¼as/]| [l]t  is:0xtav
+SFX ( 0  ies    [^ÄÄi][r]t  is:0xta0
+SFX ( t  os     [^ÄÄi][r]t  is:1vta0
+SFX ( t  ies    [^ÄÄi][r]t  is:2vta0
+SFX ( t  as     [^ÄÄi][r]t  is:3xta0
+SFX ( t  amies  [^ÄÄi][r]t  is:1dta0
+SFX ( t  aties  [^ÄÄi][r]t  is:2dta0
+SFX ( t  ieties [^ÄÄi][r]t  is:2dtap
+SFX ( t  oties  [^ÄÄi][r]t  is:0xtaa
+SFX ( t  as/]|  [^ÄÄi][r]t  is:0xtav
+SFX ( 0   ies      [Ä]rt  is:0xta0
+SFX ( Ärt aros     [Ä]rt  is:1vta0
+SFX ( Ärt aries    [Ä]rt  is:2vta0
+SFX ( Ärt aras     [Ä]rt  is:3xta0
+SFX ( Ärt aramies  [Ä]rt  is:1dta0
+SFX ( Ärt araties  [Ä]rt  is:2dta0
+SFX ( Ärt aroties  [Ä]rt  is:0xtaa
+SFX ( Ärt arieties [Ä]rt  is:2dtap
+SFX ( Ärt aras/]|  [Ä]rt  is:0xtav
+SFX ( 0   ies      [Ä]rt   is:0xta0
+SFX ( Ärt eros     [Ä]rt   is:1vta0
+SFX ( Ärt eries    [Ä]rt   is:2vta0
+SFX ( Ärt eras     [Ä]rt   is:3xta0
+SFX ( Ärt eramies  [Ä]rt   is:1dta0
+SFX ( Ärt eraties  [Ä]rt   is:2dta0
+SFX ( Ärt eroties  [Ä]rt   is:0xtaa
+SFX ( Ärt erieties [Ä]rt   is:2dtap
+SFX ( Ärt eras/]|  [Ä]rt   is:0xtav
+SFX ( 0   ies       [i]rt   is:0xta0
+SFX ( irt erdos     [i]rt   is:1vta0
+SFX ( irt erdies    [i]rt   is:2vta0
+SFX ( irt erdas     [i]rt   is:3xta0
+SFX ( irt erdamies  [i]rt   is:1dta0
+SFX ( irt erdaties  [i]rt   is:2dta0
+SFX ( irt erdoties  [i]rt   is:0xtaa
+SFX ( irt erdieties [i]rt   is:2dtap
+SFX ( irt erdas/]|  [i]rt   is:0xtav
+
+SFX a Y 146
+SFX a t  os     [^beÄ«kps]t   is:1vta0
+SFX a 0  ies    [^beÄ«kps]t   is:0xta0
+SFX a t  ies    [^beÄ«gkps]t  is:2vta0
+SFX a t  as     [^beÄ«kps]t   is:3xta0
+SFX a t  amies  [^beÄ«kps]t   is:1dta0
+SFX a t  aties  [^beÄ«kps]t   is:2dta0
+SFX a t  ieties [^beÄ«gkps]t  is:2dtap
+SFX a t  oties  [^beÄ«kps]t   is:0xtaa
+SFX a t  as/]|  [^beÄ«kps]t   is:0xtav
+SFX a gt dzies     [g]t      is:2vta0
+SFX a gt dzieties  [g]t      is:2dtap
+SFX a 0  ies      [^Ä]kt   is:0xta0
+SFX a t  os       [^Ä]kt   is:1vta0
+SFX a t  as       [^Ä]kt   is:3xta0
+SFX a t  amies    [^Ä]kt   is:1dta0
+SFX a t  aties    [^Ä]kt   is:2dta0
+SFX a t  oties    [^Ä]kt   is:0xtaa
+SFX a kt  cies    [^Ä]kt   is:2vta0
+SFX a kt  cieties [^Ä]kt   is:2dtap
+SFX a t  as/]|    [^Ä]kt   is:0xtav
+SFX a 0   ies      [Ä]kt   is:0xta0
+SFX a Äkt ecos     [Ä]kt   is:1vta0
+SFX a Äkt ecas     [Ä]kt   is:3xta0
+SFX a Äkt ecos     [Ä]kt   is:1vta0
+SFX a Äkt ecamies  [Ä]kt   is:1dta0
+SFX a Äkt ecaties  [Ä]kt   is:2dta0
+SFX a Äkt ecoties  [Ä]kt   is:0xtaa
+SFX a Äkt ecieties [Ä]kt   is:2dtap
+SFX a Äkt ecas/]|  [Ä]kt   is:0xtav
+SFX a 0    ies      [Ä]bt   is:0xta0
+SFX a Äbt  ebjos    [Ä]bt   is:1vta0
+SFX a Äbt  ebies    [Ä]bt   is:2vta0
+SFX a Äbt  ebjas    [Ä]bt   is:3xta0
+SFX a Äbt  ebjamies [Ä]bt   is:1dta0
+SFX a Äbt  ebjaties [Ä]bt   is:2dta0
+SFX a Äbt  ebieties [Ä]bt   is:2dtap
+SFX a Äbt  ebjoties [Ä]bt   is:0xtaa
+SFX a Äbt  ebjas/]| [Ä]bt   is:0xtav
+SFX a 0    ies    [e]pt   is:0xta0
+SFX a t    os     [e]pt   is:1vta0
+SFX a t    ies    [e]pt   is:2vta0
+SFX a t    as     [e]pt   is:3xta0
+SFX a t    amies  [e]pt   is:1dta0
+SFX a t    aties  [e]pt   is:2dta0
+SFX a t    ieties [e]pt   is:2dtap
+SFX a t    oties  [e]pt   is:0xtaa
+SFX a t    as/]|  [e]pt   is:0xtav
+SFX a 0    ies      [u]pt   is:0xta0
+SFX a upt  Å«pos     [u]pt   is:1vta0
+SFX a upt  Å«pie     [u]pt   is:2vta0
+SFX a upt  Å«pas     [u]pt   is:3xta0
+SFX a upt  Å«pamies  [u]pt   is:1dta0
+SFX a upt  Å«paties  [u]pt   is:2dta0
+SFX a upt  Å«pieties [u]pt   is:2dtap
+SFX a upt  Å«poties  [u]pt   is:0xtaa
+SFX a upt  Å«pas/]|  [u]pt   is:0xtav
+SFX a 0  ies    [^aÄiÄ«ur]st  is:0xta0
+SFX a t  os     [^aÄiÄ«ur]st  is:1vta0
+SFX a t  ies    [^aÄiÄ«ur]st  is:0vta0
+SFX a t  as     [^aÄiÄ«ur]st  is:3xta0
+SFX a t  amies  [^aÄiÄ«ur]st  is:1dta0
+SFX a t  aties  [^aÄiÄ«ur]st  is:2dta0
+SFX a t  ieties [^aÄiÄ«ur]st  is:2dtap
+SFX a t  oties  [^aÄiÄ«ur]st  is:0xtaa
+SFX a t  as/]|  [^aÄiÄ«ur]st  is:0xtav
+SFX a 0   ies     [r]st    is:0xta0
+SFX a st  Å¡os     [r]st    is:1vta0
+SFX a st  ties    [r]st    is:2vta0
+SFX a st  Å¡as     [r]st    is:3xta0
+SFX a st  Å¡amies  [r]st    is:1dta0
+SFX a st  Å¡aties  [r]st    is:2dta0
+SFX a st  tieties [r]st    is:2dtap
+SFX a st  Å¡oties  [r]st    is:0xtaa
+SFX a st  Å¡as/]|  [r]st    is:0xtav
+SFX a 0   ies      [a]st   is:0xta0
+SFX a ast otos     [a]st   is:1vta0
+SFX a ast oties    [a]st   is:2vta0
+SFX a ast otas     [a]st   is:3xta0
+SFX a ast otamies  [a]st   is:1dta0
+SFX a ast otaties  [a]st   is:2dta0
+SFX a ast otieties [a]st   is:2dtap
+SFX a ast ototies  [a]st   is:0xtaa
+SFX a ast otas/]|  [a]st   is:0xtav
+SFX a 0   ies       [Ä«]st   is:0xta0
+SFX a Ä«st ienos     [Ä«]st   is:1vta0
+SFX a Ä«st ienies    [Ä«]st   is:2vta0
+SFX a Ä«st ienas     [Ä«]st   is:3xta0
+SFX a Ä«st ienamies  [Ä«]st   is:1dta0
+SFX a Ä«st ienaties  [Ä«]st   is:2dta0
+SFX a Ä«st ienieties [Ä«]st   is:2dtap
+SFX a Ä«st ienoties  [Ä«]st   is:0xtaa
+SFX a Ä«st ienas/]|  [Ä«]st   is:0xtav
+SFX a 0  ies      [Ä£]ist  is:0xta0
+SFX a st edos     [Ä£]ist  is:1vta0
+SFX a st edies    [Ä£]ist  is:2vta0
+SFX a st edas     [Ä£]ist  is:3xta0
+SFX a st edamies  [Ä£]ist  is:1dta0
+SFX a st edaties  [Ä£]ist  is:2dta0
+SFX a st edieties [Ä£]ist  is:2dtap
+SFX a st edoties  [Ä£]ist  is:0xtaa
+SFX a st edas/]|  [Ä£]ist  is:0xtav
+SFX a 0  ies       [Ä·]ist  is:0xta0
+SFX a st etos      [Ä·]ist  is:1vta0
+SFX a st eties     [Ä·]ist  is:2vta0
+SFX a st etas      [Ä·]ist  is:3xta0
+SFX a st etamies   [Ä·]ist  is:1dta0
+SFX a st etaties   [Ä·]ist  is:2dta0
+SFX a st etieties  [Ä·]ist  is:2dtap
+SFX a st etoties   [Ä·]ist  is:0xtaa
+SFX a st etas/]|   [Ä·]ist  is:0xtav
+SFX a 0  ies      [r]ist  is:0xta0
+SFX a st enos     [r]ist  is:1vta0
+SFX a st enies    [r]ist  is:2vta0
+SFX a st enas     [r]ist  is:3xta0
+SFX a st enamies  [r]ist  is:1dta0
+SFX a st enaties  [r]ist  is:2dta0
+SFX a st enieties [r]ist  is:2dtap
+SFX a st enoties  [r]ist  is:0xtaa
+SFX a st enas/]|  [r]ist  is:0xtav
+SFX a 0   ies     [i]et   is:0xta0
+SFX a iet ejos    [i]et   is:1vta0
+SFX a iet ejies    [i]et   is:2vta0
+SFX a iet ejas     [i]et   is:3xta0
+SFX a iet ejamies  [i]et   is:1dta0
+SFX a iet ejaties  [i]et   is:2dta0
+SFX a iet ejieties [i]et   is:2dtap
+SFX a iet ejoties  [i]et   is:0xtaa
+SFX a iet ejas/]|  [i]et   is:0xtav
+SFX a 0  ies      [mrv]Ä«t   is:0xta0
+SFX a Ä«t ijos     [mrv]Ä«t   is:1vta0
+SFX a Ä«t ijies    [mrv]Ä«t   is:2vta0
+SFX a Ä«t ijas     [mrv]Ä«t   is:3xta0
+SFX a Ä«t ijamies  [mrv]Ä«t   is:1dta0
+SFX a Ä«t ijaties  [mrv]Ä«t   is:2dta0
+SFX a Ä«t ijieties [mrv]Ä«t   is:2dtap
+SFX a Ä«t ijoties  [mrv]Ä«t   is:0xtaa
+SFX a Ä«t ijas/]|  [mrv]Ä«t   is:0xtav
+SFX a 0  ies      [d]zÄ«t   is:0xta0
+SFX a Ä«t enos     [d]zÄ«t   is:1vta0
+SFX a Ä«t enies    [d]zÄ«t   is:2vta0
+SFX a Ä«t enas     [d]zÄ«t   is:3xta0
+SFX a Ä«t enamies  [d]zÄ«t   is:1dta0
+SFX a Ä«t enaties  [d]zÄ«t   is:2dta0
+SFX a Ä«t enieties [d]zÄ«t   is:2dtap
+SFX a Ä«t enoties  [d]zÄ«t   is:0xtaa
+SFX a Ä«t enas/]|  [d]zÄ«t   is:0xtav
+
+
+
+SFX f Y 308
+SFX f 0   ies       t     is:0xta0
+SFX f Ät  os     [^j]Ät   is:1vta0
+SFX f Ät  ies    [^j]Ät   is:2vta0
+SFX f Ät  Äs     [^j]Ät   is:3xta0
+SFX f Ät  Ämies [^jd]Ät   is:1dta0
+SFX f Ät  oties  [^j]Ät   is:0xtaa
+SFX f Ät  ieties [^j]Ät   is:2dtap
+SFX f Ät  as    [eu]dÄt   is:3xta0
+SFX f Ät  as/]| [eu]dÄt   is:0xtav
+SFX f Ät  Äs/]|  [^j]Ät   is:0xtav
+SFX f Ät  amies [eu]dÄt   is:1dta0
+SFX f Ät  aties [eu]dÄt   is:2dta0
+SFX f Ät  os     [^cl]Ät   is:1vta0
+SFX f Ät  ies    [^cl]Ät   is:2vta0
+SFX f Ät  as     [^cl]Ät   is:3xta0
+SFX f Ät  amies  [^cl]Ät   is:1dta0
+SFX f Ät  aties  [^cl]Ät   is:2dta0
+SFX f Ät  ieties [^cl]Ät   is:2dtap
+SFX f Ät  oties  [^cl]Ät   is:0xtaa
+SFX f Ät  as/]|  [^cl]Ät   is:0xtav
+SFX f lÄt  Ä¼os     [u]lÄt   is:1vta0
+SFX f lÄt  lies    [u]lÄt   is:2vta0
+SFX f lÄt  Ä¼as     [u]lÄt   is:3xta0
+SFX f lÄt  Ä¼amies  [u]lÄt   is:1dta0
+SFX f lÄt  Ä¼aties  [u]lÄt   is:2dta0
+SFX f lÄt  lieties [u]lÄt   is:2dtap
+SFX f lÄt  Ä¼oties  [u]lÄt   is:0xtaa
+SFX f lÄt  Ä¼as/]|  [u]lÄt   is:0xtav
+SFX f Ät  os     [^u]lÄt   is:1vta0
+SFX f Ät  ies    [^u]lÄt   is:2vta0
+SFX f Ät  as     [^u]lÄt   is:3xta0
+SFX f Ät  amies  [^u]lÄt   is:1dta0
+SFX f Ät  aties  [^u]lÄt   is:2dta0
+SFX f Ät  ieties [^u]lÄt   is:2dtap
+SFX f Ät  oties  [^u]lÄt   is:0xtaa
+SFX f Ät  as/]|  [^u]lÄt   is:0xtav
+SFX f Ät  os     [^Äe]cÄt   is:1vta0
+SFX f Ät  ies    [^Äe]cÄt   is:2vta0
+SFX f Ät  as     [^Äe]cÄt   is:3xta0
+SFX f Ät  amies  [^Äe]cÄt   is:1dta0
+SFX f Ät  aties  [^Äe]cÄt   is:2dta0
+SFX f Ät  ieties [^Äe]cÄt   is:2dtap
+SFX f Ät  oties  [^Äe]cÄt   is:0xtaa
+SFX f Ät  as/]|  [^Äe]cÄt   is:0xtav
+SFX f cÄt kos     [Ä]cÄt   is:1vta0
+SFX f cÄt kies    [Ä]cÄt   is:2vta0
+SFX f cÄt kas     [Ä]cÄt   is:3xta0
+SFX f cÄt kamies  [Ä]cÄt   is:1dta0
+SFX f cÄt katies  [Ä]cÄt   is:2dta0
+SFX f cÄt kieties [Ä]cÄt   is:2dtap
+SFX f cÄt koties  [Ä]cÄt   is:0xtaa
+SFX f cÄt kas/]|  [Ä]cÄt   is:0xtav
+SFX f Ät  os     [^t]ecÄt   is:1vta0
+SFX f Ät  ies    [^t]ecÄt   is:2vta0
+SFX f Ät  as     [^t]ecÄt   is:3xta0
+SFX f Ät  amies  [^t]ecÄt   is:1dta0
+SFX f Ät  aties  [^t]ecÄt   is:2dta0
+SFX f Ät  ieties [^t]ecÄt   is:2dtap
+SFX f Ät  oties  [^t]ecÄt   is:0xtaa
+SFX f Ät  as/]|  [^t]ecÄt   is:0xtav
+SFX f cÄt kos     [t]ecÄt  is:1vta0
+SFX f Ät  ies     [t]ecÄt  is:2vta0
+SFX f cÄt kas     [t]ecÄt  is:3xta0
+SFX f cÄt kamies  [t]ecÄt  is:1dta0
+SFX f cÄt katies  [t]ecÄt  is:2dta0
+SFX f cÄt kieties [t]ecÄt  is:2dtap
+SFX f cÄt koties  [t]ecÄt  is:0xtaa
+SFX f cÄt kas/]|  [t]ecÄt  is:0xtav
+SFX f Ä«t  os     [^cz]Ä«t   is:1vta0
+SFX f Ä«t  ies    [^cz]Ä«t   is:2vta0
+SFX f Ä«t  Äs     [^cz]Ä«t   is:3xta0
+SFX f Ä«t  Ämies  [^cz]Ä«t   is:1dta0
+SFX f Ä«t  Äties  [^cz]Ä«t   is:2dta0
+SFX f Ä«t  ieties [^cz]Ä«t   is:2dtap
+SFX f Ä«t  oties  [^cz]Ä«t   is:0xtaa
+SFX f Ä«t  Äs/]|  [^cz]Ä«t   is:0xtav
+SFX f cÄ«t kos     [^ÄÄ«r]cÄ«t   is:1vta0
+SFX f cÄ«t kies    [^ÄÄ«r]cÄ«t   is:2vta0
+SFX f cÄ«t kÄs     [^ÄÄ«r]cÄ«t   is:3xta0
+SFX f cÄ«t kÄmies  [^ÄÄ«r]cÄ«t   is:1dta0
+SFX f cÄ«t kÄties  [^ÄÄ«r]cÄ«t   is:2dta0
+SFX f cÄ«t kieties [^ÄÄ«r]cÄ«t   is:2dtap
+SFX f cÄ«t koties  [^ÄÄ«r]cÄ«t   is:0xtaa
+SFX f cÄ«t kÄs/]|  [^ÄÄ«r]cÄ«t   is:0xtav
+SFX f Ä«t  os     [ÄÄ«r]cÄ«t   is:1vta0
+SFX f Ä«t  ies    [ÄÄ«r]cÄ«t   is:2vta0
+SFX f Ä«t  Äs     [ÄÄ«r]cÄ«t   is:3xta0
+SFX f Ä«t  Ämies  [ÄÄ«r]cÄ«t   is:1dta0
+SFX f Ä«t  Äties  [ÄÄ«r]cÄ«t   is:2dta0
+SFX f Ä«t  ieties [ÄÄ«r]cÄ«t   is:2dtap
+SFX f Ä«t  oties  [ÄÄ«r]cÄ«t   is:0xtaa
+SFX f Ä«t  Äs/]|  [ÄÄ«r]cÄ«t   is:0xtav
+SFX f Ä«t  os     [^d]zÄ«t   is:1vta0
+SFX f Ä«t  ies    [^d]zÄ«t   is:2vta0
+SFX f Ä«t  Äs     [^d]zÄ«t   is:3xta0
+SFX f Ä«t  Ämies  [^d]zÄ«t   is:1dta0
+SFX f Ä«t  Äties  [^d]zÄ«t   is:2dta0
+SFX f Ä«t  ieties [^d]zÄ«t   is:2dtap
+SFX f Ä«t  oties  [^d]zÄ«t   is:0xtaa
+SFX f Ä«t  Äs/]|  [^d]zÄ«t   is:0xtav
+SFX f dzÄ«t gos     [d]zÄ«t   is:1vta0
+SFX f dzÄ«t gies    [d]zÄ«t   is:2vta0
+SFX f dzÄ«t gÄs     [d]zÄ«t   is:3xta0
+SFX f dzÄ«t gÄmies  [d]zÄ«t   is:1dta0
+SFX f dzÄ«t gÄties  [d]zÄ«t   is:2dta0
+SFX f dzÄ«t gieties [d]zÄ«t   is:2dtap
+SFX f dzÄ«t goties  [d]zÄ«t   is:0xtaa
+SFX f dzÄ«t gÄs/]|  [d]zÄ«t   is:0xtav
+SFX f t   stos     [^szgkpeÄÄÄ«o]t   is:1vta0
+SFX f t   sties    [^szgkpeÄÄÄ«o]t   is:2vta0
+SFX f t   stas     [^szgkpeÄÄÄ«o]t   is:3xta0
+SFX f t   stamies  [^szgkpeÄÄÄ«o]t   is:1dta0
+SFX f t   staties  [^szgkpeÄÄÄ«o]t   is:2dta0
+SFX f t   stoties  [^szgkpeÄÄÄ«o]t   is:0xtaa
+SFX f t   stieties [^szgkpeÄÄÄ«o]t   is:2dtap
+SFX f t   stas/]|  [^szgkpeÄÄÄ«o]t   is:0xtav
+SFX f 0   os     [z]t   is:1vta0
+SFX f 0   ies    [z]t   is:2vta0
+SFX f 0   as     [z]t   is:3xta0
+SFX f 0   amies  [z]t   is:1dta0
+SFX f 0   aties  [z]t   is:2dta0
+SFX f 0   oties  [z]t   is:0xtaa
+SFX f 0   ieties [z]t   is:2dtap
+SFX f 0   as/]|  [z]t   is:0xtav
+SFX f 0   os     [^i]rst   is:1vta0
+SFX f 0   ies    [^i]rst   is:2vta0
+SFX f 0   as     [^i]rst   is:3xta0
+SFX f 0   amies  [^i]rst   is:1dta0
+SFX f 0   aties  [^i]rst   is:2dta0
+SFX f 0   oties  [^i]rst   is:0xtaa
+SFX f 0   ieties [^i]rst   is:2dtap
+SFX f 0   as/]|  [^i]rst   is:0xtav
+SFX f st  dos     [eÄ]st  is:1vta0
+SFX f st  dies    [eÄ]st  is:0vta0
+SFX f st  das     [eÄ]st  is:3xta0
+SFX f st  damies  [eÄ]st  is:1dta0
+SFX f st  daties  [eÄ]st  is:2dta0
+SFX f st  doties  [eÄ]st  is:0xtaa
+SFX f st  dieties [eÄ]st  is:2dtap
+SFX f st  das/]|  [eÄ]st  is:0xtav
+SFX f 0   os     mst   is:1vta0
+SFX f 0   ies    mst   is:2vta0
+SFX f 0   as     mst   is:3xta0
+SFX f 0   amies  mst   is:1dta0
+SFX f 0   aties  mst   is:2dta0
+SFX f 0   oties  mst   is:0xtaa
+SFX f 0   ieties mst   is:2dtap
+SFX f 0   as/]|  mst   is:0xtav
+SFX f irst Ärtos     [c]irst   is:1vta0
+SFX f irst Ärties    [c]irst   is:2vta0
+SFX f irst Ärtas     [c]irst   is:3xta0
+SFX f irst Ärtamies  [c]irst   is:1dta0
+SFX f irst Ärtaties  [c]irst   is:2dta0
+SFX f irst Ärtoties  [c]irst   is:0xtaa
+SFX f irst Ärtieties [c]irst   is:2dtap
+SFX f irst Ärtas/]|  [c]irst   is:0xtav
+SFX f 0   os     [mv]irst  is:1vta0
+SFX f 0   ies    [mv]irst  is:2vta0
+SFX f 0   as     [mv]irst  is:3xta0
+SFX f 0   amies  [mv]irst  is:1dta0
+SFX f 0   aties  [mv]irst  is:2dta0
+SFX f 0   oties  [mv]irst  is:0xtaa
+SFX f 0   ieties [mv]irst  is:2dtap
+SFX f 0   as/]|  [mv]irst  is:0xtav
+SFX f  0   os     [^z]ist   is:1vta0
+SFX f  0   ies    [^z]ist   is:2vta0
+SFX f  0   as     [^z]ist   is:3xta0
+SFX f  0   amies  [^z]ist   is:1dta0
+SFX f  0   aties  [^z]ist   is:2dta0
+SFX f  0   oties  [^z]ist   is:0xtaa
+SFX f  0   ieties [^z]ist   is:2dtap
+SFX f  0   as/]|  [^z]ist   is:0xtav
+SFX f  st  estos     [z]ist   is:1vta0
+SFX f  st  esties    [z]ist   is:2vta0
+SFX f  st  estas     [z]ist   is:3xta0
+SFX f  st  estamies  [z]ist   is:1dta0
+SFX f  st  estaties  [z]ist   is:2dta0
+SFX f  st  estoties  [z]ist   is:0xtaa
+SFX f  st  estieties [z]ist   is:2dtap
+SFX f  st  estas/]|  [z]ist   is:0xtav
+SFX f  gt  egos      igt   is:1vta0
+SFX f  gt  edzies    igt   is:2vta0
+SFX f  gt  egas      igt   is:3xta0
+SFX f  gt  egamies   igt   is:1dta0
+SFX f  gt  egaties   igt   is:2dta0
+SFX f  gt  edzieties igt   is:2dtap
+SFX f  gt  egoties   igt   is:0xtaa
+SFX f  gt  egas/]|   igt   is:0xtav
+SFX f  agt ogos      agt  is:1vta0
+SFX f  agt odzies    agt  is:2vta0
+SFX f  agt ogas      agt  is:3xta0
+SFX f  agt ogamies   agt  is:1dta0
+SFX f  agt ogaties   agt  is:2dta0
+SFX f  agt odzieties agt  is:2dtap
+SFX f  agt ogoties   agt  is:0xtaa
+SFX f  agt ogas/]|   agt  is:0xtav
+SFX f  t   stos     [^aioulr]kt   is:1vta0
+SFX f  t   sties    [^aioulr]kt   is:2vta0
+SFX f  t   stas     [^aioulr]kt   is:3xta0
+SFX f  t   stamies  [^aioulr]kt   is:1dta0
+SFX f  t   staties  [^aioulr]kt   is:2dta0
+SFX f  t   stoties  [^aioulr]kt   is:0xtaa
+SFX f  t   stieties [^aioulr]kt   is:2dtap
+SFX f  t   stas/]|  [^aioulr]kt   is:0xtav
+SFX f  akt  okos     akt   is:1vta0
+SFX f  akt  ocies    akt   is:2vta0
+SFX f  akt  okas     akt   is:3xta0
+SFX f  akt  okamies  akt   is:1dta0
+SFX f  akt  okaties  akt   is:2dta0
+SFX f  akt  ocieties akt   is:2dtap
+SFX f  akt  okoties  akt   is:0xtaa
+SFX f  akt  okas/]|  akt   is:0xtav
+SFX f  kt  ekos     ikt   is:1vta0
+SFX f  kt  ecies    ikt   is:2vta0
+SFX f  kt  ekas     ikt   is:3xta0
+SFX f  kt  ekamies  ikt   is:1dta0
+SFX f  kt  ekaties  ikt   is:2dta0
+SFX f  kt  ecieties ikt   is:2dtap
+SFX f  kt  ekoties  ikt   is:0xtaa
+SFX f  kt  ekas/]|  ikt   is:0xtav
+SFX f  okt  okos     okt   is:1vta0
+SFX f  okt  ocies    okt   is:2vta0
+SFX f  okt  okas     okt   is:3xta0
+SFX f  okt  okamies  okt   is:1dta0
+SFX f  okt  okaties  okt   is:2dta0
+SFX f  okt  ocieties okt   is:2dtap
+SFX f  okt  okoties  okt   is:0xtaa
+SFX f  okt  okas/]|  okt   is:0xtav
+SFX f  ukt  Å«kos     ukt  is:1vta0
+SFX f  ukt  Å«cies    ukt  is:2vta0
+SFX f  ukt  Å«kas     ukt  is:3xta0
+SFX f  ukt  Å«kamies  ukt  is:1dta0
+SFX f  ukt  Å«katies  ukt  is:2dta0
+SFX f  ukt  Å«cieties ukt  is:2dtap
+SFX f  ukt  Å«koties  ukt  is:0xtaa
+SFX f  ukt  Å«kas/]|  ukt  is:0xtav
+SFX f  ilkt  elkos     [i]lkt   is:1vta0
+SFX f  ilkt  elcies    [i]lkt   is:2vta0
+SFX f  ilkt  elkas     [i]lkt   is:3xta0
+SFX f  ilkt  elkamies  [i]lkt   is:1dta0
+SFX f  ilkt  elkaties  [i]lkt   is:2dta0
+SFX f  ilkt  elcieties [i]lkt   is:2dtap
+SFX f  ilkt  elkoties  [i]lkt   is:0xtaa
+SFX f  ilkt  elkas/]|  [i]lkt   is:0xtav
+SFX f  t   stos     [a]lkt   is:1vta0
+SFX f  t   sties    [a]lkt   is:2vta0
+SFX f  t   stas     [a]lkt   is:3xta0
+SFX f  t   stamies  [a]lkt   is:1dta0
+SFX f  t   staties  [a]lkt   is:2dta0
+SFX f  t   stoties  [a]lkt   is:0xtaa
+SFX f  t   stieties [a]lkt   is:2dtap
+SFX f  t   stas/]|  [a]lkt   is:0xtav
+SFX f  irkt  Ärkos     irkt   is:1vta0
+SFX f  irkt  Ärcies    irkt   is:2vta0
+SFX f  irkt  Ärkas     irkt   is:3xta0
+SFX f  irkt  Ärkamies  irkt   is:1dta0
+SFX f  irkt  Ärkaties  irkt   is:2dta0
+SFX f  irkt  Ärcieties irkt   is:2dtap
+SFX f  irkt  Ärkoties  irkt   is:0xtaa
+SFX f  irkt  Ärkas/]|  irkt   is:0xtav
+SFX f  t   stos     [^air]pt   is:1vta0
+SFX f  t   sties    [^air]pt   is:2vta0
+SFX f  t   stas     [^air]pt   is:3xta0
+SFX f  t   stamies  [^air]pt   is:1dta0
+SFX f  t   staties  [^air]pt   is:2dta0
+SFX f  t   stoties  [^air]pt   is:0xtaa
+SFX f  t   stieties [^air]pt   is:2dtap
+SFX f  t   stas/]|  [^air]pt   is:0xtav
+SFX f  ipt  Ä«pos     ipt   is:1vta0
+SFX f  ipt  Ä«pies    ipt   is:2vta0
+SFX f  ipt  Ä«pas     ipt   is:3xta0
+SFX f  ipt  Ä«pamies  ipt   is:1dta0
+SFX f  ipt  Ä«paties  ipt   is:2dta0
+SFX f  ipt  Ä«pieties ipt   is:2dtap
+SFX f  ipt  Ä«poties  ipt   is:0xtaa
+SFX f  ipt  Ä«pas/]|  ipt   is:0xtav
+SFX f  apt  opos     apt  is:1vta0
+SFX f  apt  opies    apt  is:2vta0
+SFX f  apt  opas     apt  is:3xta0
+SFX f  apt  opamies  apt  is:1dta0
+SFX f  apt  opaties  apt  is:2dta0
+SFX f  apt  opieties apt  is:2dtap
+SFX f  apt  opoties  apt  is:0xtaa
+SFX f  apt  opas/]|  apt  is:0xtav
+SFX f  irpt  Ärpos     irpt   is:1vta0
+SFX f  irpt  Ärpies    irpt   is:2vta0
+SFX f  irpt  Ärpas     irpt   is:3xta0
+SFX f  irpt  Ärpamies  irpt   is:1dta0
+SFX f  irpt  Ärpaties  irpt   is:2dta0
+SFX f  irpt  Ärpieties irpt   is:2dtap
+SFX f  irpt  Ärpoties  irpt   is:0xtaa
+SFX f  irpt  Ärpas/]|  irpt   is:0xtav
+SFX f  t  nos     et   is:1vta0
+SFX f  t  nies    et   is:2vta0
+SFX f  t  nas     et   is:3xta0
+SFX f  t  namies  et   is:1dta0
+SFX f  t  naties  et   is:2dta0
+SFX f  t  nieties et   is:2dtap
+SFX f  t  noties  et   is:0xtaa
+SFX f  t  nas/]|  et   is:0xtav
+SFX f  t  dos     ot  is:1vta0
+SFX f  t  dies    ot  is:2vta0
+SFX f  t  das     ot  is:3xta0
+SFX f  t  damies  ot  is:1dta0
+SFX f  t  daties  ot  is:2dta0
+SFX f  t  dieties ot  is:2dtap
+SFX f  t  doties  ot  is:0xtaa
+SFX f  t  das/]|  ot  is:0xtav
+
+
+SFX g Y 9
+SFX g  t  ties     Ä«t  is:0xta0
+SFX g  t  stos     Ä«t  is:1vtt0
+SFX g  t  sties    Ä«t  is:2vtt0
+SFX g  t  stas     Ä«t  is:3vtt0
+SFX g  t  stamies  Ä«t  is:1dtt0
+SFX g  t  staties  Ä«t  is:2dtt0
+SFX g  t  stieties Ä«t  is:2dttp
+SFX g  t  stoties  Ä«t  is:0xtta
+SFX g  t  stas/]|  Ä«t  is:0xttv
+
+
+SFX h Y 123
+SFX h  0   ies     [ÄÄÄ«oÅ«]t   is:0xta0
+SFX h  t   jies    [ÄÄÄ«oÅ«]t   is:2vta0
+SFX h  t   jas     [ÄÄÄ«oÅ«]t   is:3vta0
+SFX h  t   jamies  [ÄÄÄ«oÅ«]t   is:1dta0
+SFX h  t   jaties  [ÄÄÄ«oÅ«]t   is:2dta0
+SFX h  t   jieties [ÄÄÄ«oÅ«]t   is:2dtap
+SFX h  t   joties  [ÄÄÄ«oÅ«]t   is:0xtaa
+SFX h  t   jas/]|  [ÄÄÄ«oÅ«]t   is:0xtav
+SFX h  0    ies     [gkps]t   is:0xta0
+SFX h  st   Å¡os   [^aieu]st   is:1vta0
+SFX h  t    ies  [^aienuÅ«]st   is:2vta0
+SFX h  st   ties    [nÅ«]st      is:2vta0
+SFX h  st   Å¡as     [^aieu]st   is:3xta0
+SFX h  st   Å¡amies  [^aieu]st   is:1dta0
+SFX h  st   Å¡aties  [^aieu]st   is:2dta0
+SFX h  st   Å¡oties  [^aieu]st   is:0xtaa
+SFX h  t    ieties  [^aienuÅ«]st  is:2dtap
+SFX h  st   tieties  [nÅ«]st      is:2dtap
+SFX h  st   Å¡as/]|  [^aieu]st   is:0xtav
+SFX h ast  odos     ast   is:1vta0
+SFX h ast  odies    ast   is:2vta0
+SFX h ast  odas     ast   is:3vta0
+SFX h ast  odamies  ast   is:1dta0
+SFX h ast  odaties  ast   is:2dta0
+SFX h ast  odoties  ast   is:0xtaa
+SFX h ast  odieties ast   is:2dtap
+SFX h ast  odas/]|  ast   is:0xtav
+SFX h  st   Å¡os    [^m]est  is:1vta0
+SFX h  st   ties   [^m]est  is:2vta0
+SFX h  st   Å¡as    [^m]est  is:3xta0
+SFX h  st   Å¡amies [^m]est  is:1dta0
+SFX h  st   Å¡aties [^m]est  is:2dta0
+SFX h  st   Å¡oties [^m]est  is:0xtaa
+SFX h  t    ieties [^m]est  is:2dtap
+SFX h  st   Å¡as/]| [^m]est  is:0xtav
+SFX h  st   tos     [m]est   is:1vta0
+SFX h  st   ties    [m]est   is:2vta0
+SFX h  st   tas     [m]est   is:3vta0
+SFX h  st   tamies  [m]est   is:1dta0
+SFX h  st   taties  [m]est   is:2dta0
+SFX h  st   toties  [m]est   is:0xtaa
+SFX h  st   tieties [m]est   is:2dtap
+SFX h  st   tas/]|  [m]est   is:0xtav
+SFX h  st   tos     [^mnr]ist   is:1vta0
+SFX h  st   ties    [^mnr]ist   is:2vta0
+SFX h  st   tas     [^mnr]ist   is:3vta0
+SFX h  st   tamies  [^mnr]ist   is:1dta0
+SFX h  st   taties  [^mnr]ist   is:2dta0
+SFX h  st   toties  [^mnr]ist   is:0xtaa
+SFX h  st   tieties [^mnr]ist   is:2dtap
+SFX h  st   tas/]|  [^mnr]ist   is:0xtav
+SFX h ist   Ä«tos     [mnr]ist    is:1vta0
+SFX h ist   Ä«ties    [mnr]ist    is:2vta0
+SFX h ist   Ä«tas     [mnr]ist    is:3xta0
+SFX h ist   Ä«tamies  [mnr]ist    is:1dta0
+SFX h ist   Ä«taties  [mnr]ist    is:2dta0
+SFX h ist   Ä«tieties [mnr]ist    is:2dtap
+SFX h ist   Ä«toties  [mnr]ist    is:0xtaa
+SFX h ist   Ä«tas/]|  [mnr]ist    is:0xtav
+SFX h ikt   Ä«kos     [i]kt   is:1vta0
+SFX h ikt   Ä«cies    [i]kt   is:2vta0
+SFX h ikt   Ä«kas     [i]kt   is:3xta0
+SFX h ikt   Ä«kamies  [i]kt   is:1dta0
+SFX h ikt   Ä«katies  [i]kt   is:2dta0
+SFX h t     Å¡oties   [i]kt   is:0xtaa
+SFX h ikt   Ä«cieties [i]kt   is:2dtap
+SFX h ikt   Ä«kas/]|  [i]kt   is:0xtav
+SFX h t  stos     [ru]kt   is:1vta0
+SFX h t  sties    [ru]kt   is:2vta0
+SFX h t  stas     [ru]kt   is:3xta0
+SFX h t  stamies  [ru]kt   is:1dta0
+SFX h t  staties  [ru]kt   is:2dta0
+SFX h t  Å¡oties   [ru]kt   is:0xtaa
+SFX h t  stieties [ru]kt   is:2dtap
+SFX h t  stas/]|  [ru]kt   is:0xtav
+SFX h t  stos     gt   is:1vta0
+SFX h t  sties    gt   is:2vta0
+SFX h t  stas     gt   is:3xta0
+SFX h t  stamies  gt   is:1dta0
+SFX h t  staties  gt   is:2dta0
+SFX h t  Å¡oties   gt   is:0xtaa
+SFX h t  stieties gt   is:2dtap
+SFX h t  stas/]|  gt   is:0xtav
+SFX h ust Å«tos     [jsÅ¡]ust  is:1vta0
+SFX h ust Å«ties    [jsÅ¡]ust  is:2vta0
+SFX h ust Å«tas     [jsÅ¡]ust  is:3xta0
+SFX h ust Å«tamies  [jsÅ¡]ust  is:1dta0
+SFX h ust Å«taties  [jsÅ¡]ust  is:2dta0
+SFX h ust Å«toties  [jsÅ¡]ust  is:0xtaa
+SFX h ust Å«tieties [jsÅ¡]ust  is:2dtap
+SFX h ust Å«tas/]|  [jsÅ¡]ust  is:0xtav
+SFX h ust Å«dos      [z]ust  is:1vta0
+SFX h ust Å«dies     [z]ust  is:2vta0
+SFX h ust Å«das      [z]ust  is:3xta0
+SFX h ust Å«damies   [z]ust  is:1dta0
+SFX h ust Å«daties   [z]ust  is:2dta0
+SFX h ust Å«doties   [z]ust  is:0xtaa
+SFX h ust Å«dieties  [z]ust  is:2dtap
+SFX h ust Å«das/]|   [z]ust  is:0xtav
+SFX h ust Å«stos     [k]ust   is:1vta0
+SFX h ust Å«sties    [k]ust   is:2vta0
+SFX h ust Å«stas     [k]ust   is:3xta0
+SFX h ust Å«stamies  [k]ust   is:1dta0
+SFX h ust Å«staties  [k]ust   is:2dta0
+SFX h ust Å«stieties [k]ust   is:2dtap
+SFX h ust Å«stoties  [k]ust   is:0xtaa
+SFX h ust Å«stas/]|  [k]ust   is:0xtav
+SFX h st Å¡os    [a]ust   is:1vta0
+SFX h t  ies    [a]ust   is:2vta0
+SFX h st Å¡as    [a]ust   is:3xta0
+SFX h st Å¡amies [a]ust   is:1dta0
+SFX h st Å¡aties [a]ust   is:2dta0
+SFX h  t ieties [a]ust   is:2dtap
+SFX h st Å¡oties [a]ust   is:0xtaa
+SFX h st Å¡as/]| [a]ust   is:0xtav
+SFX h t  stos     [r]pt   is:1vta0
+SFX h t  sties    [r]pt   is:2vta0
+SFX h t  stas     [r]pt   is:3xta0
+SFX h t  stamies  [r]pt   is:1dta0
+SFX h t  staties  [r]pt   is:2dta0
+SFX h t  stieties [r]pt   is:2dtap
+SFX h t  stoties  [r]pt   is:0xtaa
+SFX h t  stas/]|  [r]pt   is:0xtav
+
+SFX ) Y 52
+SFX ) t    oÅ¡ies   [^begÄ«klmprsÅ«o]t
+SFX ) Äbt  ebjoÅ¡ies  [Ä]bt
+SFX ) iet  ejoÅ¡ies  [^s]iet
+SFX ) t    noÅ¡ies    [s]iet
+SFX ) gt   dzoÅ¡ies  [^ai]gt
+SFX ) agt  ogoÅ¡ies    [a]gt
+SFX ) gt   egoÅ¡ies  [mnrt]igt
+SFX ) gt   dzoÅ¡ies [^mnrt]igt
+SFX ) Ä«t   enoÅ¡ies  [^rvm]Ä«t
+SFX ) Ä«t   ijoÅ¡ies   [rvm]Ä«t
+SFX ) kt   coÅ¡ies [^ailru]kt
+SFX ) akt  okoÅ¡ies       akt
+SFX ) ukt  Å«koÅ¡ies   [^a]ukt
+SFX ) kt   coÅ¡ies     [a]ukt
+SFX ) ilkt elkoÅ¡ies   [i]lkt
+SFX ) kt   coÅ¡ies    [^i]lkt
+SFX ) irkt ÄrkoÅ¡ies   [i]rkt
+SFX ) kt   coÅ¡ies    [^i]rkt
+SFX ) kt   coÅ¡ies  [^lnt]ikt
+SFX ) kt   ekoÅ¡ies    [l]ikt
+SFX ) ikt  Ä«koÅ¡ies   [nt]ikt
+SFX ) lt   Ä¼oÅ¡ies     lt
+SFX ) t    joÅ¡ies     mt
+SFX ) pt   oÅ¡ies  [^aiur]pt
+SFX ) apt  opoÅ¡ies    [a]pt
+SFX ) ipt  Ä«poÅ¡ies    [i]pt
+SFX ) upt  Å«poÅ¡ies    [u]pt
+SFX ) irpt ÄrpoÅ¡ies  [i]rpt
+SFX ) Ärt  aroÅ¡ies   [Ä]rt
+SFX ) Ärt  eroÅ¡ies   [Ä]rt
+SFX ) irt  erdoÅ¡ies  [i]rt
+SFX ) ast  otoÅ¡ies    [a]st
+SFX ) st   doÅ¡ies  [^mi]est
+SFX ) st   Å¾oÅ¡ies    [i]est
+SFX ) st   toÅ¡ies    [m]est
+SFX ) st   doÅ¡ies     [Ä]st
+SFX ) st   Å¾oÅ¡ies   [Ä«oÅ«]st
+SFX ) ist  Ä«toÅ¡ies [^aÄ£Ä·sr]ist
+SFX ) st   Å¾oÅ¡ies      [a]ist
+SFX ) st   edoÅ¡ies     [Ä£]ist
+SFX ) st   etoÅ¡ies     [Ä·]ist
+SFX ) st   toÅ¡ies      [s]ist
+SFX ) ist  Ä«toÅ¡ies    [k]rist
+SFX ) st   enoÅ¡ies    [b]rist
+SFX ) irst ÄrtoÅ¡ies  [i]rst
+SFX ) st   Å¾oÅ¡ies    [Ä]rst
+SFX ) st   Å¾oÅ¡ies  [^jkzsÅ¡]ust
+SFX ) ust  Å«toÅ¡ies    [jsÅ¡]ust
+SFX ) ust  Å«stoÅ¡ies    [k]ust
+SFX ) ust  Å«doÅ¡ies     [z]ust
+SFX ) Å«t   ujoÅ¡ies     Å«t
+SFX ) ot   odoÅ¡ies     ot
+
+SFX ! Y 18
+SFX ! t   oÅ¡ies   [^ÄÄÄ«eouÅ«bkmpsz]t
+SFX ! t   joÅ¡ies  [ÄÄÄ«ouÅ«]t
+SFX ! t   noÅ¡ies  [i]et
+SFX ! t   oÅ¡ies   [^Äi]kt
+SFX ! Äkt ecoÅ¡ies  [Ä]kt
+SFX ! kt  ekoÅ¡ies  [i]kt
+SFX ! zt  Å¾oÅ¡ies    zt
+SFX ! t   oÅ¡ies   [^Äeor]bt
+SFX ! t   joÅ¡ies   [Äeor]bt
+SFX ! t   oÅ¡ies    [Å]emt
+SFX ! t   joÅ¡ies   [^e]pt
+SFX ! t   joÅ¡ies  [^c]ept
+SFX ! t   oÅ¡ies    [c]ept
+SFX ! st  Å¡oÅ¡ies [^eiÄ«]st
+SFX ! st  Å¡oÅ¡ies  [^n]est
+SFX ! t   oÅ¡ies    [n]est
+SFX ! st  estoÅ¡ies  [i]st
+SFX ! Ä«st ienoÅ¡ies  [Ä«]st
+
+SFX @ Y 14
+SFX @ t    stoÅ¡ies [^ÄÄÄ«sz]t
+SFX @ Ät   oÅ¡ies      Ät
+SFX @ Ät   oÅ¡ies     [^c]Ät
+SFX @ Ät   oÅ¡ies   [^Äe]cÄt
+SFX @ cÄt  koÅ¡ies    [Ä]cÄt
+SFX @ Ät   oÅ¡ies   [^t]ecÄt
+SFX @ cÄt  koÅ¡ies   [t]ecÄt
+SFX @ Ä«t   oÅ¡ies    [^cz]Ä«t
+SFX @ cÄ«t  koÅ¡ies [^ÄÄ«r]cÄ«t
+SFX @ Ä«t   oÅ¡ies   [ÄÄ«r]cÄ«t
+SFX @ Ä«t   oÅ¡ies  [^atd]zÄ«t
+SFX @ dzÄ«t goÅ¡ies    [d]zÄ«t
+SFX @ t    stoÅ¡ies  [at]zÄ«t
+SFX @ 0    oÅ¡ies     [sz]t
+
+SFX + Y 2
+SFX +   t    damies    t
+SFX +   t    damÄs     t
+
+SFX $ Y 2
+SFX $   st   zdamies [s]t
+SFX $   st   zdamÄs  [s]t
+
+SFX J Y 3
+SFX J  t   Å¡ana/Ss   [^sz]t
+SFX J  st  Å¡ana/Ss   [s]t
+SFX J  zt  Å¡ana/Ss   [z]t
+
+SFX j Y 6
+SFX j t  Å¡anÄs [^sz]t  is:rldn
+SFX j t  Å¡anos [^sz]t  is:rlda
+SFX j st Å¡anÄs   [s]t  is:rldn
+SFX j st Å¡anos   [s]t  is:rlda
+SFX j zt Å¡anÄs   [z]t  is:rldn
+SFX j zt Å¡anos   [z]t  is:rlda
+
+
+SFX B Y 203
+SFX B  t   Å¡u    [^sz]t  is:1vnt0
+SFX B  t   si    [^sz]t  is:2vnt0
+SFX B  t   s     [^sz]t  is:3xnt0
+SFX B  t   sim   [^sz]t  is:1dnt0
+SFX B  t   siet  [^sz]t  is:2dnt0
+SFX B  t   sit   [^sz]t  is:2dnt0
+SFX B  t   Å¡ot   [^sz]t  is:0xnta
+SFX B  t   Ä«Å¡u     [z]t  is:1vnt0
+SFX B  t   Ä«si     [z]t  is:2vnt0
+SFX B  t   Ä«s      [z]t  is:3xnt0
+SFX B  t   Ä«sim    [z]t  is:1dnt0
+SFX B  t   Ä«siet   [z]t  is:2dnt0
+SFX B  t   Ä«sit    [z]t  is:2dnt0
+SFX B  t   Ä«Å¡ot    [z]t  is:0xnta
+SFX B  st  dÄ«Å¡u   [^aeiÄ«uÅ«lr]st  is:1vnt0
+SFX B  st  dÄ«si   [^aeiÄ«uÅ«lr]st  is:2vnt0
+SFX B  st  dÄ«s    [^aeiÄ«uÅ«lr]st  is:3xnt0
+SFX B  st  dÄ«sim  [^aeiÄ«uÅ«lr]st  is:1dnt0
+SFX B  st  dÄ«siet [^aeiÄ«uÅ«lr]st  is:2dnt0
+SFX B  st  dÄ«sit  [^aeiÄ«uÅ«lr]st  is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^aeiÄ«uÅ«lr]st  is:0xnta
+SFX B  st  dÄ«Å¡u   [^p][r]ast  is:1vnt0
+SFX B  st  dÄ«si   [^p][r]ast  is:2vnt0
+SFX B  st  dÄ«s    [^p][r]ast  is:3xnt0
+SFX B  st  dÄ«sim  [^p][r]ast  is:1dnt0
+SFX B  st  dÄ«siet [^p][r]ast  is:2dnt0
+SFX B  st  dÄ«sit  [^p][r]ast  is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^p][r]ast  is:0xnta
+SFX B  st  tÄ«Å¡u   [p]rast   is:1vnt0
+SFX B  st  tÄ«s    [p]rast   is:2vnt0
+SFX B  st  tÄ«si   [p]rast   is:3xnt0
+SFX B  st  tÄ«sim  [p]rast   is:1dnt0
+SFX B  st  tÄ«siet [p]rast   is:2dnt0
+SFX B  st  tÄ«sit  [p]rast   is:2dnt0
+SFX B  st  tÄ«Å¡ot  [p]rast   is:0xnta
+SFX B  st  dÄ«Å¡u   [^a]lst   is:1vnt0
+SFX B  st  dÄ«s    [^a]lst   is:2vnt0
+SFX B  st  dÄ«si   [^a]lst   is:3xnt0
+SFX B  st  dÄ«sim  [^a]lst   is:1dnt0
+SFX B  st  dÄ«siet [^a]lst   is:2dnt0
+SFX B  st  dÄ«sit  [^a]lst   is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^a]lst   is:0xnta
+SFX B  st  tÄ«Å¡u   [a]lst    is:1vnt0
+SFX B  st  tÄ«s    [a]lst    is:2vnt0
+SFX B  st  tÄ«si   [a]lst    is:3xnt0
+SFX B  st  tÄ«sim  [a]lst    is:1dnt0
+SFX B  st  tÄ«siet [a]lst    is:2dnt0
+SFX B  st  tÄ«sit  [a]lst    is:2dnt0
+SFX B  st  tÄ«Å¡ot  [a]lst    is:0xnta
+SFX B  st  tÄ«Å¡u   [c]iest   is:1vnt0
+SFX B  st  tÄ«s    [c]iest   is:2vnt0
+SFX B  st  tÄ«si   [c]iest   is:3xnt0
+SFX B  st  tÄ«sim  [c]iest   is:1dnt0
+SFX B  st  tÄ«siet [c]iest   is:2dnt0
+SFX B  st  tÄ«sit  [c]iest   is:2dnt0
+SFX B  st  tÄ«Å¡ot  [c]iest   is:0xnta
+SFX B  st  tÄ«Å¡u   [lm]est   is:1vnt0
+SFX B  st  tÄ«si   [lm]est   is:2vnt0
+SFX B  st  tÄ«s    [lm]est   is:3xnt0
+SFX B  st  tÄ«sim  [lm]est   is:1dnt0
+SFX B  st  tÄ«siet [lm]est   is:2dnt0
+SFX B  st  tÄ«sit  [lm]est   is:2dnt0
+SFX B  st  tÄ«Å¡ot  [lm]est   is:0xnta
+SFX B  st  dÄ«Å¡u   [^c][^lm]est  is:1vnt0
+SFX B  st  dÄ«si   [^c][^lm]est  is:2vnt0
+SFX B  st  dÄ«s    [^c][^lm]est  is:3xnt0
+SFX B  st  dÄ«sim  [^c][^lm]est  is:1dnt0
+SFX B  st  dÄ«siet [^c][^lm]est  is:2dnt0
+SFX B  st  dÄ«sit  [^c][^lm]est  is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^c][^lm]est  is:0xnta
+SFX B  st  tÄ«Å¡u   [^aÄ£r]ist  is:1vnt0
+SFX B  st  tÄ«si   [^aÄ£r]ist  is:2vnt0
+SFX B  st  tÄ«s    [^aÄ£r]ist  is:3xnt0
+SFX B  st  tÄ«sim  [^aÄ£r]ist  is:1dnt0
+SFX B  st  tÄ«siet [^aÄ£r]ist  is:2dnt0
+SFX B  st  tÄ«sit  [^aÄ£r]ist  is:2dnt0
+SFX B  st  tÄ«Å¡ot  [^aÄ£r]ist  is:0xnta
+SFX B  st  dÄ«Å¡u   [Ä£]ist     is:1vnt0
+SFX B  st  dÄ«si   [Ä£]ist     is:2vnt0
+SFX B  st  dÄ«s    [Ä£]ist     is:3xnt0
+SFX B  st  dÄ«sim  [Ä£]ist     is:1dnt0
+SFX B  st  dÄ«siet [Ä£]ist     is:2dnt0
+SFX B  st  dÄ«sit  [Ä£]ist     is:2dnt0
+SFX B  st  dÄ«Å¡ot  [Ä£]ist     is:0xnta
+SFX B  st  dÄ«Å¡u   [^k]rist   is:1vnt0
+SFX B  st  dÄ«si   [^k]rist   is:2vnt0
+SFX B  st  dÄ«s    [^k]rist   is:3xnt0
+SFX B  st  dÄ«sim  [^k]rist   is:1dnt0
+SFX B  st  dÄ«siet [^k]rist   is:2dnt0
+SFX B  st  dÄ«sit  [^k]rist   is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^k]rist   is:0xnta
+SFX B  st  tÄ«Å¡u   [k]rist    is:1vnt0
+SFX B  st  tÄ«si   [k]rist    is:2vnt0
+SFX B  st  tÄ«s    [k]rist    is:3xnt0
+SFX B  st  tÄ«sim  [k]rist    is:1dnt0
+SFX B  st  tÄ«siet [k]rist    is:2dnt0
+SFX B  st  tÄ«sit  [k]rist    is:2dnt0
+SFX B  st  tÄ«Å¡ot  [k]rist    is:0xnta
+SFX B  st  tÄ«Å¡u   [^l]aist   is:1vnt0
+SFX B  st  tÄ«si   [^l]aist   is:2vnt0
+SFX B  st  tÄ«s    [^l]aist   is:3xnt0
+SFX B  st  tÄ«sim  [^l]aist   is:1dnt0
+SFX B  st  tÄ«siet [^l]aist   is:2dnt0
+SFX B  st  tÄ«sit  [^l]aist   is:2dnt0
+SFX B  st  tÄ«Å¡ot  [^l]aist   is:0xnta
+SFX B  st  dÄ«Å¡u   [l]aist    is:1vnt0
+SFX B  st  dÄ«si   [l]aist    is:2vnt0
+SFX B  st  dÄ«s    [l]aist    is:3xnt0
+SFX B  st  dÄ«sim  [l]aist    is:1dnt0
+SFX B  st  dÄ«siet [l]aist    is:2dnt0
+SFX B  st  dÄ«sit  [l]aist    is:2dnt0
+SFX B  st  dÄ«Å¡ot  [l]aist    is:0xnta
+SFX B  st  dÄ«Å¡u   [^v]Ä«st    is:1vnt0
+SFX B  st  dÄ«si   [^v]Ä«st    is:2vnt0
+SFX B  st  dÄ«s    [^v]Ä«st    is:3xnt0
+SFX B  st  dÄ«sim  [^v]Ä«st    is:1dnt0
+SFX B  st  dÄ«siet [^v]Ä«st    is:2dnt0
+SFX B  st  dÄ«sit  [^v]Ä«st    is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^v]Ä«st    is:0xnta
+SFX B  st  tÄ«Å¡u   [^s]vÄ«st   is:1vnt0
+SFX B  st  tÄ«si   [^s]vÄ«st   is:2vnt0
+SFX B  st  tÄ«s    [^s]vÄ«st   is:3xnt0
+SFX B  st  tÄ«sim  [^s]vÄ«st   is:1dnt0
+SFX B  st  tÄ«siet [^s]vÄ«st   is:2dnt0
+SFX B  st  tÄ«sit  [^s]vÄ«st   is:2dnt0
+SFX B  st  tÄ«Å¡ot  [^s]vÄ«st   is:0xnta
+SFX B  st  dÄ«Å¡u   [s]vÄ«st    is:1vnt0
+SFX B  st  dÄ«si   [s]vÄ«st    is:2vnt0
+SFX B  st  dÄ«s    [s]vÄ«st    is:3xnt0
+SFX B  st  dÄ«sim  [s]vÄ«st    is:1dnt0
+SFX B  st  dÄ«siet [s]vÄ«st    is:2dnt0
+SFX B  st  dÄ«sit  [s]vÄ«st    is:2dnt0
+SFX B  st  dÄ«Å¡ot  [s]vÄ«st    is:0xnta
+SFX B  st  dÄ«Å¡u   [^ajsÅ¡]ust is:1vnt0
+SFX B  st  dÄ«si   [^ajsÅ¡]ust is:2vnt0
+SFX B  st  dÄ«s    [^ajsÅ¡]ust is:3xnt0
+SFX B  st  dÄ«sim  [^ajsÅ¡]ust is:1dnt0
+SFX B  st  dÄ«siet [^ajsÅ¡]ust is:2dnt0
+SFX B  st  dÄ«sit  [^ajsÅ¡]ust is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^ajsÅ¡]ust is:0xnta
+SFX B  st  tÄ«Å¡u   [jsÅ¡]ust  is:1vnt0
+SFX B  st  tÄ«si   [jsÅ¡]ust  is:2vnt0
+SFX B  st  tÄ«s    [jsÅ¡]ust  is:3xnt0
+SFX B  st  tÄ«sim  [jsÅ¡]ust  is:1dnt0
+SFX B  st  tÄ«siet [jsÅ¡]ust  is:2dnt0
+SFX B  st  tÄ«sit  [jsÅ¡]ust  is:2dnt0
+SFX B  st  tÄ«Å¡ot  [jsÅ¡]ust  is:0xnta
+SFX B  st  dÄ«Å¡u   [^j]aust  is:1vnt0
+SFX B  st  dÄ«si   [^j]aust  is:2vnt0
+SFX B  st  dÄ«s    [^j]aust  is:3xnt0
+SFX B  st  dÄ«sim  [^j]aust  is:1dnt0
+SFX B  st  dÄ«siet [^j]aust  is:2dnt0
+SFX B  st  dÄ«sit  [^j]aust  is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^j]aust  is:0xnta
+SFX B  st  tÄ«Å¡u    [j]aust  is:1vnt0
+SFX B  st  tÄ«si    [j]aust  is:2vnt0
+SFX B  st  tÄ«s     [j]aust  is:3xnt0
+SFX B  st  tÄ«sim   [j]aust  is:1dnt0
+SFX B  st  tÄ«siet  [j]aust  is:2dnt0
+SFX B  st  tÄ«sit   [j]aust  is:2dnt0
+SFX B  st  tÄ«Å¡ot   [j]aust  is:0xnta
+SFX B  st  dÄ«Å¡u   [^p]Å«st   is:1vnt0
+SFX B  st  dÄ«si   [^p]Å«st   is:2vnt0
+SFX B  st  dÄ«s    [^p]Å«st   is:3xnt0
+SFX B  st  dÄ«sim  [^p]Å«st   is:1dnt0
+SFX B  st  dÄ«siet [^p]Å«st   is:2dnt0
+SFX B  st  dÄ«sit  [^p]Å«st   is:2dnt0
+SFX B  st  dÄ«Å¡ot  [^p]Å«st   is:0xnta
+SFX B  st  tÄ«Å¡u    [p]Å«st   is:1vnt0
+SFX B  st  tÄ«si    [p]Å«st   is:2vnt0
+SFX B  st  tÄ«s     [p]Å«st   is:3xnt0
+SFX B  st  tÄ«sim   [p]Å«st   is:1dnt0
+SFX B  st  tÄ«siet  [p]Å«st   is:2dnt0
+SFX B  st  tÄ«sit   [p]Å«st   is:2dnt0
+SFX B  st  tÄ«Å¡ot   [p]Å«st   is:0xnta
+SFX B  t  Ä«Å¡u   [^ÄiÄ]rst  is:1vnt0
+SFX B  t  Ä«si   [^ÄiÄ]rst  is:2vnt0
+SFX B  t  Ä«s    [^ÄiÄ]rst  is:3xnt0
+SFX B  t  Ä«sim  [^ÄiÄ]rst  is:1dnt0
+SFX B  t  Ä«siet [^ÄiÄ]rst  is:2dnt0
+SFX B  t  Ä«sit  [^ÄiÄ]rst  is:2dnt0
+SFX B  t  Ä«Å¡ot  [^ÄiÄ]rst  is:0xnta
+SFX B  st  tÄ«Å¡u    [Äi]rst  is:1vnt0
+SFX B  st  tÄ«si    [Äi]rst  is:2vnt0
+SFX B  st  tÄ«s     [Äi]rst  is:3xnt0
+SFX B  st  tÄ«sim   [Äi]rst  is:1dnt0
+SFX B  st  tÄ«siet  [Äi]rst  is:2dnt0
+SFX B  st  tÄ«sit   [Äi]rst  is:2dnt0
+SFX B  st  tÄ«Å¡ot   [Äi]rst  is:0xnta
+SFX B  st  dÄ«Å¡u    [^v]Ärst  is:1vnt0
+SFX B  st  dÄ«si    [^v]Ärst  is:2vnt0
+SFX B  st  dÄ«s     [^v]Ärst  is:3xnt0
+SFX B  st  dÄ«sim   [^v]Ärst  is:1dnt0
+SFX B  st  dÄ«siet  [^v]Ärst  is:2dnt0
+SFX B  st  dÄ«sit   [^v]Ärst  is:2dnt0
+SFX B  st  dÄ«Å¡ot   [^v]Ärst  is:0xnta
+SFX B  st  tÄ«Å¡u    [v]Ärst  is:1vnt0
+SFX B  st  tÄ«si    [v]Ärst  is:2vnt0
+SFX B  st  tÄ«s     [v]Ärst  is:3xnt0
+SFX B  st  tÄ«sim   [v]Ärst  is:1dnt0
+SFX B  st  tÄ«siet  [v]Ärst  is:2dnt0
+SFX B  st  tÄ«sit   [v]Ärst  is:2dnt0
+SFX B  st  tÄ«Å¡ot   [v]Ärst  is:0xnta
+
+SFX C Y 14
+SFX C t Ä«Å¡u   [^m]st  is:1vnt0
+SFX C t Ä«si   [^m]st  is:2vnt0
+SFX C t Ä«s    [^m]st  is:3xnt0
+SFX C t Ä«sim  [^m]st  is:1dnt0
+SFX C t Ä«siet [^m]st  is:2dnt0
+SFX C t Ä«sit  [^m]st  is:2dnt0
+SFX C t Ä«Å¡ot  [^m]st  is:0xnta
+SFX C st tÄ«Å¡u   [m]st  is:1vnt0
+SFX C st tÄ«si   [m]st  is:2vnt0
+SFX C st tÄ«s    [m]st  is:3xnt0
+SFX C st tÄ«sim  [m]st  is:1dnt0
+SFX C st tÄ«siet [m]st  is:2dnt0
+SFX C st tÄ«sit  [m]st  is:2dnt0
+SFX C st tÄ«Å¡ot  [m]st  is:0xnta
+
+
+SFX b Y 180
+SFX b t   Å¡os     [^sz]t  is:1vna0
+SFX b t   sies    [^sz]t  is:2xna0
+SFX b t   simies  [^sz]t  is:1dna0
+SFX b t   sieties [^sz]t  is:2dna0
+SFX b t   sities  [^sz]t  is:2dna0
+SFX b t   Å¡oties  [^sz]t  is:0xnaa
+SFX b t   Ä«Å¡os     [z]t  is:1vna0
+SFX b t   Ä«sies    [z]t  is:2xna0
+SFX b t   Ä«simies  [z]t  is:1dna0
+SFX b t   Ä«sieties [z]t  is:2dna0
+SFX b t   Ä«sities  [z]t  is:2dna0
+SFX b t   Ä«Å¡oties  [z]t  is:0xnaa
+SFX b st  dÄ«Å¡os     [^aeiÄ«nuÅ«lr]st  is:1vna0
+SFX b st  dÄ«sies    [^aeiÄ«nuÅ«lr]st  is:2xna0
+SFX b st  dÄ«simies  [^aeiÄ«nuÅ«lr]st  is:1dna0
+SFX b st  dÄ«sieties [^aeiÄ«nuÅ«lr]st  is:2dna0
+SFX b st  dÄ«sities  [^aeiÄ«nuÅ«lr]st  is:2dna0
+SFX b st  dÄ«Å¡oties  [^aeiÄ«nuÅ«lr]st  is:0xnaa
+SFX b st  tÄ«Å¡os     [n]st   is:1vna0
+SFX b st  tÄ«sies    [n]st   is:3xna0
+SFX b st  tÄ«simies  [n]st   is:1dna0
+SFX b st  tÄ«sieties [n]st   is:2dna0
+SFX b st  tÄ«sities  [n]st   is:2dna0
+SFX b st  tÄ«Å¡oties  [n]st   is:0xnaa
+SFX b st  dÄ«Å¡os     [^p][r]ast  is:1vna0
+SFX b st  dÄ«sies    [^p][r]ast  is:2xna0
+SFX b st  dÄ«simies  [^p][r]ast  is:1dna0
+SFX b st  dÄ«sieties [^p][r]ast  is:2dna0
+SFX b st  dÄ«sities  [^p][r]ast  is:2dna0
+SFX b st  dÄ«Å¡oties  [^p][r]ast  is:0xnaa
+SFX b st  tÄ«Å¡os     [p]rast   is:1vna0
+SFX b st  tÄ«sies    [p]rast   is:3xna0
+SFX b st  tÄ«simies  [p]rast   is:1dna0
+SFX b st  tÄ«sieties [p]rast   is:2dna0
+SFX b st  tÄ«sities  [p]rast   is:2dna0
+SFX b st  tÄ«Å¡oties  [p]rast   is:0xnaa
+SFX b st  dÄ«Å¡os     [^a]lst  is:1vna0
+SFX b st  dÄ«sies    [^a]lst  is:3xna0
+SFX b st  dÄ«simies  [^a]lst  is:1dna0
+SFX b st  dÄ«sieties [^a]lst  is:2dna0
+SFX b st  dÄ«sities  [^a]lst  is:2dna0
+SFX b st  dÄ«Å¡oties  [^a]lst  is:0xnaa
+SFX b st  tÄ«Å¡os     [a]lst    is:1vna0
+SFX b st  tÄ«sies    [a]lst    is:3xna0
+SFX b st  tÄ«simies  [a]lst    is:1dna0
+SFX b st  tÄ«sieties [a]lst    is:2dna0
+SFX b st  tÄ«sities  [a]lst    is:2dna0
+SFX b st  tÄ«Å¡oties  [a]lst    is:0xnaa
+SFX b st  tÄ«Å¡os     [c]iest  is:1vna0
+SFX b st  tÄ«sies    [c]iest  is:3xna0
+SFX b st  tÄ«simies  [c]iest  is:1dna0
+SFX b st  tÄ«sieties [c]iest  is:2dna0
+SFX b st  tÄ«sities  [c]iest  is:2dna0
+SFX b st  tÄ«Å¡oties  [c]iest  is:0xnaa
+SFX b st  tÄ«Å¡os     [lm]est   is:1vna0
+SFX b st  tÄ«sies    [lm]est   is:2xna0
+SFX b st  tÄ«simies  [lm]est   is:1dna0
+SFX b st  tÄ«sieties [lm]est   is:2dna0
+SFX b st  tÄ«sities  [lm]est   is:2dna0
+SFX b st  tÄ«Å¡oties  [lm]est   is:0xnaa
+SFX b st  dÄ«Å¡os     [^c][^lm]est  is:1vna0
+SFX b st  dÄ«sies    [^c][^lm]est  is:2xna0
+SFX b st  dÄ«simies  [^c][^lm]est  is:1dna0
+SFX b st  dÄ«sieties [^c][^lm]est  is:2dna0
+SFX b st  dÄ«sities  [^c][^lm]est  is:2dna0
+SFX b st  dÄ«Å¡oties  [^c][^lm]est  is:0xnaa
+SFX b st  tÄ«Å¡os     [^aÄ£r]ist  is:1vna0
+SFX b st  tÄ«sies    [^aÄ£r]ist  is:2xna0
+SFX b st  tÄ«simies  [^aÄ£r]ist  is:1dna0
+SFX b st  tÄ«sieties [^aÄ£r]ist  is:2dna0
+SFX b st  tÄ«sities  [^aÄ£r]ist  is:2dna0
+SFX b st  tÄ«Å¡oties  [^aÄ£r]ist  is:0xnaa
+SFX b st  dÄ«Å¡os     [Ä£]ist   is:1vna0
+SFX b st  dÄ«sies    [Ä£]ist   is:2xna0
+SFX b st  dÄ«simies  [Ä£]ist   is:1dna0
+SFX b st  dÄ«sieties [Ä£]ist   is:2dna0
+SFX b st  dÄ«sities  [Ä£]ist   is:2dna0
+SFX b st  dÄ«Å¡oties  [Ä£]ist   is:0xnaa
+SFX b st  dÄ«Å¡os     [^k]rist  is:1vna0
+SFX b st  dÄ«sies    [^k]rist  is:2xna0
+SFX b st  dÄ«simies  [^k]rist  is:1dna0
+SFX b st  dÄ«sieties [^k]rist  is:2dna0
+SFX b st  dÄ«sities  [^k]rist  is:2dna0
+SFX b st  dÄ«Å¡oties  [^k]rist  is:0xnaa
+SFX b st  tÄ«Å¡os     [k]rist    is:1vna0
+SFX b st  tÄ«sies    [k]rist    is:2xna0
+SFX b st  tÄ«simies  [k]rist    is:1dna0
+SFX b st  tÄ«sieties [k]rist    is:2dna0
+SFX b st  tÄ«sities  [k]rist    is:2dna0
+SFX b st  tÄ«Å¡oties  [k]rist    is:0xnaa
+SFX b st  tÄ«Å¡os     [^l]aist  is:1vna0
+SFX b st  tÄ«sies    [^l]aist  is:2xna0
+SFX b st  tÄ«simies  [^l]aist  is:1dna0
+SFX b st  tÄ«sieties [^l]aist  is:2dna0
+SFX b st  tÄ«sities  [^l]aist  is:2dna0
+SFX b st  tÄ«Å¡oties  [^l]aist  is:0xnaa
+SFX b st  dÄ«Å¡os     [l]aist    is:1vna0
+SFX b st  dÄ«sies    [l]aist    is:2xna0
+SFX b st  dÄ«simies  [l]aist    is:1dna0
+SFX b st  dÄ«sieties [l]aist    is:2dna0
+SFX b st  dÄ«sities  [l]aist    is:2dna0
+SFX b st  dÄ«Å¡oties  [l]aist    is:0xnaa
+SFX b st  dÄ«Å¡os     [^v]Ä«st   is:1vna0
+SFX b st  dÄ«sies    [^v]Ä«st   is:2xna0
+SFX b st  dÄ«simies  [^v]Ä«st   is:1dna0
+SFX b st  dÄ«sieties [^v]Ä«st   is:2dna0
+SFX b st  dÄ«sities  [^v]Ä«st   is:2dna0
+SFX b st  dÄ«Å¡oties  [^v]Ä«st   is:0xnaa
+SFX b st  tÄ«Å¡os     [^s]vÄ«st   is:1vna0
+SFX b st  tÄ«sies    [^s]vÄ«st   is:2xna0
+SFX b st  tÄ«simies  [^s]vÄ«st   is:1dna0
+SFX b st  tÄ«sieties [^s]vÄ«st   is:2dna0
+SFX b st  tÄ«sities  [^s]vÄ«st   is:2dna0
+SFX b st  tÄ«Å¡oties  [^s]vÄ«st   is:0xnaa
+SFX b st  dÄ«Å¡os     [s]vÄ«st   is:1vna0
+SFX b st  dÄ«sies    [s]vÄ«st   is:2xna0
+SFX b st  dÄ«simies  [s]vÄ«st   is:1dna0
+SFX b st  dÄ«sieties [s]vÄ«st   is:2dna0
+SFX b st  dÄ«sities  [s]vÄ«st   is:2dna0
+SFX b st  dÄ«Å¡oties  [s]vÄ«st   is:0xnaa
+SFX b st  dÄ«Å¡os     [^ajsÅ¡]ust is:1vna0
+SFX b st  dÄ«sies    [^ajsÅ¡]ust is:2xna0
+SFX b st  dÄ«simies  [^ajsÅ¡]ust is:1dna0
+SFX b st  dÄ«sieties [^ajsÅ¡]ust is:2dna0
+SFX b st  dÄ«sities  [^ajsÅ¡]ust is:2dna0
+SFX b st  dÄ«Å¡oties  [^ajsÅ¡]ust is:0xnaa
+SFX b st  tÄ«Å¡os     [jsÅ¡]ust  is:1vna0
+SFX b st  tÄ«sies    [jsÅ¡]ust  is:2xna0
+SFX b st  tÄ«simies  [jsÅ¡]ust  is:1dna0
+SFX b st  tÄ«sieties [jsÅ¡]ust  is:2dna0
+SFX b st  tÄ«sities  [jsÅ¡]ust  is:2dna0
+SFX b st  tÄ«Å¡oties  [jsÅ¡]ust  is:0xnaa
+SFX b st  dÄ«Å¡os     [^j]aust   is:1vna0
+SFX b st  dÄ«sies    [^j]aust   is:2xna0
+SFX b st  dÄ«simies  [^j]aust   is:1dna0
+SFX b st  dÄ«sieties [^j]aust   is:2dna0
+SFX b st  dÄ«sities  [^j]aust   is:2dna0
+SFX b st  dÄ«Å¡oties  [^j]aust   is:0xnaa
+SFX b st  tÄ«Å¡os      [j]aust  is:1vna0
+SFX b st  tÄ«sies     [j]aust  is:2xna0
+SFX b st  tÄ«simies   [j]aust  is:1dna0
+SFX b st  tÄ«sieties  [j]aust  is:2dna0
+SFX b st  tÄ«sities   [j]aust  is:2dna0
+SFX b st  tÄ«Å¡oties   [j]aust  is:0xnaa
+SFX b st  dÄ«Å¡os     [^p]Å«st  is:1vna0
+SFX b st  dÄ«sies    [^p]Å«st  is:2xna0
+SFX b st  dÄ«simies  [^p]Å«st  is:1dna0
+SFX b st  dÄ«sieties [^p]Å«st  is:2dna0
+SFX b st  dÄ«sities  [^p]Å«st  is:2dna0
+SFX b st  dÄ«Å¡oties  [^p]Å«st  is:0xnaa
+SFX b st  tÄ«Å¡os      [p]Å«st   is:1vna0
+SFX b st  tÄ«sies     [p]Å«st   is:2xna0
+SFX b st  tÄ«simies   [p]Å«st   is:1dna0
+SFX b st  tÄ«sieties  [p]Å«st   is:2dna0
+SFX b st  tÄ«sities   [p]Å«st   is:2dna0
+SFX b st  tÄ«Å¡oties   [p]Å«st   is:0xnaa
+SFX b t  Ä«Å¡os     [^ÄiÄ]rst  is:1vna0
+SFX b t  Ä«sies    [^ÄiÄ]rst  is:2xna0
+SFX b t  Ä«simies  [^ÄiÄ]rst  is:1dna0
+SFX b t  Ä«sieties [^ÄiÄ]rst  is:2dna0
+SFX b t  Ä«sities  [^ÄiÄ]rst  is:2dna0
+SFX b t  Ä«Å¡oties  [^ÄiÄ]rst  is:0xnaa
+SFX b st  tÄ«Å¡os      [Äi]rst  is:1vna0
+SFX b st  tÄ«sies     [Äi]rst  is:2xna0
+SFX b st  tÄ«simies   [Äi]rst  is:1dna0
+SFX b st  tÄ«sieties  [Äi]rst  is:2dna0
+SFX b st  tÄ«sities   [Äi]rst  is:2dna0
+SFX b st  tÄ«Å¡oties   [Äi]rst  is:0xnaa
+SFX b st  dÄ«Å¡os      [^v]Ärst  is:1vna0
+SFX b st  dÄ«sies     [^v]Ärst  is:2xna0
+SFX b st  dÄ«simies   [^v]Ärst  is:1dna0
+SFX b st  dÄ«sieties  [^v]Ärst  is:2dna0
+SFX b st  dÄ«sities   [^v]Ärst  is:2dna0
+SFX b st  dÄ«Å¡oties   [^v]Ärst  is:0xnaa
+SFX b st  tÄ«Å¡os      [v]Ärst  is:1vna0
+SFX b st  tÄ«sies     [v]Ärst  is:2xna0
+SFX b st  tÄ«simies   [v]Ärst  is:1dna0
+SFX b st  tÄ«sieties  [v]Ärst  is:2dna0
+SFX b st  tÄ«sities   [v]Ärst  is:2dna0
+SFX b st  tÄ«Å¡oties   [v]Ärst  is:0xnaa
+
+SFX c Y 12
+SFX c t Ä«Å¡os     [^m]st  is:1vna0
+SFX c t Ä«sies    [^m]st  is:2xna0
+SFX c t Ä«simies  [^m]st  is:1dna0
+SFX c t Ä«sieties [^m]st  is:2dna0
+SFX c t Ä«sities  [^m]st  is:2dna0
+SFX c t Ä«Å¡oties  [^m]st  is:0xnaa
+SFX c st tÄ«Å¡os     [m]st  is:1vna0
+SFX c st tÄ«sies    [m]st  is:2xna0
+SFX c st tÄ«simies  [m]st  is:1dna0
+SFX c st tÄ«sieties [m]st  is:2dna0
+SFX c st tÄ«sities  [m]st  is:2dna0
+SFX c st tÄ«Å¡oties  [m]st  is:0xnaa
+
+SFX < Y 29
+SFX < ties jos      ties
+SFX < ties jies     ties
+SFX < ties jas      ties
+SFX < ties jamies   ties
+SFX < ties jaties   ties
+SFX < ties jÄs      ties
+SFX < ties jÄmies   ties
+SFX < ties jÄties   ties
+SFX < ties Å¡os      ties
+SFX < ties sies     ties
+SFX < ties simies   ties
+SFX < ties sieties  ties
+SFX < ties sities   ties
+SFX < ties jieties  ties
+SFX < ties tos      ties
+SFX < ties joties   ties
+SFX < ties Å¡oties   ties
+SFX < ties damies   ties
+SFX < ties damÄs    ties
+SFX < ties joÅ¡ies   ties
+SFX < ties joÅ¡os    ties
+SFX < ties joÅ¡Äs    ties
+SFX < ties jusies   ties
+SFX < ties juÅ¡ies   ties
+SFX < ties juÅ¡os    ties
+SFX < ties juÅ¡Äs    ties
+SFX < ties Å¡anos    ties
+SFX < ties Å¡anÄs    ties
+SFX < ties jas/]|   ties  is:0xtav
+
+SFX > Y 53
+SFX > Äties  os     [Ä]ties
+SFX > Äties  ies    [Ä]ties
+SFX > Äties  Äs     [Ä]ties
+SFX > Äties  Ämies  [Ä]ties
+SFX > Äties  Äties  [Ä]ties
+SFX > Äties  ieties [Ä]ties
+SFX > Äties  oties  [Ä]ties
+SFX > Äties  oÅ¡ies  [Ä]ties
+SFX > Äties  oÅ¡os   [Ä]ties
+SFX > Äties  oÅ¡Äs   [Ä]ties
+SFX > Äties  Äs/]|  [Ä]ties  is:0xtav
+SFX > Äties  os     [Ä]ties
+SFX > Äties  ies    [Ä]ties
+SFX > Äties  as     [Ä]ties
+SFX > Äties  amies  [Ä]ties
+SFX > Äties  aties  [Ä]ties
+SFX > Äties  ieties [Ä]ties
+SFX > Äties  oties  [Ä]ties
+SFX > Äties  oÅ¡ies  [Ä]ties
+SFX > Äties  oÅ¡os   [Ä]ties
+SFX > Äties  oÅ¡Äs   [Ä]ties
+SFX > Äties  as/]|  [Ä]ties  is:0xtav
+SFX > Ä«ties  os     [Ä«]ties
+SFX > Ä«ties  ies    [Ä«]ties
+SFX > Ä«ties  Äs     [Ä«]ties
+SFX > Ä«ties  Ämies  [Ä«]ties
+SFX > Ä«ties  Äties  [Ä«]ties
+SFX > Ä«ties  ieties [Ä«]ties
+SFX > Ä«ties  oties  [Ä«]ties
+SFX > Ä«ties  oÅ¡ies  [Ä«]ties
+SFX > Ä«ties  oÅ¡os   [Ä«]ties
+SFX > Ä«ties  oÅ¡Äs   [Ä«]ties
+SFX > Ä«ties  Äs/]|  [Ä«]ties  is:0xtav
+SFX > ies    os      [ÄÄÄ«]ties
+SFX > ties   jos     [ÄÄÄ«]ties
+SFX > ties   jies    [ÄÄÄ«]ties
+SFX > ties   jÄs     [ÄÄÄ«]ties
+SFX > ties   jÄmies  [ÄÄÄ«]ties
+SFX > ties   jÄties  [ÄÄÄ«]ties
+SFX > ties   Å¡os     [ÄÄÄ«]ties
+SFX > ties   sies    [ÄÄÄ«]ties
+SFX > ties   sieties [ÄÄÄ«]ties
+SFX > ties   simies  [ÄÄÄ«]ties
+SFX > ties   sities  [ÄÄÄ«]ties
+SFX > ties   damies  [ÄÄÄ«]ties
+SFX > ties   damÄs   [ÄÄÄ«]ties
+SFX > ties   jusies  [ÄÄÄ«]ties
+SFX > ties   juÅ¡ies  [ÄÄÄ«]ties
+SFX > ties   juÅ¡os   [ÄÄÄ«]ties
+SFX > ties   juÅ¡Äs   [ÄÄÄ«]ties
+SFX > ties   Å¡anos   [ÄÄÄ«]ties
+SFX > ties   Å¡anÄs   [ÄÄÄ«]ties
+SFX > ties   Å¡oties  [ÄÄÄ«]ties
+
+SFX O Y 10
+SFX O s a   [s]  is:vpg
+SFX O s am  [s]  is:vpd
+SFX O s u   [s]  is:vpa
+SFX O s Ä   [s]  is:vpl
+SFX O s 0   [s]  is:vpv
+SFX O Å¡ a   [Å¡]  is:vpg
+SFX O Å¡ am  [Å¡]  is:vpd
+SFX O Å¡ u   [Å¡]  is:vpa
+SFX O Å¡ Ä   [Å¡]  is:vpl
+SFX O Å¡ 0   [Å¡]  is:vpv
+
+SFX o Y 12
+SFX o s i    s  is:dpn
+SFX o s iem  s  is:dpd
+SFX o s us   s  is:dpa
+SFX o s os   s  is:dpl
+SFX o Å¡ i    Å¡  is:dpn
+SFX o Å¡ iem  Å¡  is:dpd
+SFX o Å¡ us   Å¡  is:dpa
+SFX o Å¡ os   Å¡  is:dpl
+SFX o i u    i  is:ddg
+SFX o 0 em   i  is:ddd
+SFX o i us   i  is:dda
+SFX o i os   i  is:ddl
+
+SFX P Y 24
+SFX P s  iÅÅ¡  [^gk]s  is:vdn
+SFX P s  iÅa  [^gk]s  is:vdg
+SFX P s  iÅam [^gk]s  is:vdd
+SFX P s  iÅu  [^gk]s  is:vda
+SFX P s  iÅÄ  [^gk]s  is:vdl
+SFX P s  iÅ   [^gk]s  is:vdv
+SFX P gs dziÅÅ¡  [g]s  is:vdn
+SFX P gs dziÅa  [g]s  is:vdg
+SFX P gs dziÅam [g]s  is:vdd
+SFX P gs dziÅu  [g]s  is:vda
+SFX P gs dziÅÄ  [g]s  is:vdl
+SFX P gs dziÅ   [g]s  is:vdv
+SFX P ks ciÅÅ¡   [k]s  is:vdn
+SFX P ks ciÅa   [k]s  is:vdg
+SFX P ks ciÅam  [k]s  is:vdd
+SFX P ks ciÅu   [k]s  is:vda
+SFX P ks ciÅÄ   [k]s  is:vdl
+SFX P ks ciÅ    [k]s  is:vdv
+SFX P Å¡  iÅÅ¡   [Å¡]    is:vdn
+SFX P Å¡  iÅa   [Å¡]    is:vdg
+SFX P Å¡  iÅam  [Å¡]    is:vdd
+SFX P Å¡  iÅu   [Å¡]    is:vda
+SFX P Å¡  iÅÄ   [Å¡]    is:vdl
+SFX P Å¡  iÅ    [Å¡]    is:vdv
+
+SFX p Y 16
+SFX p s   iÅi   [^gk]s  is:ddn
+SFX p s   iÅiem [^gk]s  is:ddd
+SFX p s   iÅus  [^gk]s  is:dda
+SFX p s   iÅos  [^gk]s  is:ddl
+SFX p gs  dziÅi   [g]s  is:ddn
+SFX p gs  dziÅiem [g]s  is:ddd
+SFX p gs  dziÅus  [g]s  is:dda
+SFX p gs  dziÅos  [g]s  is:ddl
+SFX p ks  ciÅi    [k]s  is:ddn
+SFX p ks  ciÅiem  [k]s  is:ddd
+SFX p ks  ciÅus   [k]s  is:dda
+SFX p ks  ciÅos   [k]s  is:ddl
+SFX p Å¡   iÅi     [Å¡]   is:ddn
+SFX p Å¡   iÅiem   [Å¡]   is:ddd
+SFX p Å¡   iÅus    [Å¡]   is:dda
+SFX p Å¡   iÅos    [Å¡]   is:ddl
+
+SFX x Y 18
+SFX x  gs  Ä£e/Ss         [o]gs  is:vpn po:lietv5r
+SFX x  ks  ce/Ss         nieks  is:vpn po:lietv5r
+SFX x  s   e/Ss      [flrstz]s  is:vpn po:lietv5r
+SFX x  is  e/Ss     [bÄ·lnprt]is  is:vpn po:lietv5r
+SFX x  s   e/Ss  [aÄeodt][nr]s  is:vpn po:lietv5r
+SFX x  s   a/Ss           [j]s
+SFX x e es e is:vpg
+SFX x e em e is:vpd
+SFX x e i  e is:vpa
+SFX x e Ä  e is:vpl
+SFX x e Äm e is:dpd
+SFX x e Äs e is:dpl
+SFX x a as a is:vpg
+SFX x a am a is:vpd
+SFX x a u  a is:vpa
+SFX x a Ä  a is:vpl
+SFX x a Äm a is:dpd
+SFX x a Äs a is:dpl
+
+SFX Q Y 27
+SFX Q is   a   [^bcdlmnpvtsz]is is:vpg
+SFX Q is   ja  [bpmv]is is:vpg
+SFX Q cis  Äa  [c]is    is:vpg
+SFX Q dis  Å¾a  [d]is    is:vpg
+SFX Q sis  Å¡a  [s]is    is:vpg
+SFX Q tis  Å¡a  [^as][t]is is:vpg
+SFX Q is   a   [a][t]is   is:vpg
+SFX Q is   a   [s][t]is   is:vpg
+SFX Q zis  Å¾a  [z]is      is:vpg
+SFX Q nis  Åa  [^lsz][n]is is:vpg
+SFX Q lis  Ä¼a  [^lsz][l]is is:vpg
+SFX Q lnis Ä¼Åa [l]nis   is:vpg
+SFX Q snis Å¡Åa [s]nis   is:vpg
+SFX Q znis Å¾Åa [z]nis   is:vpg
+SFX Q llis Ä¼Ä¼a [l]lis   is:vpg
+SFX Q nnis ÅÅa [n]nis   is:vpg
+SFX Q slis Å¡Ä¼a [s]lis   is:vpg
+SFX Q zlis Å¾Ä¼a [z]lis   is:vpg
+SFX Q s    m   [i]s   is:vpd
+SFX Q s    0   [i]s   is:vpa
+SFX Q is   Ä«   [i]s   is:vpl
+SFX Q ns   Åa  [n]s   is:vpg
+SFX Q ls   Ä¼a  [l]s   is:vpg
+SFX Q ss   Å¡a  [s]s   is:vpg
+SFX Q s    im  [lns]s   is:vpd
+SFX Q s    i   [lns]s   is:vpa
+SFX Q s    Ä«   [lns]s   is:vpl
+
+SFX q Y 105
+SFX q is    ji    [bpmv]is  is:dpn
+SFX q is    i     [Ä£rÄ·j]is  is:dpn
+SFX q tis   Å¡i    [^as][t]is  is:dpn
+SFX q is    i     [a][t]is  is:dpn
+SFX q is    i     [s][t]is  is:dpn
+SFX q cis   Äi    [c]is  is:dpn
+SFX q dis   Å¾i    [d]is  is:dpn
+SFX q zis   Å¾i    [z]is  is:dpn
+SFX q sis   Å¡i    [s]is  is:dpn
+SFX q nis   Åi    [^lsz][n]is  is:dpn
+SFX q lis   Ä¼i    [^lsz][l]is  is:dpn
+SFX q lnis  Ä¼Åi   [l]nis  is:dpn
+SFX q snis  Å¡Åi   [s]nis  is:dpn
+SFX q znis  Å¾Åi   [z]nis  is:dpn
+SFX q llis  Ä¼Ä¼i   [l]lis  is:dpn
+SFX q nnis  ÅÅi   [n]nis  is:dpn
+SFX q slis  Å¡Ä¼i   [s]lis  is:dpn
+SFX q zlis  Å¾Ä¼i   [z]lis  is:dpn
+SFX q ns    Åi    [n]s    is:dpn
+SFX q ls    Ä¼i    [l]s    is:dpn
+SFX q ss    Å¡i    [s]s    is:dpn
+SFX q is    ju    [bpmv]is  is:dpg
+SFX q is    u     [Ä£rÄ·j]is  is:dpg
+SFX q tis   Å¡u  [^as][t]is  is:dpg
+SFX q is    u     [a][t]is  is:dpg
+SFX q is    u     [s][t]is  is:dpg
+SFX q cis   Äu    [c]is  is:dpg
+SFX q dis   Å¾u    [d]is  is:dpg
+SFX q zis   Å¾u    [z]is  is:dpg
+SFX q sis   Å¡u    [s]is  is:dpg
+SFX q nis   Åu    [^lsz][n]is  is:dpg
+SFX q lis   Ä¼u    [^lsz][l]is  is:dpg
+SFX q lnis  Ä¼Åu   [l]nis  is:dpg
+SFX q snis  Å¡Åu   [s]nis  is:dpg
+SFX q znis  Å¾Åu   [z]nis  is:dpg
+SFX q llis  Ä¼Ä¼u   [l]lis  is:dpg
+SFX q nnis  ÅÅu   [n]nis  is:dpg
+SFX q slis  Å¡Ä¼u   [s]lis  is:dpg
+SFX q zlis  Å¾Ä¼u   [z]lis  is:dpg
+SFX q ns    Åu    [n]s  is:dpg
+SFX q ls    Ä¼u    [l]s  is:dpg
+SFX q ss    Å¡u    [s]s  is:dpg
+SFX q is    jiem  [bpmv]is  is:dpd
+SFX q s     em    [Ä£rÄ·j]is  is:dpd
+SFX q tis   Å¡iem  [^as][t]is  is:dpd
+SFX q is    iem   [a][t]is  is:dpd
+SFX q is    iem   [s][t]is  is:dpd
+SFX q cis   Äiem  [c]is  is:dpd
+SFX q dis   Å¾iem  [d]is  is:dpd
+SFX q zis   Å¾iem  [z]is  is:dpd
+SFX q sis   Å¡iem  [s]is  is:dpd
+SFX q nis   Åiem  [^lsz][n]is  is:dpd
+SFX q lis   Ä¼iem  [^lsz][l]is  is:dpd
+SFX q lnis  Ä¼Åiem [l]nis  is:dpd
+SFX q snis  Å¡Åiem [s]nis  is:dpd
+SFX q znis  Å¾Åiem [z]nis  is:dpd
+SFX q llis  Ä¼Ä¼iem [l]lis  is:dpd
+SFX q nnis  ÅÅiem [n]nis  is:dpd
+SFX q slis  Å¡Ä¼iem [s]lis  is:dpd
+SFX q zlis  Å¾Ä¼iem [z]lis  is:dpd
+SFX q ns    Åiem  [n]s  is:dpd
+SFX q ls    Ä¼iem  [l]s  is:dpd
+SFX q ss    Å¡iem  [s]s  is:dpd
+SFX q is    jus   [bpmv]is  is:dpa
+SFX q is    us    [Ä£rÄ·j]is  is:dpa
+SFX q tis   Å¡us [^as][t]is  is:dpa
+SFX q is    us    [a][t]is  is:dpa
+SFX q is    us    [s][t]is  is:dpa
+SFX q cis   Äus   [c]is  is:dpa
+SFX q dis   Å¾us   [d]is  is:dpa
+SFX q zis   Å¾us   [z]is  is:dpa
+SFX q sis   Å¡us   [s]is  is:dpa
+SFX q nis   Åus   [^lsz][n]is  is:dpa
+SFX q lis   Ä¼us   [^lsz][l]is  is:dpa
+SFX q lnis  Ä¼Åus  [l]nis  is:dpa
+SFX q snis  Å¡Åus  [s]nis  is:dpa
+SFX q znis  Å¾Åus  [z]nis  is:dpa
+SFX q llis  Ä¼Ä¼us  [l]lis  is:dpa
+SFX q nnis  ÅÅus  [n]nis  is:dpa
+SFX q slis  Å¡Ä¼us  [s]lis  is:dpa
+SFX q zlis  Å¾Ä¼us  [z]lis  is:dpa
+SFX q ns    Åus   [n]s  is:dpa
+SFX q ls    Ä¼us   [l]s  is:dpa
+SFX q ss    Å¡us   [s]s  is:dpa
+SFX q is    jos   [bpmv]is  is:dpl
+SFX q is    os    [Ä£rÄ·j]is  is:dpl
+SFX q tis   Å¡os [^as][t]is  is:dpl
+SFX q is    os    [a][t]is  is:dpl
+SFX q is    os    [s][t]is  is:dpl
+SFX q cis   Äos   [c]is  is:dpl
+SFX q dis   Å¾os   [d]is  is:dpl
+SFX q zis   Å¾os   [z]is  is:dpl
+SFX q sis   Å¡os   [s]is  is:dpl
+SFX q nis   Åos   [^lsz][n]is  is:dpl
+SFX q lis   Ä¼os   [^lsz][l]is  is:dpl
+SFX q lnis  Ä¼Åos  [l]nis  is:dpl
+SFX q snis  Å¡Åos  [s]nis  is:dpl
+SFX q znis  Å¾Åos  [z]nis  is:dpl
+SFX q llis  Ä¼Ä¼os  [l]lis  is:dpl
+SFX q nnis  ÅÅos  [n]nis  is:dpl
+SFX q slis  Å¡Ä¼os  [s]lis  is:dpl
+SFX q zlis  Å¾Ä¼os  [z]lis  is:dpl
+SFX q ns    Åos   [n]s  is:dpl
+SFX q ls    Ä¼os   [l]s  is:dpl
+SFX q ss    Å¡os   [s]s  is:dpl
+
+SFX R Y 12
+SFX R is Ä«tis  [i]s is:vdn
+SFX R is Ä«Å¡a   [i]s is:vdg
+SFX R is Ä«tim  [i]s is:vdd
+SFX R is Ä«ti   [i]s is:vda
+SFX R is Ä«tÄ«   [i]s is:vdl
+SFX R is Ä«t    [i]s is:vdv
+SFX R s  Ä«tis [lns]s is:vdn
+SFX R s  Ä«Å¡a  [lns]s is:vdg
+SFX R s  Ä«tim [lns]s is:vdd
+SFX R s  Ä«ti  [lns]s is:vda
+SFX R s  Ä«tÄ«  [lns]s is:vdl
+SFX R s  Ä«t   [lns]s is:vdv
+
+SFX r Y 10
+SFX r is Ä«Å¡i   [i]s is:ddn
+SFX r is Ä«Å¡u   [i]s is:ddg
+SFX r is Ä«Å¡iem [i]s is:ddd
+SFX r is Ä«Å¡us  [i]s is:dda
+SFX r is Ä«Å¡os  [i]s is:ddl
+SFX r s  Ä«Å¡i   [lns]s is:ddn
+SFX r s  Ä«Å¡u   [lns]s is:ddg
+SFX r s  Ä«Å¡iem [lns]s is:ddd
+SFX r s  Ä«Å¡us  [lns]s is:dda
+SFX r s  Ä«Å¡os  [lns]s is:ddl
+
+SFX S Y 12
+SFX S 0  s  [ae]  is:vpg
+SFX S 0  i  [ae]  is:vpd
+SFX S a  u    a   is:vpa
+SFX S a  Ä    a   is:vpl
+SFX S e  i    e   is:vpa
+SFX S e  Ä    e   is:vpl
+SFX S s  ij [^u]s is:vpd
+SFX S s  i  [^u]s is:vpa
+SFX S s  Ä«  [^u]s is:vpl
+SFX S s  m   [u]s is:vpd
+SFX S s  0   [u]s is:vpa
+SFX S us Å«   [u]s is:vpl
+
+SFX s Y 67
+SFX s a    Äm   a     is:dpd
+SFX s a    Äs   a     is:dpl
+SFX s as   u    [a]s      is:dpg
+SFX s as   Äm   [a]s      is:dpd
+SFX s as   Äs   [a]s      is:dpl
+SFX s e    u    [^bcdlmnpstvz]e   is:dpg
+SFX s e    ju   [bmpv]e   is:dpg
+SFX s ce   Äu   [c]e      is:dpg
+SFX s de   Å¾u   [d]e      is:dpg
+SFX s le   Ä¼u   [^l]le    is:dpg
+SFX s lle  Ä¼Ä¼u  [l]le     is:dpg
+SFX s ne   Åu   [^lsz][n]e    is:dpg
+SFX s lne  Ä¼Åu  [l]ne     is:dpg
+SFX s sne  Å¡Åu  [s]ne     is:dpg
+SFX s zne  Å¾Åu  [z]ne     is:dpg
+SFX s se   Å¡u   [s]e      is:dpg
+SFX s te   Å¡u   [^s]te    is:dpg
+SFX s te   tu   [^k]ste   is:dpg
+SFX s ste  Å¡u   [k]ste    is:dpg
+SFX s ze   Å¾u   [z]e      is:dpg
+SFX s e    Äm   [e]   is:dpd
+SFX s e    Äs   [e]   is:dpl
+SFX s es   u    [^bcdlmnpstvz]es  is:dpg
+SFX s es   ju   [bmpv]es  is:dpg
+SFX s ces  Äu   [c]es     is:dpg
+SFX s des  Å¾u   [d]es     is:dpg
+SFX s les  Ä¼u   [^l]les   is:dpg
+SFX s lles Ä¼Ä¼u  [l]les    is:dpg
+SFX s nes  Åu   [^sz][n]es    is:dpg
+SFX s lnes Ä¼Åu  [l]nes    is:dpg
+SFX s snes Å¡Åu  [s]nes    is:dpg
+SFX s znes Å¾Åu  [z]nes    is:dpg
+SFX s ses  Å¡u   [s]es     is:dpg
+SFX s tes  Å¡u   [^s]tes   is:dpg
+SFX s tes  tu   [^k]stes  is:dpg
+SFX s stes Å¡u   [k]stes   is:dpg
+SFX s zes  Å¾u   [z]es     is:dpg
+SFX s es   Äm   [e]s      is:dpd
+SFX s es   Äs   [e]s      is:dpl
+SFX s s    is   [^aeiu]s  is:dpg
+SFX s s    u    [^aeiudlntsvz]s   is:dpg
+SFX s ds   Å¾u   [d]s      is:dpg
+SFX s ls   Ä¼u   [l]s      is:dpg
+SFX s ns   Åu   [^s]ns    is:dpg
+SFX s sns  Å¡Åu  [s]ns     is:dpg
+SFX s s    ju   [v]s      is:dpg
+SFX s zs   Å¾u   [z]s      is:dpg
+SFX s s    Ä«m   [^aeiu]s  is:dpd
+SFX s s    Ä«s   [^aeiu]s  is:dpl
+SFX s s    u    [s]s      is:dpg
+SFX s ts   Å¡u   [^ÄÄ«urs]ts    is:dpd
+SFX s ts   tu   [ÄÄ«urs]ts     is:dpg
+SFX s is   u    [^dlntsvz]is  is:dpg
+SFX s dis  Å¾u   [d]is     is:dpg
+SFX s lis  Ä¼u   [l]is     is:dpg
+SFX s nis  Åu   [^s]nis   is:dpg
+SFX s snis Å¡Åu  [s]nis    is:dpg
+SFX s is   ju   [v]is     is:dpg
+SFX s zis  Å¾u   [z]is     is:dpg
+SFX s is   Ä«m   [i]s      is:dpd
+SFX s is   Ä«s   [i]s      is:dpl
+SFX s is   u    [s]is     is:dpg
+SFX s tis  Å¡u   [^ÄÄ«urs]tis   is:dpg
+SFX s tis  tu   [ÄÄ«urs]tis    is:dpg
+SFX s us   i    [u]s      is:dpn
+SFX s us   iem  [u]s      is:dpd
+SFX s us   os   [u]s      is:dpl
+
+SFX T Y 30
+SFX T a  iÅa   [^gk]a  is:vdn
+SFX T a  iÅas  [^gk]a  is:vdg
+SFX T a  iÅai  [^gk]a  is:vdd
+SFX T a  iÅu   [^gk]a  is:vda
+SFX T a  iÅÄ   [^gk]a  is:vdl
+SFX T a  iÅ    [^gk]a  is:vdv
+SFX T ga dziÅa   [g]a  is:vdn
+SFX T ga dziÅas  [g]a  is:vdg
+SFX T ga dziÅai  [g]a  is:vdd
+SFX T ga dziÅu   [g]a  is:vda
+SFX T ga dziÅÄ   [g]a  is:vdl
+SFX T ga dziÅ    [g]a  is:vdv
+SFX T ka ciÅa  [^s]ka  is:vdn
+SFX T ka ciÅas [^s]ka  is:vdg
+SFX T ka ciÅai [^s]ka  is:vdd
+SFX T ka ciÅu  [^s]ka  is:vda
+SFX T ka ciÅÄ  [^s]ka  is:vdl
+SFX T ka ciÅ   [^s]ka  is:vdv
+SFX T a  iÅa    [s]ka  is:vdn
+SFX T a  iÅas   [s]ka  is:vdg
+SFX T a  iÅai   [s]ka  is:vdd
+SFX T a  iÅu    [s]ka  is:vda
+SFX T a  iÅÄ    [s]ka  is:vdl
+SFX T a  iÅ     [s]ka  is:vdv
+SFX T e  Ä«te     [e]   is:vdn
+SFX T e  Ä«tes    [e]   is:vdg
+SFX T e  Ä«tei    [e]   is:vdd
+SFX T e  Ä«ti     [e]   is:vda
+SFX T e  Ä«tÄ     [e]   is:vdl
+SFX T e  Ä«t      [e]   is:vdv
+
+
+SFX t Y 26
+SFX t a   iÅÄm   [^gk]a  is:ddd
+SFX t a   iÅÄs   [^gk]a  is:ddl
+SFX t ga  dziÅÄm   [g]a  is:ddd
+SFX t ga  dziÅÄs   [g]a  is:ddl
+SFX t ka  ciÅÄm  [^s]ka  is:ddd
+SFX t ka  ciÅÄs  [^s]ka  is:ddl
+SFX t a   iÅÄm    [s]ka  is:ddd
+SFX t a   iÅÄs    [s]ka  is:ddl
+SFX t as  iÅu   [^gk]as  is:ddg
+SFX t as  iÅÄm  [^gk]as  is:ddd
+SFX t as  iÅÄs  [^gk]as  is:ddl
+SFX t gas dziÅu   [g]as  is:ddg
+SFX t gas dziÅÄm  [g]as  is:ddd
+SFX t gas dziÅÄs  [g]as  is:ddl
+SFX t kas ciÅu  [^s]kas  is:ddg
+SFX t kas ciÅÄm [^s]kas  is:ddd
+SFX t kas ciÅÄs [^s]kas  is:ddl
+SFX t as   iÅu   [s]kas  is:ddg
+SFX t as   iÅÄm  [s]kas  is:ddd
+SFX t as   iÅÄs  [s]kas  is:ddl
+SFX t e    Ä«Å¡u    e     is:ddg
+SFX t e    Ä«tÄm   e     is:ddd
+SFX t e    Ä«tÄs   e     is:ddl
+SFX t es   Ä«Å¡u    es    is:ddg
+SFX t es   Ä«tÄm   es    is:ddd
+SFX t es   Ä«tÄs   es    is:ddl
+
+SFX W Y 44
+SFX W s a     s
+SFX W s am    s
+SFX W s u     s
+SFX W s Ä     s
+SFX W s i     s
+SFX W s iem   s
+SFX W s us    s
+SFX W s os    s
+SFX W s as    s
+SFX W s ai    s
+SFX W s Äm    s
+SFX W s Äs    s
+SFX W s ais   s
+SFX W s ajam  s
+SFX W s o     s
+SFX W s ajÄ   s
+SFX W s ie    s
+SFX W s ajiem s
+SFX W s ajos  s
+SFX W s ajai  s
+SFX W s ajÄm  s
+SFX W s ajÄs  s
+SFX W Å¡ a     Å¡
+SFX W Å¡ am    Å¡
+SFX W Å¡ u     Å¡
+SFX W Å¡ Ä     Å¡
+SFX W Å¡ i     Å¡
+SFX W Å¡ iem   Å¡
+SFX W Å¡ us    Å¡
+SFX W Å¡ os    Å¡
+SFX W Å¡ as    Å¡
+SFX W Å¡ ai    Å¡
+SFX W Å¡ Äm    Å¡
+SFX W Å¡ Äs    Å¡
+SFX W Å¡ ais   Å¡
+SFX W Å¡ ajam  Å¡
+SFX W Å¡ o     Å¡
+SFX W Å¡ ajÄ   Å¡
+SFX W Å¡ ie    Å¡
+SFX W Å¡ ajiem Å¡
+SFX W Å¡ ajos  Å¡
+SFX W Å¡ ajai  Å¡
+SFX W Å¡ ajÄm  Å¡
+SFX W Å¡ ajÄs  Å¡
+
+SFX Y Y 42
+SFX Y s Äk    [s]
+SFX Y s Äks   [s]
+SFX Y s Äka   [s]
+SFX Y s Äkas  [s]
+SFX Y s Äkam  [s]
+SFX Y s Äkai  [s]
+SFX Y s Äku   [s]
+SFX Y s ÄkÄ   [s]
+SFX Y s Äki   [s]
+SFX Y s Äkiem [s]
+SFX Y s ÄkÄm  [s]
+SFX Y s Äkus  [s]
+SFX Y s Äkos  [s]
+SFX Y s ÄkÄs  [s]
+SFX Y Å¡ Äk    [Å¡]
+SFX Y Å¡ Äks   [Å¡]
+SFX Y Å¡ Äka   [Å¡]
+SFX Y Å¡ Äkas  [Å¡]
+SFX Y Å¡ Äkam  [Å¡]
+SFX Y Å¡ Äkai  [Å¡]
+SFX Y Å¡ Äku   [Å¡]
+SFX Y Å¡ ÄkÄ   [Å¡]
+SFX Y Å¡ Äki   [Å¡]
+SFX Y Å¡ Äkiem [Å¡]
+SFX Y Å¡ ÄkÄm  [Å¡]
+SFX Y Å¡ Äkus  [Å¡]
+SFX Y Å¡ Äkos  [Å¡]
+SFX Y Å¡ ÄkÄs  [Å¡]
+SFX Y 0 tÄk   [ÄÄÄ«o]t
+SFX Y 0 tÄks  [ÄÄÄ«o]t
+SFX Y 0 tÄka  [ÄÄÄ«o]t
+SFX Y 0 tÄkas [ÄÄÄ«o]t
+SFX Y 0 tÄkam [ÄÄÄ«o]t
+SFX Y 0 tÄkai [ÄÄÄ«o]t
+SFX Y 0 tÄku  [ÄÄÄ«o]t
+SFX Y 0 tÄkÄ  [ÄÄÄ«o]t
+SFX Y 0 tÄki  [ÄÄÄ«o]t
+SFX Y 0 tÄkiem [ÄÄÄ«o]t
+SFX Y 0 tÄkÄm [ÄÄÄ«o]t
+SFX Y 0 tÄkus [ÄÄÄ«o]t
+SFX Y 0 tÄkos [ÄÄÄ«o]t
+SFX Y 0 tÄkÄs [ÄÄÄ«o]t
+
+
+SFX X Y 50
+SFX X s Äk/[|   [s]
+SFX X s Äkais   [s]
+SFX X s Äkais/[|   [s]
+SFX X s ÄkÄ   [s]
+SFX X s ÄkÄ/[|   [s]
+SFX X s ÄkÄs   [s]
+SFX X s ÄkÄs/[|   [s]
+SFX X s Äkajam  [s]
+SFX X s Äkajam/[|  [s]
+SFX X s Äkajai  [s]
+SFX X s Äkajai/[|  [s]
+SFX X s Äko     [s]
+SFX X s Äko/[|     [s]
+SFX X s ÄkajÄ   [s]
+SFX X s ÄkajÄ/[|   [s]
+SFX X s Äkie    [s]
+SFX X s Äkie/[|    [s]
+SFX X s Äkajiem [s]
+SFX X s Äkajiem/[| [s]
+SFX X s ÄkajÄm  [s]
+SFX X s ÄkajÄm/[|  [s]
+SFX X s Äkajos  [s]
+SFX X s Äkajos/[|  [s]
+SFX X s ÄkajÄs  [s]
+SFX X s ÄkajÄs/[|  [s]
+SFX X Å¡ Äk/[|   [Å¡]
+SFX X Å¡ Äkais   [Å¡]
+SFX X Å¡ Äkais/[|   [Å¡]
+SFX X Å¡ ÄkÄ   [Å¡]
+SFX X Å¡ ÄkÄ/[|   [Å¡]
+SFX X Å¡ ÄkÄs   [Å¡]
+SFX X Å¡ ÄkÄs/[|   [Å¡]
+SFX X Å¡ Äkajam  [Å¡]
+SFX X Å¡ Äkajam/[|  [Å¡]
+SFX X Å¡ Äkajai  [Å¡]
+SFX X Å¡ Äkajai/[|  [Å¡]
+SFX X Å¡ Äko     [Å¡]
+SFX X Å¡ Äko/[|     [Å¡]
+SFX X Å¡ ÄkajÄ   [Å¡]
+SFX X Å¡ ÄkajÄ/[|   [Å¡]
+SFX X Å¡ Äkie    [Å¡]
+SFX X Å¡ Äkie/[|    [Å¡]
+SFX X Å¡ Äkajiem [Å¡]
+SFX X Å¡ Äkajiem/[| [Å¡]
+SFX X Å¡ ÄkajÄm  [Å¡]
+SFX X Å¡ ÄkajÄm/[|  [Å¡]
+SFX X Å¡ Äkajos  [Å¡]
+SFX X Å¡ Äkajos/[|  [Å¡]
+SFX X Å¡ ÄkajÄs  [Å¡]
+SFX X Å¡ ÄkajÄs/[|  [Å¡]
+
+
+
+SFX y Y 32
+SFX y ais 0 [^mÅ¡t]ais
+SFX y ais Ä    [^z]ais
+SFX y ais Äs   [^z]ais
+SFX y is  jam  [^z]ais
+SFX y is  jai  [^z]ais
+SFX y ais o    [^z]ais
+SFX y is  jÄ   [^z]ais
+SFX y ais ie   [^z]ais
+SFX y is  jiem [^z]ais
+SFX y is  jÄm  [^z]ais
+SFX y ais os   [^z]ais
+SFX y is  jos  [^z]ais
+SFX y is  jÄs  [^z]ais
+SFX y ais Ä    [^d]zais
+SFX y ais Äs   [^d]zais
+SFX y is  jam  [^d]zais
+SFX y is  jai  [^d]zais
+SFX y ais o    [^d]zais
+SFX y is  jÄ   [^d]zais
+SFX y ais ie   [^d]zais
+SFX y is  jiem [^d]zais
+SFX y is  jÄm  [^d]zais
+SFX y ais os   [^d]zais
+SFX y is  jos  [^d]zais
+SFX y is  jÄs  [^d]zais
+SFX y ais Äs   [d]zais
+SFX y ais o    [d]zais
+SFX y ais ie   [d]zais
+SFX y is  jiem [d]zais
+SFX y is  jÄm  [d]zais
+SFX y is  jos  [d]zais
+SFX y is  jÄs  [d]zais
+SFX w Y 25
+SFX w  i   u    [i]
+SFX w  i   as   [i]
+SFX w  i   iem  [i]
+SFX w  i   Äm   [i]
+SFX w  i   Äs   [i]
+SFX w  i   os   [i]
+SFX w  i   us   [i]
+SFX w  0   ais/y   t
+SFX w  0   ais/y   Å¡
+SFX w  ci  ktais/y ci
+SFX w  Å¡i  stais/y Å¡i
+SFX w  iÅi Ä«tais/y iÅi
+SFX w  oÅi otais/y oÅi
+SFX w  viens pirmais/y viens
+SFX w  Äetri ceturtais/y Äetri
+SFX w  dzi  dzais/{y dzi
+SFX w  Ä«s  iju     Ä«s
+SFX w  Ä«s  ijas    Ä«s
+SFX w  Ä«s  ijiem   Ä«s
+SFX w  Ä«s  ijÄm    Ä«s
+SFX w  Ä«s  ijÄs    Ä«s
+SFX w  Ä«s  ijos    Ä«s
+SFX w  iÅ¡  ijus    Ä«s
+SFX w  Ä«s  eÅ¡ais/y Ä«s
+SFX w  s   ais/y   [^e][dnt]s
+
+SFX V Y 94
+SFX V es manis es  is:vpg
+SFX V es man   es  is:vpd
+SFX V es mani  es  is:vpa
+SFX V es manÄ«  es  is:vpl
+SFX V tu tevis tu  is:vpg
+SFX V tu tev   tu  is:vpd
+SFX V tu tevi  tu  is:vpa
+SFX V tu tevÄ«  tu  is:vpl
+SFX V Äs Å«su   Äs  is:dpg
+SFX V Äs ums   Äs  is:dpd
+SFX V Äs Å«s    Äs  is:dpa
+SFX V Äs Å«sos  Äs  is:dpl
+SFX V 0  u     Å«s  is:dpg
+SFX V Å«s ums   Å«s  is:dpd
+SFX V 0  os    Å«s  is:dpl
+SFX V is 0  [v]is
+SFX V s  0  [v]is
+SFX V as Ä  [k]as  is:vpg
+SFX V s  m  [k]as  is:vpd
+SFX V as o  [k]as  is:vpa
+SFX V as Ä  [t]as
+SFX V s  m  [t]as
+SFX V as o  [t]as
+SFX V s  jÄ [t]as
+SFX V as Äs [t]as
+SFX V s  i  [t]as
+SFX V as ie   [t]as
+SFX V as iem  [t]as
+SFX V as os   [t]as
+SFX V as ajos [t]as
+SFX V as Äm   [t]as
+SFX V as ajÄs [t]as
+SFX V is Ä   [^v]is
+SFX V s  m   [^v]is
+SFX V is o   [^v]is
+SFX V is ajÄ [^v]is
+SFX V is Ä«   [^v]is
+SFX V is Ä«s  [^v]is
+SFX V is ai  [^v]is
+SFX V is ie    [^v]is
+SFX V is iem   [^v]is
+SFX V is os    [^v]is
+SFX V is ajos  [^v]is
+SFX V is Ä«m    [^v]is
+SFX V is ajÄs  [^v]is
+SFX V ts  Å¡a  ts
+SFX V ts  Å¡am ts
+SFX V ts  Å¡u  ts
+SFX V ts  Å¡Ä  ts
+SFX V s   i   ts
+SFX V ts  Å¡as ts
+SFX V ts  Å¡ai ts
+SFX V ts  Å¡i   ts
+SFX V ts  Å¡iem ts
+SFX V ts  Å¡us  ts
+SFX V ts  Å¡os  ts
+SFX V ts  Å¡Äm  ts
+SFX V ts  Å¡Äs  ts
+SFX V Å¡  a   Å¡
+SFX V Å¡  am  Å¡
+SFX V Å¡  u   Å¡
+SFX V Å¡  Ä   Å¡
+SFX V Å¡  as  Å¡
+SFX V Å¡  ai  Å¡
+SFX V Å¡  i   Å¡
+SFX V Å¡  iem Å¡
+SFX V Å¡  us  Å¡
+SFX V Å¡  os  Å¡
+SFX V Å¡  Äm  Å¡
+SFX V Å¡  Äs  Å¡
+SFX V s  a   [^ait]s
+SFX V s  am  [^ait]s
+SFX V s  u   [^ait]s
+SFX V s  Ä   [^ait]s
+SFX V s  as  [^ait]s
+SFX V s  ai  [^ait]s
+SFX V s  i   [^ait]s
+SFX V s  iem [^ait]s
+SFX V s  us  [^ait]s
+SFX V s  os  [^ait]s
+SFX V s  Äm  [^ait]s
+SFX V s  Äs  [^ait]s
+SFX V s  a   [^a]ts
+SFX V s  am  [^a]ts
+SFX V s  u   [^a]ts
+SFX V s  Ä   [^a]ts
+SFX V s  as  [^a]ts
+SFX V s  ai  [^a]ts
+SFX V s  i   [^a]ts
+SFX V s  iem [^a]ts
+SFX V s  us  [^a]ts
+SFX V s  os  [^a]ts
+SFX V s  Äm  [^a]ts
+SFX V s  Äs  [^a]ts

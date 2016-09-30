@@ -1,0 +1,4 @@
+Changelog:
+
+1.1.0: 2010-12-18  More words and corrections
+1.0.0: 2010-08-05  Initial release of the Armenian (Eastern Post 1940) Spellchecker Dictionary 
