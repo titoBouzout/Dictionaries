@@ -140,8 +140,13 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 
 ## Installation
 
-Download or clone the contents of this repository to a folder named exactly as the package name into the Packages/ folder of ST.
-
+  1. Locate Sublime Text Package folder (Preferences > Browse Packages).
+     For Linux, it's likely at `~/.config/sublime-text-3/Packages`
+  2. Download and unzip, or clone the contents of this repository, into this folder (Packages)
+  3. Rename the folder in a more suitable name, ex: "Dictionaries" `~/.config/sublime-text-3/Packages/Dictionaries` (**warning:** there must not be any sub-folder in this folder, depending on your unzipping software, you might need to move files to the parent folder)
+  4. Choose the language (View > Dictionaries > English (British))
+  5. Be sure spelling is activated (F6 / View > Spell Check)
+  6. You are done !
 
 ## Docs
 
