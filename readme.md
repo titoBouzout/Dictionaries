@@ -49,6 +49,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Türkçe -- Turkish
  * Čeština -- Czech
  * Ελληνικά -- Greek
+ * Беларуская -- Belarusian (Official)
  * български -- Bulgarian
  * Монгол -- Mongolian
  * Русский -- Russian
@@ -136,6 +137,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Thomas Feldmann
  * Valery Kocubinsky
  * Zeljko Babic
+ * Aliaksiej Homza @GomZik
 
 
 ## Installation
