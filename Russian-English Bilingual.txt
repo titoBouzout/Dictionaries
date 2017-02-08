@@ -1,0 +1,6 @@
+English + Russian bilingual Hunspell dictionary.
+
+Home page: https://addons.mozilla.org/ru/firefox/addon/unified-russian-english-spell/
+Version: 1.0.1
+Creator: Alexandr Petrenas
+License: GNU Lesser https://www.gnu.org/licenses/lgpl-3.0.html
