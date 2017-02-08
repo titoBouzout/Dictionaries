@@ -1,0 +1,5 @@
+OpenOffice dictionaries are converted by GomZik (http://extensions.openoffice.org/en/project/belarusian-dictionaryspelling-hyphenation-official-orthography)
+
+Change log
+
+2016.11.30  First version
