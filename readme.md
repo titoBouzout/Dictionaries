@@ -156,3 +156,5 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 ## Docs
 
 Sublime Text uses Hunspell for its [spell checking support](http://www.sublimetext.com/docs/3/spell_checking.html).
+
+
