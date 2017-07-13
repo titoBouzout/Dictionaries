@@ -6,54 +6,54 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
 
 ## Language List
 
- * Armenian (Eastern)
- * Armenian (Western)
- * Català -- Catalan
- * Dansk -- Danish
- * Deutsch (AT) -- German
- * Deutsch (CH) -- German
- * Deutsch (DE) -- German
- * Deutsch -- German
- * Eesti -- Estonian
- * English (American)
- * English (Australian)
- * English (British)
- * English (Canadian)
- * English (South African)
- * Español -- Spanish
- * Euskara -- Basque
- * Français -- French (There is a special package for this language you may want to check [here](https://github.com/superbob/SublimeTextLanguageFrench))
- * Galego -- Galician
- * Hrvatski -- Croatian
- * Italiano -- Italian
- * Latvijas -- Latvian
- * Lietuvių -- Lithuanian
- * Latin
- * Lëtzebuergesch -- Luxembourgish
- * Magyar -- Hungarian
- * Malays -- Malaysia
- * Nederlands -- Dutch
- * Norsk (Bokmål) -- Norwegian
- * Norsk (Nynorsk) -- Norwegian
- * Polski -- Polish
- * Português (Brasileiro) -- Portuguese (Brazilian)
- * Português (Europeu - Antes do Acordo Ortográfico de 1990) -- Portuguese (European - Before the Ortographic Agreement of 1990)
- * Português (Europeu) -- Portuguese (European)
- * Română -- Romanian
- * Slovensky -- Slovenian
- * Slovenčina -- Slovak
- * Srpski (Latinica) -- Serbian (Latin)
- * Srpski (Ćirilica) -- Serbian (Cyrillic)
- * Svenska -- Swedish
- * Tiếng Việt -- Vietnamese
- * Türkçe -- Turkish
- * Čeština -- Czech
- * Ελληνικά -- Greek
- * Беларуская -- Belarusian (Official)
- * български -- Bulgarian
- * Монгол -- Mongolian
- * Русский -- Russian
- * Українська -- Ukrainian
+ * **Arevelahayeren** -- Armenian (Eastern) 
+ * **Arevmdahayerên** -- Armenian (Western)
+ * **Català** -- Catalan
+ * **Dansk** -- Danish
+ * **Deutsch (AT - Österreichisches Standarddeutsch)** -- German (AT - Austrian Standard)
+ * **Deutsch (CH - Schweizer Standarddeutsch)** -- German (CH - Swiss Standard)
+ * **Deutsch (DE - Standarddeutsch)** -- German (DE - German Standard)
+ * **Deutsch** -- German
+ * **Eesti** -- Estonian
+ * **English (American)**
+ * **English (Australian)**
+ * **English (British)**
+ * **English (Canadian)**
+ * **English (South African)**
+ * **Español** -- Spanish
+ * **Euskara** -- Basque
+ * **Français** -- French (There is a special package for this language you may want to check [here](https://github.com/superbob/SublimeTextLanguageFrench))
+ * **Galego** -- Galician
+ * **Hrvatski** -- Croatian
+ * **Italiano** -- Italian
+ * **Latvijas** -- Latvian
+ * **Lietuvių** -- Lithuanian
+ * **Lingua Latīna** -- Latin
+ * **Lëtzebuergesch** -- Luxembourgish
+ * **Magyar** -- Hungarian
+ * **Malays** -- Malaysia
+ * **Nederlands** -- Dutch
+ * **Norsk (Bokmål)** -- Norwegian
+ * **Norsk (Nynorsk)** -- Norwegian
+ * **Polski** -- Polish
+ * **Português (Brasileiro)** -- Portuguese (Brazilian)
+ * **Português (Europeu - Antes do Acordo Ortográfico de 1990)** -- Portuguese (European - Before the Ortographic Agreement of 1990)
+ * **Português (Europeu)** -- Portuguese (European)
+ * **Română** -- Romanian
+ * **Slovensky** -- Slovenian
+ * **Slovenčina** -- Slovak
+ * **Srpski (Latinica)** -- Serbian (Latin)
+ * **Srpski (Ćirilica)** -- Serbian (Cyrillic)
+ * **Svenska** -- Swedish
+ * **Tiếng Việt** -- Vietnamese
+ * **Türkçe** -- Turkish
+ * **Čeština** -- Czech
+ * **Ελληνικά** -- Greek
+ * **Беларуская** -- Belarusian (Official)
+ * **български** -- Bulgarian
+ * **Монгол** -- Mongolian
+ * **Русский** -- Russian
+ * **Українська** -- Ukrainian
 
 ## Idea
 
