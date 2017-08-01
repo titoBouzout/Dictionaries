@@ -1,0 +1,20 @@
+is_IS Hunspell Dictionary
+Version 2014.08.18
+Dictionary created by Björgvin Ragnarsson (https://github.com/nifgraup)
+Added for use with Sublime Text by Einar Ólafsson (https://github.com/einsiol)
+
+Homepage of the Project
+https://github.com/nifgraup/hunspell-is#readme
+
+Legal Disclaimer and Limitations for Downloads (From https://extensions.libreoffice.org/)
+
+The Document Foundation has not reviewed, and cannot review, all of the material, including computer software, available on or by means of The Document Foundation's
+websites, and cannot therefore be responsible for that material's content, use or effects. By operating its websites, The Document Foundation does not represent or imply that it endorses the material there available, or that it believes such material to be accurate, useful or nonharmful. You are responsible for taking precautions as necessary to protect yourself and your computer systems from viruses, worms, Trojan horses and other harmful or destructive content. The Document Foundation's websites may contain content that is offensive, indecent or otherwise objectionable, as well as content containing technical inaccuracies, typographical mistakes and other errors. The Document Foundation's websites may also contain material that violates the privacy or publicity rights, or infringes the proprietary rights, of third parties, or the downloading, copying or use of which is subject to additional terms and conditions, stated or unstated. The Document Foundation disclaims any responsibility for any harm resulting from the use by The Document Foundation's visitors of The Document Foundation's websites, or from any downloading by those visitors of content available on or by means of The Document Foundation's websites.
+
+Changes
+
+Content contained on The Document Foundation's websites, including these Legal Disclaimers and Limitations, may be changed at the sole discretion of The Document Foundation and without notice. You are bound by any such updates or changes, and so should periodically review these Legal Disclaimers and Limitations.
+
+If you believe any file is present on the site contrary to any TDF rule or applicable law, please supply full details to info@documentfoundation.org for impartial consideration.
+
+Orðabækurnar, líkt og íslenska Wikiorðabókin, eru gefnar út skv. CC BY-SA 3.0 leyfinu. Hunspell-is hugbúnaðurinn er gefinn í almenning. Orðabækurnar notast við orðalista til uppfyllingar sem var unninn af Orðabók Háskóla Íslands ásamt Reiknistofnun Háskóla Íslands á ofanverðum tíunda áratug síðustu aldar. Sá orðalisti var gefinn út í almenningseigu (e. public domain).

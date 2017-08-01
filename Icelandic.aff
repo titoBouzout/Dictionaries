@@ -1,0 +1,695 @@
+SET UTF-8
+
+#Letter frequency based on all Icelandic text from www.snerpa.is/net
+TRY arniesutðglmkofhvþádíójbúyöæépÞHSEGýBAVKNOFMJDLRÍÁTÓxIÉUzPÖcÚÆYÐCqXwÝQWZ
+WORDCHARS "-./=
+KEY qwertyuiopð|asdfghjklæ|zxcvbnm,.þ
+
+#Splitted suggestions are most likely compound words
+NOSPLITSUGS
+
+# rules from http://www2.hu-berlin.de/bragi/b5/b5framburdarreglur.htm
+REP 57
+REP i y
+REP y i
+REP í ý
+REP ý í
+REP áng ang
+REP eing eng
+REP eyng eng
+REP íng ing
+REP ýng ing
+REP úng ung
+REP íng yng
+REP ýng yng
+REP aung öng
+REP ánk ank
+REP eink enk
+REP eynk enk
+REP ínk ink
+REP ýnk ink
+REP únk unk
+REP ínk ynk
+REP ýnk ynk
+REP aunk önk
+REP ægi agi
+REP eigi egi
+REP eygi egi
+REP ígi igi
+REP ýgi igi
+REP oji ogi
+REP uji ugi
+REP yji ygi
+REP augi ögi
+REP v f
+REP kv hv
+REP dl ll
+REP dn nn
+REP md fnd
+REP mt fnd
+REP bl fl
+REP bn fn
+REP rdl rl
+REP rdn rn
+REP sdl sl
+REP sdn sn
+REP gt t
+REP kt t
+REP ói ófi
+REP óa ófa
+REP úa úfa
+REP ngl nl
+REP lgd gld
+REP nd rnd
+REP st rst
+REP ð þ
+REP gs x
+REP ks x
+REP x gs
+REP x ks
+
+FLAG num
+
+#kk et agr
+SFX 1	N 21
+SFX 1	ur	0
+SFX 1	n	0	nn
+SFX 1	l	0	ll
+SFX 1	ur	i
+SFX 1	n	i	einn
+SFX 1	n	i	ónn
+SFX 1	inn	ni	[^e]inn
+SFX 1	unn	ni
+SFX 1	ill	li
+SFX 1	all	li
+SFX 1	ull	li
+SFX 1	0	i	u[^r]
+SFX 1	0	i	n[^n]
+SFX 1	0	i	[^unl][^l]
+SFX 1	0	i	[^l]l
+SFX 1	ur	s
+SFX 1	n	s	nn
+SFX 1	l	s	ll
+SFX 1	0	s	u[^r]
+SFX 1	0	s	n[^n]
+SFX 1	0	s	[^un].
+
+#kk et gr
+SFX 2	N 22
+SFX 2	0	inn
+SFX 2	ur	inn
+SFX 2	n	inn	nn
+SFX 2	l	inn	ll
+SFX 2	ur	inum
+SFX 2	n	inum	einn
+SFX 2	n	inum	ónn
+SFX 2	inn	ninum	[^e]inn
+SFX 2	unn	ninum
+SFX 2	ill	linum
+SFX 2	all	linum
+SFX 2	ull	linum
+SFX 2	0	inum	u[^r]
+SFX 2	0	inum	n[^n]
+SFX 2	0	inum	[^unl][^l]
+SFX 2	0	inum	[^l]l
+SFX 2	ur	sins
+SFX 2	n	sins	nn
+SFX 2	l	sins	ll
+SFX 2	0	sins	u[^r]
+SFX 2	0	sins	n[^n]
+SFX 2	0	sins	[^un].
+
+#kk et agr -s
+SFX 3	N 7
+SFX 3	ur	0	ur
+SFX 3	n	0	nn
+SFX 3	ur	i	ur
+SFX 3	n	i	nn
+SFX 3	0	i	u[^r]
+SFX 3	0	i	n[^n]
+SFX 3	0	i	[^un].
+
+#kk et gr -s
+SFX 4	N 13
+SFX 4	0	inn
+SFX 4	ur	inn	ur
+SFX 4	n	inn	nn
+SFX 4	ur	inum	ur
+SFX 4	n	inum	nn
+SFX 4	0	inum	u[^r]
+SFX 4	0	inum	n[^n]
+SFX 4	0	inum	[^un].
+SFX 4	ur	ins	ur
+SFX 4	n	ins	nn
+SFX 4	0	ins	u[^r]
+SFX 4	0	ins	n[^n]
+SFX 4	0	ins	[^un].
+
+#kk sb/vb ft agr
+SFX 5	N 4
+SFX 5	r	0
+SFX 5	ar	um
+SFX 5	ir	um
+SFX 5	ir	a
+
+#kk sb/vb ft gr
+SFX 6	N 6
+SFX 6	0	nir
+SFX 6	r	na
+SFX 6	ar	unum
+SFX 6	ir	unum
+SFX 6	ar	anna
+SFX 6	ir	anna
+
+#kk sb/vb ft agr
+SFX 7	N 1
+SFX 7	r	0
+
+#kk sb/vb ft gr
+SFX 8	N 3
+SFX 8	0	nir
+SFX 8	r	na
+SFX 8	r	nna
+
+#kk sb et agr a
+SFX 11	N 7
+SFX 11	ur	0	[^a]ur
+SFX 11	l	0	ll
+SFX 11	ur	s	[^a]ur
+SFX 11	0	s	aur
+SFX 11	0	s	[^rl]
+SFX 11	0	s	[^ul].
+SFX 11	l	s	ll
+
+#kk et gr b
+SFX 12	N 13
+SFX 12	0	inn
+SFX 12	ur	inn	[^a]ur
+SFX 12	l	inn	ll
+SFX 12	ur	num	[^a]ur
+SFX 12	0	num	aur
+SFX 12	l	num	ll
+SFX 12	0	num	[^rl]
+SFX 12	0	num	[^ul].
+SFX 12	ur	sins	[^a]ur
+SFX 12	0	sins	aur
+SFX 12	0	sins	[^rl]
+SFX 12	0	sins	[^ul].
+SFX 12	l	sins	ll
+
+#kk vb et agr
+SFX 22	N 1
+SFX 22	i	a
+
+#kk vb et gr
+SFX 23	N 4
+SFX 23	0	nn
+SFX 23	i	ann
+SFX 23	i	anum
+SFX 23	i	ans
+
+#son/dóttir
+SFX 26	N 11
+SFX 26	0	son
+SFX 26	0	syni
+SFX 26	0	sonar
+SFX 26	0	synir
+SFX 26	0	sonum
+SFX 26	0	sona
+SFX 26	0	dóttir
+SFX 26	0	dóttur
+SFX 26	0	dætur
+SFX 26	0	dætrum
+SFX 26	0	dætra
+
+#kvk et agr i
+SFX 13	N 6
+SFX 13	ur      i       ur
+SFX 13	0       i       u[^r]
+SFX 13	0       i       [^u].
+SFX 13	ur      ar       ur
+SFX 13	0       ar       u[^r]
+SFX 13	0       ar       [^u].
+
+#kvk vb et agr
+SFX 14	N 1
+SFX 14	a	u
+
+#kvk vb et gr
+SFX 15	N 4
+SFX 15	0	n
+SFX 15	a	una
+SFX 15	a	unni
+SFX 15	a	unnar
+
+#kvk vb ft agr
+SFX 16	N 2
+SFX 16	r	m
+SFX 16	ur	a
+
+#kvk vb ft gr
+SFX 17	N 3
+SFX 17	0	nar
+SFX 17	r	num
+SFX 17	ur	anna
+
+#kvk sb et agr
+SFX 18	N 1
+SFX 18	0	ar
+
+#kvk sb et gr
+SFX 19	N 4
+SFX 19  0       in
+SFX 19  0       ina
+SFX 19  0       inni
+SFX 19	0	arinnar
+
+#kvk sb ft agr
+SFX 20	N 6
+SFX 20  ir	um	[^a]nir
+SFX 20  ir	um	[^n]ir
+SFX 20  anir	unum
+SFX 20	ar	um
+SFX 20  ir	a
+SFX 20	ar	a
+
+#kvk sb ft gr
+SFX 21	N 7
+SFX 21  0	nar
+SFX 21  ir	unum	[^a]nir
+SFX 21  ir	unum	[^n]ir
+SFX 21	anir	ununum
+SFX 21	ar	unum
+SFX 21  ir	anna
+SFX 21	ar	anna
+
+#kvk vb ft agr
+SFX 24	N 2
+SFX 24	r       m
+SFX 24	ur      na
+
+#kvk vb ft gr
+SFX 25	N 3
+SFX 25	0       nar
+SFX 25	r       num
+SFX 25	ur      nanna
+
+#kvk sb et agr u
+SFX 31	N 2
+SFX 31	0	ar
+SFX 31	0	u
+
+#kvk sb et gr u
+SFX 32	N 4
+SFX 32	0	in
+SFX 32	0	una
+SFX 32	0	unni
+SFX 32	0	arinnar
+
+#lo frumstig 1
+SFX 400	N 13
+SFX 400	0	an
+SFX 400	0	um
+SFX 400	0	s
+SFX 400	0	a
+SFX 400	0	ri
+SFX 400	0	rar
+SFX 400	0	t
+SFX 400	0	u
+SFX 400	0	ir
+SFX 400	0	ra
+SFX 400	0	ar
+SFX 400	0	i
+SFX 400	0	u
+
+#lo miðstig 1
+SFX 401	N 2
+SFX 401	0	ari
+SFX 401	0	ara
+
+#lo frumstig 3
+SFX 402	N 16
+SFX 402	0	an
+SFX 402	0	um
+SFX 402	0	s
+SFX 402	0	a
+SFX 402	0	ni	n
+SFX 402	0	li	l
+SFX 402	0	nar	n
+SFX 402	0	lar	l
+SFX 402	0	t
+SFX 402	0	u
+SFX 402	0	ir
+SFX 402	0	na	n
+SFX 402	0	la	l
+SFX 402	0	ar
+SFX 402	0	i
+SFX 402	0	u
+
+#lo miðstig 3
+SFX 403	N 2
+SFX 403	0	i
+SFX 403	0	a
+
+#lo efsta stig
+SFX 404	N 14
+SFX 404	0	astur
+SFX 404	0	astan
+SFX 404	0	ustum
+SFX 404	0	asts
+SFX 404	0	ust
+SFX 404	0	asta
+SFX 404	0	astri
+SFX 404	0	astrar
+SFX 404	0	ast
+SFX 404	0	ustu
+SFX 404	0	astir
+SFX 404	0	astra
+SFX 404	0	astar
+SFX 404	0	asti
+
+#hk et agr
+SFX 70	N 2
+SFX 70	0	i	[^i]
+SFX 70	0	s	.
+
+#hk et gr
+SFX 71	N 5
+SFX 71	0	ið	[^i]
+SFX 71	0	ð	i
+SFX 71	0	inu	[^i]
+SFX 71	0	nu	i
+SFX 71	0	sins	.
+
+#hk ft agr
+SFX 72	N 4
+SFX 72	0	um	[^i]
+SFX 72	i	um	i
+SFX 72	0	a	[^i]
+SFX 72	i	a	i
+
+#hk ft gr
+SFX 73	N 6
+SFX 73	0	in	[^i]
+SFX 73	0	n	i
+SFX 73	0	unum	[^i]
+SFX 73	i	unum	i
+SFX 73	0	anna	[^i]
+SFX 73	i	anna	i
+
+#hk ft agr
+SFX 74	N 2
+SFX 74	0	jum
+SFX 74	0	ja
+
+#hk ft gr
+SFX 75	N 3
+SFX 75	0	in
+SFX 75	0	junum
+SFX 75	0	janna
+
+#hk ft agr þf þgf
+SFX 76	N 1
+SFX 76	0	um
+
+#hk ft gr þf þgf
+SFX 77	N 2
+SFX 77	0	in
+SFX 77	0	unum
+
+#Fallbeyging hk sb 01
+SFX 405 N 1
+SFX 405	0	0/70,71,72,73		.
+#Fallbeyging hk sb 01 et
+SFX 406 N 1
+SFX 406	0	0/70,71		.
+#Fallbeyging hk sb 01 ft
+SFX 407 N 1
+SFX 407	0	0/72,73		.
+#Fallbeyging hk sb 01 j
+SFX 408 N 1
+SFX 408	0	0/70,71,74,75		.
+#Fallbeyging hk sb 01 ö
+SFX 409 N 3
+SFX 409	0	0/70,71
+SFX 409	0	a
+SFX 409	0	anna
+
+#Fallbeyging hk sb 03
+SFX 410 N 1
+SFX 410	0	0/70,71,72,73	.
+
+#Fallbeyging hk sb 03 et
+SFX 411 N 1
+SFX 411	0	0/70,71		.
+
+#Fallbeyging hk sb örnefni 02
+SFX 412 N 1
+SFX 412	0	s
+
+#Fallbeyging karlmannsnafn 01
+SFX 413 N 6
+SFX 413	0	0/1	.
+SFX 413   ur      s/26	ur
+SFX 413   n       s/26	nn
+SFX 413   0       s/26	u[^r]
+SFX 413   0       s/26	n[^n]
+SFX 413   0       s/26	[^un].
+
+#Fallbeyging karlmannsnafn 01a
+SFX 414 N 5
+SFX 414	0	s/26	[^u]r
+SFX 414	0	s/26	[^u][^r]
+SFX 414	0	s/26	u[^r]
+SFX 414	ur	s/26	ur
+SFX 414	ur	0	ur
+
+#Fallbeyging karlmannsnafn 01 n
+SFX 415 N 3
+SFX 415	0	0/1
+SFX 415   n       s/26	nn
+SFX 415   l       s/26	ll
+
+#Fallbeyging karlmannsnafn 04
+SFX 416 N 2
+SFX 416	r	0
+SFX 416	r	s/26
+
+#Fallbeyging kk sb 01
+SFX 417 N 6
+SFX 417	0	0/1,2
+SFX 417	ur	ar/5,6	ur
+SFX 417	n	ar/5,6	nn
+SFX 417   0	ar/5,6	u[^r] 
+SFX 417   0	ar/5,6	n[^n] 
+SFX 417   0	ar/5,6	[^un].
+
+#Fallbeyging kk sb 01a
+SFX 418 N 7
+SFX 418	0	0/11,12
+SFX 418	ur	ar/5,6	[^a]ur
+SFX 418	l	ar/5,6	l
+SFX 418   0	ar/5,6	u[^r] 
+SFX 418   0	ar/5,6	l[^l] 
+SFX 418   0	ar/5,6	[^ul].
+SFX 418	0	ar/5,6	aur
+
+#Fallbeyging kk sb 01b
+SFX 419 N 6
+SFX 419	0	0/1,12
+SFX 419	ur	ar/5,6	ur
+SFX 419	n	ar/5,6	nn
+SFX 419   0	ar/5,6	u[^r] 
+SFX 419   0	ar/5,6	n[^n] 
+SFX 419   0	ar/5,6	[^un].
+
+#Fallbeyging kk sb 01 et
+SFX 420 N 1
+SFX 420	0	0/1,2	.
+
+#Fallbeyging kk sb 01 ft
+SFX 421 N 1
+SFX 421	0	0/5,6	.
+
+#Fallbeyging kk sb 01 n
+SFX 422 N 8
+SFX 422	0	0/1,2
+SFX 422	ur	ar/5,6
+SFX 422	n	ar/5,6	nn
+SFX 422	ill	lar/5,6
+SFX 422	all	lar/5,6
+SFX 422	ull	lar/5,6
+SFX 422	unn	nar/5,6
+SFX 422	inn	nar/5,6
+
+#Fallbeyging kk sb 01 n et
+SFX 423 N 1
+SFX 423	0	0/1,2
+
+#Fallbeyging kk sb 01 ö
+SFX 424 N 6
+SFX 424	0	0/1,2
+SFX 424	ur	ar/7,8	ur
+SFX 424	n	ar/7,8	nn
+SFX 424   0	ar/7,8	u[^r] 
+SFX 424   0	ar/7,8	n[^n] 
+SFX 424   0	ar/7,8	[^un].
+
+#Fallbeyging kk sb 01 -s
+SFX 425 N 6
+SFX 425	0	0/3,4		.
+SFX 425	ur	ar/5,6	ur
+SFX 425	n	ar/5,6	nn
+SFX 425   0	ar/5,6	u[^r] 
+SFX 425   0	ar/5,6	n[^n] 
+SFX 425   0	ar/5,6	[^un].
+
+#Fallbeyging kk sb 02
+SFX 426 N 4
+SFX 426	0	0/1,2
+SFX 426	ur	ir/5,6	ur
+SFX 426   0	ir/5,6	u[^r]
+SFX 426   0	ir/5,6	[^u].
+
+#Fallbeyging kk sb 03
+SFX 427 N 8
+SFX 427   ur      0
+SFX 427   ur      i
+SFX 427   ur      ar
+SFX 427   0       inn
+SFX 427   ur      inn
+SFX 427   ur      inum
+SFX 427   ur      arins
+SFX 427	ur	ir/5,6
+
+#Fallbeyging kk vb 01
+SFX 428 N 2
+SFX 428	0	0/22,23
+SFX 428	i	ar/5,6
+
+#Fallbeyging kk vb 01 et
+SFX 429 N 1
+SFX 429	0	0/22,23
+
+#Fallbeyging kk vb 01 ft
+SFX 430 N 1
+SFX 430	0	0/5,6
+
+#Fallbeyging kk vb 01 ö
+SFX 431 N 2
+SFX 431	0	0/22,23
+SFX 431	i	ar/7,8
+
+#Fallbeyging kk vb 01 u
+SFX 432 N 2
+SFX 432	0	0/22,23
+SFX 432	i	ar/7,8
+
+#Fallbeyging kvenmannsnafn 01
+SFX 433 N 1
+SFX 433	0	0/18	.
+
+#Fallbeyging kvenmannsnafn 01 i
+SFX 434 N 1
+SFX 434	0	0/13	.
+
+#Fallbeyging kvenmannsnafn 01 vb
+SFX 435 N 1
+SFX 435	0	0/14
+
+#Fallbeyging kvk sb 01
+SFX 436 N 2
+SFX 436	0	0/18,19		.
+SFX 436	0	ir/20,21	.
+#Fallbeyging kvk sb 01 et
+SFX 437 N 1
+SFX 437	0	0/18,19		.
+#Fallbeyging kvk sb 01 ft
+SFX 438 N 1
+SFX 438	0	0/20,21		.
+#Fallbeyging kvk sb 01 un
+SFX 439 N 2
+SFX 439	0	0/18,19		.
+SFX 439	un	anir/20,21	.
+#Fallbeyging kvk sb 02
+SFX 440 N 2
+SFX 440	0	0/18,19		.
+SFX 440	0	ar/20,21	.
+#Fallbeyging kvk sb 02 u
+SFX 441 N 2
+SFX 441	0	0/31,32		.
+SFX 441	0	ar/20,21	.
+
+#Fallbeyging kvk sb 08 et
+SFX 442 N 4
+SFX 442	0	n
+SFX 442	0	na
+SFX 442	0	nni
+SFX 442	0	nnar
+
+#Fallbeyging kvk vb 01
+SFX 443 N 2
+SFX 443	0	0/14,15
+SFX 443	a	ur/16,17
+
+#Fallbeyging kvk vb 01a
+SFX 444 N 2
+SFX 444	0	0/14,15
+SFX 444	a	ur/24,25
+
+#Fallbeyging kvk vb 01 et
+SFX 445 N 1
+SFX 445	0	0/14,15
+
+#Fallbeyging kvk vb 01 ft
+SFX 446 N 1
+SFX 446	0	0/16,17
+
+#Fallbeyging kvk vb 01 og 01a
+SFX 447 N 2
+SFX 447	0	0/14,15
+SFX 447	a	ur/17,24,25
+
+#Fallbeyging kvk vb örnefni
+SFX 448 N 1
+SFX 448	0	0/14
+
+#Lýsingarorðsbeyging 01
+SFX 450 N 3
+SFX 450	ur	0/400,401,404	ur
+SFX 450   0	0/400,401,404	u[^r]
+SFX 450   0	0/400,401,404	[^u].
+
+#Lýsingarorðsbeyging 01a
+SFX 451 N 1
+SFX 451   0	0/400,401,404
+
+#Lýsingarorðsbeyging 01 -legur
+SFX 452 N 1
+SFX 452	ur	0/400,401,404	ur
+
+#Lýsingarorðsbeyging 03
+SFX 453 N 3
+SFX 453	n	0/402,404	n
+SFX 453	l	0/402,404	l
+SFX 453   0       0/403
+
+#Sagnbeyging 01 vb -aði
+SFX 456 N 16
+SFX 456   0       r	.
+SFX 456   a       um	a
+SFX 456   a       ið	a
+SFX 456   0       ði	.
+SFX 456   0       ðir	.
+SFX 456   a       uðum	a
+SFX 456   a       uðuð	a
+SFX 456	a	uðu	a 
+SFX 456   a       i	a
+SFX 456	a	ir	a
+SFX 456   0       st	.
+SFX 456   a       umst	a
+SFX 456   a       ist	a
+SFX 456   0       ðist	a
+SFX 456	a	uðumst	a
+SFX 456 	a	uðust	a
+
