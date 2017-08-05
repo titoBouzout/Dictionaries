@@ -25,14 +25,14 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Français -- French (There is a special package for this language you may want to check [here](https://github.com/superbob/SublimeTextLanguageFrench))
  * Galego -- Galician
  * Hrvatski -- Croatian
- * Icelandic -- Íslenska
+ * Íslenska -- Icelandic
  * Italiano -- Italian
- * Latvijas -- Latvian
- * Lietuvių -- Lithuanian
  * Latin
+ * Latvijas -- Latvian
  * Lëtzebuergesch -- Luxembourgish
+ * Lietuvių -- Lithuanian
  * Magyar -- Hungarian
- * Malays -- Malaysia
+ * Malays -- Malaysian
  * Nederlands -- Dutch
  * Norsk (Bokmål) -- Norwegian
  * Norsk (Nynorsk) -- Norwegian
@@ -41,8 +41,8 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Português (Europeu - Antes do Acordo Ortográfico de 1990) -- Portuguese (European - Before the Ortographic Agreement of 1990)
  * Português (Europeu) -- Portuguese (European)
  * Română -- Romanian
- * Slovensky -- Slovenian
  * Slovenčina -- Slovak
+ * Slovenščina -- Slovenian
  * Srpski (Latinica) -- Serbian (Latin)
  * Srpski (Ćirilica) -- Serbian (Cyrillic)
  * Svenska -- Swedish
