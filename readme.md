@@ -26,13 +26,14 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Galego -- Galician
  * Hrvatski -- Croatian
  * Indonesia
+ * Íslenska -- Icelandic
  * Italiano -- Italian
- * Latvijas -- Latvian
- * Lietuvių -- Lithuanian
  * Latin
+ * Latvijas -- Latvian
  * Lëtzebuergesch -- Luxembourgish
+ * Lietuvių -- Lithuanian
  * Magyar -- Hungarian
- * Malays -- Malaysia
+ * Malays -- Malaysian
  * Nederlands -- Dutch
  * Norsk (Bokmål) -- Norwegian
  * Norsk (Nynorsk) -- Norwegian
@@ -41,8 +42,8 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Português (Europeu - Antes do Acordo Ortográfico de 1990) -- Portuguese (European - Before the Ortographic Agreement of 1990)
  * Português (Europeu) -- Portuguese (European)
  * Română -- Romanian
- * Slovensky -- Slovenian
  * Slovenčina -- Slovak
+ * Slovenščina -- Slovenian
  * Srpski (Latinica) -- Serbian (Latin)
  * Srpski (Ćirilica) -- Serbian (Cyrillic)
  * Svenska -- Swedish
@@ -112,9 +113,11 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Aksel Meola
  * Alexandr Zhevedenko
  * Andrej Kvasnica
+ * Björgvin Ragnarsson @nifgraup
  * Chris---
  * Deni Setiawan
  * Domingues
+ * Einar Ólafsson @einsiol
  * Fakhrullah Padzil
  * Florian Morgan
  * gw0
