@@ -1,0 +1,25 @@
+This oxt extension package for Libreoffice provides dictionaries for spelling and hyphenation for the Indonesian language: Bahasa Indonesia.
+
+The files id_ID.dic, id_ID.aff and hyphen_id_ID.dic were created from scratch by Benitius Brevoort (benitius.brevoort@kapusin.org or benitius@tiscali.it)
+
+Copyright (c) 2004 and 2014, held by Author under the terms of the GNU General Public License from 2004 to 2014 and from June 30, 2014 onward under the MPLv2/LGPLv3+ licenses.
+The full texts of these licences can be consulted on their respective websites.
+
+Dalam bungkusan extensi (.oxt) untuk Libreoffice ini tersedia kamus ejaan dan pemenggal kata bagi Bahasa Indonesia.
+
+Fail id_ID.dic, id_ID.aff dan hyphen_id_ID.dic diciptakan dari dasarnya oleh pencipta: Benitius Brevoort (benitius.brevoort@kapusin.org atau benitius@tiscali.it) dan hak cipta (c) 2004 dan 2014 dipegang oleh pencipta dari 2004-2014 di bawah lisensi GNU General Public License, dan sejak tanggal 30-06-2104 di bawah lisensi MPLv2/LGPLv3+ .
+Teks lisensi itu dapat dibaca pada halaman internet bersangkutan.
+
+SEJARAH PEMBUATAN
+
+Versi 1.0, 1.1 dan 1.2 diciptakan tahun 2004 dengan bantuan Kurniadi dan Volker Mueller serta Arno Brevoort, yang menyumbangkan daftar kata mereka sebagai dasar penyusunan fail-fail tersebut bagi program MySpell, yang dipakai oleh OpenOffice.org
+Sesudah itu bertahun-tahun lamanya tidak dikerjakan lagi.
+
+Tanggal 05 Mei 2009 Ammar Shadiq menuangkan fail-fail lama itu dalam bentuk ekstensi bagi OpenOffice dan menguploadnya ke sana.
+Ekstensi yang sama ini diupload kepada LibreOffice pada tanggal 19 Mei 2012 sebagai Indonesian dictionary - Kamus Indonesia 1.0
+Viko Adi Rahmawan kemudian menguji ekstensi ini kembali dan pada tanggal 16 Mei 2014 diterbitkan sebagai Indonesian dictionary - Kamus Indonesia 1.1 bagi LibreOffice 4.0
+
+Versi 2.0 merupakan pengerjaan ulang dari kedua fail id_ID.dic dan id_ID.aff agar lebih sesuai dengan sifat Bahasa Indonesia.
+Fail .aff (affiks) diperbaharui samasekali, sehingga jauh lebih sesuai dengan sifat bahasa Indonesia dengan awalan, akhiran dan imbuhan
+Fail .dic (daftar kata) diperiksa dengan semua lemma dari Kamus Besar Indonesia, edisi 3
+Fail hyphenator tidak mengalami perubahan.
