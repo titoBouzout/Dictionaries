@@ -139,6 +139,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Pedro Chambino
  * Petr Dvořák
  * Roland Richter
+ * Simon Myunggun Seo
  * Thomas Feldmann
  * Valery Kocubinsky
  * Zeljko Babic
