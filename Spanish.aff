@@ -1,4 +1,5 @@
 SET UTF-8
+FLAG UTF-8
 TRY aeroinsctldumpbgfvhzóíjáqéñxyúükwAEROINSCTLDUMPBGFVHZÓÍJÁQÉÑXYÚÜKW
 REP 20
 REP ás az
@@ -105,15 +106,22 @@ PFX u e tras e[^s]
 PFX v Y 2
 PFX v 0 contra [^r]
 PFX v 0 contrar r
-SFX A Y 9
+PFX w Y 1
+PFX w 0 ex	 .
+SFX A Y 14
 SFX A r ción/S ar
 SFX A er ición/S [^cn]er
 SFX A er ición/S [^e]cer
 SFX A ecer ición/S ecer
 SFX A er ición/S [^o]ner
 SFX A ner sición/S oner
-SFX A r ción/S [^c]ir
-SFX A r ción/S [^u]cir
+SFX A r ción/S [^bc]ir
+SFX A bir pción/S ebir
+SFX A bir pción/S [^ch]ibir
+SFX A ibir epción/S cibir
+SFX A r ción/S hibir
+SFX A ecir ición/S [^ae]decir
+SFX A ecir icción/S [ae]decir
 SFX A ir ción/S ucir
 SFX B Y 3
 SFX B r dura/S [aií]r
@@ -2017,26 +2025,26 @@ SFX X aber upierais aber
 SFX X aber upieseis aber
 SFX X aber upieran aber
 SFX X aber upiesen aber
-SFX X r ra ñer 
-SFX X r se ñer 
-SFX X r ras ñer 
-SFX X r ses ñer 
-SFX X er éramos ñer 
-SFX X er ésemos ñer 
-SFX X r rais ñer 
-SFX X r seis ñer 
-SFX X r ran ñer 
-SFX X r sen ñer 
-SFX X er iera [lv]er 
-SFX X er iese [lv]er 
-SFX X er ieras [lv]er 
-SFX X er ieses [lv]er 
-SFX X er iéramos [lv]er 
-SFX X er iésemos [lv]er 
-SFX X er ierais [lv]er 
-SFX X er ieseis [lv]er 
-SFX X er ieran [lv]er 
-SFX X er iesen [lv]er 
+SFX X r ra ñer
+SFX X r se ñer
+SFX X r ras ñer
+SFX X r ses ñer
+SFX X er éramos ñer
+SFX X er ésemos ñer
+SFX X r rais ñer
+SFX X r seis ñer
+SFX X r ran ñer
+SFX X r sen ñer
+SFX X er iera [lv]er
+SFX X er iese [lv]er
+SFX X er ieras [lv]er
+SFX X er ieses [lv]er
+SFX X er iéramos [lv]er
+SFX X er iésemos [lv]er
+SFX X er ierais [lv]er
+SFX X er ieseis [lv]er
+SFX X er ieran [lv]er
+SFX X er iesen [lv]er
 SFX X erir iriera erir
 SFX X erir iriese erir
 SFX X erir irieras erir
@@ -2297,16 +2305,16 @@ SFX X aber upieres aber
 SFX X aber upiéremos aber
 SFX X aber upiereis aber
 SFX X aber upieren aber
-SFX X r re ñer 
-SFX X r res ñer 
-SFX X er éremos ñer 
-SFX X r reis ñer 
-SFX X r ren ñer 
-SFX X er iere [lv]er 
-SFX X er ieres [lv]er 
-SFX X er iéremos [lv]er 
-SFX X er iereis [lv]er 
-SFX X er ieren [lv]er 
+SFX X r re ñer
+SFX X r res ñer
+SFX X er éremos ñer
+SFX X r reis ñer
+SFX X r ren ñer
+SFX X er iere [lv]er
+SFX X er ieres [lv]er
+SFX X er iéremos [lv]er
+SFX X er iereis [lv]er
+SFX X er ieren [lv]er
 SFX X erir iriere erir
 SFX X erir irieres erir
 SFX X erir iriéremos erir
@@ -3449,7 +3457,7 @@ SFX Ì uzar úzalas uzar
 SFX Ì uzar úzala uzar
 SFX Ì uzar úzalos uzar
 SFX Ì uzar úzalo uzar
-SFX Í Y 164
+SFX Í Y 172
 SFX Í abar ábame abar
 SFX Í abar ábanos abar
 SFX Í r me r
@@ -3494,6 +3502,8 @@ SFX Í argar árgame argar
 SFX Í argar árganos argar
 SFX Í arrar árrame arrar
 SFX Í arrar árranos arrar
+SFX Í asar ásame asar
+SFX Í asar ásanos asar
 SFX Í atar átame atar
 SFX Í atar átanos atar
 SFX Í avar ávame avar
@@ -3508,6 +3518,8 @@ SFX Í eer éeme eer
 SFX Í eer éenos eer
 SFX Í egar égame egar
 SFX Í egar éganos egar
+SFX Í eger égeme eger
+SFX Í eger égenos eger
 SFX Í egrar égrame egrar
 SFX Í egrar égranos egrar
 SFX Í ejar éjame ejar
@@ -3542,6 +3554,8 @@ SFX Í evar évame evar
 SFX Í evar évanos evar
 SFX Í ibir íbeme ibir
 SFX Í ibir íbenos ibir
+SFX Í ibrar íbrame ibrar
+SFX Í ibrar íbranos ibrar
 SFX Í icar ícame icar
 SFX Í icar ícanos icar
 SFX Í iciar íciame iciar
@@ -3562,6 +3576,8 @@ SFX Í obrar óbrame obrar
 SFX Í obrar óbranos obrar
 SFX Í ocar ócame ocar
 SFX Í ocar ócanos ocar
+SFX Í ocer óceme ocer
+SFX Í ocer ócenos ocer
 SFX Í oger ógeme oger
 SFX Í oger ógenos oger
 SFX Í ojar ójame ojar
@@ -3701,7 +3717,7 @@ SFX Î untar úntales untar
 SFX Î untar úntale untar
 SFX Î uscar úscales uscar
 SFX Î uscar úscale uscar
-SFX Ï Y 312
+SFX Ï Y 324
 SFX Ï adir ádemela adir
 SFX Ï adir ádemelas adir
 SFX Ï adir ádemelo adir
@@ -3786,6 +3802,18 @@ SFX Ï ancar áncasela ancar
 SFX Ï ancar áncaselas ancar
 SFX Ï ancar áncaselo ancar
 SFX Ï ancar áncaselos ancar
+SFX Ï andar ándamela andar
+SFX Ï andar ándamelas andar
+SFX Ï andar ándamelo andar
+SFX Ï andar ándamelos andar
+SFX Ï andar ándanosla andar
+SFX Ï andar ándanoslas andar
+SFX Ï andar ándanoslo andar
+SFX Ï andar ándanoslos andar
+SFX Ï andar ándasela andar
+SFX Ï andar ándaselas andar
+SFX Ï andar ándaselo andar
+SFX Ï andar ándaselos andar
 SFX Ï antar ántamela antar
 SFX Ï antar ántamelas antar
 SFX Ï antar ántamelo antar
