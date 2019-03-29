@@ -60,27 +60,27 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
 
 ## Idea
 
-Since installing a new language requires some non easy procedures. The idea is to collect here the dictionaries ready for use.
+Since installing a new language requires some non easy procedures, the idea is to collect the dictionaries ready for use here.
 
-Today this contains a list of some languages, the idea is to extends the list with help from the community.
+Today, this contains a list of some languages. The idea is to extend the list with help from the community.
 
 ## Adding a new language
 
-My primary language is Spanish, then I'm not sure of the state and quality of the different languages added here.
+My primary language is Spanish, so I'm not sure of the state and quality of the different languages added here.
 
-Please if you found a better dictionary or something to improve, your change will be welcome.
+Please, if you find a better dictionary or something to improve, your change will be welcome.
 
 To add a new language:
 
- * Download the language file from [here](http://extensions.services.openoffice.org/en/dictionaries).
- * Rename the "some.oxt" file to "some.zip"
- * Unzip the file
- * Look for three files: "lang.aff", "lang.dic" and "readme_lang.txt"(or something similar)
- * Open the "lang.aff" to check the encoding used. Such the line: "SET ISO-8859-1"
- * Convert that file to UTF-8 from the used encoding
- * Convert "lang.dic" to UTF-8 from the used encoding.
- * Convert "readme_lang.txt" to UTF-8 from the used encoding.
- * Change "SET ISO-8859-1" to "SET UTF-8"
+ * Download the language file from the [OpenOffice extensions page](http://extensions.services.openoffice.org/en/dictionaries).
+ * Rename the .oxt file to .zip and unzip the file
+ * Look for three files: "lang.aff", "lang.dic" and "readme_lang.txt" (or something similar)
+ * Change the encoding
+   - Open the "lang.aff" to check the encoding used. Such the line: "SET ISO-8859-1"
+   - Convert that file to UTF-8 from the used encoding
+   - Convert "lang.dic" to UTF-8 from the used encoding.
+   - Convert "readme_lang.txt" to UTF-8 from the used encoding.
+   - Change "SET ISO-8859-1" to "SET UTF-8"
  * Copy "readme_lang.txt" to "lang.txt"
  * Copy these three files to this repository
  * Update the [language list](#language-list) above in this file,
@@ -156,7 +156,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
   3. Rename the folder in a more suitable name, ex: "Dictionaries" `~/.config/sublime-text-3/Packages/Dictionaries` (**warning:** there must not be any sub-folder in this folder, depending on your unzipping software, you might need to move files to the parent folder)
   4. Choose the language (View > Dictionaries > English (British))
   5. Be sure spelling is activated (F6 / View > Spell Check)
-  6. You are done !
+  6. You are done!
 
 ## Docs
 
