@@ -1,0 +1,5 @@
+List of toki pona words assembled from pu.  Public domain.
+
+I think because of restrictions on hunspell affixes, proper nouns/loanwords are all marked as misspelled.  Also not fully compatible with linja pona (http://musilili.net/linja-pona/) style because underscores confuse it it seems (though if you're using linja pona fonts you probably don't need a red squiggle to recognise errors).
+
+dictionary submitted by @increpare
