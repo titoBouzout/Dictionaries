@@ -146,6 +146,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Valery Kocubinsky
  * Zeljko Babic
  * Aliaksiej Homza @GomZik
+ * @increpare
 
 
 ## Installation
