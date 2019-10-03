@@ -48,6 +48,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Srpski (Ćirilica) -- Serbian (Cyrillic)
  * Svenska -- Swedish
  * Tiếng Việt -- Vietnamese
+ * Toki Pona -- toki pona
  * Türkçe -- Turkish
  * Čeština -- Czech
  * Ελληνικά -- Greek
