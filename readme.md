@@ -6,6 +6,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
 
 ## Language List
 
+ * Arabic
  * Armenian (Eastern)
  * Armenian (Western)
  * Català -- Catalan
@@ -135,6 +136,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Marcos Chavarría Teijeiro
  * Max @ulidtko
  * Mehmet Ali Gozaydin @kubudik
+ * @MicroDroid
  * Mladen Mihajlović @mika76
  * MrTux
  * Nick Wilde
