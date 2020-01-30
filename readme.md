@@ -137,6 +137,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Max @ulidtko
  * Mehmet Ali Gozaydin @kubudik
  * @MicroDroid
+ * @michaelwittmann
  * Mladen Mihajlović @mika76
  * MrTux
  * Nick Wilde
