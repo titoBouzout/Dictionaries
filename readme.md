@@ -25,6 +25,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Euskara -- Basque
  * Français -- French (There is a special package for this language you may want to check [here](https://github.com/superbob/SublimeTextLanguageFrench))
  * Galego -- Galician
+ * Hebrew -- Israel
  * Hrvatski -- Croatian
  * Indonesia
  * Íslenska -- Icelandic
@@ -126,6 +127,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Florian Morgan
  * gw0
  * Hadi @hadisfr
+ * Hananel Hazan - clone (1.4 of Hspell)
  * Haoliang Yu
  * Hayk Karapetyan
  * Jack Cuthbert
