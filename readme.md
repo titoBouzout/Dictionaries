@@ -149,6 +149,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Simon Myunggun Seo
  * Thomas Feldmann
  * Valery Kocubinsky
+ * Vladan Kudláč @kudlav
  * Zeljko Babic
  * Aliaksiej Homza @GomZik
  * @increpare
