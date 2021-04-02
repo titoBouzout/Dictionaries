@@ -1,0 +1,111 @@
+SET UTF-8
+FLAG UTF-8
+LANG ru_petr1708
+IGNORE -
+
+TRY оеёѣаиінтслврдкмупьгяыъбзчжйхшюцщэфѳѵђћєїўјљњОЕЁѢАИІНТСЛВРДКМУПЬГЯЫБЪЗЧЖЙХШЮЦЩЭФѲѴЂЋЄЇЎЈЉЊ-
+
+KEY йцукенгшщзхъ|фывапролджэ|ячсмитьбю
+
+REP 101
+REP и ї 
+REP И Ї 
+REP і и
+REP Ӏ И
+REP е ѣ
+REP Е Ѣ
+REP Ъ ѣ
+REP ѵ и
+REP Ѵ И
+REP ф ѳ
+REP Ф Ѳ
+REP ё е
+REP Ё Е
+REP ё іо
+REP Ё ІО
+REP ^ис из
+REP ^восс возс
+REP ^расс разс
+REP ^росс розс
+REP ^нисс низс
+REP ого$ аго
+REP ого$ яго
+REP аго$ ого
+REP яго$ ого
+REP ые$ ыя
+REP ий$ ій
+REP ію$ ью
+REP ью$ ію
+REP ье$ ьи
+REP ьи$ ье
+REP ы ъи
+REP ц$ цъ
+REP к$ къ
+REP н$ нъ
+REP г$ гъ
+REP ш$ шъ
+REP щ$ щъ
+REP з$ хъ
+REP х$ хъ
+REP ф$ фъ
+REP в$ въ
+REP п$ пъ
+REP р$ ръ
+REP л$ лъ
+REP д$ дъ
+REP ж$ жъ
+REP ч$ чъ
+REP с$ съ
+REP м$ мъ
+REP т$ тъ
+REP б$ бъ
+REP Ц$ ЦЪ
+REP К$ КЪ
+REP Н$ НЪ
+REP Г$ ГЪ
+REP Ш$ ШЪ
+REP Щ$ ЩЪ
+REP З$ ХЪ
+REP Х$ ХЪ
+REP Ф$ ФЪ
+REP В$ ВЪ
+REP П$ ПЪ
+REP Р$ РЪ
+REP Л$ ЛЪ
+REP Д$ ДЪ
+REP Ж$ ЖЪ
+REP Ч$ ЧЪ
+REP С$ СЪ
+REP М$ МЪ
+REP Т$ ТЪ
+REP Б$ БЪ
+REP ейший$ ѣйшій
+REP ейшій$ ѣйшій
+REP ее$ ѣе
+REP ей$ ѣй
+REP ие$ іе
+REP ые$ ія
+REP ^её$ ея
+REP ^её$ ее
+REP иа іа
+REP ия ія
+REP иу іу
+REP ию ію
+REP ии іи
+REP ий ій
+REP ие іе
+REP ио іо
+REP иё іё
+REP иѣ іѣ
+REP мир мір
+REP мір мир
+REP мир мѵр
+REP мѵр мир
+REP Мир Мір
+REP Мір Мир
+REP Мир Мѵр
+REP Мѵр Мир
+REP МИР МІР
+REP МІР МИР
+REP МИР МѴР
+REP МѴР МИР
