@@ -1,14 +1,10 @@
-name      :  el_GR 0.7 version of the greek dictionary
-dd/mm/yyyy:  15/09/2006
+name      :  el_GR 0.9 version of the greek dictionary
+dd/mm/yyyy:  14/03/2015
 License   :  MPL 1.1/GPL 2.0/LGPL 2.1
 contact   :  Steve Stavropoulos
 URL       :  http://elspell.math.upatras.gr
 
-  This release added the MPL and LGPL to the available licences and an
-update to the .aff file (by Nick Demou).
-  The dictionary is triple licenced now and it is based on earlier work
-done by Evripidis Papakostas. [mentioned below]
-  The new licence is also mentioned below.
+Added about 240259 new words in this release (courtesy of Γιώργος Γέγος, with the kind help of Nick Demou).
 
  Steve Stavropoulos
 
