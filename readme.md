@@ -39,6 +39,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Nederlands -- Dutch
  * Norsk (Bokmål) -- Norwegian
  * Norsk (Nynorsk) -- Norwegian
+ * Occitan (France) -- Occitan
  * Polski -- Polish
  * Português (Brasileiro) -- Portuguese (Brazilian)
  * Português (Europeu - Antes do Acordo Ortográfico de 1990) -- Portuguese (European - Before the Ortographic Agreement of 1990)
@@ -148,6 +149,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Nicolás Vaughan
  * Pedro Chambino
  * Petr Dvořák
+ * Quentin Pagès @mejans
  * Roland Richter
  * Simon Myunggun Seo
  * Thomas Feldmann
