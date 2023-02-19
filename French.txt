@@ -1,10 +1,10 @@
 _______________________________________________________________________________
 
    DICTIONNAIRES ORTHOGRAPHIQUES FRANÇAIS
-   version 5.1
+   version 7.0
 
-   Olivier R. - dicollecte<at>free<dot>fr
-   Dicollecte : http://www.dicollecte.org/
+   Olivier R.
+   https://grammalecte.net/
 
    Licence :
      MPL : Mozilla Public License
@@ -14,12 +14,13 @@ _______________________________________________________________________________
    correcteur Hunspell : OpenOffice.org 3.2+, Firefox 4+, Thunderbird 5+
 
    Principaux contributeurs :
+   - Jean-Luc T. ;
    - Sylvain P. ;
    - Laurent Dubois ;
-   - Jean-Luc T. ;
-   - Pierre Poisson ;
    - Dominique Pellé ;
+   - Pierre Poisson ;
    - Pierre-Yves ;
+   - Pierre Choffardet ;
    - Leywen ;
    - Romain Muller et Serge Bibauw, de l’association RENOUVO, grâce à qui
      la nouvelle orthographe et ses anciennes variantes ont pu être établies ;
@@ -29,10 +30,10 @@ _______________________________________________________________________________
    - Philipp Burgess, pour la normalisation Unicode avec Hunspell.
 
    Merci aussi à tous ceux qui ont apporté leur pierre à l’édifice.
-   http://www.dicollecte.org/members.php?prj=fr
+   https://grammalecte.net/members.php?prj=fr
 
    Pour participer à l’amélioration du dictionnaire, allez sur :
-   http://www.dicollecte.org/home.php?prj=fr
+   https://grammalecte.net/home.php?prj=fr
 
 _______________________________________________________________________________
 
@@ -53,20 +54,14 @@ _______________________________________________________________________________
    de chacun, quatre dictionnaires existent, respectant différemment cette
    réforme.
 
-    Dictionnaire «Moderne»
-        Ce dictionnaire propose une sélection des graphies classiques et
-        réformées, suivant la lente évolution de l’orthographe actuelle. Ce
-        dictionnaire contient les graphies les moins polémiques de la réforme.
+    Dictionnaire “Classique”  [recommandé]
+        Ce dictionnaire propose l’orthographe usuelle du français, avec en sus
+        quelques graphies nouvelles rectifiant les incohérences passées.
 
-    Dictionnaire «Classique»  [recommandé]
-        Ce dictionnaire est une extension du dictionnaire «Moderne» et propose
-        en sus des graphies alternatives, parfois encore très usitées, parfois
-        tombées en désuétude.
-
-    Dictionnaire «Réforme 1990»
+    Dictionnaire “Réforme 1990”
         Ce dictionnaire ne connaît que les graphies nouvelles des mots concernés
         par la réforme de 1990.
 
-    Dictionnaire «Toutes variantes»
+    Dictionnaire “Toutes variantes”
         Ce dictionnaire contient les nouvelles et les anciennes graphies des
         mots concernés par la réforme de 1990.
