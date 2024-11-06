@@ -53,6 +53,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Tiếng Việt -- Vietnamese
  * Toki Pona -- toki pona
  * Türkçe -- Turkish
+ * Welsh 
  * Čeština -- Czech
  * Ελληνικά -- Greek
  * Беларуская -- Belarusian (Official)
