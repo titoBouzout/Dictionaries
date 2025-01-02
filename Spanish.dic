@@ -4223,7 +4223,6 @@ Genil
 Genoveva
 Genoy
 Georgia
-Georgias
 Gerardo
 Gerlein
 Germania
@@ -11262,6 +11261,7 @@ Yarusyacan
 Yarí
 Yascual
 Yatareni
+YaterasGeorgias
 Yatra
 Yatzachi
 Yatzeche
@@ -24142,7 +24142,9 @@ cifosis
 cifra/S
 cifradamente
 cifrado/GS
+cifrador/hGS
 cifrar/RED
+cifrar/hREDÀÂP
 cigala/S
 cigarra/S
 cigarral/S
@@ -29361,8 +29363,6 @@ descharchar/RED
 deschavetar/RED
 deschuponar/RED
 descifrable/kS
-descifrador/GS
-descifrar/REDÀÂP
 descimbramiento/S
 descimbrar/RED
 descimentar/IRD
@@ -33756,7 +33756,7 @@ encrespamiento/S
 encrespar/RED
 encrestar/RED
 encriptado/GS
-encriptar/RED
+encriptar/hRED
 encristalar/RED
 encrucijada/S
 encrudecer/IRD
