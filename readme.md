@@ -21,7 +21,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * English (British)
  * English (Canadian)
  * English (South African)
- * Español -- Spanish
+ * Español -- Spanish ([RLA-ES Issues](https://github.com/sbosio/rla-es/issues))
  * Euskara -- Basque
  * Français -- French (There is a special package for this language you may want to check [here](https://github.com/superbob/SublimeTextLanguageFrench))
  * Galego -- Galician
@@ -53,7 +53,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * Tiếng Việt -- Vietnamese
  * Toki Pona -- toki pona
  * Türkçe -- Turkish
- * Welsh 
+ * Welsh
  * Čeština -- Czech
  * Ελληνικά -- Greek
  * Беларуская -- Belarusian (Official)
