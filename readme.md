@@ -20,6 +20,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
  * English (Australian)
  * English (British)
  * English (Canadian)
+ * English (New Zealand)
  * English (South African)
  * Español -- Spanish ([RLA-ES Issues](https://github.com/sbosio/rla-es/issues))
  * Euskara -- Basque
@@ -144,6 +145,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Mehmet Ali Gozaydin @kubudik
  * @MicroDroid
  * @michaelwittmann
+ * mightbesimon.com @mightbesimon
  * Mladen Mihajlović @mika76
  * @morph626
  * MrTux
