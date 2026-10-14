@@ -6,6 +6,7 @@ Most of them were downloaded from the [Open Office list](http://extensions.servi
 
 ## Language List
 
+ * Aragonés -- Aragonese
  * Arabic
  * Armenian (Eastern)
  * Armenian (Western)
@@ -137,6 +138,7 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
  * Jack Cuthbert
  * Jacob Bundgaard
  * Jonas Follesø
+ * Juan Pablo Martínez (@Juanpabl)
  * Kalman Kemenczy
  * Lyubomir Vezev
  * Maksim Norkin
@@ -178,3 +180,4 @@ Note that `us-ascii` might be reported if there are no unicode (utf-8) character
 ## Docs
 
 Sublime Text uses Hunspell for its [spell checking support](http://www.sublimetext.com/docs/3/spell_checking.html).
+

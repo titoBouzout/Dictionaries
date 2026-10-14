@@ -1,0 +1,1963 @@
+# =======================================================================================
+#                          Corrector ortografico aragones 0.3.0
+#                          Fichero d'afixos y listau de parolas
+# =======================================================================================
+# Copyright (C) 2011 Santiago Paricio <sparicio@gmail.com>
+# Copyright (C) 2011-2026 Juan Pablo Martínez <an.spellchecker@gmail.com>
+# Juan Pablo Martínez: colaboración en 0.2; revisión y adaptación AAL en 0.3.0.
+# Creditos y licencias: Aragonese.txt.
+# SPDX-License-Identifier: MPL-1.1 OR GPL-3.0-or-later OR LGPL-3.0-or-later
+# Este corrector (.dic y .aff) se distribuye, a triar per lo destinatario,
+# baixo MPL 1.1, GPL 3.0 u posterior, u LGPL 3.0 u posterior.
+# This dictionary and affix file are available, at your option, under
+# MPL 1.1, GPL 3.0 or later, or LGPL 3.0 or later.
+# Se distribuye sin garantía. Consulte los textos completos en Aragonese.txt.
+# Distributed WITHOUT WARRANTY; see the full license texts in Aragonese.txt.
+# =======================================================================================
+#                     Santiago Paricio y Juan Pablo Martínez
+# =======================================================================================
+
+# Reglas:
+#     A Flexión verbal
+#     B Plurals
+#     C Pronombres encliticos
+#     D Pronombres encliticos (-le, -le-ne)
+#     E Pronombres personals prefixaus
+#     F Preposicion 'de' apostrofada
+#     G Flexión verbal de verbos especials
+#     H Prefixos verbals (des, es)
+#     I Plural simple en -s
+#     J Flexión verbal de dar y estar
+#     K Flexión nominal sin plural regular en -ns
+#     L Flexión nominal sin derivaus en -et/-ot
+#     M Flexión verbal en -car (c/qu)
+#     N Flexión verbal de decir
+#     O Flexión verbal de derivaus en -decir
+#     P Flexión verbal de dir y derivaus
+#     Q Flexión verbal de viyer y vier
+#     R Flexión verbal de querir
+#     S Flexión verbal en -zar (z/c)
+#     T Flexión verbal de salir
+#     U Flexión verbal de poder
+#     V Particula enclitica apostrofada 'n
+
+
+SET UTF-8
+
+TRY easirtocnlumdpgvfbqjwxyzháéíóú-'
+
+REP 56
+REP abatz ábaz
+REP ebatz ébaz
+REP ibatz íbaz
+REP asetz ásez
+REP esetz ésez
+REP isetz ísez
+REP eratz éraz
+REP a á
+REP á a
+REP é e
+REP í i
+REP ó o
+REP ú u
+REP tz z
+REP tz c
+REP aizión acción
+REP azión acción
+REP e é
+REP i í
+REP o ó
+REP u ú
+REP u ü
+REP ú ü
+REP e E
+REP a A
+REP s S
+REP i I
+REP r R
+REP t T
+REP o O
+REP c C
+REP n N
+REP l L
+REP u U
+REP m M
+REP d D
+REP p P
+REP g G
+REP v V
+REP f F
+REP b B
+REP q Q
+REP k K
+REP j J
+REP w W
+REP x X
+REP y Y
+REP z Z
+REP h H
+REP é É
+REP í Í
+REP ó Ó
+REP ú Ú
+REP ü Ü
+REP ñ ny
+REP z c
+
+SFX A Y 354
+SFX A ar ón/E [^g]ar
+SFX A ar ón/E gar
+SFX A er ión/E er
+SFX A ir ión/E [^c]ir
+SFX A cir ción/E [^e]cir
+SFX A ecir ición/E ecir
+SFX A ar am/E [^u]ar
+SFX A ar am/E cuar
+SFX A uar uam/E [^c]uar
+SFX A orzar orzam/E orzar
+SFX A iar iam/E iar
+SFX A er em/E er
+SFX A ir im/E [^u]ir
+SFX A ir im/E [^g]uir
+SFX A cir cim/E cir
+SFX A odrir odrim/E odrir
+SFX A 0 em/E r
+SFX A ar em/E [^g]ar
+SFX A ar uem/E gar
+SFX A er iem/E er
+SFX A ir iem/E [^c]ir
+SFX A cir ciem/E [^e]cir
+SFX A ecir iciem/E ecir
+SFX A ar em/CDE [^uz]ar
+SFX A zar cem/CDE zar
+SFX A uar uem/CDE [^c]uar
+SFX A ar em/CDE cuar
+SFX A orzar orcem/CDE orzar
+SFX A er am/CDE [^cyxn]er
+SFX A yer igam/CDE yer
+SFX A er xcam/CDE xer
+SFX A cer zcam/E [^o]cer
+SFX A ocer ozam/CDE ocer
+SFX A ner ngam/CDE ner
+SFX A ir am/CDE [^uhcryd]ir
+SFX A ir igam/CDE [^g]uir
+SFX A eguir igam/CDE guir
+SFX A echir icham/CDE hir
+SFX A cir zcam/CDE [^r]cir
+SFX A rcir rzam/CDE rcir
+SFX A erir iram/CDE rir
+SFX A orir uram/CDE orir
+SFX A odrir udram/E odrir
+SFX A eyir iyam/CDE yir
+SFX A edir idam/CDE dir
+SFX A 0 /CDEF r		# infinitivo
+SFX A ar au/EF ar	# participio
+SFX A ar ato/EF ar
+SFX A ar aus/EF ar
+SFX A ar atos/EF ar
+SFX A ar ada/EF ar
+SFX A ar ata/EF ar
+SFX A ar adas/EF ar
+SFX A ar atas/EF ar
+SFX A er iu/EF er
+SFX A ir iu/EF ir
+SFX A er ito/EF er
+SFX A ir ito/EF ir
+SFX A er ius/EF er
+SFX A ir ius/EF ir
+SFX A er itos/EF er
+SFX A ir itos/EF ir
+SFX A er ida/EF er
+SFX A ir ida/EF ir
+SFX A er ita/EF er
+SFX A ir ita/EF ir
+SFX A er idas/EF er
+SFX A ir idas/EF ir
+SFX A er itas/EF er
+SFX A ir itas/EF ir
+SFX A r ndo/CDE r		# cherundio
+SFX A r nd/CDE r
+SFX A ar o/E [^u]ar 		# present -ar
+SFX A ar as/E [^u]ar
+SFX A ar a/CDE [^u]ar
+SFX A ar amos/E [^u]ar
+SFX A ar az/CDE [^u]ar
+SFX A ar an/E [^u]ar
+SFX A ar o/E cuar
+SFX A ar as/E cuar
+SFX A ar a/CDE cuar
+SFX A ar amos/E cuar
+SFX A ar az/CDE cuar
+SFX A ar an/E cuar
+SFX A uar úo/E [^c]uar
+SFX A uar úas/E [^c]uar
+SFX A uar úa/CDE [^c]uar
+SFX A uar uamos/E [^c]uar
+SFX A uar uaz/CDE [^c]uar
+SFX A uar úan/E [^c]uar
+SFX A orzar uerzo/E orzar	# present -orzar: almuerzo (tamién se permite almorzo)
+SFX A orzar uerzas/E orzar
+SFX A orzar uerza/CDE orzar
+SFX A orzar orzamos/E orzar
+SFX A orzar orzaz/CDE orzar
+SFX A orzar uerzan/E orzar
+SFX A iar eyo/E iar		# present -iar > -eyo: cambeyo 
+SFX A iar eyas/E iar
+SFX A iar eya/CDE iar
+SFX A iar iamos/E iar
+SFX A iar iaz/CDE iar
+SFX A iar eyan/E iar
+SFX A er o/E [^yxvcn]er	# present -er
+SFX A er es/E [^vc]er
+SFX A er e/CDE [^vc]er
+SFX A er emos/E er
+SFX A er ez/CDE er
+SFX A er en/E [^vc]er
+SFX A yer igo/E yer	# present -yer: creyer > creigo
+SFX A xer xco/E xer	# present -xer: creixer > creixco
+SFX A oler uelgo/E ler	# present -ler: moler > muelo tamién se chenera molo
+SFX A er o/E [^o]ver	# present -ver: como os regulars
+SFX A er o/E [^o]ner	# present -ner: como os regulars
+SFX A ner ngo/E ner	# present -ner: prener > prengo
+SFX A ocer uezo/E [^r]cer	# present -cer: cocer > cuezo
+SFX A ocer ueces/E [^r]cer 
+SFX A ocer uece/CDE [^r]cer 
+SFX A ocer uecen/E [^r]cer
+SFX A orcer uerzo/E rcer	# present -rcer: torcer > tuerzo
+SFX A orcer uerces/E rcer
+SFX A orcer uerce/CDE rcer
+SFX A orcer uercen/E rcer
+SFX A er es/E [^o]ver
+SFX A er e/CDE [^o]ver
+SFX A er en/E [^o]ver
+SFX A ir o/E [^uhcryd]ir	# present -ir: vivo
+SFX A ir es/E [^uhryd]ir
+SFX A ir e/CDE [^uhryd]ir
+SFX A ir imos/E [^u]ir
+SFX A ir iz/CDE ir
+SFX A ir en/E [^uhryd]ir
+SFX A ir igo/E [^g]uir	# present -uir: construigo
+SFX A ir yes/E [^g]uir
+SFX A ir ye/CDE [^g]uir
+SFX A ir imos/E [^g]uir
+SFX A ir yen/CDE [^g]uir
+SFX A eguir igo/E guir	# present -guir: sigo
+SFX A eguir igues/E guir
+SFX A eguir igue/CDE guir
+SFX A eguir iguen/E guir
+SFX A echir icho/E hir	# present -chir: correchir > corricho
+SFX A echir iches/E hir
+SFX A echir iche/CDE hir
+SFX A echir ichen/E hir
+SFX A cir zco/E [^er]cir# present -cir: conducir > conduzco
+SFX A cir ces/E [^e]cir
+SFX A cir ce/CDE [^e]cir
+SFX A cir cimos/E cir
+SFX A cir ciz/CDE cir
+SFX A cir cen/E [^e]cir
+SFX A rcir rzo/E rcir	# present -rcir: zurcir >zurzo
+SFX A ecir igo/E ecir	# present -ecir: decir > digo
+SFX A ecir ices/E ecir
+SFX A ecir ice/CDE ecir
+SFX A ecir icen/E ecir
+SFX A erir iero/E rir	# present -erir: ferir > fiero
+SFX A erir ieres/E rir
+SFX A erir iere/CDE rir
+SFX A erir ieren/E rir
+SFX A orir uero/E orir	# present -orir: morir > muero
+SFX A orir ueres/E orir
+SFX A orir uere/CDE orir
+SFX A orir ueren/E orir
+SFX A odrir udro/E odrir	# present -odrir: podrir > pudro
+SFX A odrir udres/E odrir
+SFX A odrir udre/E odrir
+SFX A odrir odrimos/E odrir
+SFX A odrir odriz/E odrir
+SFX A odrir udren/E odrir
+SFX A eyir iyo/E yir	# present -yir: freyir > friyo
+SFX A eyir iyes/E yir
+SFX A eyir iye/CDE yir
+SFX A eyir iyen/E yir
+SFX A edir ido/E dir	# present -dir: medir > mido
+SFX A edir ides/E dir
+SFX A edir ide/CDE dir
+SFX A edir iden/E dir
+SFX A r ba/E r		# pret. imperfecto regular
+SFX A r bas/E r
+SFX A ar ábanos/E ar
+SFX A er ébanos/E er
+SFX A ir íbanos/E ir
+SFX A ar ábaz/E ar
+SFX A er ébaz/E er
+SFX A ir íbaz/E ir
+SFX A r ban/E r
+SFX A 0 é/E r		# futuro
+SFX A 0 ás/E r
+SFX A 0 á/E r
+SFX A 0 emos/E r
+SFX A 0 ez/E r
+SFX A 0 án/E r
+SFX A 0 ía/E r		# condicional
+SFX A 0 ías/E r
+SFX A 0 íanos/E r
+SFX A 0 íaz/E r
+SFX A 0 ían/E r
+SFX A ar é/E [^g]ar		# pret. perf. simple
+SFX A ar és/E [^g]ar
+SFX A ar ó/E [^g]ar
+SFX A ar emos/E [^g]ar
+SFX A ar ez/E [^g]ar
+SFX A ar oron/E [^g]ar
+SFX A ar ué/E gar		# pret. perf. simple -gar: pegar > pegué
+SFX A ar ués/E gar
+SFX A ar ó/E gar
+SFX A ar uemos/E gar
+SFX A ar uez/E gar
+SFX A ar oron/E gar
+SFX A er ié/E er
+SFX A er iés/E er
+SFX A er ió/E er
+SFX A er iemos/E er
+SFX A er iez/E er
+SFX A er ioron/E er
+SFX A ir ié/E [^c]ir		# pret. perf. simple regular (2ª, 3ª)
+SFX A ir iés/E [^c]ir
+SFX A ir ió/E [^c]ir
+SFX A ir iemos/E [^c]ir
+SFX A ir iez/E [^c]ir
+SFX A ir ioron/E [^c]ir
+SFX A cir cié/E [^e]cir		# pret. pref. simple -cir: conducir > conducié
+SFX A cir ciés/E [^e]cir
+SFX A cir ció/E [^e]cir
+SFX A cir ciemos/E [^e]cir
+SFX A cir ciez/E [^e]cir
+SFX A cir cioron/E [^e]cir 
+SFX A ecir icié/E ecir		# pret. perf. simple -ecir: decir > dicié
+SFX A ecir iciés/E ecir
+SFX A ecir ició/E ecir
+SFX A ecir iciemos/E ecir
+SFX A ecir iciez/E ecir
+SFX A ecir icioron/E ecir
+SFX A r se/E r			# imperfecto sub. regular 1ª, 2ª y 3ª
+SFX A r ses/E r
+SFX A ar ásenos/E ar
+SFX A er ésenos/E er
+SFX A ir ísenos/E ir
+SFX A ar ásez/E ar
+SFX A er ésez/E er
+SFX A ir ísez/E ir
+SFX A ar asen/E ar
+SFX A er esen/E er
+SFX A ir isen/E ir
+SFX A ar e/CDE [^uz]ar		# presente subchuntivo (2ª regular): cante
+SFX A ar es/E [^uz]ar
+SFX A ar emos/CDE [^uz]ar
+SFX A ar ez/E [^uz]ar
+SFX A ar en/CDE [^uz]ar
+SFX A zar ce/CDE zar		# present subchunctivo -zar: cazar > cace
+SFX A zar ces/E zar
+SFX A zar cemos/CDE zar
+SFX A zar cez/E zar
+SFX A zar cen/CDE zar
+SFX A uar úe/CDE [^c]uar
+SFX A uar úes/E [^c]uar
+SFX A uar uemos/CDE [^c]uar
+SFX A uar uez/E [^c]uar
+SFX A uar úen/CDE [^c]uar
+SFX A ar e/CDE cuar
+SFX A ar es/E cuar
+SFX A ar emos/CDE cuar
+SFX A ar ez/E cuar
+SFX A ar en/CDE cuar
+SFX A orzar uerce/CDE orzar	# present sub. -orzar: almuerce
+SFX A orzar uerces/E orzar
+SFX A orzar orcemos/CDE orzar
+SFX A orzar orcez/E orzar
+SFX A orzar uercen/CDE orzar
+SFX A er a/CDE [^cyxln]er	# present sub. -er
+SFX A er as/E [^cyxln]er
+SFX A er amos/CDE [^cyxn]er
+SFX A er az/E [^cyxn]er
+SFX A er an/CDE [^cyxn]er
+SFX A yer iga/CDE yer		# en -yer: cayer > caiga, veyer > veiga
+SFX A yer igas/E yer
+SFX A yer igamos/CDE yer
+SFX A yer igaz/E yer
+SFX A yer igan/CDE yer	
+SFX A er xca/CDE xer		# en -xer: creixer > creixca
+SFX A er xcas/E xer
+SFX A er xcamos/CDE xer
+SFX A er xcaz/E xer
+SFX A er xcan/CDE xer
+SFX A cer zca/CDE [^o]cer	# present subchunctivo -cer: regular.
+SFX A cer zcas/E [^o]cer
+SFX A cer zcamos/E [^o]cer
+SFX A cer zcaz/E [^o]cer
+SFX A cer zcan/CDE [^o]cer
+SFX A ocer ueza/CDE ocer	# present subchunctivo -ocer: cocer > cueza
+SFX A ocer uezas/E ocer
+SFX A ocer ozamos/CDE ocer
+SFX A ocer ozaz/E ocer
+SFX A ocer uezan/CDE ocer 
+SFX A ner nga/CDE ner		# present subchunctivo -ner: prener > prenga
+SFX A ner ngas/E ner
+SFX A ner ngamos/CDE ner
+SFX A ner ngaz/E ner
+SFX A ner ngan/CDE ner
+SFX A ir a/CDE [^ubhcryd]ir	# present (3ª regular)
+SFX A ir as/E [^ubhcryd]ir
+SFX A ir amos/CDE [^uhcryd]ir
+SFX A ir az/E [^uhcryd]ir
+SFX A ir an/CDE [^ubhcryd]ir
+SFX A ir iga/CDE [^g]uir	# (3ª uir): construiga
+SFX A ir igas/E [^g]uir
+SFX A ir igamos/CDE [^g]uir
+SFX A ir igaz/E [^g]uir
+SFX A ir igan/CDE [^g]uir
+SFX A eguir iga/CDE guir	# (3ª guir): distinga, siga
+SFX A eguir igas/E guir
+SFX A eguir igamos/CDE guir
+SFX A eguir igaz/E guir
+SFX A eguir igan/CDE guir
+SFX A echir icha/CDE hir	# (3ª -hir): correchir > corricha
+SFX A echir ichas/E hir
+SFX A echir ichamos/CDE hir
+SFX A echir ichaz/E hir
+SFX A echir ichan/CDE hir
+SFX A cir zca/CDE [^r]cir	# (3ª -cir): conducir > conduzca
+SFX A cir zcas/E [^r]cir
+SFX A cir zcamos/CDE [^r]cir
+SFX A cir zcaz/E [^r]cir
+SFX A cir zcan/CDE [^r]cir
+SFX A rcir rza/CDE rcir		# (3ª - rcir): zurcir > zurza
+SFX A rcir rzas/E rcir	
+SFX A rcir rzamos/CDE rcir	
+SFX A rcir rzaz/E rcir	
+SFX A rcir rzan/CDE rcir	
+SFX A erir iera/CDE rir		# (3ª -erir): ferir > fiera
+SFX A erir ieras/E rir
+SFX A erir iramos/CDE rir
+SFX A erir iraz/E rir
+SFX A erir ieran/CDE rir
+SFX A orir uera/CDE orir		# (3ª -orir): morir > muera
+SFX A orir ueras/E orir
+SFX A orir uramos/CDE orir
+SFX A orir uraz/E orir
+SFX A orir ueran/CDE orir
+SFX A odrir udra/E odrir	# (3ª -odrir): podrir > pudra
+SFX A odrir udras/E odrir
+SFX A odrir udramos/E odrir
+SFX A odrir udraz/E odrir
+SFX A odrir udran/E odrir 
+SFX A eyir iya/CDE yir		# (3ª -yir): freyir > friya
+SFX A eyir iyas/E yir
+SFX A eyir iyamos/CDE yir
+SFX A eyir iyaz/E yir
+SFX A eyir iyan/CDE yir
+SFX A edir ida/CDE dir		# (3ª -dir): medir > mida
+SFX A edir idas/E dir
+SFX A edir idamos/CDE dir
+SFX A edir idaz/E dir
+SFX A edir idan/CDE dir
+
+SFX B Y 19		# FLEXION NOMINAL
+SFX B ón ons ón		# plural -on: cambions
+SFX B ín ins ín
+SFX B és eses és	# plural -és: aragoneses
+SFX B t z [^n]t		# plural -t: ciudaz
+SFX B 0 s [^hszt]	# plural regular: cans
+SFX B 0 s nt		# plural -nt: puents
+SFX B 0 es [sh]		# plural -ch/s: reloches
+SFX B z ces z		# plural -z: calces
+SFX B o a o		# femenino regular dende -o
+SFX B 0 a [^aeiou]	# femenino dende -consonant: zagala
+SFX B dor dera dor	# femenino de dor
+SFX B eu eva eu		# femenino de eu
+SFX B eu eua eu		
+SFX B 0 et/B [^a]	# morfema et
+SFX B o et/B o
+SFX B a eta/B a
+SFX B o ot/B o		# morfema ot
+SFX B 0 ot/B [^a]
+SFX B a ota/B a
+
+SFX C Y 45
+SFX C 0 -lo .
+SFX C 0 -la .
+SFX C 0 -los .
+SFX C 0 -las .
+SFX C 0 -lo-ie .
+SFX C 0 -la-ie .
+SFX C 0 -los-ie .
+SFX C 0 -las-ie .
+SFX C 0 -ne .
+SFX C 0 -ie .
+SFX C 0 -me .
+SFX C 0 -te .
+SFX C 0 -se .
+SFX C 0 -mos .
+SFX C 0 -tos .
+SFX C 0 -me-lo .
+SFX C 0 -me-la .
+SFX C 0 -me-los .
+SFX C 0 -me-las .
+SFX C 0 -me-ne .
+SFX C 0 -te-lo .
+SFX C 0 -te-los .
+SFX C 0 -te-la .
+SFX C 0 -te-las .
+SFX C 0 -te-ne .
+SFX C 0 -te-ie .
+SFX C 0 -se-lo .
+SFX C 0 -se-la .
+SFX C 0 -se-los .
+SFX C 0 -se-las .
+SFX C 0 -se-ne .
+SFX C 0 -se-ie .
+SFX C 0 -mos-lo .
+SFX C 0 -mos-los .
+SFX C 0 -mos-la .
+SFX C 0 -mos-las .
+SFX C 0 -mos-ne .
+SFX C 0 -mos-ie .
+SFX C 0 -tos-lo .
+SFX C 0 -tos-los .
+SFX C 0 -tos-la .
+SFX C 0 -tos-las .
+SFX C 0 -tos-ne .
+SFX C 0 -tos-ie .
+SFX C 0 -ne-ie .
+
+SFX D Y 8		
+SFX D 0 -le .
+SFX D 0 -les .
+SFX D 0 -le-ne .
+SFX D 0 -les-ne .
+SFX D 0 -le-ie .
+SFX D 0 -les-ie .
+SFX D 0 -le-ne-ie .
+SFX D 0 -les-ne-ie .
+
+PFX E Y 5		
+PFX E 0 n' [aáeéiíoóhuú]
+PFX E 0 m' [aáeéiíoóhuú]
+PFX E 0 t' [aáeéiíoóhuú]
+PFX E 0 s' [aáeéiíoóhuú]
+PFX E 0 l' [aáeéiíoóhuú]
+
+PFX F Y 46
+PFX F 0 d' [aáeéiíoóhuúAÁEÉIÍOÓHUÚ]
+PFX F 0 D' [aáeéiíoóhuúAÁEÉIÍOÓHUÚ]
+PFX F a d'A a
+PFX F á d'Á á
+PFX F a D'A a
+PFX F e d'E e
+PFX F e D'E e
+PFX F é d'É é
+PFX F é D'É é
+PFX F i d'I i
+PFX F i D'I i
+PFX F í d'Í í
+PFX F í D'Í í
+PFX F o d'O o
+PFX F o D'O o
+PFX F ó d'Ó ó
+PFX F ó D'Ó ó
+PFX F u d'U u
+PFX F u D'U u
+PFX F ú d'Ú ú
+PFX F ú D'Ú ú
+PFX F h d'H h
+PFX F h D'H h
+PFX F 0 l' [aáeéiíoóhuúAÁEÉIÍOÓHUÚ]
+PFX F 0 L' [aáeéiíoóhuúAÁEÉIÍOÓHUÚ]
+PFX F a l'A a
+PFX F á l'Á á
+PFX F a L'A a
+PFX F e l'E e
+PFX F e L'E e
+PFX F é l'É é
+PFX F é L'É é
+PFX F i l'I i
+PFX F i L'I i
+PFX F í l'Í í
+PFX F í L'Í í
+PFX F o l'O o
+PFX F o L'O o
+PFX F ó l'Ó ó
+PFX F ó L'Ó ó
+PFX F u l'U u
+PFX F u L'U u
+PFX F ú l'Ú ú
+PFX F ú L'Ú ú
+PFX F h l'H h
+PFX F h L'H h
+
+SFX G Y 715
+SFX G ar ón/E [^gz]ar
+SFX G ar ón/E gar
+SFX G zar zón/E zar
+SFX G er ión/E er
+SFX G ormir urmión/E mir
+SFX G enir inión/E nir
+SFX G estir istión/E stir
+SFX G entir intión/E ntir
+SFX G ebir ibión/E bir
+SFX G ertir irtión/E ertir
+SFX G ernir irnión/E ernir
+SFX G etir itión/E etir
+SFX G ervir irvión/E ervir
+SFX G egar egam/E egar
+SFX G evar evam/E evar
+SFX G ogar ogam/E ogar
+SFX G onar onam/E onar
+SFX G obar obam/E obar
+SFX G olar olam/E olar
+SFX G ugar ugam/E ugar
+SFX G ensar ensam/E sar
+SFX G ostrar ostram/E ostrar
+SFX G ontar ontam/E ontar
+SFX G endar endam/E endar
+SFX G errar erram/E errar
+SFX G estar estam/E estar
+SFX G ostar ostam/E ostar
+SFX G ordar ordam/E ordar
+SFX G embrar embram/E embrar
+SFX G oltar oltam/E oltar
+SFX G orzar orzam/E orzar
+SFX G er em/E oner
+SFX G over ovem/E over
+SFX G oder odem/E oder
+SFX G erer erem/E erer
+SFX G ener enem/E ener
+SFX G oler olem/E oler
+SFX G order ordem/E [^e]rder
+SFX G erder erdem/E erder
+SFX G ender endem/E nder
+SFX G olver olvem/E olver
+SFX G er em/E xer
+SFX G ormir ormim/E mir
+SFX G enir enim/E nir
+SFX G estir estim/E stir
+SFX G ertir ertim/E rtir
+SFX G ernir ernim/E ernir
+SFX G entir entim/E ntir
+SFX G ebir ebim/E bir
+SFX G etir etim/E etir
+SFX G ervir ervim/E ervir
+SFX G ar em/E [^gz]ar
+SFX G ar uem/E gar
+SFX G zar cem/E zar
+SFX G er iem/E er
+SFX G ormir urmiem/E mir
+SFX G enir iniem/E nir
+SFX G estir istiem/E stir
+SFX G entir intiem/E ntir
+SFX G ebir ibiem/E bir
+SFX G ertir irtiem/E ertir
+SFX G ernir irniem/E ernir
+SFX G etir itiem/E etir
+SFX G ervir irviem/E ervir
+SFX G 0 em/E ar
+SFX G 0 em/E [^nr]er
+SFX G er drem/E ner
+SFX G er rem/E rer
+SFX G 0 em/E [^n]ir
+SFX G ir drem/E nir
+SFX G egar eguem/CDE egar
+SFX G ugar uguem/CDE ugar
+SFX G ogar oguem/CDE ogar
+SFX G onar onem/CDE onar
+SFX G obar obem/CDE obar
+SFX G olar olem/CDE olar
+SFX G ensar ensem/CDE ensar
+SFX G ostrar ostrem/CDE ostrar
+SFX G ar em/CDE entar
+SFX G ontar ontem/CDE ontar
+SFX G endar endem/CDE endar
+SFX G errar errem/CDE errar
+SFX G estar estem/CDE estar
+SFX G ostar ostem/CDE ostar
+SFX G ordar ordem/CDE ordar
+SFX G embrar embrem/CDE embrar
+SFX G orzar orcem/CDE orzar
+SFX G oltar oltem/CDE oltar
+SFX G xer am/CDE xer
+SFX G er gam/CDE oner
+SFX G over ovam/CDE over
+SFX G oder odam/CDE oder
+SFX G oler olam/CDE oler
+SFX G er am/CDE erer
+SFX G ener engam/CDE ener
+SFX G ener iengam/CDE ener
+SFX G order ordam/CDE [^e]rder
+SFX G erder erdam/CDE erder
+SFX G ender endam/CDE nder
+SFX G olver olvam/CDE olver
+SFX G ormir ormam/CDE mir
+SFX G enir engam/CDE nir
+SFX G estir istam/CDE stir
+SFX G ertir irtam/CDE rtir
+SFX G ernir iernam/CDE ernir
+SFX G entir intam/CDE ntir
+SFX G ebir ibam/CDE bir
+SFX G etir itam/CDE tir
+SFX G ervir irvam/CDE ervir
+SFX G 0 /CDEF r		# infinitivo
+SFX G ar au/EF ar		# participio
+SFX G ar aus/EF ar
+SFX G ar ada/EF ar
+SFX G ar adas/EF ar
+SFX G er iu/EF er
+SFX G er ius/EF er
+SFX G er ida/EF er
+SFX G er idas/EF er
+SFX G ir iu/EF ir
+SFX G ir ius/EF ir
+SFX G ir ida/EF ir
+SFX G ir idas/EF ir
+SFX G r ndo/CD r	# cherundio
+SFX G r nd/CD r
+SFX G egar iego/E egar	# present ind. -egar: regar > riego
+SFX G egar iegas/E egar
+SFX G egar iega/CDE egar
+SFX G egar egamos/E egar
+SFX G egar egaz/CDE egar
+SFX G egar iegan/E egar
+SFX G evar ievo/E evar	# present ind. -evar: nevar > nievo
+SFX G evar ievas/E evar
+SFX G evar ieva/CDE evar
+SFX G evar evamos/E evar
+SFX G evar evaz/E evar
+SFX G evar ievan/CDE evar
+SFX G ogar uego/E ogar	# present ind. -ogar: rogar > ruego
+SFX G ogar uegas/E ogar
+SFX G ogar uega/CDE ogar
+SFX G ogar ogamos/E ogar
+SFX G ogar ogaz/CDE ogar
+SFX G ogar uegan/E ogar
+SFX G onar ueno/E onar	# present ind. -onar: sonar > sueno
+SFX G onar uenas/E onar
+SFX G onar uena/CDE onar
+SFX G onar onamos/E onar
+SFX G onar onaz/CDE onar
+SFX G onar uenan/E onar
+SFX G obar uebo/E obar	# present ind. -obar: probar > pruebo
+SFX G obar uebas/E obar
+SFX G obar ueba/CDE obar
+SFX G obar obamos/E obar
+SFX G obar obaz/CDE obar
+SFX G obar ueban/E obar
+SFX G olar uelo/E olar	# present ind. -olar: volar > vuelo
+SFX G olar uelas/E olar
+SFX G olar uela/CDE olar
+SFX G olar olamos/E olar
+SFX G olar olaz/CDE olar
+SFX G olar uelan/E olar
+SFX G ugar ugo/E ugar	# present ind. -ugar: chugar > chugo
+SFX G ugar ugas/E ugar
+SFX G ugar uga/CDE ugar
+SFX G ugar ugamos/E ugar
+SFX G ugar ugaz/CDE ugar
+SFX G ugar ugan/E ugar
+SFX G ensar ienso/E sar 	# present ind. -ensar: pensar > pienso
+SFX G ensar iensas/E sar
+SFX G ensar iensa/CDE sar
+SFX G ensar ensamos/E sar
+SFX G ensar ensaz/CDE sar
+SFX G ensar iensan/E sar
+SFX G ostrar uestro/E ostrar 	# present ind. -ostrar: mostrar > muestro
+SFX G ostrar uestras/E ostrar
+SFX G ostrar uestra/CDE ostrar
+SFX G ostrar ostramos/E ostrar
+SFX G ostrar ostraz/CDE ostrar
+SFX G ostrar uestran/E ostrar
+SFX G entar iento/E entar	# present -entar: sentar, calentar
+SFX G entar ientas/E entar
+SFX G entar ienta/CDE entar
+SFX G r mos/E entar
+SFX G r z/CDE entar
+SFX G entar ientan/E entar
+SFX G ontar uento/E ontar	# present -ontar: contar > cuento
+SFX G ontar uentas/E ontar
+SFX G ontar uenta/CDE ontar
+SFX G ontar ontamos/E ontar
+SFX G ontar ontaz/CDE ontar
+SFX G ontar uentan/E ontar
+SFX G endar iendo/E endar	# present -endar: encomendar > encomiendo
+SFX G endar iendas/E endar
+SFX G endar ienda/CDE endar
+SFX G endar endamos/E endar
+SFX G endar endaz/CDE endar
+SFX G endar iendan/E endar
+SFX G errar ierro/E errar	# present -errar: enterrar > entierro
+SFX G errar ierras/E errar
+SFX G errar ierra/CDE errar
+SFX G errar erramos/E errar
+SFX G errar erraz/CDE errar
+SFX G errar ierran/E errar
+SFX G estar iesto/E estar	# present -estar: manifestar > manifiesto
+SFX G estar iestas/E estar
+SFX G estar iesta/CDE estar
+SFX G estar estamos/E estar
+SFX G estar estaz/CDE estar
+SFX G estar iestan/E estar
+SFX G ostar uesto/E ostar	# present -ostar: acostar > acuesto
+SFX G ostar uestas/E ostar
+SFX G ostar uesta/CDE ostar
+SFX G ostar ostamos/E ostar
+SFX G ostar ostaz/CDE ostar
+SFX G ostar uestan/E ostar
+SFX G ordar uerdo/E ordar	# present -ordar: recordar > recuerdo
+SFX G ordar uerdas/E ordar
+SFX G ordar uerda/CDE ordar
+SFX G ordar ordamos/E ordar
+SFX G ordar ordaz/CDE ordar
+SFX G ordar uerdan/E ordar
+SFX G embrar iembro/E embrar	# present -embrar: sembrar > siembro
+SFX G embrar iembras/E embrar
+SFX G embrar iembra/CDE embrar
+SFX G embrar embramos/E embrar
+SFX G embrar embraz/CDE embrar
+SFX G embrar iembran/E embrar
+SFX G oltar uelto/E oltar	# present -oltar: soltar > suelto
+SFX G oltar ueltas/E oltar
+SFX G oltar uelta/CDE oltar
+SFX G oltar oltamos/E oltar
+SFX G oltar oltaz/CDE oltar
+SFX G oltar ueltan/E oltar
+SFX G orzar uerzo/E orzar	# present -orzar: reforzar > refuerzo
+SFX G orzar uerzas/E orzar
+SFX G orzar uerza/CDE orzar
+SFX G orzar orzamos/E orzar
+SFX G orzar orzaz/CDE orzar
+SFX G orzar uerzan/E orzar
+SFX G er go/E oner		# present -oner: poner > pongo
+SFX G er es/E oner
+SFX G er e/CDE oner
+SFX G er emos/E oner
+SFX G er ez/CDE oner
+SFX G er en/E oner
+SFX G over uevo/E over		# present -over: mover > muevo
+SFX G over ueves/E over
+SFX G over ueve/CDE over
+SFX G over ovemos/E over
+SFX G over ovez/CDE over
+SFX G over ueven/E over
+SFX G oder uedo/E oder		# present -oder: poder > puedo
+SFX G oder uedes/E oder
+SFX G oder uede/CDE oder
+SFX G oder odemos/E oder
+SFX G oder odez/CDE oder
+SFX G oder ueden/E oder
+SFX G erer iero/E erer		# present -erer: querer > quiero
+SFX G erer iers/E erer
+SFX G erer iere/CDE erer
+SFX G erer eremos/E erer
+SFX G erer erez/CDE erer
+SFX G erer ieren/E erer
+SFX G ener iengo/E ener		# present -ener: tener > tiengo
+SFX G ener iens/E ener
+SFX G ener iene/CDE ener
+SFX G ener enemos/E ener
+SFX G ener enez/CDE ener
+SFX G ener ienen/E ener
+SFX G oler uelo/E oler		# present -oler: soler > suelo
+SFX G oler ueles/E oler
+SFX G oler uele/CDE oler
+SFX G oler olemos/E oler
+SFX G oler olez/CDE oler
+SFX G oler uelen/E oler
+SFX G order uerdo/E [^e]rder	# present -order: morder > muerdo
+SFX G order uerdes/E [^e]rder
+SFX G order uerde/CDE [^e]rder
+SFX G order ordemos/E [^e]rder
+SFX G order ordez/CDE [^e]rder
+SFX G order uerden/E [^e]rder
+SFX G erder ierdo/E erder	# present -erder: perder > pierdo
+SFX G erder ierdes/E erder
+SFX G erder ierde/CDE erder
+SFX G erder erdemos/E erder
+SFX G erder erdez/CDE erder
+SFX G erder ierden/E erder
+SFX G ender iendo/E nder	# present -ender: encender > enciendo
+SFX G ender iendes/E nder
+SFX G ender iende/CDE nder
+SFX G ender endemos/E nder
+SFX G ender endez/CDE nder
+SFX G ender ienden/E nder
+SFX G olver uelvo/E olver	# present -olver> resolver > resuelvo
+SFX G olver uelves/E olver
+SFX G olver uelve/CDE olver
+SFX G olver olvemos/E olver
+SFX G olver olvez/CDE olver
+SFX G olver uelven/E olver
+SFX G er o/E xer		# present -xer: teixer > teixo
+SFX G er es/E xer
+SFX G er e/CDE xer 
+SFX G er emos/E xer
+SFX G er ez/CDE xer
+SFX G er en/E xer
+SFX G ormir uermo/E mir		# present -ormir: dormir > duermo
+SFX G ormir uermes/E mir
+SFX G ormir uerme/CDE mir
+SFX G ormir ormimos/E mir
+SFX G ormir ormiz/CDE mir
+SFX G ormir uermen/E mir
+SFX G enir iengo/E nir
+SFX G enir ienes/E nir
+SFX G enir iene/CDE nir
+SFX G enir enimos/E nir
+SFX G enir eniz/CDE nir
+SFX G enir ienen/E nir
+SFX G estir isto/E stir		# present -estir: vestir > visto
+SFX G estir istes/E stir
+SFX G estir iste/CDE stir
+SFX G estir estimos/E stir
+SFX G estir estiz/CDE stir
+SFX G estir isten/E stir
+SFX G ertir ierto/E rtir	# present -ertir: invertir > invierto
+SFX G ertir iertes/E rtir
+SFX G ertir ierte/CDE rtir
+SFX G ertir ertimos/E rtir
+SFX G ertir ertiz/CDE rtir
+SFX G ertir ierten/E rtir
+SFX G ernir ierno/E ernir	# present -ernir: concernir > concierno
+SFX G ernir iernes/E ernir
+SFX G ernir ierne/CDE ernir
+SFX G ernir ernimos/E ernir
+SFX G ernir erniz/CDE ernir
+SFX G ernir iernen/E ernir
+SFX G entir iento/E ntir	# present -entir: sentir > siento
+SFX G entir ientes/E ntir
+SFX G entir iente/CDE ntir
+SFX G entir entimos/E ntir
+SFX G entir entiz/CDE ntir
+SFX G entir ienten/E ntir
+SFX G ebir ibo/E bir		# present -bir: concebir > concibo
+SFX G ebir ibes/E bir
+SFX G ebir ibe/E bir
+SFX G ebir ebimos/E bir
+SFX G ebir ebiz/E bir
+SFX G ebir iben/E bir
+SFX G etir ito/E etir		# present -etir: competir > compito
+SFX G etir ites/E etir
+SFX G etir ite/CDE etir
+SFX G etir etimos/E etir
+SFX G etir etiz/CDE etir
+SFX G etir iten/E etir
+SFX G ervir irvo/E ervir	# present -ervir: servir > sirvo
+SFX G ervir irves/E ervir
+SFX G ervir irve/CDE ervir
+SFX G ervir ervimos/E ervir
+SFX G ervir erviz/CDE ervir
+SFX G ervir irven/E ervir
+SFX G r ba/E r		# pret. imperfecto regular
+SFX G r bas/E r
+SFX G ar ábanos/E ar
+SFX G er ébanos/E er
+SFX G ir íbanos/E ir
+SFX G ar ábaz/E ar
+SFX G er ébaz/E er
+SFX G ir íbaz/E ir
+SFX G r ban/E r
+SFX G ar é/E [^gz]ar	# pret. perf. simple -ar: pensar > pensé
+SFX G ar és/E [^gz]ar
+SFX G ar ó/E [^gz]ar
+SFX G ar emos/E [^gz]ar
+SFX G ar ez/E [^gz]ar
+SFX G ar oron/E [^gz]ar
+SFX G ar ué/E gar	# pret. perf. simple -gar: chugar, regar > regué
+SFX G ar ués/E gar
+SFX G ar ó/E gar
+SFX G ar uemos/E gar
+SFX G ar uez/E gar
+SFX G ar oron/E gar
+SFX G zar cé/E zar	# pret. perf. simple -zar: reforzar > reforcé
+SFX G zar cés/E zar
+SFX G zar zó/E zar
+SFX G zar cemos/E zar
+SFX G zar cez/E zar
+SFX G zar zoron/E zar
+SFX G er ié/E er	# pret. perf. simple regular -er: teixer > teixié
+SFX G er iés/E er
+SFX G er ió/E er
+SFX G er iemos/E er
+SFX G er iez/E er
+SFX G er ioron/E er
+SFX G ormir urmié/E mir	# pret. perf. simple -ormir: dormir > durmié
+SFX G ormir urmiés/E mir
+SFX G ormir urmió/E mir
+SFX G ormir urmiemos/E mir
+SFX G ormir urmiez/E mir
+SFX G ormir urmioron/E mir
+SFX G enir inié/E nir	# pret. perf. simple. -enir: venir > vinié
+SFX G enir iniés/E nir
+SFX G enir inió/E nir
+SFX G enir iniemos/E nir
+SFX G enir iniez/E nir
+SFX G enir inioron/E nir
+SFX G estir istié/E stir	# pret. perf. simple. -estir: vestir > vistié
+SFX G estir istés/E stir
+SFX G estir istó/E stir
+SFX G estir istiemos/E stir
+SFX G estir istiez/E stir
+SFX G estir istioron/E stir
+SFX G entir intié/E ntir	# pret. perf. simple. -entir: sentir > sintié
+SFX G entir intiés/E ntir
+SFX G entir intió/E ntir
+SFX G entir intiemos/E ntir
+SFX G entir intiez/E ntir
+SFX G entir intioron/E ntir
+SFX G ebir ibié/E bir	# pret. perf. simple. -ebir: concebir > concibié
+SFX G ebir ibiés/E bir
+SFX G ebir ibió/E bir
+SFX G ebir ibiemos/E bir
+SFX G ebir ibiez/E bir
+SFX G ebir ibioron/E bir
+SFX G ertir irtié/E ertir	# pret. perf. simple. -ertir: convertir > convirtié
+SFX G ertir irtiés/E ertir
+SFX G ertir irtió/E ertir
+SFX G ertir irtiemos/E ertir
+SFX G ertir irtiez/E ertir
+SFX G ertir irtioron/E ertir
+SFX G ernir irnié/E ernir	# pret. perf. simple. -ernir: concernir > concirnié
+SFX G ernir irniés/E ernir
+SFX G ernir irnió/E ernir
+SFX G ernir irniemos/E ernir
+SFX G ernir irniez/E ernir
+SFX G ernir irnioron/E ernir
+SFX G etir itié/E etir		# pret. perf. simple. -etir: competir > compitié
+SFX G etir itiés/E etir
+SFX G etir itió/E etir
+SFX G etir itiemos/E etir
+SFX G etir itiez/E etir
+SFX G etir itioron/E etir
+SFX G ervir irvié/E ervir	# pret. perf. simple. -ervir: servir > sirvié
+SFX G ervir irviés/E ervir
+SFX G ervir irvió/E ervir
+SFX G ervir irviemos/E ervir
+SFX G ervir irviez/E ervir
+SFX G ervir irvioron/E ervir
+SFX G 0 ía/E ar		# condicional -ar regular: regar > regaría
+SFX G 0 ías/E ar
+SFX G 0 íanos/E ar
+SFX G 0 íaz/E ar
+SFX G 0 ían/E ar
+SFX G 0 ía/E [^rn]er	# condicional -er regular: morder > modería
+SFX G 0 ías/E [^rn]er
+SFX G 0 íanos/E [^rn]er
+SFX G 0 íaz/E [^rn]er
+SFX G 0 ían/E [^rn]er
+SFX G er dría/E ner	# condicional -oner: poner >pondría
+SFX G er drías/E ner
+SFX G er dríanos/E ner
+SFX G er dríaz/E ner
+SFX G er drían/E ner
+SFX G er ría/E rer	# condicional -erer: querer > querría
+SFX G er rías/E rer
+SFX G er ríanos/E rer
+SFX G er ríaz/E rer
+SFX G er rían/E rer
+SFX G 0 ía/E ir		# condicional -ir regular: dormir > dormiría
+SFX G 0 ías/E ir
+SFX G 0 íanos/E ir
+SFX G 0 íaz/E ir
+SFX G 0 ían/E ir
+SFX G 0 é/E ar		# futuro -ar: regar > regaré
+SFX G 0 ás/E ar
+SFX G 0 á/E ar
+SFX G 0 emos/E ar
+SFX G 0 ez/E ar
+SFX G 0 án/E ar
+SFX G 0 é/E [^nr]er	# futuro -er regular: morder > morderé
+SFX G 0 ás/E [^nr]er
+SFX G 0 á/E [^nr]er
+SFX G 0 emos/E [^nr]er
+SFX G 0 ez/E [^nr]er
+SFX G 0 án/E [^nr]er
+SFX G er dré/E ner	# futuro -oner: poner > pondré
+SFX G er drás/E ner
+SFX G er drá/E ner
+SFX G er dremos/E ner
+SFX G er drez/E ner
+SFX G er drán/E ner
+SFX G er ré/E rer	# futuro -erer: querer > querré
+SFX G er rás/E rer
+SFX G er rá/E rer
+SFX G er remos/E rer
+SFX G er rez/E rer
+SFX G er rán/E rer
+SFX G er dré/E rer
+SFX G 0 é/E [^n]ir	# futuro -ir: dormir > dormiré
+SFX G 0 ás/E [^n]ir
+SFX G 0 á/E [^n]ir
+SFX G 0 emos/E [^n]ir
+SFX G 0 ez/E [^n]ir
+SFX G 0 án/E [^n]ir
+SFX G ir dré/E nir	# futuro -enir: venir > vendré
+SFX G ir drás/E nir
+SFX G ir drá/E nir
+SFX G ir dremos/E nir
+SFX G ir drez/E nir
+SFX G ir drán/E nir
+SFX G egar iegue/CDE egar	# present sub. -egar: regar > riegue
+SFX G egar iegues/E egar  
+SFX G egar eguemos/CDE egar
+SFX G egar eguez/E egar
+SFX G egar ieguen/CDE egar
+SFX G evar ieve/CDE evar	# present sub. -evar: nevar > nieve
+SFX G evar ieves/E evar
+SFX G evar evemoz/E evar
+SFX G evar evez/E evar
+SFX G evar ieven/E evar
+SFX G ugar ugue/CDE ugar	# present sub. -ugar: chugar > chuge
+SFX G ugar ugues/E ugar
+SFX G ugar uguemos/CDE ugar
+SFX G ugar uguez/E ugar
+SFX G ugar uguen/CDE ugar
+SFX G ogar uegue/CDE ogar	# present sub. -ogar: rogar > ruegue
+SFX G ogar uegues/E ogar
+SFX G ogar oguemos/CDE ogar
+SFX G ogar oguez/E ogar
+SFX G ogar ueguen/CDE ogar
+SFX G onar uene/CDE onar	# present sub. -onar: sonar > suene
+SFX G onar uenes/CDE onar
+SFX G onar onemos/CDE onar
+SFX G onar onez/CDE onar
+SFX G onar uenen/CDE onar
+SFX G obar uebe/CDE obar	# present sub. -obar: probar > pruebe
+SFX G obar uebes/E obar
+SFX G obar obemos/CDE obar
+SFX G obar obez/E obar
+SFX G obar ueben/CDE obar
+SFX G olar uele/CDE olar	# present sub. -olar: volar > vuele
+SFX G olar ueles/E olar
+SFX G olar olemos/CDE olar
+SFX G olar olez/E olar
+SFX G olar uelen/CDE olar	
+SFX G ensar iense/CDE ensar	# present sub. -ensar: pensar > piense
+SFX G ensar ienses/E ensar
+SFX G ensar ensemos/CDE ensar
+SFX G ensar ensez/E ensar
+SFX G ensar iensen/CDE ensar
+SFX G ostrar uestre/CDE ostrar	# present sub. -ostrar: mostrar > muestre
+SFX G ostrar uestres/E ostrar
+SFX G ostrar ostremos/CDE ostrar
+SFX G ostrar ostrez/E ostrar
+SFX G ostrar uestren/CDE ostrar
+SFX G entar iente/CDE entar	# present Sub. -entar: sentar, calentar
+SFX G entar ientes/E entar
+SFX G ar emos/CDE entar
+SFX G ar ez/E entar
+SFX G entar ienten/CDE entar
+SFX G ontar uente/CDE ontar 	# present Sub. -ontar: contar > cuente
+SFX G ontar uentes/E ontar
+SFX G ontar ontemos/CDE ontar
+SFX G ontar ontez/E ontar
+SFX G ontar uenten/CDE ontar
+SFX G endar iende/CDE endar	# present sub. -endar: encomendar > encomiende
+SFX G endar iendes/E endar
+SFX G endar endemos/CDE endar
+SFX G endar endez/E endar
+SFX G endar ienden/CDE endar
+SFX G errar ierre/CDE errar	# present sub. -errar: enterrar > entierre
+SFX G errar ierres/E errar
+SFX G errar erremos/CDE errar
+SFX G errar errez/E errar
+SFX G errar ierren/CDE errar
+SFX G estar ieste/CDE estar	# present sub. -estar: manifestar > manifieste
+SFX G estar iestes/E estar
+SFX G estar estemos/CDE estar
+SFX G estar estez/E estar
+SFX G estar iesten/CDE estar
+SFX G ostar ueste/CDE ostar	# present sub. -ostar: acostar > acueste
+SFX G ostar uestes/E ostar
+SFX G ostar ostemos/CDE ostar
+SFX G ostar ostez/E ostar
+SFX G ostar uesten/CDE ostar
+SFX G ordar uerde/CDE ordar	# present sub. -ordar: recordar > recuerde
+SFX G ordar uerdes/E ordar
+SFX G ordar ordemos/CDE ordar
+SFX G ordar ordez/E ordar
+SFX G ordar uerden/CDE ordar
+SFX G embrar iembre/CDE embrar	# present sub. -embrar: sembrar > siembre
+SFX G embrar iembres/E embrar
+SFX G embrar embremos/CDE embrar
+SFX G embrar embrez/E embrar
+SFX G embrar iembren/CDE embrar
+SFX G orzar uerce/CDE orzar	# present sub. -orzar: reforzar > refuerce
+SFX G orzar uerces/E orzar
+SFX G orzar orcemos/CDE orzar
+SFX G orzar orcez/E orzar
+SFX G orzar uercen/CDE orzar
+SFX G oltar uelte/CDE oltar	# present sun. -oltar: soltar > suelte
+SFX G oltar ueltes/E oltar
+SFX G oltar oltemos/CDE oltar
+SFX G oltar oltez/E oltar
+SFX G oltar uelten/CDE oltar
+SFX G xer a/CDE xer		# present sub. regular -xer: teixer > teixa
+SFX G xer as/E xer
+SFX G xer amos/CDE xer
+SFX G xer az/E xer
+SFX G xer an/CDE xer
+SFX G er ga/CDE oner		# present sub. -oner: poner > ponga
+SFX G er gas/E oner
+SFX G er gamos/CDE oner
+SFX G er gaz/E oner
+SFX G er gan/CDE oner
+SFX G over ueva/CDE over	# present sub. -over: mover > mueva
+SFX G over uevas/E over
+SFX G over ovamos/CDE over
+SFX G over ovaz/E over
+SFX G over uevan/CDE over
+SFX G oder ueda/CDE oder	# present sub. -oder: poder > pueda
+SFX G oder uedas/E oder
+SFX G oder odamos/CDE oder
+SFX G oder odaz/E oder
+SFX G oder uedan/CDE oder
+SFX G oler uela/CDE oler		# present sub. -oler: soler > suela
+SFX G oler uelas/E oler
+SFX G oler olamos/CDE oler
+SFX G oler olaz/E oler
+SFX G oler uelan/CDE oler
+SFX G erer iera/CDE erer	# present sub. -erer: querer > quiera
+SFX G erer ieras/E erer
+SFX G er amos/CDE erer
+SFX G er az/E erer
+SFX G erer ieran/CDE erer
+SFX G ener ienga/CDE ener	# present sub. -ener: tener > tienga
+SFX G ener iengas/E ener
+SFX G ener engamos/CDE ener
+SFX G ener iengamos/CDE ener
+SFX G ener engaz/E ener
+SFX G ener iengaz/E ener
+SFX G ener iengan/CDE ener
+SFX G order uerda/CDE [^e]rder	# present sub. -order: morder > muerda
+SFX G order uerdas/E [^e]rder
+SFX G order ordamos/CDE [^e]rder
+SFX G order ordaz/E [^e]rder
+SFX G order uerdan/CDE [^e]rder
+SFX G erder ierda/CDE erder 	# present sub. - erder: perder > pierda
+SFX G erder ierdas/E erder
+SFX G erder erdamos/CDE erder
+SFX G erder erdaz/E erder
+SFX G erder ierdan/CDE erder
+SFX G ender ienda/CDE nder	# present sub. -ender: encender > encienda
+SFX G ender iendas/E nder
+SFX G ender endamos/CDE nder
+SFX G ender endaz/E nder
+SFX G ender iendan/CDE nder
+SFX G olver uelva/CDE olver	# present sub. -olver: resolver > resuelva
+SFX G olver uelvas/CDE olver
+SFX G olver olvamos/CDE olver
+SFX G olver olvaz/CDE olver
+SFX G olver uelvan/CDE olver
+SFX G ormir uerma/CDE mir	# present sub. -ormir: dormir > duerma
+SFX G ormir uermas/E mir
+SFX G ormir ormamos/CDE mir
+SFX G ormir ormaz/E mir
+SFX G ormir uerman/CDE mir
+SFX G enir ienga/CDE nir 	# present sub. -enir: venir > vienga
+SFX G enir iengas/E nir	
+SFX G enir engamos/CDE nir
+SFX G enir engaz/E nir
+SFX G enir iengan/CDE nir
+SFX G estir ista/CDE stir	# present sub. -estir: vestir > vista
+SFX G estir istas/E stir
+SFX G estir istamos/CDE stir
+SFX G estir istaz/E stir
+SFX G estir istan/CDE stir
+SFX G ertir ierta/CDE rtir 	# present sub. -ertir: invertir > invierta
+SFX G ertir iertas/E rtir 
+SFX G ertir irtamos/CDE rtir 
+SFX G ertir irtaz/E rtir 
+SFX G ertir iertan/CDE rtir 
+SFX G ernir ierna/CDE ernir	# present sub. -ernir: concernir > concierna
+SFX G ernir iernea/E ernir
+SFX G ernir iernamos/CDE ernir
+SFX G ernir iernaz/E ernir
+SFX G ernir iernan/CDE ernir
+SFX G entir ienta/CDE ntir	# present sub. -entir: sentir >sienta
+SFX G entir ientas/E ntir
+SFX G entir intamos/CDE ntir
+SFX G entir intaz/E ntir
+SFX G entir ientan/CDE ntir
+SFX G ebir iba/CDE bir		# present sub. -bir: concebir > conciba
+SFX G ebir ibas/E bir
+SFX G ebir ibamos/CDE bir
+SFX G ebir ibaz/E bir 
+SFX G ebir iban/CDE bir
+SFX G etir ita/CDE etir		# present sub. -etir: competir > compita
+SFX G etir itas/E etir
+SFX G etir itamos/CDE tir
+SFX G etir itaz/E tir
+SFX G etir itan/CDE tir
+SFX G ervir irva/CDE ervir	# present sub. -ervir: servir > sirva
+SFX G ervir irvas/E ervir
+SFX G ervir irvamos/CDE ervir
+SFX G ervir irvaz/E ervir
+SFX G ervir irvan/CDE ervir
+SFX G r se/E r			# imperfecto sub. regular 1ª, 2ª y 3ª
+SFX G r ses/E r
+SFX G ar ásenos/E ar
+SFX G er ésenos/E er
+SFX G ir ísenos/E ir
+SFX G ar ásez/E ar
+SFX G er ésez/E er
+SFX G ir ísez/E ir
+SFX G ar asen/E ar
+SFX G er esen/E er
+SFX G ir isen/E ir
+
+PFX H Y 2
+PFX H 0 des fer	# desfer
+PFX H 0 es fer # esfer
+
+SFX I Y 1
+SFX I 0 s .
+
+SFX J Y 71
+SFX J ar am/E dar
+SFX J 0 em/E r
+SFX J ar em/CDE [^uz]ar
+SFX J ar iem/E estar
+SFX J ar iem/E dar
+SFX J ar am/E estar
+SFX J 0 /CDEF r
+SFX J ar au/EF ar
+SFX J ar ato/EF ar
+SFX J ar aus/EF ar
+SFX J ar atos/EF ar
+SFX J ar ada/EF ar
+SFX J ar ata/EF ar
+SFX J ar adas/EF ar
+SFX J ar atas/EF ar
+SFX J r ndo/CDE r
+SFX J r nd/CDE r
+SFX J ar o/E dar
+SFX J ar as/E dar
+SFX J ar a/CDE dar
+SFX J ar amos/E dar
+SFX J ar az/CDE dar
+SFX J ar an/E dar
+SFX J r ba/E r
+SFX J r bas/E r
+SFX J ar ábanos/E ar
+SFX J ar ábaz/E ar
+SFX J r ban/E r
+SFX J 0 é/E r
+SFX J 0 ás/E r
+SFX J 0 á/E r
+SFX J 0 emos/E r
+SFX J 0 ez/E r
+SFX J 0 án/E r
+SFX J 0 ía/E r
+SFX J 0 ías/E r
+SFX J 0 íanos/E r
+SFX J 0 íaz/E r
+SFX J 0 ían/E r
+SFX J r se/E r
+SFX J r ses/E r
+SFX J ar ásenos/E ar
+SFX J ar ásez/E ar
+SFX J ar asen/E ar
+SFX J ar é/CDE [^uz]ar
+SFX J ar és/E estar
+SFX J ar es/E dar
+SFX J ar emos/CDE [^uz]ar
+SFX J ar ez/E [^uz]ar
+SFX J ar én/CDE estar
+SFX J ar en/CDE dar
+SFX J ar ié/E estar
+SFX J ar iés/E estar
+SFX J ar ió/E estar
+SFX J ar iemos/E estar
+SFX J ar iez/E estar
+SFX J ar ioron/E estar
+SFX J ar ión/E estar
+SFX J ar ie/E dar
+SFX J ar ies/E dar
+SFX J ar io/E dar
+SFX J ar iemos/E dar
+SFX J ar iez/E dar
+SFX J ar ioron/E dar
+SFX J ar ion/E dar
+SFX J ar oi/E estar
+SFX J ar ás/E estar
+SFX J ar á/E estar
+SFX J ar amos/E estar
+SFX J ar az/E estar
+SFX J ar án/E estar
+
+SFX K Y 19
+SFX K ón ons ón
+SFX K ín ins ín
+SFX K és eses és
+SFX K t z [^n]t
+SFX K 0 s [^hnszt]
+SFX K 0 s nt
+SFX K 0 es [sh]
+SFX K z ces z
+SFX K o a o
+SFX K 0 a [^aeiou]
+SFX K dor dera dor
+SFX K eu eva eu
+SFX K eu eua eu
+SFX K 0 et/B [^a]
+SFX K o et/B o
+SFX K a eta/B a
+SFX K o ot/B o
+SFX K 0 ot/B [^a]
+SFX K a ota/B a
+
+SFX L Y 13
+SFX L ón ons ón
+SFX L ín ins ín
+SFX L és eses és
+SFX L t z [^n]t
+SFX L 0 s [^hszt]
+SFX L 0 s nt
+SFX L 0 es [sh]
+SFX L z ces z
+SFX L o a o
+SFX L 0 a [^aeiou]
+SFX L dor dera dor
+SFX L eu eva eu
+SFX L eu eua eu
+
+SFX M Y 53
+SFX M ar ón/E [^g]ar
+SFX M ar am/E [^u]ar
+SFX M 0 em/E r
+SFX M car quem/E car
+SFX M car quem/CDE car
+SFX M 0 /CDEF r
+SFX M ar au/EF ar
+SFX M ar ato/EF ar
+SFX M ar aus/EF ar
+SFX M ar atos/EF ar
+SFX M ar ada/EF ar
+SFX M ar ata/EF ar
+SFX M ar adas/EF ar
+SFX M ar atas/EF ar
+SFX M r ndo/CDE r
+SFX M r nd/CDE r
+SFX M ar o/E [^u]ar
+SFX M ar as/E [^u]ar
+SFX M ar a/CDE [^u]ar
+SFX M ar amos/E [^u]ar
+SFX M ar az/CDE [^u]ar
+SFX M ar an/E [^u]ar
+SFX M r ba/E r
+SFX M r bas/E r
+SFX M ar ábanos/E ar
+SFX M ar ábaz/E ar
+SFX M r ban/E r
+SFX M 0 é/E r
+SFX M 0 ás/E r
+SFX M 0 á/E r
+SFX M 0 emos/E r
+SFX M 0 ez/E r
+SFX M 0 án/E r
+SFX M 0 ía/E r
+SFX M 0 ías/E r
+SFX M 0 íanos/E r
+SFX M 0 íaz/E r
+SFX M 0 ían/E r
+SFX M car qué/E car
+SFX M car qués/E car
+SFX M ar ó/E [^g]ar
+SFX M car quemos/E car
+SFX M car quez/E car
+SFX M ar oron/E [^g]ar
+SFX M r se/E r
+SFX M r ses/E r
+SFX M ar ásenos/E ar
+SFX M ar ásez/E ar
+SFX M ar asen/E ar
+SFX M car que/CDE car
+SFX M car ques/E car
+SFX M car quemos/CDE car
+SFX M car quen/CDE car
+
+SFX N Y 51
+SFX N ecir ición/E ecir
+SFX N ir im/E [^u]ir
+SFX N ecir irem/E ecir
+SFX N ecir iciem/E ecir
+SFX N ecir igam/CDE ecir
+SFX N 0 /CDEF r
+SFX N r ndo/CDE r
+SFX N r nd/CDE r
+SFX N ir imos/E [^u]ir
+SFX N ir iz/CDE ir
+SFX N ecir igo/E ecir
+SFX N ecir ices/E ecir
+SFX N ecir ice/CDE ecir
+SFX N ecir icen/E ecir
+SFX N r ba/E r
+SFX N r bas/E r
+SFX N ir íbanos/E ir
+SFX N ir íbaz/E ir
+SFX N r ban/E r
+SFX N ecir iré/E ecir
+SFX N ecir irás/E ecir
+SFX N ecir irá/E ecir
+SFX N ecir iremos/E ecir
+SFX N ecir irez/E ecir
+SFX N ecir irán/E ecir
+SFX N ecir iría/E ecir
+SFX N ecir irías/E ecir
+SFX N ecir iríanos/E ecir
+SFX N ecir iríaz/E ecir
+SFX N ecir irían/E ecir
+SFX N ecir icié/E ecir
+SFX N ecir iciés/E ecir
+SFX N ecir ició/E ecir
+SFX N ecir iciemos/E ecir
+SFX N ecir iciez/E ecir
+SFX N ecir icioron/E ecir
+SFX N r se/E r
+SFX N r ses/E r
+SFX N ir ísenos/E ir
+SFX N ir ísez/E ir
+SFX N ir isen/E ir
+SFX N ecir iga/CDE ecir
+SFX N ecir igas/E ecir
+SFX N ecir igamos/CDE ecir
+SFX N ecir igaz/E ecir
+SFX N ecir igan/CDE ecir
+SFX N ecir iz/CDE ecir
+SFX N ecir ito/EF ecir
+SFX N ecir ita/EF ecir
+SFX N ecir itos/EF ecir
+SFX N ecir itas/EF ecir
+SFX O Y 51
+SFX O ecir ición/E ecir
+SFX O ir im/E [^u]ir
+SFX O 0 em/E r
+SFX O ecir iciem/E ecir
+SFX O ecir igam/CDE ecir
+SFX O 0 /CDEF r
+SFX O r ndo/CDE r
+SFX O r nd/CDE r
+SFX O ir imos/E [^u]ir
+SFX O ir iz/CDE ir
+SFX O ecir igo/E ecir
+SFX O ecir ices/E ecir
+SFX O ecir ice/CDE ecir
+SFX O ecir icen/E ecir
+SFX O r ba/E r
+SFX O r bas/E r
+SFX O ir íbanos/E ir
+SFX O ir íbaz/E ir
+SFX O r ban/E r
+SFX O 0 é/E r
+SFX O 0 ás/E r
+SFX O 0 á/E r
+SFX O 0 emos/E r
+SFX O 0 ez/E r
+SFX O 0 án/E r
+SFX O 0 ía/E r
+SFX O 0 ías/E r
+SFX O 0 íanos/E r
+SFX O 0 íaz/E r
+SFX O 0 ían/E r
+SFX O ecir icié/E ecir
+SFX O ecir iciés/E ecir
+SFX O ecir ició/E ecir
+SFX O ecir iciemos/E ecir
+SFX O ecir iciez/E ecir
+SFX O ecir icioron/E ecir
+SFX O r se/E r
+SFX O r ses/E r
+SFX O ir ísenos/E ir
+SFX O ir ísez/E ir
+SFX O ir isen/E ir
+SFX O ecir iga/CDE ecir
+SFX O ecir igas/E ecir
+SFX O ecir igamos/CDE ecir
+SFX O ecir igaz/E ecir
+SFX O ecir igan/CDE ecir
+SFX O ecir iz/CDE ecir
+SFX O ecir ito/EF ecir
+SFX O ecir ita/EF ecir
+SFX O ecir itos/EF ecir
+SFX O ecir itas/EF ecir
+
+SFX P Y 50
+SFX P ir ición/E dir
+SFX P ir ecim/E dir
+SFX P ir irem/E dir
+SFX P ir iciem/E dir
+SFX P ir igam/CDE dir
+SFX P 0 /CDEF dir
+SFX P ir ind/CDE dir
+SFX P ir ecimos/E dir
+SFX P ir eciz/CDE dir
+SFX P ir igo/E dir
+SFX P ir ices/E dir
+SFX P ir ice/CDE dir
+SFX P ir icen/E dir
+SFX P r ba/E dir
+SFX P r bas/E dir
+SFX P ir íbanos/E dir
+SFX P ir íbaz/E dir
+SFX P r ban/E dir
+SFX P ir iré/E dir
+SFX P ir irás/E dir
+SFX P ir irá/E dir
+SFX P ir iremos/E dir
+SFX P ir irez/E dir
+SFX P ir irán/E dir
+SFX P ir iría/E dir
+SFX P ir irías/E dir
+SFX P ir iríanos/E dir
+SFX P ir iríaz/E dir
+SFX P ir irían/E dir
+SFX P ir icié/E dir
+SFX P ir iciés/E dir
+SFX P ir ició/E dir
+SFX P ir iciemos/E dir
+SFX P ir iciez/E dir
+SFX P ir icioron/E dir
+SFX P r se/E dir
+SFX P r ses/E dir
+SFX P ir ísenos/E dir
+SFX P ir ísez/E dir
+SFX P ir isen/E dir
+SFX P ir iga/CDE dir
+SFX P ir igas/E dir
+SFX P ir igamos/CDE dir
+SFX P ir igaz/E dir
+SFX P ir igan/CDE dir
+SFX P ir iz/CDE dir
+SFX P ir ito/EF dir
+SFX P ir ita/EF dir
+SFX P ir itos/EF dir
+SFX P ir itas/EF dir
+
+SFX Q Y 100
+SFX Q iyer eyión/E viyer
+SFX Q ier eyión/E vier
+SFX Q er em/E viyer
+SFX Q 0 em/E viyer
+SFX Q iyer eyiem/E viyer
+SFX Q iyer eigam/CDE viyer
+SFX Q 0 /CDEF viyer
+SFX Q r ndo/CDE viyer
+SFX Q r nd/CDE viyer
+SFX Q iyer eyes/E viyer
+SFX Q iyer eye/CDE viyer
+SFX Q er emos/E viyer
+SFX Q er ez/CDE viyer
+SFX Q iyer eyen/E viyer
+SFX Q iyer eigo/E viyer
+SFX Q r ba/E viyer
+SFX Q r bas/E viyer
+SFX Q er ébanos/E viyer
+SFX Q er ébaz/E viyer
+SFX Q r ban/E viyer
+SFX Q 0 é/E viyer
+SFX Q 0 ás/E viyer
+SFX Q 0 á/E viyer
+SFX Q 0 emos/E viyer
+SFX Q 0 ez/E viyer
+SFX Q 0 án/E viyer
+SFX Q 0 ía/E viyer
+SFX Q 0 ías/E viyer
+SFX Q 0 íanos/E viyer
+SFX Q 0 íaz/E viyer
+SFX Q 0 ían/E viyer
+SFX Q iyer eyié/E viyer
+SFX Q iyer eyiés/E viyer
+SFX Q iyer eyió/E viyer
+SFX Q iyer eyiemos/E viyer
+SFX Q iyer eyiez/E viyer
+SFX Q iyer eyioron/E viyer
+SFX Q r se/E viyer
+SFX Q r ses/E viyer
+SFX Q er ésenos/E viyer
+SFX Q er ésez/E viyer
+SFX Q er esen/E viyer
+SFX Q iyer eiga/CDE viyer
+SFX Q iyer eigas/E viyer
+SFX Q iyer eigamos/CDE viyer
+SFX Q iyer eigaz/E viyer
+SFX Q iyer eigan/CDE viyer
+SFX Q iyer isto/EF viyer
+SFX Q iyer ista/EF viyer
+SFX Q iyer istos/EF viyer
+SFX Q iyer istas/EF viyer
+SFX Q er em/E vier
+SFX Q 0 em/E vier
+SFX Q ier eyiem/E vier
+SFX Q ier eigam/CDE vier
+SFX Q 0 /CDEF vier
+SFX Q r ndo/CDE vier
+SFX Q r nd/CDE vier
+SFX Q ier eyes/E vier
+SFX Q ier eye/CDE vier
+SFX Q er emos/E vier
+SFX Q er ez/CDE vier
+SFX Q ier eyen/E vier
+SFX Q ier eigo/E vier
+SFX Q r ba/E vier
+SFX Q r bas/E vier
+SFX Q er ébanos/E vier
+SFX Q er ébaz/E vier
+SFX Q r ban/E vier
+SFX Q 0 é/E vier
+SFX Q 0 ás/E vier
+SFX Q 0 á/E vier
+SFX Q 0 emos/E vier
+SFX Q 0 ez/E vier
+SFX Q 0 án/E vier
+SFX Q 0 ía/E vier
+SFX Q 0 ías/E vier
+SFX Q 0 íanos/E vier
+SFX Q 0 íaz/E vier
+SFX Q 0 ían/E vier
+SFX Q ier eyié/E vier
+SFX Q ier eyiés/E vier
+SFX Q ier eyió/E vier
+SFX Q ier eyiemos/E vier
+SFX Q ier eyiez/E vier
+SFX Q ier eyioron/E vier
+SFX Q r se/E vier
+SFX Q r ses/E vier
+SFX Q er ésenos/E vier
+SFX Q er ésez/E vier
+SFX Q er esen/E vier
+SFX Q ier eiga/CDE vier
+SFX Q ier eigas/E vier
+SFX Q ier eigamos/CDE vier
+SFX Q ier eigaz/E vier
+SFX Q ier eigan/CDE vier
+SFX Q ier isto/EF vier
+SFX Q ier ista/EF vier
+SFX Q ier istos/EF vier
+SFX Q ier istas/EF vier
+
+SFX R Y 52
+SFX R uerir uerión/E querir
+SFX R ir im/E querir
+SFX R uerir ueriem/E querir
+SFX R uerir uerrem/E querir
+SFX R uerir ueram/CDE querir
+SFX R 0 /CDEF querir
+SFX R uerir ueriu/EF querir
+SFX R uerir uerius/EF querir
+SFX R uerir uerida/EF querir
+SFX R uerir ueridas/EF querir
+SFX R uerir uerendo/CD querir
+SFX R uerir uerend/CD querir
+SFX R uerir uiero/E querir
+SFX R uerir uiers/E querir
+SFX R uerir uiere/CDE querir
+SFX R ir imos/E querir
+SFX R ir iz/CDE querir
+SFX R uerir uieren/E querir
+SFX R r ba/E querir
+SFX R r bas/E querir
+SFX R ir íbanos/E querir
+SFX R ir íbaz/E querir
+SFX R r ban/E querir
+SFX R uerir uerié/E querir
+SFX R uerir ueriés/E querir
+SFX R uerir uerió/E querir
+SFX R uerir ueriemos/E querir
+SFX R uerir ueriez/E querir
+SFX R uerir uerioron/E querir
+SFX R uerir uerría/E querir
+SFX R uerir uerrías/E querir
+SFX R uerir uerríanos/E querir
+SFX R uerir uerríaz/E querir
+SFX R uerir uerrían/E querir
+SFX R uerir uerré/E querir
+SFX R uerir uerrás/E querir
+SFX R uerir uerrá/E querir
+SFX R uerir uerremos/E querir
+SFX R uerir uerrez/E querir
+SFX R uerir uerrán/E querir
+SFX R uerir uerdré/E querir
+SFX R uerir uiera/CDE querir
+SFX R uerir uieras/E querir
+SFX R uerir ueramos/CDE querir
+SFX R uerir ueraz/E querir
+SFX R uerir uieran/CDE querir
+SFX R r se/E querir
+SFX R r ses/E querir
+SFX R ir ísenos/E querir
+SFX R ir ísez/E querir
+SFX R ir isen/E querir
+SFX R ir ind/CD querir
+
+SFX S Y 53
+SFX S ar ón/E [^g]ar
+SFX S ar am/E [^u]ar
+SFX S 0 em/E r
+SFX S zar cem/E zar
+SFX S zar cem/CDE zar
+SFX S 0 /CDEF r
+SFX S ar au/EF ar
+SFX S ar ato/EF ar
+SFX S ar aus/EF ar
+SFX S ar atos/EF ar
+SFX S ar ada/EF ar
+SFX S ar ata/EF ar
+SFX S ar adas/EF ar
+SFX S ar atas/EF ar
+SFX S r ndo/CDE r
+SFX S r nd/CDE r
+SFX S ar o/E [^u]ar
+SFX S ar as/E [^u]ar
+SFX S ar a/CDE [^u]ar
+SFX S ar amos/E [^u]ar
+SFX S ar az/CDE [^u]ar
+SFX S ar an/E [^u]ar
+SFX S r ba/E r
+SFX S r bas/E r
+SFX S ar ábanos/E ar
+SFX S ar ábaz/E ar
+SFX S r ban/E r
+SFX S 0 é/E r
+SFX S 0 ás/E r
+SFX S 0 á/E r
+SFX S 0 emos/E r
+SFX S 0 ez/E r
+SFX S 0 án/E r
+SFX S 0 ía/E r
+SFX S 0 ías/E r
+SFX S 0 íanos/E r
+SFX S 0 íaz/E r
+SFX S 0 ían/E r
+SFX S zar cé/E zar
+SFX S zar cés/E zar
+SFX S ar ó/E [^g]ar
+SFX S zar cemos/E zar
+SFX S zar cez/E zar
+SFX S ar oron/E [^g]ar
+SFX S r se/E r
+SFX S r ses/E r
+SFX S ar ásenos/E ar
+SFX S ar ásez/E ar
+SFX S ar asen/E ar
+SFX S zar ce/CDE zar
+SFX S zar ces/E zar
+SFX S zar cemos/CDE zar
+SFX S zar cen/CDE zar
+
+SFX T Y 54
+SFX T ir ión/E salir
+SFX T ir im/E salir
+SFX T ir drem/E salir
+SFX T ir iem/E salir
+SFX T ir gam/CDE salir
+SFX T 0 /CDEF salir
+SFX T ir iu/EF salir
+SFX T ir ito/EF salir
+SFX T ir ius/EF salir
+SFX T ir itos/EF salir
+SFX T ir ida/EF salir
+SFX T ir ita/EF salir
+SFX T ir idas/EF salir
+SFX T ir itas/EF salir
+SFX T r ndo/CDE salir
+SFX T r nd/CDE salir
+SFX T ir go/E salir
+SFX T ir es/E salir
+SFX T ir e/CDE salir
+SFX T ir imos/E salir
+SFX T ir iz/CDE salir
+SFX T ir en/E salir
+SFX T r ba/E salir
+SFX T r bas/E salir
+SFX T ir íbanos/E salir
+SFX T ir íbaz/E salir
+SFX T r ban/E salir
+SFX T ir dré/E salir
+SFX T ir drás/E salir
+SFX T ir drá/E salir
+SFX T ir dremos/E salir
+SFX T ir drez/E salir
+SFX T ir drán/E salir
+SFX T ir dría/E salir
+SFX T ir drías/E salir
+SFX T ir dríanos/E salir
+SFX T ir dríaz/E salir
+SFX T ir drían/E salir
+SFX T ir ié/E salir
+SFX T ir iés/E salir
+SFX T ir ió/E salir
+SFX T ir iemos/E salir
+SFX T ir iez/E salir
+SFX T ir ioron/E salir
+SFX T r se/E salir
+SFX T r ses/E salir
+SFX T ir ísenos/E salir
+SFX T ir ísez/E salir
+SFX T ir isen/E salir
+SFX T ir ga/CDE salir
+SFX T ir gas/E salir
+SFX T ir gamos/CDE salir
+SFX T ir gaz/E salir
+SFX T ir gan/CDE salir
+SFX U Y 50
+SFX U er ión/E poder
+SFX U oder odem/E poder
+SFX U er iem/E poder
+SFX U er rem/E poder
+SFX U oder odam/CDE poder
+SFX U 0 /CDEF poder
+SFX U er iu/EF poder
+SFX U er ius/EF poder
+SFX U er ida/EF poder
+SFX U er idas/EF poder
+SFX U r ndo/CD poder
+SFX U r nd/CD poder
+SFX U oder uedo/E poder
+SFX U oder uedes/E poder
+SFX U oder uede/CDE poder
+SFX U oder odemos/E poder
+SFX U oder odez/CDE poder
+SFX U oder ueden/E poder
+SFX U r ba/E poder
+SFX U r bas/E poder
+SFX U er ébanos/E poder
+SFX U er ébaz/E poder
+SFX U r ban/E poder
+SFX U er ié/E poder
+SFX U er iés/E poder
+SFX U er ió/E poder
+SFX U er iemos/E poder
+SFX U er iez/E poder
+SFX U er ioron/E poder
+SFX U er ría/E poder
+SFX U er rías/E poder
+SFX U er ríanos/E poder
+SFX U er ríaz/E poder
+SFX U er rían/E poder
+SFX U er ré/E poder
+SFX U er rás/E poder
+SFX U er rá/E poder
+SFX U er remos/E poder
+SFX U er rez/E poder
+SFX U er rán/E poder
+SFX U oder ueda/CDE poder
+SFX U oder uedas/E poder
+SFX U oder odamos/CDE poder
+SFX U oder odaz/E poder
+SFX U oder uedan/CDE poder
+SFX U r se/E poder
+SFX U r ses/E poder
+SFX U er ésenos/E poder
+SFX U er ésez/E poder
+SFX U er esen/E poder
+
+SFX V Y 1
+SFX V 0 'n .
+
+ICONV 1
+ICONV ’ '
